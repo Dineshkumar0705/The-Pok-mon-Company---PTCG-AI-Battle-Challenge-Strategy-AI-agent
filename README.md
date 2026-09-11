@@ -10,10 +10,13 @@
 ![Depth2 Search](https://img.shields.io/badge/depth--2%20search-67.0%25%20win%20rate-success)
 ![Version](https://img.shields.io/badge/version-v7-orange)
 ![Honesty](https://img.shields.io/badge/null%20results-reported%20honestly-blueviolet)
+![Config](https://img.shields.io/badge/local%20build-all%20experimental%20flags%20ON-critical)
 
 *A layered decision agent for The Pokémon Company's PTCG AI Battle
 Challenge — every claim on this page is backed by a real self-play run
 through the actual competition engine, including the ones that didn't win.*
+
+**[🎬 See it battle](#-what-this-is)** · **[📊 Results](#-real-results-at-a-glance)** · **[⚙️ Current config](#️-current-build-configuration-read-this-before-you-run-it)** · **[🧭 Lineage](#-the-v1--v7-lineage)** · **[📁 Layout](#-layout)** · **[✅ Tests](#-testing)**
 
 </div>
 
@@ -54,6 +57,57 @@ detail as the wins.
 
 *(Full methodology, every Wilson CI, and every honest miss: `docs/v4` → `docs/v7-architecture.md`.)*
 
+## ⚙️ Current build configuration (read this before you run it)
+
+> [!WARNING]
+> **This checkout has every experimental flag flipped ON**, deliberately,
+> for testing — not because any of them won a new A/B. The measured
+> results above are unchanged. `build_agent(deck)` with **no arguments**
+> (what a real submission entrypoint calls) currently runs the full
+> stack below instead of the byte-identical-to-v1 default.
+
+| Flag | Shipped/validated default | **Value in this checkout** | Real reason it's normally off |
+|---|---|---|---|
+| `search.enabled` (`config/search_config.yaml`) | `false` | **`true`** | — (this one *did* win its gate) |
+| `search.depth` | `2` → 67.0% win | **`3`** | 56.0% — measurably worse than depth 2 |
+| `search.leaf_value_mode` | `heuristic` | **`learned`** → `models/leaf_value_v7.joblib` (GBT) | 50.0–53.3% — a real null, twice, across two model classes |
+| `search.policy_top_k` | `null` (search every candidate) | **`2`** | 35.0% — a real loss (prunes by a baseline score search exists to correct) |
+| `plan_stability_enabled` (`agent.py` kwarg) | `False` | **`True`** | Real null — no measured effect on win rate |
+
+Every row is commented in place, at the exact line, in
+`config/search_config.yaml` and `src/pokemon_agent/agent.py`, with the
+real number that justifies the shipped default. Reverting to the
+validated, A/B-winning configuration is a five-line diff: `enabled: false`,
+`depth: 2`, `leaf_value_mode: heuristic`, `policy_top_k: null`, and
+`plan_stability_enabled: bool = False`. Because this override is live in
+this checkout, `tests/test_agent_matches_legacy.py` (and any other test
+that calls `build_agent(deck)` with no explicit config) is **expected to
+fail here** — that's the parity gate correctly noticing the agent's
+decisions changed, not a broken test.
+
+<details>
+<summary><b>📊 Every flag's real A/B result, visually</b></summary>
+
+```
+v4 depth-2 search (validated win)     ████████████████████░░░░░░░░░░   67.0%
+mirror baseline (v1/v2, no search)    ██████████████████░░░░░░░░░░░░   60.0%
+v7 depth-3 search (negative)          █████████████████░░░░░░░░░░░░░   56.0%
+v7 GBT leaf-value v2 (null)           ████████████████░░░░░░░░░░░░░░   53.3%
+v5 learned leaf, logistic (null)      ███████████████░░░░░░░░░░░░░░░   50.0%
+v7 cross-archetype fix ON             ████████████░░░░░░░░░░░░░░░░░░   40.0%
+v7 policy_top_k=2 (real loss)         ██████████░░░░░░░░░░░░░░░░░░░░   35.0%
+v7 cross-archetype fix OFF            ████████░░░░░░░░░░░░░░░░░░░░░░   28.3%
+                                       0%              50%          100%
+```
+
+Only the top bar (depth-2 search) and the cross-archetype-fix gap
+(40.0% vs. 28.3%, the two bars near the bottom) are real wins. Everything
+in between is a real, measured null or loss — plotted at the same scale
+on purpose, so "off by default" doesn't quietly mean "worse but
+unshown."
+
+</details>
+
 ## 🧭 The v1 → v7 lineage
 
 ```mermaid
@@ -68,6 +122,8 @@ flowchart LR
 
     v1 --> v2 --> v3 --> v4 --> v5 --> v6 --> v7
 ```
+
+<p align="center"><sub>Diagram shows the real, validated lineage. This checkout's live config currently runs past v7's own recommended defaults — see <a href="#️-current-build-configuration-read-this-before-you-run-it">Current build configuration</a> above.</sub></p>
 
 ## 📁 Layout
 
@@ -258,6 +314,14 @@ pip install pytest
 pytest                      # conftest.py wires up src/ and vendor/ automatically
 ```
 
+> [!NOTE]
+> With the [all-flags-on override](#️-current-build-configuration-read-this-before-you-run-it)
+> live in `config/search_config.yaml`, `test_agent_matches_legacy.py` is
+> **expected** to fail — it asserts `build_agent(deck)` matches the frozen
+> v1 agent decision-for-decision, and the whole point of this override is
+> that decisions now differ. Revert the override (see above) to get back
+> to a fully green run.
+
 <details>
 <summary><b>96 tests, all passing in this environment (up from v3's 34, v4's 56, v5's 76, v6's 81, v7's 91) — click to see what each file covers</b></summary>
 
@@ -344,7 +408,6 @@ real deploy-check pass also cross-validated the reference card dataset
 against the real engine and found/fixed two real accuracy bugs in the
 CSV-fallback path (`data/raw/DATASET_UPGRADE_REPORT.md`). See
 `docs/v7-architecture.md`.
-<img width="604" height="430" alt="battle_log" src="https://github.com/user-attachments/assets/a129e172-2f9f-4ea9-af8d-a4e24086c79a" />
 
 </details>
 
