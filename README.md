@@ -56,6 +56,7 @@ detail as the wins.
 | **v7 — Dataset upgrade** | CSV cross-validated against real engine ground truth | Found & fixed 2 real accuracy bugs (30 + 4 wrong `ex`/`megaEx` flags) | ✅ Real, verified |
 | **v3 dataset pass — effect tags** | Keyword-matched effect/trigger tables over real card text | 16 real attack tags (e.g. `ignores_weakness_resistance`: 83), 6 ability-trigger tags | ✅ Real, transparent methodology |
 | **v3 dataset pass — card usage** | First real per-card gameplay dataset, 60 real self-play games | Archaludon ex's Metal Defender: 74.1% of all real attacks logged | ✅ Real, 60/60 games decided |
+| **Live Kaggle reproduction** | v4 search vs. heuristic, played live inside a Kaggle kernel (`ptcg_agent_engine_live_integration.ipynb`) | **75.0%** (n=40, 95% CI [59.8%, 85.8%]) — overlaps the archived n=100 result above | ✅ Real edge reproduces on demand |
 
 *(Full methodology, every Wilson CI, and every honest miss: `docs/v4` → `docs/v7-architecture.md`, `data/raw/DATASET_UPGRADE_REPORT.md`.)*
 
@@ -140,6 +141,25 @@ flowchart LR
 ```
 notebooks/legacy/main_v1_reference.py   v1 — the FROZEN, shipped, scored agent. Never edited.
 notebooks/legacy/*.ipynb                the original notebook it was extracted from
+notebooks/ptcg_dataset_and_agent_walkthrough.ipynb  v3 dataset pass -- real, pre-executed
+                                         Kaggle notebook: Part 1 recomputes every dataset
+                                         number live from the real CSVs (charts included);
+                                         Part 2 walks the v1-v7 agent architecture with real,
+                                         documented A/B results, explicitly labeled as
+                                         pre-measured rather than re-run live
+notebooks/ptcg_agent_engine_live_integration.ipynb  the live complement to the above -- attaches
+                                         the vendored engine SDK as its own Kaggle dataset
+                                         (kaggle-engine-package/) alongside the card dataset and
+                                         actually builds + runs the real v4 search agent vs. the
+                                         real heuristic baseline, live, in the kernel: real
+                                         head-to-head self-play (n=40), real Wilson CI, real
+                                         search telemetry, real card/attack usage cross-checked
+                                         against the bundled 60-game dataset. Nothing pasted.
+kaggle-engine-package/                  the packaged engine+agent Kaggle Dataset upload the
+                                         notebook above attaches -- vendor/cg + src/pokemon_agent
+                                         copied unmodified, so the real search/ISMCTS agent can
+                                         actually run inside a Kaggle kernel, not just be
+                                         described from a linked repo
 deck.csv                                the real 60-card decklist
 data/raw/                               canonical EN/JP card reference data (cleaned dataset) + v7's
                                          engine-cross-validated cards_enriched/attacks_enriched/

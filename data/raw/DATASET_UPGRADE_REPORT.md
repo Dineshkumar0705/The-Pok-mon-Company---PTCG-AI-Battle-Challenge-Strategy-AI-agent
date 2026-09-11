@@ -123,8 +123,16 @@ for callers that explicitly opt out of enrichment.
 Card type distribution: 1,056 Pokémon, 77 Item, 61 Supporter, 27 Tool, 26
 Stadium, 12 Special Energy, 8 Basic Energy.
 
-Stage distribution (Pokémon only): 600 Basic, 345 Stage1, 116 Stage2, 206
-non-Pokémon rows unaffected.
+Stage distribution (Pokémon only): 595 Basic, 345 Stage1, 116 Stage2 (sums
+to the real 1,056-card Pokémon total). Of the 211 non-Pokémon rows, 206 have
+an empty `stage` field as expected — the other 5 are the same Fossil Item
+cards noted below, which really do carry `stage: "Basic"` too.
+*(Corrected Sep 11, 2026: this line previously read "600 Basic" — a real
+inconsistency with this same report's own HP-by-stage table two paragraphs
+below, which always correctly said n=595. Caught by the live cross-check
+cell in `notebooks/ptcg_dataset_and_agent_walkthrough.ipynb` disagreeing
+with this line on a fresh read of the same CSV — exactly the kind of
+self-check that notebook exists to enable.)*
 
 Real, engine-ground-truth counts that the old CSV schema couldn't
 represent at all: **121 `ex`**, **30 `megaEx`**, **32 `tera`**, **29
@@ -177,13 +185,14 @@ not the data" is itself worth being explicit about.
 
 ### Two more real, previously-undocumented engine quirks found
 
-- **Fossil Item cards carry a real `hp` value.** 5 cards (Antique Root/
-  Cover/Plume/Jaw/Sail Fossil) are `card_type: ITEM` but have `hp: 60` —
-  at first glance looks like a data-type violation (only Pokémon should
-  have HP). It isn't: real Fossils are Item cards that, once played,
-  function as a Basic Pokémon in play (the same cards already flagged in
-  the v2 section above for their `evolvesFrom` quirk) — the engine
-  correctly carries their in-play HP even though `cardType` stays `ITEM`.
+- **Fossil Item cards carry real `hp` and `stage` values.** The same 5
+  cards (Antique Root/Cover/Plume/Jaw/Sail Fossil) are `card_type: ITEM`
+  but have `hp: 60` **and** `stage: "Basic"` — at first glance looks like a
+  data-type violation (only Pokémon should have HP or a stage). It isn't:
+  real Fossils are Item cards that, once played, function as a Basic
+  Pokémon in play (the same cards already flagged in the v2 section above
+  for their `evolvesFrom` quirk) — the engine correctly carries their
+  in-play HP and Basic stage even though `cardType` stays `ITEM`.
   Documented so a future consumer doesn't "fix" this as a bug.
 - **One Tool card has a real, engine-modeled attack.** "Core Memory"
   (`card_id` 1180, category "Technical Machine") is a `TOOL` with

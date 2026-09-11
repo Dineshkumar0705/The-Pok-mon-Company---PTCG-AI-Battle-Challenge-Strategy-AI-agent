@@ -1,0 +1,143 @@
+{
+  "title": "PTCG Search Agent Engine Bundle (v7, real expectimax/ISMCTS core)",
+  "id": "dineshkumar0705/ptcg-search-agent-engine-v7",
+  "licenses": [
+    {
+      "name": "other"
+    }
+  ],
+  "resources": [
+    {
+      "path": "cg/__init__.py",
+      "description": "Vendored battle-engine SDK entrypoint (same real Pokemon TCG engine used by the Simulation Category runtime)."
+    },
+    {
+      "path": "cg/api.py",
+      "description": "Engine API: Observation/Card/Pokemon dataclasses, CardType/EnergyType/OptionType enums, all_card_data()/all_attack() table loaders."
+    },
+    {
+      "path": "cg/game.py",
+      "description": "Real battle loop: battle_start / battle_select / battle_finish, backed by the compiled engine binary."
+    },
+    {
+      "path": "cg/libcg.so",
+      "description": "Compiled real battle-engine binary the SDK's Python wrappers call into -- not a mock or a re-implementation."
+    },
+    {
+      "path": "cg/sim.py",
+      "description": "Low-level engine simulation bindings used by game.py/api.py."
+    },
+    {
+      "path": "cg/utils.py",
+      "description": "Engine SDK helper utilities."
+    },
+    {
+      "path": "pokemon_agent/agent.py",
+      "description": "build_agent(deck) -- the real submission entrypoint: heuristic base policy, v4 expectimax search hook, v7 plan-stability hook, all wired together exactly as shipped."
+    },
+    {
+      "path": "pokemon_agent/scoring/pokemon_score.py",
+      "description": "Real dynamic pokemon/attack scoring (dyn_damage, weakness/resistance/stadium-adjusted damage, counter-aware bench targeting)."
+    },
+    {
+      "path": "pokemon_agent/scoring/damage.py",
+      "description": "Real damage-calculation helpers shared by the heuristic and search layers."
+    },
+    {
+      "path": "pokemon_agent/scoring/option_scorer.py",
+      "description": "Real per-OptionType scoring used to rank every legal action the engine offers."
+    },
+    {
+      "path": "pokemon_agent/search/expectimax.py",
+      "description": "The real v4 2-ply expectimax search layer: rank_attack_candidates(), opponent-reply fast-forward, ExpectimaxConfig."
+    },
+    {
+      "path": "pokemon_agent/search/lookahead.py",
+      "description": "Real forward-search helpers the expectimax layer calls into the actual engine with (search_begin/search_step/search_end)."
+    },
+    {
+      "path": "pokemon_agent/search/config_loader.py",
+      "description": "Loads config/search_config.yaml into an ExpectimaxConfig; also the dataclass every script constructs explicitly for a given real A/B run."
+    },
+    {
+      "path": "pokemon_agent/search/transposition_table.py",
+      "description": "Real per-agent-lifetime search cache (transposition table) used by the expectimax layer."
+    },
+    {
+      "path": "pokemon_agent/belief/energy_density.py",
+      "description": "Real belief-state proxy over the opponent's hidden hand, built from observed board/discard state, used to bias ISMCTS-style determinization instead of uniform sampling."
+    },
+    {
+      "path": "pokemon_agent/learning/leaf_value.py",
+      "description": "Real learned leaf-value model wrapper (LogisticRegression / GradientBoosting over 19 hand-engineered features) -- opt-in only; real A/B result was a null result, so it is not the default leaf evaluator."
+    },
+    {
+      "path": "pokemon_agent/memory/featurize.py",
+      "description": "Real 19-feature state featurizer used to train/run the learned leaf-value model."
+    },
+    {
+      "path": "pokemon_agent/memory/replay_store.py",
+      "description": "Real self-play replay logging/loading used to build the learned leaf-value model's training set."
+    },
+    {
+      "path": "pokemon_agent/rating/ladder.py",
+      "description": "Real local TrueSkill-style ladder rating + matchup-conditioned evaluation layer."
+    },
+    {
+      "path": "pokemon_agent/threats/alakazam_ex.py",
+      "description": "Real named-threat handling: Alakazam ex hand-size damage scaling."
+    },
+    {
+      "path": "pokemon_agent/threats/bellibolt_ex.py",
+      "description": "Real named-threat handling: Bellibolt ex."
+    },
+    {
+      "path": "pokemon_agent/threats/cornerstone_ogerpon.py",
+      "description": "Real named-threat handling: Cornerstone Ogerpon (v6 correctness fix, grounded in printed card text)."
+    },
+    {
+      "path": "pokemon_agent/threats/crustle.py",
+      "description": "Real named-threat handling: Crustle ex wall/immunity interaction in damage calculation."
+    },
+    {
+      "path": "pokemon_agent/attack_plans.py",
+      "description": "Real attack-plan bonus/penalty logic, including the v7 plan-stability hook."
+    },
+    {
+      "path": "pokemon_agent/deck_loading.py",
+      "description": "Real deck-file loading helpers."
+    },
+    {
+      "path": "pokemon_agent/engine_interface.py",
+      "description": "Real thin wrapper isolating the rest of the agent from raw engine dict shapes."
+    },
+    {
+      "path": "pokemon_agent/card_data.py",
+      "description": "Real card/attack table caching over cg.api.all_card_data()/all_attack()."
+    },
+    {
+      "path": "pokemon_agent/mock_engine.py",
+      "description": "Test-only mock of the engine's observation shape, used by the unit-test suite -- not used in real self-play or by the notebook."
+    },
+    {
+      "path": "config/search_config.yaml",
+      "description": "The repo's checked-in search config file, with every flag's real, measured A/B result documented inline. NOTE: this copy may carry a local debugging override (search enabled at a since-superseded depth/leaf-mode combination) -- the accompanying notebook does not read this file; it constructs ExpectimaxConfig explicitly in code for the validated, real winning configuration, and says so."
+    },
+    {
+      "path": "models/leaf_value_v5.joblib",
+      "description": "Trained v5 logistic-regression leaf-value model (real A/B result: null, not shipped as default)."
+    },
+    {
+      "path": "models/leaf_value_v7.joblib",
+      "description": "Trained v7 gradient-boosted-tree leaf-value model (real A/B result: null, not shipped as default)."
+    },
+    {
+      "path": "deck.csv",
+      "description": "The real 60-card decklist this agent and every cited A/B result were run with."
+    },
+    {
+      "path": "README.md",
+      "description": "What this bundle is, how to attach it to a Kaggle notebook, and exactly which real, validated agent configuration to construct in code."
+    }
+  ]
+}
