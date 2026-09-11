@@ -1,0 +1,1557 @@
+attack_id,card_id,card_name,move_name,energies,energy_cost_count,damage,damage_per_energy,text,csv_cost_text,csv_damage_text
+1,21,Scrafty,Nab ’n’ Dash,COLORLESS,1,0,0.0,"Search your deck for a number of cards up to the number of your Benched Pokémon and put them into your hand. Then, shuffle your deck.",●,n/a
+2,21,Scrafty,High Jump Kick,DARKNESS;COLORLESS;COLORLESS,3,100,33.33,,{D}●●,100
+3,22,Hippopotas,Push Down,FIGHTING,1,10,10.0,Switch out your opponent’s Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.),{F},10
+4,23,Hippowdon,Ram,FIGHTING;FIGHTING,2,60,30.0,,{F}{F},60
+5,23,Hippowdon,Super Sandstorm,FIGHTING;FIGHTING;COLORLESS,3,150,50.0,This attack also does 40 damage to each Benched Pokémon that has any damage counters on it (both yours and your opponent’s). (Don’t apply Weakness and Resistance for Benched Pokémon.),{F}{F}●,150
+6,24,Team Rocket's Kangaskhan ex,Comet Punch,COLORLESS;COLORLESS,2,0,0.0,Flip 4 coins. This attack does 30 damage for each heads.,,
+7,24,Team Rocket's Kangaskhan ex,Wicked Impact,COLORLESS;COLORLESS;COLORLESS,3,120,40.0,"If you played a Supporter card that has “Team Rocket” in its name from your hand during this turn, this attack does 100 more damage.",●●●,120
+8,25,Pinsir,Slow Crunch,GRASS;COLORLESS,2,0,0.0,"Discard all Energy from this Pokémon. At the end of your opponent’s next turn, the Defending Pokémon will be Knocked Out.",{G}●,n/a
+9,25,Pinsir,Superpowered Horns,GRASS;COLORLESS;COLORLESS,3,100,33.33,,{G}●●,100
+10,26,Leafeon,Leaflet Blessings,COLORLESS,1,0,0.0,"Attach a Basic {G} Energy card from your hand to 1 of your Benched Pokémon. If you do, heal all damage from that Pokémon.",●,n/a
+11,26,Leafeon,Solar Beam,GRASS;COLORLESS,2,70,35.0,,{G}●,70
+12,27,Iron Leaves,Recovery Net,GRASS,1,0,0.0,Put up to 2 Pokémon from your discard pile into your hand.,{G},n/a
+13,27,Iron Leaves,Avenging Edge,GRASS;COLORLESS;COLORLESS,3,100,33.33,"If any of your Pokémon were Knocked Out by damage from an attack during your opponent’s last turn, this attack does 60 more damage.",{G}●●,100
+14,28,Poltchageist,Hook,GRASS,1,10,10.0,,{G},10
+15,29,Sinistcha ex,Re-Brew,COLORLESS,1,0,0.0,"Put 2 damage counters on 1 of your opponent’s Pokémon for each Basic {G} Energy card in your discard pile. Then, shuffle those Energy cards into your deck.",●,n/a
+16,29,Sinistcha ex,Matcha Splash,GRASS;COLORLESS,2,120,60.0,Heal 30 damage from each of your Pokémon.,{G}●,120
+17,30,Magcargo ex,Hot Magma,FIRE;COLORLESS,2,70,35.0,Your opponent’s Active Pokémon is now Burned.,{R}●,70
+18,30,Magcargo ex,Ground Burn,FIRE;FIRE;COLORLESS,3,140,46.67,Discard the top card of each player’s deck. This attack does 140 more damage for each Energy card discarded in this way.,{R}{R}●,140
+19,31,Chi-Yu,Allure,COLORLESS,1,0,0.0,Draw 2 cards.,●,n/a
+20,31,Chi-Yu,Ground Melter,FIRE;COLORLESS,2,60,30.0,"If a Stadium is in play, this attack does 60 more damage. Then, discard that Stadium.",{R}●,60
+21,32,Glaceon,Permeating Chill,WATER,1,30,30.0,"At the end of your opponent’s next turn, put 9 damage counters on the Defending Pokémon.",{W},30
+22,32,Glaceon,Icicle Missile,WATER;COLORLESS,2,70,35.0,,{W}●,70
+23,33,Froakie,Flock,WATER,1,0,0.0,"Search your deck for up to 2 Froakie and put them onto your Bench. Then, shuffle your deck.",{W},n/a
+24,33,Froakie,Flop,WATER,1,10,10.0,,{W},10
+25,34,Frogadier,Numbing Water,WATER,1,20,20.0,"Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",{W},20
+26,35,Walking Wake,Aurora Gain,WATER,1,20,20.0,Heal 20 damage from this Pokémon.,{W},20
+27,35,Walking Wake,Undulating Slice,WATER;WATER;COLORLESS,3,0,0.0,Put up to 9 damage counters on this Pokémon. This attack does 20 damage for each damage counter you placed in this way.,{W}{W}●,20×
+28,36,Morpeko,Pick and Stick,LIGHTNING,1,0,0.0,Attach up to 2 Basic Energy cards from your discard pile to your Pokémon in any way you like.,{L},n/a
+29,37,Iron Thorns ex,Volt Cyclone,LIGHTNING;COLORLESS;COLORLESS,3,140,46.67,Move an Energy from this Pokémon to 1 of your Benched Pokémon.,{L}●●,140
+30,38,Girafarig,Dual Headbutt,COLORLESS,1,30,30.0,This attack also does 10 damage to 1 of your Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.),●,30
+31,39,Enamorus,Heart Sign,COLORLESS,1,30,30.0,,●,30
+32,39,Enamorus,Love Resonance,PSYCHIC;COLORLESS;COLORLESS,3,80,26.67,"If any of your Pokémon in play are the same type as any of your opponent’s Pokémon in play, this attack does 120 more damage.",{P}●●,80
+33,40,Greninja ex,Shinobi Blade,WATER,1,170,170.0,"You may search your deck for a card and put it into your hand. Then, shuffle your deck.",{W},170
+34,40,Greninja ex,Mirage Barrage,WATER;COLORLESS;COLORLESS,3,0,0.0,Discard 2 Energy from this Pokémon. This attack does 120 damage to 2 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.),{W}●●,n/a
+35,41,Ting-Lu,Ground Crasher,FIGHTING,1,30,30.0,"If a Stadium is in play, this attack also does 30 damage to each of your opponent’s Benched Pokémon, and discard that Stadium. (Don’t apply Weakness and Resistance for Benched Pokémon.)",{F},30
+36,41,Ting-Lu,Hammer In,FIGHTING;FIGHTING;COLORLESS,3,110,36.67,,{F}{F}●,110
+37,42,Applin,Find a Friend,COLORLESS,1,0,0.0,"Search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.",●,n/a
+38,42,Applin,Rolling Tackle,GRASS;FIRE,2,30,15.0,,{G}{R},30
+39,43,Eevee,Ascension,COLORLESS,1,0,0.0,"Search your deck for a card that evolves from this Pokémon and put it onto this Pokémon to evolve it. Then, shuffle your deck.",●,n/a
+40,43,Eevee,Quick Attack,COLORLESS;COLORLESS;COLORLESS,3,20,6.67,"Flip a coin. If heads, this attack does 20 more damage.",●●●,20
+41,44,Bloodmoon Ursaluna ex,Blood Moon,COLORLESS;COLORLESS;COLORLESS;COLORLESS;COLORLESS,5,240,48.0,"During your next turn, this Pokémon can’t use attacks.",●●●●●,240
+42,45,Shaymin,Pinpoint Dive,GRASS,1,0,0.0,This attack does 60 damage to 1 of your opponent’s Benched Pokémon {ex} or Benched Pokémon {V}. (Don’t apply Weakness and Resistance for Benched Pokémon.),{G},n/a
+43,45,Shaymin,Rear Kick,COLORLESS;COLORLESS,2,50,25.0,,●●,50
+44,46,Gouging Fire ex,Heat Blast,FIRE;COLORLESS,2,60,30.0,,{R}●,60
+45,46,Gouging Fire ex,Blaze Blitz,FIRE;FIRE;COLORLESS,3,260,86.67,This Pokémon can’t use Blaze Blitz again until it leaves the Active Spot.,{R}{R}●,260
+46,47,Totodile,Big Bite,WATER,1,10,10.0,"During your opponent’s next turn, the Defending Pokémon can’t retreat.",{W},10
+47,48,Croconaw,Reverse Thrust,WATER,1,30,30.0,Switch this Pokémon with 1 of your Benched Pokémon.,{W},30
+48,49,Feraligatr,Giant Wave,WATER;WATER,2,160,80.0,"During your next turn, this Pokémon can’t use Giant Wave.",{W}{W},160
+49,50,Wiglett,Lucky Find,WATER,1,0,0.0,"Search your deck for an Item card, reveal it, and put it into your hand. Then, shuffle your deck.",{W},n/a
+50,50,Wiglett,Aqua Bomb,WATER;WATER,2,40,20.0,This Pokémon also does 20 damage to itself.,{W}{W},40
+51,51,Palafin,Vanguard Punch,WATER,1,130,130.0,This Pokémon also does 10 damage to itself for each damage counter on it.,{W},130
+52,51,Palafin,Double Hit,WATER;COLORLESS;COLORLESS,3,0,0.0,Flip 2 coins. This attack does 90 damage for each heads.,{W}●●,90×
+53,52,Wugtrio ex,Tricolor Pump,WATER,1,0,0.0,Discard up to 3 Energy cards from your hand. This attack does 60 damage to 1 of your opponent’s Pokémon for each Energy card you discarded in this way. (Don’t apply Weakness and Resistance for Benched Pokémon.),{W},n/a
+54,52,Wugtrio ex,Numbing Hold,WATER;WATER,2,120,60.0,"During your opponent’s next turn, the Defending Pokémon can’t retreat.",{W}{W},120
+55,53,Marill,Ball Roll,COLORLESS,1,0,0.0,Flip a coin until you get tails. This attack does 10 damage for each heads.,●,10×
+56,53,Marill,Magical Shot,PSYCHIC;COLORLESS;COLORLESS,3,40,13.33,,{P}●●,40
+57,54,Bronzor,Mirror Attack,PSYCHIC,1,10,10.0,"If your opponent’s Active Pokémon is a {P} Pokémon, this attack does 30 more damage.",{P},10
+58,55,Bronzong,Evolution Jammer,PSYCHIC,1,30,30.0,"During your opponent’s next turn, they can’t play any Pokémon from their hand to evolve their Pokémon.",{P},30
+59,55,Bronzong,Super Psy Bolt,PSYCHIC;COLORLESS;COLORLESS,3,100,33.33,,{P}●●,100
+60,56,Flutter Mane,Hex Hurl,COLORLESS;COLORLESS;COLORLESS,3,90,30.0,Put 2 damage counters on your opponent’s Benched Pokémon in any way you like.,●●●,90
+61,57,Relicanth,Razor Fin,FIGHTING;COLORLESS,2,30,15.0,,{F}●,30
+62,58,Great Tusk,Land Collapse,COLORLESS;COLORLESS,2,0,0.0,"Discard the top card of your opponent’s deck. If you played an Ancient Supporter card from your hand during this turn, discard 3 more cards in this way.",●●,n/a
+63,58,Great Tusk,Giant Tusk,FIGHTING;FIGHTING;COLORLESS;COLORLESS,4,160,40.0,,{F}{F}●●,160
+64,59,Gastly,Mysterious Beam,DARKNESS,1,0,0.0,"Flip a coin. If heads, discard an Energy from your opponent’s Active Pokémon.",{D},n/a
+65,59,Gastly,Suffocating Gas,DARKNESS;DARKNESS,2,30,15.0,,{D}{D},30
+66,60,Haunter,Super Poison Breath,DARKNESS;DARKNESS,2,30,15.0,Your opponent’s Active Pokémon is now Poisoned.,{D}{D},30
+67,61,Roaring Moon,Vengeance Fletching,DARKNESS;DARKNESS,2,70,35.0,This attack does 10 more damage for each Ancient card in your discard pile.,{D}{D},70
+68,61,Roaring Moon,Speed Wing,DARKNESS;COLORLESS;COLORLESS;COLORLESS,4,120,30.0,,{D}●●●,120
+69,62,Koraidon,Primordial Beatdown,FIGHTING;COLORLESS,2,0,0.0,This attack does 30 damage for each of your Ancient Pokémon in play.,{F}●,30×
+70,62,Koraidon,Shred,FIRE;FIGHTING;COLORLESS,3,130,43.33,This attack’s damage isn’t affected by any effects on your opponent’s Active Pokémon.,{R}{F}●,130
+71,63,Raging Bolt ex,Burst Roar,COLORLESS,1,0,0.0,Discard your hand and draw 6 cards.,●,n/a
+72,63,Raging Bolt ex,Bellowing Thunder,LIGHTNING;FIGHTING,2,0,0.0,You may discard any amount of Basic Energy from your Pokémon. This attack does 70 damage for each card you discarded in this way.,{L}{F},70×
+73,64,Hoothoot,Silent Wing,COLORLESS;COLORLESS,2,20,10.0,Your opponent reveals their hand.,●●,20
+74,65,Dunsparce,Gnaw,COLORLESS,1,10,10.0,,●,10
+75,65,Dunsparce,Dig,COLORLESS;COLORLESS,2,30,15.0,"Flip a coin. If heads, during your opponent’s next turn, prevent all damage from and effects of attacks done to this Pokémon.",●●,30
+76,66,Dudunsparce,Land Crush,COLORLESS;COLORLESS;COLORLESS,3,90,30.0,,●●●,90
+77,67,Pineco,Ram,COLORLESS;COLORLESS;COLORLESS,3,50,16.67,,●●●,50
+78,68,Seedot,Rigidify,GRASS,1,0,0.0,"During your opponent’s next turn, this Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",{G},n/a
+79,68,Seedot,Hang Down,COLORLESS;COLORLESS,2,20,10.0,,●●,20
+80,69,Nuzleaf,Corkscrew Punch,GRASS,1,20,20.0,,{G},20
+81,69,Nuzleaf,Comet Slap,COLORLESS;COLORLESS,2,0,0.0,Flip 3 coins. This attack does 30 damage for each heads.,●●,30×
+82,70,Shiftry,Expelling Tornado,GRASS,1,0,0.0,"Choose 3 of your opponent’s Benched Pokémon. If you do, shuffle all of your opponent’s Benched Pokémon that you didn’t choose, and all cards attached to those Pokémon, into their deck.",{G},n/a
+83,70,Shiftry,Energy Loop,COLORLESS;COLORLESS,2,140,70.0,Put an Energy attached to this Pokémon into your hand.,●●,140
+84,71,Deerling,Flop,COLORLESS,1,10,10.0,,●,10
+85,71,Deerling,Leaf Litter Tackle,GRASS;COLORLESS;COLORLESS,3,40,13.33,Discard a {G} Energy from this Pokémon.,{G}●●,40
+86,72,Sawsbuck,Superpowered Horns,GRASS;COLORLESS;COLORLESS,3,110,36.67,,{G}●●,110
+87,73,Rellor,Slight Intrusion,COLORLESS,1,30,30.0,This Pokémon also does 10 damage to itself.,●,30
+88,74,Rabsca,Psychic,GRASS,1,10,10.0,This attack does 30 more damage for each Energy attached to your opponent’s Active Pokémon.,{G},10
+89,75,Iron Leaves ex,Prism Edge,GRASS;GRASS;COLORLESS,3,180,60.0,"During your next turn, this Pokémon can’t use attacks.",{G}{G}●,180
+90,76,Slugma,Roasting Heat,FIRE,1,10,10.0,"If your opponent’s Active Pokémon is Burned, this attack does 40 more damage.",{R},10
+91,77,Litten,Fake Out,FIRE,1,10,10.0,"Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",{R},10
+92,78,Torracat,Bite,FIRE,1,30,30.0,,{R},30
+93,78,Torracat,Flare Strike,FIRE;COLORLESS;COLORLESS,3,80,26.67,"During your next turn, this Pokémon can’t use Flare Strike.",{R}●●,80
+94,79,Incineroar ex,Blaze Blast,FIRE;COLORLESS;COLORLESS;COLORLESS;COLORLESS,5,240,48.0,Your opponent’s Active Pokémon is now Burned.,{R}●●●●,240
+95,80,Iron Crown ex,Twin Shotels,PSYCHIC;COLORLESS;COLORLESS,3,0,0.0,"This attack does 50 damage to 2 of your opponent’s Pokémon. This attack’s damage isn’t affected by Weakness or Resistance, or by any effects on those Pokémon.",{P}●●,n/a
+96,81,Drilbur,Sand Spray,FIGHTING;COLORLESS,2,20,10.0,,{F}●,20
+97,82,Excadrill,Mud Shot,COLORLESS,1,20,20.0,,●,20
+98,82,Excadrill,Wild Tackle,FIGHTING;FIGHTING;COLORLESS,3,180,60.0,This Pokémon also does 50 damage to itself.,{F}{F}●,180
+99,83,Farigiraf ex,Dirty Beam,PSYCHIC;COLORLESS;COLORLESS,3,160,53.33,This attack also does 30 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.),{P}●●,160
+100,84,Scizor ex,Steel Wing,COLORLESS;COLORLESS,2,70,35.0,"During your opponent’s next turn, this Pokémon takes 50 less damage from attacks (after applying Weakness and Resistance).",●●,70
+101,84,Scizor ex,Cross Breaker,METAL;METAL,2,0,0.0,Discard up to 2 {M} Energy from this Pokémon. This attack does 120 damage for each card you discarded in this way.,{M}{M},120×
+102,85,Beldum,Dig Claws,METAL,1,10,10.0,,{M},10
+103,85,Beldum,Iron Tackle,METAL;COLORLESS;COLORLESS,3,50,16.67,This Pokémon also does 10 damage to itself.,{M}●●,50
+104,86,Metang,Beam,METAL;COLORLESS;COLORLESS,3,60,20.0,,{M}●●,60
+105,87,Miraidon,Peak Acceleration,COLORLESS,1,40,40.0,"Search your deck for up to 2 Basic Energy cards and attach them to your Future Pokémon in any way you like. Then, shuffle your deck.",●,40
+106,87,Miraidon,Sparking Strike,LIGHTNING;LIGHTNING;PSYCHIC,3,160,53.33,,{L}{L}{P},160
+107,88,Volbeat,Quick Sign,COLORLESS,1,0,0.0,"If you go first, you can use this attack during your first turn. Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Then, shuffle your deck.",●,n/a
+108,88,Volbeat,Coordinated Strike,COLORLESS;COLORLESS,2,20,10.0,"If Illumise is on your Bench, this attack does 60 more damage.",●●,20
+109,89,Grookey,Smash Kick,GRASS,1,10,10.0,,{G},10
+110,89,Grookey,Branch Poke,GRASS;GRASS,2,30,15.0,,{G}{G},30
+111,90,Thwackey,Beat,GRASS;GRASS,2,50,25.0,,{G}{G},50
+112,91,Rillaboom,Drum Beating,GRASS,1,60,60.0,"During your opponent’s next turn, attacks used by the Defending Pokémon cost {C} more, and its Retreat Cost is {C} more.",{G},60
+113,91,Rillaboom,Wood Hammer,GRASS;GRASS,2,180,90.0,This Pokémon also does 50 damage to itself.,{G}{G},180
+114,92,Applin,Tumbling Attack,GRASS,1,10,10.0,"Flip a coin. If heads, this attack does 20 more damage.",{G},10
+115,93,Dipplin,Do the Wave,GRASS,1,0,0.0,This attack does 20 damage for each of your Benched Pokémon.,{G},20×
+116,94,Sinistcha,Cursed Drop,GRASS,1,0,0.0,Put 4 damage counters on your opponent’s Pokémon in any way you like.,{G},n/a
+117,94,Sinistcha,Spill the Tea,GRASS,1,0,0.0,Discard up to 3 {G} Energy cards from your Pokémon. This attack does 70 damage for each card you discarded in this way.,{G},70×
+118,95,Teal Mask Ogerpon,Mountain Stroll,COLORLESS,1,0,0.0,"Search your deck for up to 2 Basic Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.",●,n/a
+119,95,Teal Mask Ogerpon,Ogre Comeback,GRASS;COLORLESS,2,20,10.0,This attack does 20 more damage for each of your opponent’s Benched Pokémon.,{G}●,20
+120,96,Teal Mask Ogerpon ex,Myriad Leaf Shower,GRASS;GRASS;GRASS,3,30,10.0,This attack does 30 more damage for each Energy attached to both Active Pokémon.,{G}{G}{G},30
+121,97,Litwick,Call for Family,FIRE,1,0,0.0,"Search your deck for a Basic Pokémon and put it onto your Bench. Then, shuffle your deck.",{R},n/a
+122,97,Litwick,Live Coal,FIRE;COLORLESS,2,20,10.0,,{R}●,20
+123,98,Chandelure,Mind Ruler,FIRE,1,0,0.0,This attack does 30 damage for each card in your opponent’s hand.,{R},30×
+124,99,Hearthflame Mask Ogerpon ex,Wrathful Hearth,FIRE;COLORLESS;COLORLESS,3,0,0.0,This attack does 20 damage for each damage counter on this Pokémon.,{R}●●,20×
+125,99,Hearthflame Mask Ogerpon ex,Dynamic Blaze,FIRE;FIRE;FIRE,3,140,46.67,"If your opponent’s Active Pokémon is an Evolution Pokémon, this attack does 140 more damage, and discard all Energy from this Pokémon.",{R}{R}{R},140
+126,100,Goldeen,Whirlpool,COLORLESS;COLORLESS,2,10,5.0,"Flip a coin. If heads, discard an Energy from your opponent’s Active Pokémon.",●●,10
+127,101,Jynx,Inviting Kiss,COLORLESS,1,0,0.0,"Search your deck for a Basic Pokémon and put it onto your Bench. Then, shuffle your deck. If you put any Pokémon onto your Bench in this way, move an Energy from this Pokémon to the new Benched Pokémon.",●,n/a
+128,101,Jynx,Icy Snow,WATER,1,30,30.0,,{W},30
+129,102,Milotic,Hydro Splash,WATER;COLORLESS;COLORLESS,3,100,33.33,,{W}●●,100
+130,103,Snorunt,Astonish,WATER;COLORLESS,2,20,10.0,Choose a random card from your opponent’s hand. Your opponent reveals that card and shuffles it into their deck.,{W}●,20
+131,104,Froslass,Frost Smash,WATER;COLORLESS,2,60,30.0,,{W}●,60
+132,105,Finizen,Aqua Slash,WATER,1,30,30.0,"During your next turn, this Pokémon can’t use attacks.",{W},30
+133,106,Palafin,Wave Splash,WATER;COLORLESS,2,30,15.0,,{W}●,30
+134,107,Palafin ex,Giga Impact,WATER,1,250,250.0,"During your next turn, this Pokémon can’t use attacks.",{W},250
+135,108,Wellspring Mask Ogerpon ex,Sob,COLORLESS,1,20,20.0,"During your opponent’s next turn, the Defending Pokémon can’t retreat.",●,20
+136,108,Wellspring Mask Ogerpon ex,Torrential Pump,WATER;COLORLESS;COLORLESS,3,100,33.33,"You may shuffle 3 Energy attached to this Pokémon into your deck. If you do, this attack also does 120 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",{W}●●,100
+137,109,Abra,Beam,PSYCHIC,1,10,10.0,,{P},10
+138,110,Slurpuff,Slurp Slurp,PSYCHIC;COLORLESS,2,0,0.0,"Flip 2 coins. This attack does 90 damage for each heads. If both of them are tails, your opponent’s Active Pokémon is now Confused.",{P}●,90×
+139,111,Sandygast,Sand Attack,PSYCHIC,1,10,10.0,"During your opponent’s next turn, if the Defending Pokémon tries to use an attack, your opponent flips a coin. If tails, that attack doesn’t happen.",{P},10
+140,111,Sandygast,Spooky Shot,PSYCHIC;COLORLESS;COLORLESS,3,30,10.0,,{P}●●,30
+141,112,Munkidori,Mind Bend,PSYCHIC;COLORLESS,2,60,30.0,Your opponent’s Active Pokémon is now Confused.,{P}●,60
+142,113,Timburr,Best Punch,FIGHTING,1,40,40.0,"Flip a coin. If tails, this attack does nothing.",{F},40
+143,114,Gurdurr,Knuckle Punch,FIGHTING,1,20,20.0,,{F},20
+144,114,Gurdurr,Superpower,FIGHTING;COLORLESS;COLORLESS,3,50,16.67,"You may do 30 more damage. If you do, this Pokémon also does 30 damage to itself.",{F}●●,50
+145,115,Conkeldurr,Tantrum,FIGHTING,1,80,80.0,This Pokémon is now Confused.,{F},80
+146,115,Conkeldurr,Gutsy Swing,FIGHTING;COLORLESS;COLORLESS;COLORLESS,4,250,62.5,"If this Pokémon is affected by a Special Condition, ignore all Energy in this attack’s cost.",{F}●●●,250
+147,116,Okidogi,Good Punch,FIGHTING;FIGHTING,2,70,35.0,,{F}{F},70
+148,117,Cornerstone Mask Ogerpon ex,Demolish,FIGHTING;COLORLESS;COLORLESS,3,140,46.67,"This attack’s damage isn’t affected by Weakness or Resistance, or by any effects on your opponent’s Active Pokémon.",{F}●●,140
+149,118,Heatran,Steel Burst,METAL;COLORLESS;COLORLESS,3,0,0.0,Discard all {M} Energy from this Pokémon. This attack does 50 damage for each card you discarded in this way.,{M}●●,50×
+150,119,Dreepy,Petty Grudge,PSYCHIC,1,10,10.0,,{P},10
+151,119,Dreepy,Bite,FIRE;PSYCHIC,2,40,20.0,,{R}{P},40
+152,120,Drakloak,Dragon Headbutt,FIRE;PSYCHIC,2,70,35.0,,{R}{P},70
+153,121,Dragapult ex,Jet Headbutt,COLORLESS,1,70,70.0,,●,70
+154,121,Dragapult ex,Phantom Dive,FIRE;PSYCHIC,2,200,100.0,Put 6 damage counters on your opponent’s Benched Pokémon in any way you like.,{R}{P},200
+155,122,Tatsugiri,Surf,FIRE;WATER,2,50,25.0,,{R}{W},50
+156,123,Farfetch'd,Mach Cut,COLORLESS,1,30,30.0,Discard a Special Energy from your opponent’s Active Pokémon.,●,30
+157,124,Chansey,Lucky Attachment,COLORLESS,1,0,0.0,Attach a Basic Energy card from your hand to 1 of your Pokémon.,●,n/a
+158,124,Chansey,Boundless Power,COLORLESS;COLORLESS;COLORLESS,3,80,26.67,"During your next turn, this Pokémon can’t use attacks.",●●●,80
+159,125,Blissey ex,Return,COLORLESS;COLORLESS;COLORLESS,3,180,60.0,You may draw cards until you have 6 cards in your hand.,●●●,180
+160,126,Galvantula,Shocking Web,GRASS;COLORLESS,2,50,25.0,"If this Pokémon has any {L} Energy attached, this attack does 80 more damage.",{G}●,50
+161,127,Rowlet,Add On,COLORLESS,1,0,0.0,Draw a card.,●,n/a
+162,127,Rowlet,Leafage,GRASS,1,10,10.0,,{G},10
+163,128,Dartrix,United Wings,COLORLESS,1,0,0.0,This attack does 20 damage for each Pokémon in your discard pile that has the United Wings attack.,●,20×
+164,128,Dartrix,Cutting Wind,GRASS,1,30,30.0,,{G},30
+165,129,Decidueye,Stock Up on Feathers,COLORLESS,1,0,0.0,Draw cards until you have 7 cards in your hand.,●,n/a
+166,129,Decidueye,Power Shot,GRASS,1,170,170.0,"Discard a Basic {G} Energy card from your hand. If you can’t, this attack does nothing.",{G},170
+167,130,Revavroom ex,Accelerator Flash,METAL,1,20,20.0,"If this Pokémon moved from your Bench to the Active Spot this turn, this attack does 120 more damage.",{M},20
+168,130,Revavroom ex,Shattering Speed,METAL;METAL;METAL,3,250,83.33,Discard this Pokémon and all attached cards.,{M}{M}{M},250
+169,131,Duskull,Come and Get You,PSYCHIC,1,0,0.0,Put up to 3 Duskull from your discard pile onto your Bench.,{P},n/a
+170,131,Duskull,Mumble,PSYCHIC;PSYCHIC,2,30,15.0,,{P}{P},30
+171,132,Dusclops,Will-O-Wisp,PSYCHIC;PSYCHIC,2,50,25.0,,{P}{P},50
+172,133,Dusknoir,Shadow Bind,PSYCHIC;PSYCHIC;COLORLESS,3,150,50.0,"During your opponent’s next turn, the Defending Pokémon can’t retreat.",{P}{P}●,150
+173,134,Sylveon,Mystical Return,PSYCHIC,1,0,0.0,"Flip a coin. If heads, choose 1 of your opponent’s Benched Pokémon. Shuffle that Pokémon and all attached cards into their deck.",{P},n/a
+174,134,Sylveon,Disarming Voice,PSYCHIC;COLORLESS;COLORLESS,3,90,30.0,Your opponent’s Active Pokémon is now Confused.,{P}●●,90
+175,135,Bloodmoon Ursaluna,Mad Bite,FIGHTING;FIGHTING;COLORLESS,3,100,33.33,This attack does 30 more damage for each damage counter on your opponent’s Active Pokémon.,{F}{F}●,100
+176,136,Zorua,Stampede,COLORLESS,1,10,10.0,,●,10
+177,136,Zorua,Double Scratch,DARKNESS;COLORLESS,2,0,0.0,Flip 2 coins. This attack does 20 damage for each heads.,{D}●,20×
+178,137,Zoroark,Illusory Hijacking,COLORLESS;COLORLESS,2,0,0.0,This attack does 60 damage for each of your opponent’s Pokémon {ex} and Pokémon {V} in play.,●●,60×
+179,137,Zoroark,Claw Slash,DARKNESS;COLORLESS;COLORLESS,3,110,36.67,,{D}●●,110
+180,138,Okidogi ex,Poisonous Musculature,COLORLESS,1,0,0.0,"Search your deck for up to 2 Basic {D} Energy cards and attach them to this Pokémon. Then, shuffle your deck. If you attached Energy to a Pokémon in this way, this Pokémon is now Poisoned.",●,n/a
+181,138,Okidogi ex,Chain-Crazed,DARKNESS;DARKNESS;COLORLESS,3,130,43.33,"If this Pokémon is Poisoned, this attack does 130 more damage.",{D}{D}●,130
+182,139,Munkidori ex,Dirty Headbutt,DARKNESS;DARKNESS;COLORLESS,3,190,63.33,"During your next turn, this Pokémon can’t use Dirty Headbutt.",{D}{D}●,190
+183,140,Fezandipiti ex,Cruel Arrow,COLORLESS;COLORLESS;COLORLESS,3,0,0.0,This attack does 100 damage to 1 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.),●●●,n/a
+184,141,Pecharunt ex,Irritated Outburst,DARKNESS;DARKNESS,2,0,0.0,This attack does 60 damage for each Prize card your opponent has taken.,{D}{D},60×
+185,142,Genesect,Magnetic Blast,METAL;COLORLESS;COLORLESS,3,100,33.33,,{M}●●,100
+186,143,Varoom,Rigidify,METAL,1,0,0.0,"During your opponent’s next turn, this Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",{M},n/a
+187,143,Varoom,Headbutt Bounce,METAL;METAL,2,20,10.0,,{M}{M},20
+188,144,Kyurem,Trifrost,WATER;WATER;METAL;METAL;COLORLESS,5,0,0.0,Discard all Energy from this Pokémon. This attack does 110 damage to 3 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.),{W}{W}{M}{M}●,n/a
+189,145,Eevee,Colorful Catch,COLORLESS,1,0,0.0,"Search your deck for up to 3 Basic Energy cards of different types, reveal them, and put them into your hand. Then, shuffle your deck.",●,n/a
+190,145,Eevee,Headbutt,COLORLESS;COLORLESS,2,20,10.0,,●●,20
+191,146,Lileep,Bind Down,GRASS,1,50,50.0,"During your opponent’s next turn, the Defending Pokémon can’t retreat.",{G},50
+192,147,Cradily,Miasma Wind,GRASS,1,0,0.0,This attack does 100 damage for each Special Condition affecting your opponent’s Active Pokémon.,{G},100×
+193,148,Mow Rotom,Reaping Dash,COLORLESS,1,30,30.0,"Before doing damage, discard all Pokémon Tools and Special Energy from your opponent’s Active Pokémon.",●,30
+194,149,Applin,Spray Fluid,GRASS,1,20,20.0,,{G},20
+195,150,Hydrapple ex,Syrup Storm,COLORLESS;COLORLESS,2,30,15.0,This attack does 30 more damage for each {G} Energy attached to all of your Pokémon.,●●,30
+196,151,Scorbunny,Quick Attack,COLORLESS,1,10,10.0,"Flip a coin. If heads, this attack does 10 more damage.",●,10
+197,152,Raboot,Low Sweep,FIRE,1,30,30.0,,{R},30
+198,152,Raboot,Combustion,FIRE;COLORLESS;COLORLESS,3,60,20.0,,{R}●●,60
+199,153,Cinderace ex,Flare Strike,FIRE;COLORLESS;COLORLESS,3,280,93.33,"During your next turn, this Pokémon can’t use Flare Strike.",{R}●●,280
+200,153,Cinderace ex,Garnet Volley,FIRE;FIGHTING;DARKNESS,3,0,0.0,This attack does 180 damage to 1 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.),{R}{F}{D},n/a
+201,154,Lapras ex,Power Splash,WATER,1,0,0.0,This attack does 40 damage for each Energy attached to this Pokémon.,{W},40×
+202,154,Lapras ex,Larimar Rain,WATER;PSYCHIC;METAL,3,0,0.0,Look at the top 20 cards of your deck and attach any number of Energy cards you find there to your Pokémon in any way you like. Shuffle the other cards back into your deck.,{W}{P}{M},n/a
+203,155,Carracosta,Tidal Wave,WATER;WATER,2,150,75.0,,{W}{W},150
+204,156,Crabominable,Haymaker,WATER;COLORLESS;COLORLESS;COLORLESS;COLORLESS,5,250,50.0,"During your next turn, this Pokémon can’t use Haymaker.",{W}●●●●,250
+205,157,Chewtle,Headbutt,COLORLESS;COLORLESS;COLORLESS,3,60,20.0,,●●●,60
+206,158,Drednaw,Hard Crunch,COLORLESS;COLORLESS;COLORLESS,3,80,26.67,"If your opponent’s Active Pokémon already has any damage counters on it, this attack does 80 more damage.",●●●,80
+207,159,Veluza,Sonic Edge,COLORLESS;COLORLESS;COLORLESS;COLORLESS,4,110,27.5,This attack’s damage isn’t affected by any effects on your opponent’s Active Pokémon.,●●●●,110
+208,160,Joltik,Jolting Charge,COLORLESS,1,0,0.0,"Search your deck for up to 2 Basic {G} Energy cards and up to 2 Basic {L} Energy cards and attach them to your Pokémon in any way you like. Then, shuffle your deck.",●,n/a
+209,161,Galvantula ex,Charged Web,LIGHTNING;COLORLESS,2,110,55.0,"If your opponent’s Active Pokémon is a Pokémon {ex} or Pokémon {V}, this attack does 110 more damage.",{L}●,110
+210,161,Galvantula ex,Fulgurite,GRASS;LIGHTNING;FIGHTING,3,180,60.0,"Discard all Energy from this Pokémon. During your opponent’s next turn, they can’t play any Item cards from their hand.",{G}{L}{F},180
+211,162,Slowpoke,Dangle Tail,COLORLESS,1,0,0.0,Put a Pokémon from your discard pile into your hand.,●,n/a
+212,162,Slowpoke,Tackle,PSYCHIC;COLORLESS,2,30,15.0,,{P}●,30
+213,163,Slowking,Seek Inspiration,PSYCHIC;COLORLESS,2,0,0.0,"Discard the top card of your deck, and if that card is a Pokémon that doesn’t have a Rule Box, choose 1 of its attacks and use it as this attack. (Pokémon {ex}, Pokémon {V}, etc. have Rule Boxes.)",{P}●,n/a
+214,163,Slowking,Super Psy Bolt,PSYCHIC;PSYCHIC;COLORLESS,3,120,40.0,,{P}{P}●,120
+215,164,Comfey,Flower Shower,PSYCHIC,1,0,0.0,Each player draws 3 cards.,{P},n/a
+216,164,Comfey,Play Rough,PSYCHIC,1,20,20.0,"Flip a coin. If heads, this attack does 20 more damage.",{P},20
+217,165,Klink,Allure,COLORLESS,1,0,0.0,Draw a card.,●,n/a
+218,165,Klink,Beam,COLORLESS;COLORLESS,2,20,10.0,,●●,20
+219,166,Klang,Iron Tackle,COLORLESS;COLORLESS,2,60,30.0,This Pokémon also does 20 damage to itself.,●●,60
+220,167,Klinklang,Hyper Ray,COLORLESS;COLORLESS,2,130,65.0,Discard all Energy from this Pokémon.,●●,130
+221,168,Meltan,Knickknack Carrying,METAL,1,0,0.0,"Search your deck for a Pokémon Tool card, reveal it, and put it into your hand. Then, shuffle your deck.",{M},n/a
+222,168,Meltan,Ram,METAL;COLORLESS,2,30,15.0,,{M}●,30
+223,169,Duraludon,Hammer In,METAL,1,30,30.0,,{M},30
+224,169,Duraludon,Raging Hammer,METAL;METAL;COLORLESS,3,80,26.67,This attack does 10 more damage for each damage counter on this Pokémon.,{M}{M}●,80
+225,170,Archaludon,Iron Blaster,METAL;METAL;COLORLESS,3,160,53.33,"During your next turn, this Pokémon can’t use attacks.",{M}{M}●,160
+226,171,Raging Bolt,Thunderburst Storm,LIGHTNING;FIGHTING,2,0,0.0,This attack does 30 damage to 1 of your opponent’s Pokémon for each Energy attached to this Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.),{L}{F},n/a
+227,171,Raging Bolt,Dragon Headbutt,LIGHTNING;FIGHTING;COLORLESS,3,130,43.33,,{L}{F}●,130
+228,172,Hoothoot,Triple Stab,COLORLESS,1,0,0.0,Flip 3 coins. This attack does 10 damage for each heads.,●,10×
+229,173,Noctowl,Speed Wing,COLORLESS;COLORLESS,2,60,30.0,,●●,60
+230,174,Fan Rotom,Assault Landing,COLORLESS,1,70,70.0,"If there is no Stadium in play, this attack does nothing.",●,70
+231,175,Bouffalant,Boundless Power,COLORLESS;COLORLESS;COLORLESS,3,130,43.33,"During your next turn, this Pokémon can’t use attacks.",●●●,130
+232,176,Terapagos ex,Unified Beatdown,COLORLESS;COLORLESS,2,0,0.0,"If you go second, you can’t use this attack during your first turn. This attack does 30 damage for each of your Benched Pokémon.",●●,30×
+233,176,Terapagos ex,Crown Opal,GRASS;WATER;LIGHTNING,3,180,60.0,"During your opponent’s next turn, prevent all damage done to this Pokémon by attacks from Basic non-{C} Pokémon.",{G}{W}{L},180
+234,177,Exeggcute,Precocious Evolution,COLORLESS,1,0,0.0,"If you go first, you can use this attack during your first turn. Search your deck for a card that evolves from this Pokémon and put it onto this Pokémon to evolve it. Then, shuffle your deck.",●,n/a
+235,178,Zarude,Leaf Drain,GRASS,1,20,20.0,Heal 20 damage from this Pokémon.,{G},20
+236,178,Zarude,Jungle Whip,GRASS;GRASS;COLORLESS,3,80,26.67,You may put all Energy attached to this Pokémon into your hand to have this attack do 80 more damage.,{G}{G}●,80
+237,179,Black Kyurem ex,Ice Age,COLORLESS;COLORLESS;COLORLESS,3,90,30.0,"If your opponent’s Active Pokémon is a {N} Pokémon, it is now Paralyzed.",●●●,90
+238,179,Black Kyurem ex,Black Frost,WATER;WATER;COLORLESS;COLORLESS,4,250,62.5,This Pokémon also does 30 damage to itself.,{W}{W}●●,250
+239,180,Bruxish,Big Bite,WATER;COLORLESS,2,50,25.0,"During your opponent’s next turn, the Defending Pokémon can’t retreat.",{W}●,50
+240,181,Quaxwell,Aqua Edge,WATER,1,40,40.0,,{W},40
+241,182,Quaquaval,Hydro Splash,WATER;COLORLESS,2,120,60.0,,{W}●,120
+242,183,Smoochum,Delightful Kiss,,0,0,,"Search your deck for up to 2 Basic {P} Energy cards and attach them to 1 of your Benched Pokémon. Then, shuffle your deck.",No cost,n/a
+243,184,Latias ex,Eon Blade,PSYCHIC;PSYCHIC;COLORLESS,3,200,66.67,"During your next turn, this Pokémon can’t use attacks.",{P}{P}●,200
+244,185,Flittle,Splashing Dodge,COLORLESS,1,10,10.0,"Flip a coin. If heads, during your opponent’s next turn, prevent all damage from and effects of attacks done to this Pokémon.",●,10
+245,186,Gimmighoul,Minor Errand-Running,COLORLESS,1,0,0.0,"Search your deck for up to 2 Basic Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.",●,n/a
+246,186,Gimmighoul,Tackle,COLORLESS;COLORLESS;COLORLESS,3,50,16.67,,●●●,50
+247,187,Trapinch,Call for Family,COLORLESS,1,0,0.0,"Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Then, shuffle your deck.",●,n/a
+248,187,Trapinch,Bite,FIGHTING;COLORLESS,2,20,10.0,,{F}●,20
+249,188,Vibrava,Screech,COLORLESS,1,0,0.0,"During your next turn, the Defending Pokémon takes 50 more damage from attacks (after applying Weakness and Resistance).",●,n/a
+250,188,Vibrava,Cutting Wind,FIGHTING;COLORLESS,2,50,25.0,,{F}●,50
+251,189,Flygon ex,Reversing Storm,FIGHTING,1,130,130.0,You may switch this Pokémon with 1 of your Benched Pokémon.,{F},130
+252,189,Flygon ex,Sonic Peridot,WATER;FIGHTING;METAL,3,0,0.0,This attack does 100 damage to each of your opponent’s Pokémon {ex} and Pokémon {V}. This attack’s damage isn’t affected by Weakness or Resistance.,{W}{F}{M},n/a
+253,190,Archaludon ex,Metal Defender,METAL;METAL;METAL,3,220,73.33,"During your opponent’s next turn, this Pokémon has no Weakness.",{M}{M}{M},220
+254,191,Gholdengo,Strike It Rich,METAL,1,30,30.0,"If this Pokémon evolved from Gimmighoul during this turn, this attack does 90 more damage.",{M},30
+255,191,Gholdengo,Surf Back,COLORLESS;COLORLESS;COLORLESS,3,100,33.33,You may shuffle this Pokémon and all attached cards into your deck.,●●●,100
+256,192,Iron Crown,Deleting Slash,METAL;COLORLESS,2,40,20.0,"If your opponent has 3 or more Benched Pokémon, this attack does 80 more damage.",{M}●,40
+257,192,Iron Crown,Slicing Blade,METAL;COLORLESS;COLORLESS,3,100,33.33,,{M}●●,100
+258,193,Alolan Exeggutor ex,Tropical Frenzy,GRASS;WATER,2,150,75.0,You may attach any number of Basic Energy cards from your hand to your Pokémon in any way you like.,{G}{W},150
+259,193,Alolan Exeggutor ex,Swinging Sphene,GRASS;WATER;FIGHTING,3,0,0.0,"Flip a coin. If heads, Knock Out your opponent’s Active Basic Pokémon. If tails, Knock Out 1 of your opponent’s Benched Basic Pokémon.",{G}{W}{F},n/a
+260,194,Altaria,Humming Charge,WATER,1,0,0.0,"Search your deck for up to 2 Basic Energy cards and attach them to your Pokémon in any way you like. Then, shuffle your deck.",{W},n/a
+261,194,Altaria,Cotton Wings,WATER;METAL,2,100,50.0,"Flip a coin. If heads, during your opponent’s next turn, prevent all damage done to this Pokémon by attacks.",{W}{M},100
+262,195,Dialga,Time Manipulation,COLORLESS,1,0,0.0,"Search your deck for 2 cards, shuffle your deck, then put those cards on top of it in any order.",●,n/a
+263,195,Dialga,Buster Tail,PSYCHIC;METAL;COLORLESS,3,160,53.33,,{P}{M}●,160
+264,196,Turtonator,Fully Singe,FIRE,1,0,0.0,Discard an Energy from your opponent’s Active Pokémon {ex}.,{R},n/a
+265,196,Turtonator,Steaming Stomp,FIGHTING;COLORLESS;COLORLESS,3,100,33.33,,{F}●●,100
+266,197,Swablu,Disarming Voice,COLORLESS,1,10,10.0,Your opponent’s Active Pokémon is now Confused.,●,10
+267,198,Durant ex,Vengeful Crush,GRASS;COLORLESS;COLORLESS,3,120,40.0,This attack does 30 more damage for each Prize card your opponent has taken.,{G}●●,120
+268,199,Scatterbug,Call for Family,COLORLESS,1,0,0.0,"Search your deck for a Basic Pokémon and put it onto your Bench. Then, shuffle your deck.",●,n/a
+269,200,Spewpa,Wander About,COLORLESS,1,0,0.0,Switch this Pokémon with 1 of your Benched Pokémon.,●,n/a
+270,200,Spewpa,Tackle,GRASS,1,30,30.0,,{G},30
+271,201,Wo-Chien,Hazardous Greed,GRASS;COLORLESS,2,20,10.0,"If there are 3 or fewer cards in your deck, this attack also does 120 damage to 2 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",{G}●,20
+272,201,Wo-Chien,Entangling Whip,GRASS;GRASS;COLORLESS,3,130,43.33,Discard the top 3 cards of your deck.,{G}{G}●,130
+273,202,Victini,Flare,FIRE;COLORLESS,2,30,15.0,,{R}●,30
+274,203,Skeledirge,Torcherto,FIRE;COLORLESS,2,60,30.0,This attack does 20 more damage for each Benched Pokémon (both yours and your opponent’s).,{R}●,60
+275,204,Charcadet,Light Punch,FIRE,1,10,10.0,,{R},10
+276,204,Charcadet,Flamethrower,FIRE;FIRE;COLORLESS,3,70,23.33,Discard an Energy from this Pokémon.,{R}{R}●,70
+277,205,Scovillain ex,Spicy Rage,FIRE;FIRE,2,10,5.0,This attack does 70 more damage for each damage counter on this Pokémon.,{R}{R},10
+278,206,Feebas,Leap Out,COLORLESS,1,0,0.0,Switch this Pokémon with 1 of your Benched Pokémon.,●,n/a
+279,207,Milotic ex,Hypno Splash,WATER;COLORLESS;COLORLESS,3,160,53.33,Your opponent’s Active Pokémon is now Asleep.,{W}●●,160
+280,208,Shellos,Sprinkle Water,COLORLESS;COLORLESS,2,30,15.0,,●●,30
+281,209,Chien-Pao,Icicle Loop,WATER;WATER;COLORLESS,3,120,40.0,Put an Energy attached to this Pokémon into your hand.,{W}{W}●,120
+282,210,Pikachu ex,Topaz Bolt,GRASS;LIGHTNING;METAL,3,300,100.0,Discard 3 Energy from this Pokémon.,{G}{L}{M},300
+283,211,Magneton,Electric Ball,LIGHTNING;COLORLESS,2,40,20.0,,{L}●,40
+284,212,Rotom,Crushing Pulse,LIGHTNING,1,0,0.0,Your opponent reveals their hand. Discard all Item cards and Pokémon Tool cards you find there.,{L},n/a
+285,212,Rotom,Energy Short,LIGHTNING,1,0,0.0,This attack does 20 damage for each Energy attached to your opponent’s Active Pokémon.,{L},20×
+286,213,Tapu Koko,Summon Lightning,COLORLESS,1,0,0.0,"Search your deck for up to 2 {L} Pokémon, reveal them, and put them into your hand. Then, shuffle your deck.",●,n/a
+287,213,Tapu Koko,Prize Count,LIGHTNING;LIGHTNING;COLORLESS,3,90,30.0,"If you have more Prize cards remaining than your opponent, this attack does 90 more damage.",{L}{L}●,90
+288,214,Togekiss,Speed Wing,COLORLESS;COLORLESS;COLORLESS,3,140,46.67,,●●●,140
+289,215,Uxie,Painful Memories,PSYCHIC,1,0,0.0,Put 2 damage counters on each of your opponent’s Pokémon.,{P},n/a
+290,216,Mesprit,Full Heart,COLORLESS,1,0,0.0,Attach up to 2 Basic {P} Energy cards from your hand to your Pokémon in any way you like.,●,n/a
+291,216,Mesprit,Guardian Burst,PSYCHIC;PSYCHIC,2,160,80.0,"If you don’t have Uxie and Azelf on your Bench, this attack does nothing.",{P}{P},160
+292,217,Azelf,Neurokinesis,PSYCHIC;COLORLESS,2,10,5.0,This attack does 10 more damage for each damage counter on all of your opponent’s Pokémon.,{P}●,10
+293,218,Yamask,Mumble,PSYCHIC,1,10,10.0,,{P},10
+294,218,Yamask,Petty Grudge,PSYCHIC;COLORLESS,2,20,10.0,,{P}●,20
+295,219,Cofagrigus,Law of the Underworld,PSYCHIC,1,0,0.0,Put 6 damage counters on each Pokémon that has an Ability (both yours and your opponent’s).,{P},n/a
+296,219,Cofagrigus,Spooky Shot,PSYCHIC;COLORLESS;COLORLESS,3,100,33.33,,{P}●●,100
+297,220,Espurr,See Through,COLORLESS,1,0,0.0,Your opponent reveals their hand.,●,n/a
+298,220,Espurr,Psyshot,PSYCHIC;COLORLESS,2,20,10.0,,{P}●,20
+299,221,Meowstic,Psyshot,PSYCHIC;COLORLESS;COLORLESS,3,80,26.67,,{P}●●,80
+300,222,Dedenne,Electromagnetic Sonar,COLORLESS,1,0,0.0,Put a Trainer card from your discard pile into your hand.,●,n/a
+301,222,Dedenne,Gnaw,PSYCHIC,1,30,30.0,,{P},30
+302,223,PalossandEX,Sand Tomb,COLORLESS;COLORLESS;COLORLESS,3,160,53.33,"During your opponent’s next turn, the Defending Pokémon can’t retreat.",●●●,160
+303,223,PalossandEX,Barite Jail,WATER;PSYCHIC;FIGHTING,3,0,0.0,Put damage counters on each of your opponent’s Benched Pokémon until its remaining HP is 100.,{W}{P}{F},n/a
+304,224,Annihilape,Tantrum,FIGHTING,1,130,130.0,This Pokémon is now Confused.,{F},130
+305,224,Annihilape,Destined Fight,FIGHTING;COLORLESS,2,0,0.0,Both Active Pokémon are Knocked Out.,{F}●,n/a
+306,225,Gastrodon,Mud Shot,FIGHTING;COLORLESS;COLORLESS,3,80,26.67,,{F}●●,80
+307,226,Koraidon,Unrelenting Onslaught,COLORLESS;COLORLESS,2,30,15.0,"If 1 of your other Ancient Pokémon used an attack during your last turn, this attack does 150 more damage.",●●,30
+308,226,Koraidon,Hammer In,FIGHTING;FIGHTING;COLORLESS,3,110,36.67,,{F}{F}●,110
+309,227,Deino,Stomp Off,DARKNESS,1,0,0.0,Discard the top card of your opponent’s deck.,{D},n/a
+310,227,Deino,Bite,DARKNESS;COLORLESS,2,20,10.0,,{D}●,20
+311,228,Zweilous,Stomp Off,DARKNESS,1,0,0.0,Discard the top 2 cards of your opponent’s deck.,{D},n/a
+312,228,Zweilous,Darkness Fang,DARKNESS;COLORLESS;COLORLESS,3,60,20.0,,{D}●●,60
+313,229,Hydreigon ex,Crashing Headbutt,DARKNESS;COLORLESS,2,200,100.0,Discard the top 3 cards of your opponent’s deck.,{D}●,200
+314,229,Hydreigon ex,Obsidian,PSYCHIC;DARKNESS;METAL;COLORLESS,4,130,32.5,This attack also does 130 damage to 2 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.),{P}{D}{M}●,130
+315,230,Pecharunt,Poison Chain,DARKNESS;COLORLESS,2,10,5.0,"Your opponent’s Active Pokémon is now Poisoned. During your opponent’s next turn, that Pokémon can’t retreat.",{D}●,10
+316,231,Tatsugiri ex,Surprise Pump,FIRE;WATER,2,100,50.0,This attack’s damage isn’t affected by any effects on your opponent’s Active Pokémon.,{R}{W},100
+317,231,Tatsugiri ex,Cinnabar Lure,FIRE;WATER;DARKNESS,3,0,0.0,Look at the top 10 cards of your deck. You may put any number of Pokémon you find there onto your Bench. Shuffle the other cards back into your deck.,{R}{W}{D},n/a
+318,232,Slaking ex,Great Swing,COLORLESS;COLORLESS,2,280,140.0,Discard an Energy from this Pokémon.,●●,280
+319,233,Bouffalant,Ready to Ram,COLORLESS;COLORLESS,2,40,20.0,"During your opponent’s next turn, if this Pokémon is damaged by an attack (even if this Pokémon is Knocked Out), put 6 damage counters on the Attacking Pokémon.",●●,40
+320,233,Bouffalant,Smashing Headbutt,COLORLESS;COLORLESS;COLORLESS;COLORLESS,4,150,37.5,Discard 2 Energy from this Pokémon.,●●●●,150
+321,234,Terapagos,Prism Charge,COLORLESS,1,0,0.0,"Search your deck for up to 3 Basic Energy cards of different types and attach them to your Tera Pokémon in any way you like. Then, shuffle your deck.",●,n/a
+322,234,Terapagos,Hard Tackle,COLORLESS;COLORLESS;COLORLESS,3,100,33.33,,●●●,100
+323,235,Budew,Itchy Pollen,,0,10,,"During your opponent’s next turn, they can’t play any Item cards from their hand.",No cost,10
+324,236,Leafeon ex,Verdant Storm,GRASS;COLORLESS,2,0,0.0,This attack does 60 damage for each Energy attached to all of your opponent’s Pokémon.,{G}●,60×
+325,236,Leafeon ex,Moss Agate,GRASS;FIRE;WATER,3,230,76.67,Heal 100 damage from each of your Benched Pokémon.,{G}{R}{W},230
+326,237,Cottonee,Triple Spin,GRASS,1,0,0.0,Flip 3 coins. This attack does 10 damage for each heads.,{G},10×
+327,238,Whimsicott,Seed Bomb,GRASS,1,40,40.0,,{G},40
+328,239,Flareon ex,Burning Charge,FIRE;COLORLESS,2,130,65.0,"Search your deck for up to 2 Basic Energy cards and attach them to 1 of your Pokémon. Then, shuffle your deck.",{R}●,130
+329,239,Flareon ex,Carnelian,FIRE;WATER;LIGHTNING,3,280,93.33,"During your next turn, this Pokémon can’t use attacks.",{R}{W}{L},280
+330,240,Seaking,Rapid Draw,COLORLESS,1,60,60.0,Draw 2 cards.,●,60
+331,241,Vaporeon ex,Severe Squall,WATER;COLORLESS,2,0,0.0,This attack does 60 damage to each of your opponent’s Pokémon {ex}. This attack’s damage isn’t affected by Weakness or Resistance.,{W}●,n/a
+332,241,Vaporeon ex,Aquamarine,FIRE;WATER;LIGHTNING,3,280,93.33,"During your next turn, this Pokémon can’t use attacks.",{R}{W}{L},280
+333,242,Feebas,Flail,WATER,1,0,0.0,This attack does 10 damage for each damage counter on this Pokémon.,{W},10×
+334,243,Glaceon ex,Frost Bullet,WATER;COLORLESS,2,110,55.0,This attack also does 30 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.),{W}●,110
+335,243,Glaceon ex,Euclase,GRASS;WATER;DARKNESS,3,0,0.0,Knock Out 1 of your opponent’s Pokémon that has exactly 6 damage counters on it.,{G}{W}{D},n/a
+336,244,Jolteon ex,Flashing Spear,LIGHTNING;COLORLESS,2,60,30.0,You may discard up to 2 Basic Energy from your Benched Pokémon. This attack does 90 more damage for each card you discarded in this way.,{L}●,60
+337,244,Jolteon ex,Dravite,FIRE;WATER;LIGHTNING,3,280,93.33,"During your next turn, this Pokémon can’t use attacks.",{R}{W}{L},280
+338,245,Alakazam,Strange Hacking,PSYCHIC,1,0,0.0,Your opponent’s Active Pokémon is now Confused. You may move any number of damage counters on your opponent’s Pokémon to their other Pokémon in any way you like.,{P},n/a
+339,245,Alakazam,Psychic,PSYCHIC,1,10,10.0,This attack does 50 more damage for each Energy attached to your opponent’s Active Pokémon.,{P},10
+340,246,Espeon ex,Psych Out,PSYCHIC;COLORLESS;COLORLESS,3,160,53.33,Discard a random card from your opponent’s hand.,{P}●●,160
+341,246,Espeon ex,Amazez,GRASS;PSYCHIC;DARKNESS,3,0,0.0,Devolve each of your opponent’s evolved Pokémon by shuffling the highest Stage Evolution card on it into your opponent’s deck.,{G}{P}{D},n/a
+342,247,Swirlix,Sneaky Placement,PSYCHIC,1,0,0.0,Put 2 damage counters on 1 of your opponent’s Pokémon.,{P},n/a
+343,248,Umbreon ex,Moon Mirage,DARKNESS;COLORLESS;COLORLESS,3,160,53.33,Your opponent’s Active Pokémon is now Confused.,{D}●●,160
+344,248,Umbreon ex,Onyx,LIGHTNING;PSYCHIC;DARKNESS,3,0,0.0,"Discard all Energy from this Pokémon, and take a Prize card.",{L}{P}{D},n/a
+345,249,Eevee ex,Coruscating Quartz,FIRE;WATER;LIGHTNING,3,200,66.67,,{R}{W}{L},200
+346,250,Hoothoot,Tackle,COLORLESS;COLORLESS,2,20,10.0,,●●,20
+347,251,Regigigas,Jewel Breaker,COLORLESS;COLORLESS;COLORLESS;COLORLESS,4,100,25.0,"If your opponent’s Active Pokémon is a Tera Pokémon, this attack does 230 more damage.",●●●●,100
+348,252,Caterpie,Bug Bite,GRASS,1,20,20.0,,{G},20
+349,253,Metapod,Harden,GRASS,1,0,0.0,"During your opponent’s next turn, prevent all damage done to this Pokémon by attacks if that damage is 60 or less.",{G},n/a
+350,254,Butterfree,Scale Hurricane,GRASS,1,0,0.0,"Flip 4 coins. This attack does 60 damage for each heads. If at least 2 of them are heads, your opponent’s Active Pokémon is now Paralyzed.",{G},60×
+351,255,Maractus,Corner,COLORLESS,1,20,20.0,"During your opponent’s next turn, the Defending Pokémon can’t retreat.",●,20
+352,256,Magmortar,Searing Flame,FIRE;FIRE;COLORLESS,3,90,30.0,"Flip a coin. If heads, your opponent’s Active Pokémon is now Burned.",{R}{R}●,90
+353,257,N’s Darumaka,Rolling Tackle,COLORLESS;COLORLESS,2,20,10.0,,●●,20
+354,257,N’s Darumaka,Flare,FIRE;FIRE;COLORLESS,3,50,16.67,,{R}{R}●,50
+355,258,N’s Darmanitan,Back Draft,COLORLESS;COLORLESS,2,0,0.0,This attack does 30 damage for each Basic Energy card in your opponent’s discard pile.,●●,30×
+356,258,N’s Darmanitan,Flamebody Cannon,FIRE;FIRE;COLORLESS,3,90,30.0,"Discard all Energy from this Pokémon, and this attack also does 90 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",{R}{R}●,90
+357,259,Volcanion ex,Scorching Cyclone,FIRE;FIRE;COLORLESS,3,160,53.33,Move an Energy from this Pokémon to 1 of your Benched Pokémon.,{R}{R}●,160
+358,260,Lotad,Water Gun,WATER,1,20,20.0,,{W},20
+359,261,Lombre,Aqua Slash,WATER;WATER,2,70,35.0,"During your next turn, this Pokémon can’t use attacks.",{W}{W},70
+360,262,Ludicolo,Hydro Splash,WATER;WATER;COLORLESS,3,130,43.33,,{W}{W}●,130
+361,263,Wailmer,Surf,COLORLESS;COLORLESS;COLORLESS,3,60,20.0,,●●●,60
+362,264,Wailord,Hydro Pump,COLORLESS;COLORLESS;COLORLESS;COLORLESS,4,10,2.5,This attack does 50 more damage for each {W} Energy attached to this Pokémon.,●●●●,10
+363,265,Iono’s Voltorb,Voltaic Chain,COLORLESS;COLORLESS,2,20,10.0,This attack does 20 more damage for each {L} Energy attached to all of your Iono’s Pokémon.,●●,20
+364,266,Iono’s Electrode,Thump-Thump Boom,LIGHTNING;LIGHTNING,2,0,0.0,"This Pokémon does 100 damage to itself. Flip a coin. If heads, your opponent’s Active Pokémon is Knocked Out.",{L}{L},n/a
+365,266,Iono’s Electrode,Electric Ball,LIGHTNING;LIGHTNING;COLORLESS,3,100,33.33,,{L}{L}●,100
+366,267,N’s Joltik,Zapping Short,COLORLESS;COLORLESS,2,30,15.0,"Before doing damage, discard all Pokémon Tools from your opponent’s Active Pokémon. If you discarded a Pokémon Tool in this way, your opponent’s Active Pokémon is now Paralyzed.",●●,30
+367,268,Iono’s Tadbulb,Tiny Charge,LIGHTNING;COLORLESS,2,30,15.0,,{L}●,30
+368,269,Iono’s Bellibolt ex,Thunderous Bolt,LIGHTNING;LIGHTNING;LIGHTNING;COLORLESS,4,230,57.5,"During your next turn, this Pokémon can’t use attacks.",{L}{L}{L}●,230
+369,270,Iono’s Wattrel,Quick Attack,LIGHTNING,1,10,10.0,"Flip a coin. If heads, this attack does 20 more damage.",{L},10
+370,271,Iono’s Kilowattrel,Mach Bolt,LIGHTNING;COLORLESS;COLORLESS,3,70,23.33,,{L}●●,70
+371,272,Lillie’s Clefairy ex,Full Moon Rondo,PSYCHIC;COLORLESS,2,20,10.0,This attack does 20 more damage for each Benched Pokémon (both yours and your opponent’s).,{P}●,20
+372,273,Banette,Cursed Words,PSYCHIC,1,0,0.0,Your opponent chooses 3 cards from their hand and shuffles those cards into their deck.,{P},n/a
+373,273,Banette,Spooky Shot,PSYCHIC;COLORLESS,2,70,35.0,,{P}●,70
+374,274,Beldum,Spinning Attack,PSYCHIC,1,10,10.0,,{P},10
+375,274,Beldum,Beam,PSYCHIC;PSYCHIC,2,30,15.0,,{P}{P},30
+376,275,Metang,Psypunch,PSYCHIC,1,30,30.0,,{P},30
+377,275,Metang,Zen Headbutt,PSYCHIC;PSYCHIC,2,50,25.0,,{P}{P},50
+378,276,Metagross,Wrack Down,PSYCHIC,1,60,60.0,,{P},60
+379,276,Metagross,Conjoined Beams,PSYCHIC;PSYCHIC,2,130,65.0,"If Beldum and Metang are on your Bench, this attack does 150 more damage.",{P}{P},130
+380,277,N’s Sigilyph,Psychic Sphere,PSYCHIC,1,20,20.0,,{P},20
+381,277,N’s Sigilyph,Victory Symbol,PSYCHIC;COLORLESS;COLORLESS,3,0,0.0,"If you use this attack when you have exactly 1 Prize card remaining, you win this game.",{P}●●,n/a
+382,278,Lillie’s Cutiefly,Hold Still,PSYCHIC,1,0,0.0,Heal 10 damage from this Pokémon.,{P},n/a
+383,279,Lillie’s Ribombee,Magical Shot,PSYCHIC,1,50,50.0,,{P},50
+384,280,Lillie’s Comfey,Inviting Flowers,COLORLESS,1,0,0.0,"You may search your deck for any number of Basic Lillie’s Pokémon and put them onto your Bench. Then, shuffle your deck.",●,n/a
+385,280,Lillie’s Comfey,Fade Out,PSYCHIC,1,30,30.0,Put this Pokémon and all attached cards into your hand.,{P},30
+386,281,Swinub,Call for Family,COLORLESS,1,0,0.0,"Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Then, shuffle your deck.",●,n/a
+387,281,Swinub,Lunge Out,FIGHTING,1,10,10.0,,{F},10
+388,282,Piloswine,Strength,COLORLESS,1,20,20.0,,●,20
+389,282,Piloswine,Impaling Tusk,FIGHTING;FIGHTING,2,50,25.0,,{F}{F},50
+390,283,Mamoswine ex,Rumbling March,FIGHTING;FIGHTING,2,180,90.0,This attack does 40 more damage for each Stage 2 Pokémon on your Bench.,{F}{F},180
+391,284,Larvitar,Crunch,COLORLESS;COLORLESS,2,20,10.0,"Flip a coin. If heads, discard an Energy from your opponent’s Active Pokémon.",●●,20
+392,285,Pupitar,Take Down,COLORLESS;COLORLESS,2,60,30.0,This Pokémon also does 20 damage to itself.,●●,60
+393,286,Rockruff,Dig It Up,COLORLESS,1,0,0.0,Look at the top card of your deck. You may discard that card.,●,n/a
+394,286,Rockruff,Stampede,COLORLESS;COLORLESS,2,20,10.0,,●●,20
+395,287,Lycanroc,Clamping Fangs,COLORLESS;COLORLESS;COLORLESS,3,40,13.33,This attack does 40 more damage for each damage counter on your opponent’s Active Pokémon.,●●●,40
+396,288,Hop’s Silicobra,Turf Maker,COLORLESS,1,0,0.0,"Search your deck for a Stadium card, reveal it, and put it into your hand. Then, shuffle your deck.",●,n/a
+397,288,Hop’s Silicobra,Gnaw,FIGHTING;COLORLESS,2,20,10.0,,{F}●,20
+398,289,Hop’s Sandaconda,Rumble,FIGHTING;COLORLESS,2,30,15.0,"During your opponent’s next turn, the Defending Pokémon can’t retreat.",{F}●,30
+399,289,Hop’s Sandaconda,Break Ground,FIGHTING;COLORLESS;COLORLESS,3,140,46.67,This attack also does 20 damage to each of your Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.),{F}●●,140
+400,290,Tyranitar,Cracking Stomp,DARKNESS;COLORLESS,2,150,75.0,Discard the top 2 cards of your opponent’s deck.,{D}●,150
+401,291,N’s Purrloin,Thieving Swipe,DARKNESS;COLORLESS,2,30,15.0,"Your opponent reveals their hand, and you choose a card you find there and put it on the bottom of their deck.",{D}●,30
+402,292,N’s Zorua,Scratch,DARKNESS,1,20,20.0,,{D},20
+403,293,N’s Zoroark ex,Night Joker,DARKNESS;DARKNESS,2,0,0.0,Choose 1 of your Benched N’s Pokémon’s attacks and use it as this attack.,{D}{D},n/a
+404,294,N’s Klink,Double Spin,COLORLESS,1,0,0.0,Flip 2 coins. This attack does 10 damage for each heads.,●,10×
+405,295,N’s Klang,Spinning Gears,COLORLESS,1,20,20.0,Your opponent’s Active Pokémon is now Confused.,●,20
+406,295,N’s Klang,Confront,METAL;COLORLESS,2,40,20.0,,{M}●,40
+407,296,N’s Klinklang,Magnetic Blast,COLORLESS,1,50,50.0,,●,50
+408,296,N’s Klinklang,Triple Smash,METAL;METAL;COLORLESS,3,0,0.0,Flip 3 coins. This attack does 120 damage for each heads.,{M}{M}●,120×
+409,297,Magearna,Spike Draw,COLORLESS,1,20,20.0,Draw 2 cards.,●,20
+410,298,Hop’s Corviknight,Shoot Through,COLORLESS,1,50,50.0,This attack also does 50 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.),●,50
+411,298,Hop’s Corviknight,Steel Wing,METAL;METAL;COLORLESS,3,150,50.0,"During your opponent’s next turn, this Pokémon takes 60 less damage from attacks (after applying Weakness and Resistance).",{M}{M}●,150
+412,299,Hop’s Zacian ex,Insta-Strike,COLORLESS,1,30,30.0,This attack also does 30 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.),●,30
+413,299,Hop’s Zacian ex,Brave Slash,METAL;METAL;METAL;COLORLESS,4,240,60.0,"During your next turn, this Pokémon can’t use Brave Slash.",{M}{M}{M}●,240
+414,300,Bagon,Bite,COLORLESS,1,10,10.0,,●,10
+415,300,Bagon,Reckless Charge,FIRE;WATER,2,50,25.0,This Pokémon also does 10 damage to itself.,{R}{W},50
+416,301,Shelgon,Guard Press,COLORLESS;COLORLESS,2,30,15.0,"During your opponent’s next turn, this Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",●●,30
+417,301,Shelgon,Heavy Impact,FIRE;WATER;COLORLESS,3,80,26.67,,{R}{W}●,80
+418,302,Salamence ex,Wide Blast,FIRE;COLORLESS;COLORLESS,3,0,0.0,This attack does 50 damage to each of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.),{R}●●,n/a
+419,302,Salamence ex,Dragon Impact,FIRE;WATER;COLORLESS;COLORLESS,4,300,75.0,Discard 2 Energy from this Pokémon.,{R}{W}●●,300
+420,303,N’s Reshiram,Powerful Rage,FIRE;LIGHTNING,2,0,0.0,This attack does 20 damage for each damage counter on this Pokémon.,{R}{L},20×
+421,303,N’s Reshiram,Virtuous Flame,FIRE;FIRE;LIGHTNING;COLORLESS,4,170,42.5,,{R}{R}{L}●,170
+422,304,Hop’s Snorlax,Dynamic Press,COLORLESS;COLORLESS;COLORLESS,3,140,46.67,This Pokémon also does 80 damage to itself.,●●●,140
+423,305,Dunsparce,Trading Places,COLORLESS,1,0,0.0,Switch this Pokémon with 1 of your Benched Pokémon.,●,n/a
+424,305,Dunsparce,Ram,COLORLESS;COLORLESS,2,20,10.0,,●●,20
+425,306,Dudunsparce ex,Tenacious Tail,COLORLESS,1,0,0.0,This attack does 60 damage for each of your opponent’s Pokémon {ex} in play.,●,60×
+426,306,Dudunsparce ex,Destructive Drill,COLORLESS;COLORLESS;COLORLESS,3,150,50.0,This attack’s damage isn’t affected by any effects on your opponent’s Active Pokémon.,●●●,150
+427,307,Hop’s Rookidee,Intimidating Stare,COLORLESS,1,0,0.0,"During your opponent’s next turn, attacks used by the Defending Pokémon do 20 less damage (before applying Weakness and Resistance).",●,n/a
+428,307,Hop’s Rookidee,Peck,COLORLESS;COLORLESS,2,20,10.0,,●●,20
+429,308,Hop’s Corvisquire,Speed Dive,COLORLESS,1,30,30.0,,●,30
+430,308,Hop’s Corvisquire,Razor Wing,COLORLESS;COLORLESS;COLORLESS,3,80,26.67,,●●●,80
+431,309,Hop’s Wooloo,Smash Kick,COLORLESS;COLORLESS;COLORLESS,3,50,16.67,,●●●,50
+432,310,Hop’s Dubwool,Headbutt,COLORLESS;COLORLESS;COLORLESS,3,80,26.67,,●●●,80
+433,311,Hop’s Cramorant,Fickle Spitting,COLORLESS,1,120,120.0,"If your opponent doesn’t have exactly 3 or 4 Prize cards remaining, this attack does nothing.",●,120
+434,312,Sandy Shocks,Magnetic Burst,FIGHTING,1,20,20.0,"If you have 3 or more Energy in play, this attack does 70 more damage. This attack’s damage isn’t affected by Weakness.",{F},20
+435,312,Sandy Shocks,Power Gem,FIGHTING;COLORLESS,2,60,30.0,,{F}●,60
+436,313,Miraidon ex,Repulsion Bolt,LIGHTNING;PSYCHIC,2,60,30.0,"If your opponent’s Active Pokémon already has any damage counters on it, this attack does 100 more damage.",{L}{P},60
+437,313,Miraidon ex,Cyber Drive,LIGHTNING;PSYCHIC;COLORLESS,3,220,73.33,"During your next turn, this Pokémon can’t use Cyber Drive.",{L}{P}●,220
+438,314,Marill,Rollout,COLORLESS,1,10,10.0,,●,10
+439,315,Azumarill,Double-Edge,PSYCHIC;PSYCHIC;PSYCHIC;PSYCHIC,4,230,57.5,This Pokémon also does 50 damage to itself.,{P}{P}{P}{P},230
+440,316,Sylveon ex,Magical Charm,PSYCHIC;COLORLESS;COLORLESS,3,160,53.33,"During your opponent’s next turn, attacks used by the Defending Pokémon do 100 less damage (before applying Weakness and Resistance).",{P}●●,160
+441,316,Sylveon ex,Angelite,WATER;LIGHTNING;PSYCHIC,3,0,0.0,"Choose 2 of your opponent’s Benched Pokémon. Shuffle those Pokémon and all attached cards into your opponent’s deck. If 1 of your Pokémon used Angelite during your last turn, this attack can’t be used.",{W}{L}{P},n/a
+442,317,Eevee,Reckless Charge,COLORLESS;COLORLESS,2,30,15.0,This Pokémon also does 10 damage to itself.,●●,30
+443,318,Ho-Oh,Flap,FIRE;COLORLESS,2,50,25.0,,{R}●,50
+444,318,Ho-Oh,Shining Blaze,FIRE;FIRE;COLORLESS,3,100,33.33,"If you have any Tera Pokémon on your Bench, this attack does 100 more damage.",{R}{R}●,100
+445,319,Charcadet,Will-O-Wisp,FIRE,1,20,20.0,,{R},20
+446,320,Ceruledge ex,Abyssal Flames,FIRE,1,30,30.0,This attack does 20 more damage for each Energy card in your discard pile.,{R},30
+447,320,Ceruledge ex,Raging Amethyst,FIRE;PSYCHIC;METAL,3,280,93.33,Discard all Energy from this Pokémon.,{R}{P}{M},280
+448,321,Petilil,Leaf Step,GRASS;COLORLESS,2,30,15.0,,{G}●,30
+449,322,Lilligant,Spinning Attack,GRASS;COLORLESS;COLORLESS,3,60,20.0,,{G}●●,60
+450,323,Nymble,Rear Kick,COLORLESS,1,20,20.0,,●,20
+451,324,Torchic,Scratch,FIRE;COLORLESS,2,30,15.0,,{R}●,30
+452,325,Combusken,Slash,FIRE;COLORLESS,2,50,25.0,,{R}●,50
+453,326,Blaziken ex,Smolder-sault,FIRE;COLORLESS,2,200,100.0,"During your next turn, this Pokémon can’t use attacks.",{R}●,200
+454,327,Slowpoke,Water Gun,WATER,1,10,10.0,,{W},10
+455,327,Slowpoke,Tail Whap,WATER;COLORLESS,2,30,15.0,,{W}●,30
+456,328,Pikachu ex,Tail Whap,COLORLESS,1,30,30.0,,●,30
+457,328,Pikachu ex,Thunder,LIGHTNING;LIGHTNING;COLORLESS,3,220,73.33,This Pokémon also does 30 damage to itself.,{L}{L}●,220
+458,329,Tapu Koko ex,Linked Lightning,LIGHTNING;COLORLESS,2,60,30.0,This attack does 20 more damage for each of your Benched Pokémon.,{L}●,60
+459,330,Sylveon,Magical Shot,PSYCHIC;COLORLESS;COLORLESS,3,100,33.33,,{P}●●,100
+460,331,XerneasEX,Aurora Beam,PSYCHIC;COLORLESS,2,50,25.0,,{P}●,50
+461,331,XerneasEX,Rising Horns,PSYCHIC;PSYCHIC;COLORLESS,3,120,40.0,"If your opponent’s Active Pokémon is a Pokémon {ex}, this attack does 100 more damage.",{P}{P}●,120
+462,332,Dhelmise,Bind Down,PSYCHIC;COLORLESS;COLORLESS,3,60,20.0,"During your opponent’s next turn, the Defending Pokémon can’t retreat.",{P}●●,60
+463,332,Dhelmise,Anchor Smash,PSYCHIC;PSYCHIC;COLORLESS;COLORLESS,4,130,32.5,,{P}{P}●●,130
+464,333,Riolu,Quick Attack,FIGHTING,1,10,10.0,"Flip a coin. If heads, this attack does 20 more damage.",{F},10
+465,334,Sneasel,Claw Slash,DARKNESS,1,20,20.0,,{D},20
+466,335,Bronzor,Hammer In,METAL;COLORLESS,2,20,10.0,,{M}●,20
+467,336,Zacian ex,Steel Armament,COLORLESS,1,20,20.0,"Search your deck for a Basic {M} Energy card and attach it to this Pokémon. Then, shuffle your deck.",●,20
+468,336,Zacian ex,Slashing Strike,METAL;METAL;COLORLESS,3,210,70.0,"During your next turn, this Pokémon can’t use Slashing Strike.",{M}{M}●,210
+469,337,LugiaEX,Hyper Whirlpool,COLORLESS;COLORLESS;COLORLESS,3,140,46.67,"Flip a coin until you get tails. For each heads, discard an Energy from your opponent’s Active Pokémon.",●●●,140
+470,338,Ethan's Pinsir,Vise Grip,GRASS,1,20,20.0,,{G},20
+471,338,Ethan's Pinsir,Rallying Horn,COLORLESS;COLORLESS;COLORLESS,3,70,23.33,"If any of your Ethan’s Pokémon were Knocked Out by damage from an attack during your opponent’s last turn, this attack does 100 more damage.",●●●,70
+472,339,Yanma,Whirlwind,COLORLESS,1,0,0.0,Switch out your opponent’s Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.),●,n/a
+473,339,Yanma,Razor Wing,GRASS;COLORLESS,2,30,15.0,,{G}●,30
+474,340,Yanmega ex,Jet Cyclone,GRASS;GRASS;GRASS;COLORLESS,4,210,52.5,Move 3 Energy from this Pokémon to 1 of your Benched Pokémon.,{G}{G}{G}●,210
+475,341,Cynthia's Roselia,Spike Sting,COLORLESS,1,20,20.0,,●,20
+476,342,Cynthia's Roserade,Leaf Step,GRASS;COLORLESS;COLORLESS,3,80,26.67,,{G}●●,80
+477,343,Shaymin,Smash Kick,COLORLESS;COLORLESS,2,30,15.0,,●●,30
+478,344,Dwebble,Ascension,COLORLESS,1,0,0.0,"Search your deck for a card that evolves from this Pokémon and put it onto this Pokémon to evolve it. Then, shuffle your deck.",●,n/a
+479,345,Crustle,Superb Scissors,GRASS;COLORLESS;COLORLESS,3,120,40.0,This attack’s damage isn’t affected by any effects on your opponent’s Active Pokémon.,{G}●●,120
+480,346,Applin,Mini Drain,GRASS,1,10,10.0,Heal 10 damage from this Pokémon.,{G},10
+481,347,Dipplin,Energy Loop,GRASS,1,50,50.0,Put an Energy attached to this Pokémon into your hand.,{G},50
+482,348,Hydrapple,Hydra Breath,GRASS,1,0,0.0,"Discard 6 Basic {G} Energy cards from your hand, and Knock Out your opponent’s Active Pokémon. If you can’t discard 6 cards in this way, this attack does nothing.",{G},n/a
+483,348,Hydrapple,Whip Smash,GRASS;COLORLESS;COLORLESS,3,140,46.67,,{G}●●,140
+484,349,Teal Mask Ogerpon,Grass Kagura,COLORLESS,1,0,0.0,"Search your deck for a Basic {G} Energy card and attach it to 1 of your Pokémon. Then, shuffle your deck.",●,n/a
+485,349,Teal Mask Ogerpon,Ogre’s Hammer,GRASS;GRASS;COLORLESS,3,120,40.0,"During your next turn, this Pokémon can’t use Ogre’s Hammer.",{G}{G}●,120
+486,350,Ponyta,Double Headbutt,COLORLESS,1,0,0.0,Flip 2 coins. This attack does 10 damage for each heads.,●,10×
+487,351,Rapidash,Fire Mane,FIRE;COLORLESS,2,60,30.0,,{R}●,60
+488,352,Ethan's Cyndaquil,Ember,FIRE,1,30,30.0,Discard an Energy from this Pokémon.,{R},30
+489,353,Ethan's Quilava,Combustion,FIRE,1,40,40.0,,{R},40
+490,354,Ethan's Typhlosion,Buddy Blast,FIRE,1,40,40.0,This attack does 60 more damage for each Ethan’s Adventure card in your discard pile.,{R},40
+491,354,Ethan's Typhlosion,Steam Artillery,FIRE;FIRE;COLORLESS,3,160,53.33,,{R}{R}●,160
+492,355,Ethan's Slugma,Steady Firebreathing,FIRE,1,20,20.0,,{R},20
+493,356,Ethan's Magcargo,Lava Burst,FIRE;FIRE;FIRE,3,0,0.0,Discard up to 5 {R} Energy from this Pokémon. This attack does 70 damage for each card you discarded in this way.,{R}{R}{R},70×
+494,357,Ethan's Ho-Oh ex,Shining Feathers,FIRE;FIRE;FIRE;FIRE,4,160,40.0,Heal 50 damage from each of your Pokémon.,{R}{R}{R}{R},160
+495,358,Hearthflame Mask Ogerpon,Fire Kagura,COLORLESS,1,0,0.0,"Search your deck for a Basic {R} Energy card and attach it to 1 of your Pokémon. Then, shuffle your deck.",●,n/a
+496,358,Hearthflame Mask Ogerpon,Searing Flame,FIRE;FIRE;COLORLESS,3,80,26.67,Your opponent’s Active Pokémon is now Burned.,{R}{R}●,80
+497,359,Misty's Psyduck,Sprinkle Water,WATER,1,30,30.0,,{W},30
+498,360,Misty's Staryu,Bubble Beam,WATER,1,20,20.0,"Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",{W},20
+499,361,Misty's Starmie,Abrupt Flash,WATER,1,60,60.0,"If this Pokémon evolved from Misty’s Staryu during this turn, this attack does 80 more damage.",{W},60
+500,362,Misty's Magikarp,Splash,WATER,1,10,10.0,,{W},10
+501,363,Misty's Gyarados,Splashing Panic,WATER,1,0,0.0,"Discard the top 7 cards of your deck, and this attack does 70 damage for each Misty’s Pokémon that you discarded in this way.",{W},70×
+502,363,Misty's Gyarados,Waterfall,WATER;WATER;COLORLESS,3,120,40.0,,{W}{W}●,120
+503,364,Misty's Lapras,Swim Together,WATER,1,0,0.0,"Search your deck for up to 3 Misty’s Pokémon, reveal them, and put them into your hand. Then, shuffle your deck.",{W},n/a
+504,364,Misty's Lapras,Surf,WATER;COLORLESS,2,60,30.0,,{W}●,60
+505,365,Cynthia's Feebas,Undulate,COLORLESS,1,10,10.0,"Flip a coin. If heads, during your opponent’s next turn, prevent all damage from and effects of attacks done to this Pokémon.",●,10
+506,366,Cynthia's Milotic,Aqua Split,WATER;COLORLESS,2,60,30.0,This attack also does 30 damage to 2 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.),{W}●,60
+507,367,Buizel,Tail Whap,COLORLESS,1,10,10.0,,●,10
+508,367,Buizel,Wave Splash,WATER;COLORLESS;COLORLESS,3,30,10.0,,{W}●●,30
+509,368,Floatzel,Whirlpool,COLORLESS;COLORLESS,2,30,15.0,Discard an Energy from your opponent’s Active Pokémon.,●●,30
+510,368,Floatzel,Aqua Slash,WATER;COLORLESS;COLORLESS,3,140,46.67,"During your next turn, this Pokémon can’t attack.",{W}●●,140
+511,369,Dondozo ex,Avenging Billow,WATER;COLORLESS,2,30,15.0,This attack does 10 more damage for each damage counter on this Pokémon.,{W}●,30
+512,369,Dondozo ex,Dynamic Dive,WATER;WATER;COLORLESS;COLORLESS,4,120,30.0,"You may do 120 more damage. If you do, this Pokémon also does 50 damage to itself.",{W}{W}●●,120
+513,370,Wellspring Mask Ogerpon,Water Kagura,COLORLESS,1,0,0.0,"Search your deck for a Basic {W} Energy card and attach it to 1 of your Pokémon. Then, shuffle your deck.",●,n/a
+514,370,Wellspring Mask Ogerpon,Bubble Drain,WATER;WATER;COLORLESS,3,100,33.33,Heal 30 damage from this Pokémon.,{W}{W}●,100
+515,371,Electabuzz,Electroslug,LIGHTNING;COLORLESS,2,50,25.0,,{L}●,50
+516,372,Electivire ex,Dual Bolt,LIGHTNING;COLORLESS,2,0,0.0,This attack does 50 damage to 2 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.),{L}●,n/a
+517,372,Electivire ex,High-Voltage Press,LIGHTNING;LIGHTNING;COLORLESS,3,180,60.0,"If this Pokémon has at least 2 extra Energy attached (in addition to this attack’s cost), this attack does 100 more damage.",{L}{L}●,180
+518,373,Ethan's Pichu,Zapping Draw,,0,30,,Draw a card.,No cost,30
+519,374,Electrike,Rear Kick,COLORLESS,1,10,10.0,,●,10
+520,374,Electrike,Tiny Bolt,LIGHTNING;COLORLESS,2,30,15.0,,{L}●,30
+521,375,Manectric,Zap Kick,COLORLESS,1,30,30.0,,●,30
+522,375,Manectric,Flash Impact,LIGHTNING;COLORLESS,2,120,60.0,This attack also does 40 damage to 1 of your Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.),{L}●,120
+523,376,Rotom,Astonish,LIGHTNING,1,20,20.0,Choose a random card from your opponent’s hand. Your opponent reveals that card and shuffles it into their deck.,{L},20
+524,376,Rotom,Gadget Show,COLORLESS;COLORLESS,2,0,0.0,This attack does 30 damage for each Pokémon Tool attached to all of your Pokémon.,●●,30×
+525,377,Zeraora,Scratch,COLORLESS,1,20,20.0,,●,20
+526,377,Zeraora,Thunder Raid,LIGHTNING;LIGHTNING;LIGHTNING,3,0,0.0,"Discard all Energy from this Pokémon, and this attack does 210 damage to 1 of your opponent’s Benched Pokémon {ex}. (Don’t apply Weakness and Resistance for Benched Pokémon.)",{L}{L}{L},n/a
+527,378,Ethan's Sudowoodo,Impound,FIGHTING,1,20,20.0,"During your opponent’s next turn, the Defending Pokémon can’t retreat.",{F},20
+528,378,Ethan's Sudowoodo,Try to Imitate,COLORLESS;COLORLESS,2,0,0.0,"Flip a coin. If heads, choose 1 of your opponent’s Active Pokémon’s attacks and use it as this attack.",●●,n/a
+529,379,Cynthia's Gible,Rock Hurl,FIGHTING,1,20,20.0,This attack’s damage isn’t affected by Resistance.,{F},20
+530,380,Cynthia's Gabite,Dragonslice,FIGHTING,1,40,40.0,,{F},40
+531,381,Cynthia's Garchomp ex,Corkscrew Dive,FIGHTING,1,100,100.0,You may draw cards until you have 6 cards in your hand.,{F},100
+532,381,Cynthia's Garchomp ex,Draconic Buster,FIGHTING;FIGHTING,2,260,130.0,Discard all Energy from this Pokémon.,{F}{F},260
+533,382,Mudbray,Running Charge,FIGHTING;COLORLESS,2,0,0.0,Flip a coin until you get tails. This attack does 40 damage for each heads.,{F}●,40×
+534,383,Mudsdale,Heavy Impact,FIGHTING;FIGHTING;COLORLESS,3,130,43.33,,{F}{F}●,130
+535,384,Arven's Toedscool,Slight Intrusion,COLORLESS,1,30,30.0,This Pokémon also does 10 damage to itself.,●,30
+536,385,Arven's Toedscruel,Pull,COLORLESS,1,0,0.0,Switch in 1 of your opponent’s Benched Pokémon to the Active Spot.,●,n/a
+537,385,Arven's Toedscruel,Reckless Charge,COLORLESS;COLORLESS;COLORLESS,3,120,40.0,This Pokémon also does 30 damage to itself.,●●●,120
+538,386,Cornerstone Mask Ogerpon,Rock Kagura,COLORLESS,1,0,0.0,"Search your deck for a Basic {F} Energy card and attach it to 1 of your Pokémon. Then, shuffle your deck.",●,n/a
+539,386,Cornerstone Mask Ogerpon,Mountain Ramming,FIGHTING;FIGHTING;COLORLESS,3,100,33.33,Discard the top card of your opponent’s deck.,{F}{F}●,100
+540,387,Cynthia's Spiritomb,Raging Curse,COLORLESS,1,0,0.0,This attack does 10 damage for each damage counter on all of your Benched Cynthia’s Pokémon. This attack’s damage isn’t affected by Weakness.,●,10×
+541,388,Arven's Maschiff,Stampede,COLORLESS,1,10,10.0,,●,10
+542,388,Arven's Maschiff,Confront,COLORLESS;COLORLESS;COLORLESS,3,50,16.67,,●●●,50
+543,389,Arven's Mabosstiff ex,Vigorous Tackle,COLORLESS,1,30,30.0,"If this Pokémon has no damage counters on it, this attack does 120 more damage.",●,30
+544,389,Arven's Mabosstiff ex,Boss Headbutt,COLORLESS;COLORLESS;COLORLESS,3,210,70.0,"During your next turn, this Pokémon can’t use Boss Headbutt.",●●●,210
+545,390,Tauros,Horn Attack,COLORLESS,1,30,30.0,,●,30
+546,390,Tauros,Clean Hit,COLORLESS;COLORLESS,2,50,25.0,"If your opponent’s Active Pokémon is an Evolution Pokémon, this attack does 50 more damage.",●●,50
+547,391,Arven's Skwovet,Gnaw Through,COLORLESS,1,10,10.0,"Before doing damage, discard all Pokémon Tools from your opponent’s Active Pokémon.",●,10
+548,392,Arven's Greedent,Rolling Tackle,COLORLESS;COLORLESS,2,50,25.0,,●●,50
+549,393,Pineco,Hang Down,COLORLESS,1,10,10.0,,●,10
+550,394,Shroomish,Rolling Tackle,COLORLESS;COLORLESS,2,30,15.0,,●●,30
+551,395,Breloom,Damage Rush,COLORLESS;COLORLESS,2,30,15.0,Flip a coin until you get tails. This attack does 50 more damage for each heads.,●●,30
+552,395,Breloom,Mega Drain,GRASS;COLORLESS;COLORLESS,3,90,30.0,Heal 30 damage from this Pokémon.,{G}●●,90
+553,396,Mow Rotom,Trimming Mower,GRASS,1,20,20.0,Discard a Stadium in play.,{G},20
+554,396,Mow Rotom,Gadget Show,COLORLESS;COLORLESS,2,0,0.0,This attack does 30 damage for each Pokémon Tool attached to all of your Pokémon.,●●,30×
+555,397,Fomantis,Cut Up,GRASS,1,20,20.0,,{G},20
+556,398,Lurantis,Razor Leaf,COLORLESS,1,30,30.0,,●,30
+557,398,Lurantis,Petal Blade Dance,GRASS,1,130,130.0,"Discard 2 Basic {G} Energy cards from your hand. If you can’t discard 2 cards in this way, this attack does nothing.",{G},130
+558,399,Team Rocket's Blipbug,Searching Eyes,COLORLESS,1,0,0.0,Look at 1 of your opponent’s face-down Prize cards.,●,n/a
+559,400,Team Rocket's Tarountula,Take Down,GRASS,1,30,30.0,This Pokémon also does 10 damage to itself.,{G},30
+560,401,Team Rocket's Spidops,Rocket Rush,GRASS;COLORLESS,2,0,0.0,This attack does 30 damage for each of your Team Rocket’s Pokémon in play.,{G}●,30×
+561,402,Smoliv,Ram,COLORLESS,1,10,10.0,,●,10
+562,403,Dolliv,Nutrients,GRASS,1,0,0.0,Heal 40 damage from 1 of your Pokémon.,{G},n/a
+563,403,Dolliv,Tackle,COLORLESS;COLORLESS,2,40,20.0,,●●,40
+564,404,Arboliva ex,Oil Salvo,GRASS,1,0,0.0,"Choose 1 of your opponent’s Pokémon 6 times. (You can choose the same Pokémon more than once.) For each time you chose a Pokémon, do 20 damage to it. This damage isn’t affected by Weakness or Resistance.",{G},n/a
+565,404,Arboliva ex,Aroma Shot,COLORLESS;COLORLESS;COLORLESS,3,160,53.33,This Pokémon recovers from all Special Conditions.,●●●,160
+566,405,Growlithe,Live Coal,FIRE,1,10,10.0,,{R},10
+567,405,Growlithe,Dig Claws,COLORLESS;COLORLESS,2,20,10.0,,●●,20
+568,406,Arcanine,Flare,COLORLESS;COLORLESS,2,50,25.0,,●●,50
+569,406,Arcanine,Punishing Fang,FIRE;COLORLESS;COLORLESS,3,100,33.33,"If your opponent’s Active Pokémon is a {D} Pokémon, this attack does 100 more damage.",{R}●●,100
+570,407,Team Rocket's Moltres ex,Flame Screen,FIRE;COLORLESS;COLORLESS,3,110,36.67,"During your opponent’s next turn, this Pokémon takes 50 less damage from attacks (after applying Weakness and Resistance).",{R}●●,110
+571,407,Team Rocket's Moltres ex,Evil Incineration,FIRE;COLORLESS;COLORLESS;COLORLESS,4,0,0.0,"Discard a Team Rocket’s Energy from this Pokémon. If you do, discard your opponent’s Active Pokémon and all attached cards.",{R}●●●,n/a
+572,408,Team Rocket's Houndour,Steady Firebreathing,FIRE,1,20,20.0,,{R},20
+573,409,Team Rocket's Houndoom,Cruel Coal,FIRE,1,0,0.0,Your opponent’s Active Pokémon is now Burned and Confused.,{R},n/a
+574,409,Team Rocket's Houndoom,Scorching Fire,FIRE;COLORLESS,2,120,60.0,Discard an Energy from this Pokémon.,{R}●,120
+575,410,Torchic,Collect,COLORLESS,1,0,0.0,Draw a card.,●,n/a
+576,410,Torchic,Combustion,FIRE,1,10,10.0,,{R},10
+577,411,Combusken,Combustion,COLORLESS,1,20,20.0,,●,20
+578,411,Combusken,Double Kick,FIRE;COLORLESS,2,0,0.0,Flip 2 coins. This attack does 40 damage for each heads.,{R}●,40×
+579,412,Blaziken,Heat Blast,COLORLESS;COLORLESS,2,70,35.0,,●●,70
+580,412,Blaziken,Inferno Kick Flurry,FIRE;FIRE;COLORLESS,3,120,40.0,Discard 2 Energy from this Pokémon. This attack also does 120 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.),{R}{R}●,120
+581,413,Heat Rotom,Singe,FIRE,1,0,0.0,Your opponent’s Active Pokémon is now Burned.,{R},n/a
+582,413,Heat Rotom,Gadget Show,COLORLESS;COLORLESS,2,0,0.0,This attack does 30 damage for each Pokémon Tool attached to all of your Pokémon.,●●,30×
+583,414,Team Rocket's Articuno,Dark Frost,WATER;COLORLESS;COLORLESS,3,60,20.0,"If this Pokémon has any Team Rocket’s Energy attached, this attack does 60 more damage.",{W}●●,60
+584,415,Clamperl,Shell Press,WATER,1,10,10.0,"During your opponent’s next turn, this Pokémon takes 10 less damage from attacks (after applying Weakness and Resistance).",{W},10
+585,416,Huntail,Wave Splash,WATER;COLORLESS;COLORLESS,3,80,26.67,,{W}●●,80
+586,417,Gorebyss,Crescendo Wave,WATER,1,0,0.0,"This attack does 30 damage for each {W} Energy attached to this Pokémon. Before doing damage, you may attach any number of Basic {W} Energy cards from your hand to this Pokémon.",{W},30×
+587,418,Snover,Light Punch,COLORLESS;COLORLESS,2,20,10.0,,●●,20
+588,418,Snover,Icicle,WATER;COLORLESS;COLORLESS,3,50,16.67,,{W}●●,50
+589,419,Abomasnow,Lunge Out,COLORLESS;COLORLESS;COLORLESS,3,90,30.0,,●●●,90
+590,419,Abomasnow,Frozen Wood,WATER;WATER;WATER;COLORLESS,4,120,30.0,"If this Pokémon has 2 or more {G} Energy attached, this attack does 120 more damage.",{W}{W}{W}●,120
+591,420,Wash Rotom,Manual Wash,WATER,1,20,20.0,Heal 10 damage from each of your Pokémon.,{W},20
+592,420,Wash Rotom,Gadget Show,COLORLESS;COLORLESS,2,0,0.0,This attack does 30 damage for each Pokémon Tool attached to all of your Pokémon.,●●,30×
+593,421,Arrokuda,Reckless Charge,WATER,1,30,30.0,This Pokémon also does 10 damage to itself.,{W},30
+594,422,Barraskewda,Sharp Fin,WATER,1,40,40.0,,{W},40
+595,422,Barraskewda,Dive,WATER;WATER,2,60,30.0,"Flip a coin. If heads, during your opponent’s next turn, prevent all damage from and effects of attacks done to this Pokémon.",{W}{W},60
+596,423,Cetoddle,Gentle Slap,WATER;COLORLESS,2,30,15.0,,{W}●,30
+597,423,Cetoddle,Frost Smash,WATER;WATER;WATER;COLORLESS,4,80,20.0,,{W}{W}{W}●,80
+598,424,Cetitan ex,Crushing Press,WATER;WATER;WATER;COLORLESS,4,140,35.0,"You may discard a Stadium in play. If you do, this attack does 140 more damage.",{W}{W}{W}●,140
+599,425,Team Rocket's Zapdos,Jamming Wing,COLORLESS;COLORLESS,2,30,15.0,You may move an Energy from your opponent’s Active Pokémon to 1 of their Benched Pokémon.,●●,30
+600,425,Team Rocket's Zapdos,Wicked Thunder,LIGHTNING;COLORLESS;COLORLESS,3,60,20.0,"If this Pokémon has any Team Rocket’s Energy attached, this attack does 60 more damage.",{L}●●,60
+601,426,Team Rocket's Mareep,Procurement,COLORLESS,1,0,0.0,"Search your deck for an Item card, reveal it, and put it into your hand. Then, shuffle your deck.",●,n/a
+602,426,Team Rocket's Mareep,Tiny Bolt,LIGHTNING,1,10,10.0,,{L},10
+603,427,Team Rocket's Flaaffy,Thunder Shock,LIGHTNING;COLORLESS,2,50,25.0,"Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",{L}●,50
+604,428,Team Rocket's Ampharos,Head Bolt,LIGHTNING;COLORLESS;COLORLESS,3,140,46.67,,{L}●●,140
+605,429,Team Rocket's Drowzee,Hypnotic Ray,PSYCHIC,1,10,10.0,Your opponent’s Active Pokémon is now Asleep.,{P},10
+606,430,Team Rocket's Hypno,Psyshot,PSYCHIC,1,40,40.0,,{P},40
+607,430,Team Rocket's Hypno,Bench Manipulation,PSYCHIC;PSYCHIC;PSYCHIC,3,0,0.0,Your opponent flips a coin for each of their Benched Pokémon. This attack does 80 damage to your opponent’s Active Pokémon for each tails. This attack’s damage isn’t affected by Weakness or Resistance.,{P}{P}{P},80×
+608,431,Team Rocket's Mewtwo ex,Erasure Ball,PSYCHIC;PSYCHIC;COLORLESS,3,160,53.33,You may discard up to 2 Energy from your Benched Pokémon. This attack does 60 more damage for each card you discarded in this way.,{P}{P}●,160
+609,432,Team Rocket's Wobbuffet,Rocket Mirror,PSYCHIC;COLORLESS,2,0,0.0,Move all damage counters from 1 of your Benched Team Rocket’s Pokémon to your opponent’s Active Pokémon.,{P}●,n/a
+610,432,Team Rocket's Wobbuffet,Headbutt Bounce,PSYCHIC;COLORLESS;COLORLESS,3,70,23.33,,{P}●●,70
+611,433,Team Rocket's Chingling,Chiming Commotion,,0,0,,Discard a random card from your opponent’s hand.,No cost,n/a
+612,434,Team Rocket's Mimikyu,Gemstone Mimicry,PSYCHIC;COLORLESS,2,0,0.0,Choose 1 of your opponent’s Active Tera Pokémon’s attacks and use it as this attack.,{P}●,n/a
+613,435,Team Rocket's Dottler,Disruptive Radar,COLORLESS,1,0,0.0,Look at the top 5 cards of your opponent’s deck and put them back in any order.,●,n/a
+614,435,Team Rocket's Dottler,Super Psy Bolt,PSYCHIC;COLORLESS,2,30,15.0,,{P}●,30
+615,436,Team Rocket's Orbeetle,Psychic,PSYCHIC;COLORLESS;COLORLESS,3,40,13.33,This attack does 40 more damage for each Energy attached to your opponent’s Active Pokémon.,{P}●●,40
+616,437,Mankey,Wild Kick,FIGHTING,1,30,30.0,"Flip a coin. If tails, this attack does nothing.",{F},30
+617,438,Primeape,Drag Off,FIGHTING,1,0,0.0,Switch in 1 of your opponent’s Benched Pokémon to the Active Spot. This attack does 30 damage to the new Active Pokémon.,{F},n/a
+618,439,Annihilape,Impact Blow,FIGHTING;FIGHTING,2,160,80.0,"During your next turn, this Pokémon can’t use Impact Blow.",{F}{F},160
+619,440,Team Rocket's Larvitar,Mountain Munch,COLORLESS,1,10,10.0,Discard the top card of your opponent’s deck.,●,10
+620,441,Team Rocket's Pupitar,Explosive Ascension,COLORLESS,1,30,30.0,"Search your deck for a card that evolves from this Pokémon and put it onto this Pokémon to evolve it. Then, shuffle your deck.",●,30
+621,442,Team Rocket's Tyranitar,Demolition Tackle,FIGHTING;COLORLESS;COLORLESS;COLORLESS,4,180,45.0,Discard an Energy from your opponent’s Active Pokémon.,{F}●●●,180
+622,443,Nosepass,Headbutt,FIGHTING,1,20,20.0,,{F},20
+623,443,Nosepass,Rock Throw,COLORLESS;COLORLESS;COLORLESS,3,40,13.33,,●●●,40
+624,444,Probopass,Power Gem,FIGHTING,1,40,40.0,,{F},40
+625,444,Probopass,Mountain Drop,COLORLESS;COLORLESS;COLORLESS,3,70,23.33,"If a Stadium is in play, this attack does 70 more damage.",●●●,70
+626,445,Meditite,Steady Punch,FIGHTING,1,10,10.0,"Flip a coin. If heads, this attack does 20 more damage.",{F},10
+627,446,Medicham,Harmonious Spirit Palm,FIGHTING,1,50,50.0,"If this Pokémon and your opponent’s Active Pokémon have the same amount of Energy attached, this attack does 120 more damage.",{F},50
+628,447,Regirock ex,Regi Charge,COLORLESS,1,0,0.0,Attach up to 2 Basic {F} Energy cards from your discard pile to this Pokémon.,●,n/a
+629,447,Regirock ex,Giant Rock,FIGHTING;COLORLESS;COLORLESS;COLORLESS,4,140,35.0,"If your opponent’s Active Pokémon is a Stage 2 Pokémon, this attack does 140 more damage.",{F}●●●,140
+630,448,Team Rocket's Ekans,Drag Down,COLORLESS,1,0,0.0,"Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",●,n/a
+631,448,Team Rocket's Ekans,Gnaw,DARKNESS,1,10,10.0,,{D},10
+632,449,Team Rocket's Arbok,Spinning Tail,DARKNESS;DARKNESS;DARKNESS,3,0,0.0,This attack does 30 damage to each of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.),{D}{D}{D},n/a
+633,450,Team Rocket's Nidoran♀,Surprise Attack,DARKNESS,1,30,30.0,"Flip a coin. If tails, this attack does nothing.",{D},30
+634,451,Team Rocket's Nidorina,Dark Awakening,DARKNESS,1,0,0.0,"Choose up to 2 of your {D} Pokémon. For each of those Pokémon, search your deck for a card that evolves from that Pokémon and put it onto that Pokémon to evolve it. Then, shuffle your deck.",{D},n/a
+635,451,Team Rocket's Nidorina,Scratch,DARKNESS;DARKNESS,2,50,25.0,,{D}{D},50
+636,452,Team Rocket's Nidoqueen,Love Impact,DARKNESS,1,60,60.0,"If a Pokémon that has ""Nidoking"" in its name is on your Bench, this attack does 120 more damage.",{D},60
+637,452,Team Rocket's Nidoqueen,Mega Kick,DARKNESS;DARKNESS,2,130,65.0,,{D}{D},130
+638,453,Team Rocket's Nidoran♂,Pierce,DARKNESS,1,10,10.0,,{D},10
+639,453,Team Rocket's Nidoran♂,Hammer In,DARKNESS;COLORLESS,2,30,15.0,,{D}●,30
+640,454,Team Rocket's Nidorino,Hammer In,DARKNESS;COLORLESS,2,30,15.0,,{D}●,30
+641,454,Team Rocket's Nidorino,Horn Rend,DARKNESS;DARKNESS;COLORLESS,3,60,20.0,"If your opponent’s Active Pokémon already has any damage counters on it, this attack does 60 more damage.",{D}{D}●,60
+642,455,Team Rocket's Nidoking ex,Tainted Horn,DARKNESS;DARKNESS;COLORLESS,3,100,33.33,"Your opponent’s Active Pokémon is now Poisoned. During Pokémon Checkup, put 8 damage counters on that Pokémon instead of 1.",{D}{D}●,100
+643,455,Team Rocket's Nidoking ex,Kingly Impact,DARKNESS;DARKNESS;DARKNESS;COLORLESS,4,240,60.0,,{D}{D}{D}●,240
+644,456,Team Rocket's Zubat,Poison Spray,DARKNESS,1,0,0.0,Your opponent’s Active Pokémon is now Poisoned.,{D},n/a
+645,457,Team Rocket's Golbat,Confuse Ray,DARKNESS,1,30,30.0,Your opponent’s Active Pokémon is now Confused.,{D},30
+646,458,Team Rocket's Crobat ex,Assassin’s Return,DARKNESS;DARKNESS,2,120,60.0,You may put this Pokémon into your hand. (Discard all cards attached to this Pokémon.),{D}{D},120
+647,459,Team Rocket's Grimer,Corrosive Sludge,DARKNESS;COLORLESS,2,0,0.0,"At the end of your opponent’s next turn, discard the Defending Pokémon and all attached cards.",{D}●,n/a
+648,460,Team Rocket's Muk,Gooped Up,DARKNESS;COLORLESS,2,40,20.0,"Your opponent’s Active Pokémon is now Confused. During your opponent’s next turn, that Pokémon can’t retreat.",{D}●,40
+649,460,Team Rocket's Muk,Hazardous Venom,DARKNESS;DARKNESS;COLORLESS,3,0,0.0,This attack does 100 damage for each Special Condition affecting your opponent’s Active Pokémon.,{D}{D}●,100×
+650,461,Team Rocket's Koffing,Leaking Gas,DARKNESS;COLORLESS,2,30,15.0,,{D}●,30
+651,462,Team Rocket's Weezing,Explode Together Now,DARKNESS;COLORLESS,2,0,0.0,This attack does 40 damage for each Pokémon in play that has “Koffing” or “Weezing” in its name (both yours and your opponent’s).,{D}●,40×
+652,463,Team Rocket's Murkrow,Deceit,COLORLESS,1,0,0.0,"Search your deck for a Supporter card, reveal it, and put it into your hand. Then, shuffle your deck.",●,n/a
+653,463,Team Rocket's Murkrow,Torment,DARKNESS;COLORLESS,2,30,15.0,"Choose 1 of your opponent’s Active Pokémon’s attacks. During your opponent’s next turn, that Pokémon can’t use that attack.",{D}●,30
+654,464,Team Rocket's Sneasel,Scratch,DARKNESS,1,20,20.0,,{D},20
+655,464,Team Rocket's Sneasel,Strike the Sleeper,DARKNESS;DARKNESS,2,0,0.0,This attack does 20 damage to 1 of your opponent’s Benched Pokémon for each damage counter on that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.),{D}{D},n/a
+656,465,Forretress,Iron Shake-Up,COLORLESS,1,20,20.0,You may move any amount of {M} Energy from your Pokémon to your other Pokémon in any way you like.,●,20
+657,465,Forretress,Hurricane of Needles,METAL;COLORLESS;COLORLESS;COLORLESS,4,0,0.0,Flip 4 coins. This attack does 80 damage for each heads.,{M}●●●,80×
+658,466,Skarmory,Roost,COLORLESS,1,0,0.0,"Heal 50 damage from this Pokémon. During your next turn, this Pokémon can’t retreat.",●,n/a
+659,466,Skarmory,Metal Claw,METAL;COLORLESS,2,60,30.0,,{M}●,60
+660,467,Zamazenta,Strong Bash,METAL;METAL;COLORLESS,3,70,23.33,"During your opponent’s next turn, if this Pokémon is damaged by an attack (even if this Pokémon is Knocked Out), put damage counters on the Attacking Pokémon equal to the damage done to this Pokémon.",{M}{M}●,70
+661,468,Team Rocket's Rattata,Dangerous Incisors,COLORLESS,1,10,10.0,Your opponent’s Active Pokémon is now Poisoned.,●,10
+662,469,Team Rocket's Raticate,Reckless Abandon,COLORLESS,1,90,90.0,"Flip 2 coins. If both of them are tails, this Pokémon also does 90 damage to itself.",●,90
+663,470,Team Rocket's Meowth,Paw-cket Pilfer,COLORLESS,1,0,0.0,Choose a random card from your opponent’s hand. Your opponent reveals that card and shuffles it into their deck.,●,n/a
+664,470,Team Rocket's Meowth,Fury Swipes,COLORLESS;COLORLESS,2,0,0.0,Flip 3 coins. This attack does 20 damage for each heads.,●●,20×
+665,471,Team Rocket's Persian ex,Haughty Order,COLORLESS;COLORLESS,2,0,0.0,Reveal the top 10 cards of your opponent’s deck. You may choose an attack from a Pokémon you find there and use it as this attack. Shuffle the revealed cards into your opponent’s deck.,●●,n/a
+666,471,Team Rocket's Persian ex,Cruel Slash,COLORLESS;COLORLESS;COLORLESS,3,140,46.67,Your opponent’s Active Pokémon is now Confused.,●●●,140
+667,472,Kangaskhan,Gentle Slap,COLORLESS;COLORLESS,2,50,25.0,,●●,50
+668,472,Kangaskhan,Dizzy Punch,COLORLESS;COLORLESS;COLORLESS,3,0,0.0,Flip 2 coins. This attack does 90 damage for each heads.,●●●,90×
+669,473,Team Rocket's Porygon,Hacking,COLORLESS,1,0,0.0,"Discard a card from your hand. If you do, your opponent discards a card from their hand.",●,n/a
+670,474,Team Rocket's Porygon2,R Command,COLORLESS;COLORLESS;COLORLESS,3,0,0.0,This attack does 20 damage for each Supporter card that has “Team Rocket” in its name in your discard pile.,●●●,20×
+671,475,Team Rocket's Porygon-Z,R Command,COLORLESS;COLORLESS,2,0,0.0,This attack does 20 damage for each Supporter card that has “Team Rocket” in its name in your discard pile.,●●,20×
+672,476,Taillow,Wing Attack,COLORLESS,1,20,20.0,,●,20
+673,477,Swellow,Add On,COLORLESS,1,0,0.0,Draw 3 cards.,●,n/a
+674,477,Swellow,Speed Wing,COLORLESS;COLORLESS,2,70,35.0,,●●,70
+675,478,Squawkabilly,Push Down,COLORLESS,1,20,20.0,You may switch out your opponent’s Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.),●,20
+676,479,Snivy,Tackle,GRASS,1,10,10.0,,{G},10
+677,479,Snivy,Vine Whip,GRASS;GRASS,2,30,15.0,,{G}{G},30
+678,480,Servine,Wrap,GRASS,1,20,20.0,"Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",{G},20
+679,480,Servine,Vine Whip,GRASS;COLORLESS;COLORLESS,3,60,20.0,,{G}●●,60
+680,481,Serperior ex,Command the Grass,GRASS;COLORLESS;COLORLESS;COLORLESS,4,150,37.5,"You may search your deck for up to 3 cards and put them into your hand. Then, shuffle your deck.",{G}●●●,150
+681,482,Pansage,Collect,COLORLESS,1,0,0.0,Draw a card.,●,n/a
+682,482,Pansage,Scratch,COLORLESS;COLORLESS,2,30,15.0,,●●,30
+683,483,Simisage,Gentle Slap,COLORLESS;COLORLESS,2,70,35.0,,●●,70
+684,484,Petilil,Hide,COLORLESS,1,0,0.0,"Flip a coin. If heads, during your opponent’s next turn, prevent all damage from and effects of attacks done to this Pokémon.",●,n/a
+685,484,Petilil,Leafage,GRASS,1,10,10.0,,{G},10
+686,485,Lilligant,Bemusing Aroma,GRASS,1,30,30.0,"Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed and Poisoned. If tails, your opponent’s Active Pokémon is now Confused.",{G},30
+687,485,Lilligant,Cut,GRASS;COLORLESS;COLORLESS,3,70,23.33,,{G}●●,70
+688,486,Maractus,Lively Needles,GRASS,1,20,20.0,"If this Pokémon was healed during this turn, this attack does 100 more damage.",{G},20
+689,486,Maractus,Pierce,GRASS;COLORLESS,2,50,25.0,,{G}●,50
+690,487,Karrablast,Horn Attack,COLORLESS,1,10,10.0,,●,10
+691,488,Foongus,Toxic Spore,COLORLESS,1,0,0.0,Your opponent’s Active Pokémon is now Poisoned.,●,n/a
+692,489,Amoonguss,Dangerous Reaction,COLORLESS,1,30,30.0,"If your opponent’s Active Pokémon is affected by a Special Condition, this attack does 120 more damage.",●,30
+693,489,Amoonguss,Seed Bomb,GRASS;COLORLESS,2,60,30.0,,{G}●,60
+694,490,Victini,V-Force,FIRE;FIRE,2,120,60.0,"If you have 4 or fewer Benched Pokémon, this attack does nothing.",{R}{R},120
+695,491,Darumaka,Will-O-Wisp,FIRE;COLORLESS,2,30,15.0,,{R}●,30
+696,492,Darmanitan,Searing Flame,FIRE;COLORLESS,2,50,25.0,Your opponent’s Active Pokémon is now Burned.,{R}●,50
+697,492,Darmanitan,Smashing Headbutt,FIRE;COLORLESS;COLORLESS;COLORLESS,4,180,45.0,Discard 2 Energy from this Pokémon.,{R}●●●,180
+698,493,Litwick,Brighten and Burn,FIRE,1,0,0.0,Look at the top card of your deck. You may discard that card.,{R},n/a
+699,494,Lampent,Fire Blast,FIRE,1,50,50.0,Discard an Energy from this Pokémon.,{R},50
+700,495,Chandelure,Incendiary Pillar,FIRE,1,50,50.0,"If you have 10 or more Basic {R} Energy cards in your discard pile, this attack does 100 more damage.",{R},50
+701,495,Chandelure,Burn It All Up,FIRE;FIRE,2,180,90.0,Discard all Energy from this Pokémon.,{R}{R},180
+702,496,Larvesta,Peck Off,COLORLESS,1,10,10.0,"Before doing damage, discard all Pokémon Tools from your opponent’s Active Pokémon.",●,10
+703,497,Volcarona,Fire Wing,FIRE;COLORLESS;COLORLESS,3,70,23.33,,{R}●●,70
+704,498,Panpour,Collect,COLORLESS,1,0,0.0,Draw a card.,●,n/a
+705,498,Panpour,Scratch,COLORLESS;COLORLESS,2,30,15.0,,●●,30
+706,499,Simipour,Gentle Slap,COLORLESS;COLORLESS,2,70,35.0,,●●,70
+707,500,Tympole,Round,COLORLESS;COLORLESS,2,0,0.0,This attack does 20 damage for each of your Pokémon in play that has the Round attack.,●●,20×
+708,501,Palpitoad,Round,COLORLESS;COLORLESS,2,0,0.0,This attack does 40 damage for each of your Pokémon in play that has the Round attack.,●●,40×
+709,501,Palpitoad,Wave Splash,WATER;COLORLESS;COLORLESS,3,60,20.0,,{W}●●,60
+710,502,Seismitoad,Round,COLORLESS;COLORLESS;COLORLESS,3,0,0.0,This attack does 70 damage for each of your Pokémon in play that has the Round attack.,●●●,70×
+711,502,Seismitoad,Hyper Voice,WATER;COLORLESS;COLORLESS;COLORLESS,4,160,40.0,,{W}●●●,160
+712,503,Tirtouga,Ancient Seaweed,WATER,1,0,0.0,This attack does 30 damage for each Item card in your opponent’s discard pile.,{W},30×
+713,503,Tirtouga,Surf,WATER;COLORLESS;COLORLESS,3,80,26.67,,{W}●●,80
+714,504,Carracosta,Big Bite,WATER;COLORLESS;COLORLESS,3,150,50.0,"During your opponent’s next turn, the Defending Pokémon can’t retreat.",{W}●●,150
+715,505,Alomomola,Waterfall,WATER;COLORLESS;COLORLESS,3,70,23.33,,{W}●●,70
+716,506,Cubchoo,Snotted Up,WATER,1,10,10.0,"During your opponent’s next turn, the Defending Pokémon can’t use attacks.",{W},10
+717,507,Beartic,Continuous Headbutt,COLORLESS,1,0,0.0,Flip a coin until you get tails. This attack does 50 damage for each heads.,●,50×
+718,507,Beartic,Sheer Cold,WATER;WATER;WATER;COLORLESS,4,150,37.5,"During your opponent’s next turn, the Defending Pokémon can’t use attacks.",{W}{W}{W}●,150
+719,508,Cryogonal,Drag Off,WATER,1,0,0.0,Switch in 1 of your opponent’s Benched Pokémon to the Active Spot. This attack does 20 damage to the new Active Pokémon.,{W},n/a
+720,508,Cryogonal,Icicle,WATER,1,30,30.0,,{W},30
+721,509,Kyurem ex,Slash,COLORLESS;COLORLESS,2,50,25.0,,●●,50
+722,509,Kyurem ex,Blizzard Burst,WATER;WATER;COLORLESS,3,130,43.33,This attack also does 10 damage to each of your opponent’s Benched Pokémon for each Prize card your opponent has taken. (Don’t apply Weakness and Resistance for Benched Pokémon.),{W}{W}●,130
+723,510,Emolga,Call for Family,COLORLESS,1,0,0.0,"Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Then, shuffle your deck.",●,n/a
+724,510,Emolga,Static Shock,LIGHTNING,1,20,20.0,,{L},20
+725,511,Tynamo,Hold Still,COLORLESS,1,0,0.0,Heal 10 damage from this Pokémon.,●,n/a
+726,512,Eelektrik,Electric Ball,LIGHTNING;LIGHTNING;COLORLESS,3,50,16.67,,{L}{L}●,50
+727,513,Eelektross,Thunder Fang,LIGHTNING,1,60,60.0,"Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",{L},60
+728,513,Eelektross,Buzz Flip,LIGHTNING;LIGHTNING;LIGHTNING;COLORLESS,4,0,0.0,Flip 4 coins. This attack does 100 damage for each heads.,{L}{L}{L}●,100×
+729,514,Thundurus,Charge,COLORLESS,1,0,0.0,"Search your deck for a Basic {L} Energy card and attach it to this Pokémon. Then, shuffle your deck.",●,n/a
+730,514,Thundurus,Disaster Volt,LIGHTNING;COLORLESS;COLORLESS,3,110,36.67,Discard an Energy from this Pokémon.,{L}●●,110
+731,515,Zekrom ex,Slash,COLORLESS;COLORLESS,2,50,25.0,,●●,50
+732,515,Zekrom ex,Voltage Burst,LIGHTNING;LIGHTNING;COLORLESS,3,130,43.33,This attack does 50 more damage for each Prize card your opponent has taken. This Pokémon also does 30 damage to itself.,{L}{L}●,130
+733,516,Munna,Rest,COLORLESS,1,0,0.0,This Pokémon is now Asleep. Heal 30 damage from it.,●,n/a
+734,516,Munna,Mumble,PSYCHIC,1,10,10.0,,{P},10
+735,517,Musharna,Dream Calling,COLORLESS,1,0,0.0,"You may search your deck for any number of Fennel cards, reveal them, and put them into your hand. Then, shuffle your deck.",●,n/a
+736,517,Musharna,Sleep Pulse,PSYCHIC,1,50,50.0,Your opponent’s Active Pokémon is now Asleep.,{P},50
+737,518,Solosis,Rollout,COLORLESS,1,10,10.0,,●,10
+738,519,Duosion,Cellular Evolution,COLORLESS,1,0,0.0,"Search your deck for a card that evolves from 1 of your Pokémon and put it onto that Pokémon to evolve it. Then, shuffle your deck.",●,n/a
+739,519,Duosion,Spray Fluid,COLORLESS,1,30,30.0,,●,30
+740,520,Reuniclus,Cellular Ascension,COLORLESS,1,0,0.0,"For each of your Benched Pokémon, search your deck for a card that evolves from that Pokémon and put it onto that Pokémon to evolve it. Then, shuffle your deck.",●,n/a
+741,520,Reuniclus,Evo-Lariat,COLORLESS,1,40,40.0,This attack does 40 more damage for each of your Evolution Pokémon in play.,●,40
+742,521,Elgyem,Slight Shift,PSYCHIC,1,0,0.0,Move an Energy from 1 of your opponent’s Pokémon to another of their Pokémon.,{P},n/a
+743,521,Elgyem,Beam,COLORLESS;COLORLESS;COLORLESS,3,40,13.33,,●●●,40
+744,522,Beheeyem,Calm Mind,PSYCHIC,1,0,0.0,Heal 40 damage from this Pokémon.,{P},n/a
+745,522,Beheeyem,Psychic,COLORLESS;COLORLESS;COLORLESS,3,80,26.67,This attack does 30 more damage for each Energy attached to your opponent’s Active Pokémon.,●●●,80
+746,523,Golett,Best Punch,COLORLESS;COLORLESS,2,60,30.0,"Flip a coin. If tails, this attack does nothing.",●●,60
+747,524,Golurk,Double Smash,COLORLESS;COLORLESS;COLORLESS,3,0,0.0,Flip 2 coins. This attack does 80 damage for each heads.,●●●,80×
+748,524,Golurk,Golurk Hammer,PSYCHIC;PSYCHIC;COLORLESS;COLORLESS;COLORLESS,5,200,40.0,,{P}{P}●●●,200
+749,525,Meloetta ex,Echoed Voice,PSYCHIC,1,30,30.0,"During your next turn, this Pokémon’s Echoed Voice attack does 80 more damage (before applying Weakness and Resistance).",{P},30
+750,526,Drilbur,Mud-Slap,FIGHTING,1,10,10.0,,{F},10
+751,526,Drilbur,Corkscrew Punch,FIGHTING;FIGHTING,2,30,15.0,,{F}{F},30
+752,527,Excadrill ex,Piercing Drill,FIGHTING;FIGHTING,2,60,30.0,This attack also does 60 damage to 1 of your opponent’s Benched Pokémon that has any damage counters on it. (Don’t apply Weakness and Resistance for Benched Pokémon.),{F}{F},60
+753,527,Excadrill ex,Rock Tumble,FIGHTING;FIGHTING;FIGHTING,3,200,66.67,This attack’s damage isn’t affected by Resistance.,{F}{F}{F},200
+754,528,Timburr,Low Kick,FIGHTING,1,10,10.0,,{F},10
+755,528,Timburr,Strength,FIGHTING;COLORLESS;COLORLESS,3,50,16.67,,{F}●●,50
+756,529,Gurdurr,Low Kick,FIGHTING,1,30,30.0,,{F},30
+757,529,Gurdurr,Hammer Arm,FIGHTING;COLORLESS;COLORLESS,3,60,20.0,Discard the top card of your opponent’s deck.,{F}●●,60
+758,530,Conkeldurr,Swing Around,FIGHTING;COLORLESS;COLORLESS;COLORLESS,4,100,25.0,Flip 2 coins. This attack does 50 more damage for each heads.,{F}●●●,100
+759,531,Throh,Shoulder Throw,FIGHTING;COLORLESS,2,120,60.0,This attack does 30 less damage for each {C} in your opponent’s Active Pokémon’s Retreat Cost.,{F}●,-120
+760,532,Dwebble,Flail,COLORLESS,1,0,0.0,This attack does 10 damage for each damage counter on this Pokémon.,●,10×
+761,532,Dwebble,Dig Claws,COLORLESS;COLORLESS,2,20,10.0,,●●,20
+762,533,Crustle,Stone Edge,FIGHTING;COLORLESS;COLORLESS,3,80,26.67,"Flip a coin. If heads, this attack does 60 more damage.",{F}●●,80
+763,534,Landorus,Abundant Harvest,COLORLESS,1,0,0.0,Attach a Basic {F} Energy card from your discard pile to this Pokémon.,●,n/a
+764,534,Landorus,Earthquake,FIGHTING;COLORLESS;COLORLESS,3,110,36.67,This attack also does 10 damage to each of your Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.),{F}●●,110
+765,535,Venipede,Poison Spray,COLORLESS,1,0,0.0,Your opponent’s Active Pokémon is now Poisoned.,●,n/a
+766,536,Whirlipede,Venoshock,COLORLESS,1,30,30.0,"If your opponent’s Active Pokémon is Poisoned, this attack does 60 more damage.",●,30
+767,537,Scolipede,Venoshock,DARKNESS;COLORLESS,2,90,45.0,"If your opponent’s Active Pokémon is Poisoned, this attack does 90 more damage.",{D}●,90
+768,538,Sandile,Tighten Up,DARKNESS,1,10,10.0,Your opponent discards a card from their hand.,{D},10
+769,539,Krokorok,Tighten Up,DARKNESS;COLORLESS,2,40,20.0,Your opponent discards 2 cards from their hand.,{D}●,40
+770,540,Krookodile,Tighten Up,DARKNESS;COLORLESS,2,60,30.0,Your opponent discards 2 cards from their hand.,{D}●,60
+771,540,Krookodile,Cursed Slug,DARKNESS;DARKNESS;COLORLESS,3,120,40.0,"If your opponent has 3 or fewer cards in their hand, this attack does 120 more damage.",{D}{D}●,120
+772,541,Vullaby,Playful Kick,COLORLESS,1,10,10.0,,●,10
+773,542,Mandibuzz,Cutting Wind,COLORLESS;COLORLESS;COLORLESS,3,90,30.0,,●●●,90
+774,543,Escavalier,Wild Lances,METAL,1,90,90.0,This Pokémon also does 30 damage to itself.,{M},90
+775,544,Pawniard,Corner,METAL,1,10,10.0,"During your opponent’s next turn, the Defending Pokémon can’t retreat.",{M},10
+776,545,Bisharp,Cut Up,METAL,1,40,40.0,,{M},40
+777,545,Bisharp,Finishing Blow,METAL;COLORLESS,2,60,30.0,"If your opponent’s Active Pokémon already has any damage counters on it, this attack does 60 more damage.",{M}●,60
+778,546,Cobalion,Righteous Edge,METAL,1,20,20.0,Discard a Special Energy from your opponent’s Active Pokémon.,{M},20
+779,546,Cobalion,Metal Arms,METAL;METAL;COLORLESS,3,80,26.67,"If this Pokémon has a Pokémon Tool attached, this attack does 40 more damage.",{M}{M}●,80
+780,547,Genesect ex,Protect Charge,METAL;METAL;COLORLESS,3,150,50.0,"During your opponent’s next turn, this Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",{M}{M}●,150
+781,548,Axew,Gather Strength,COLORLESS,1,0,0.0,"Search your deck for up to 2 Basic Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.",●,n/a
+782,549,Fraxure,Bite,COLORLESS,1,30,30.0,,●,30
+783,549,Fraxure,Boundless Power,FIGHTING;METAL,2,90,45.0,"During your next turn, this Pokémon can’t use attacks.",{F}{M},90
+784,550,Haxorus,Cross-Cut,COLORLESS;COLORLESS,2,80,40.0,"If your opponent’s Active Pokémon is an Evolution Pokémon, this attack does 80 more damage.",●●,80
+785,550,Haxorus,Axe Blast,FIGHTING;METAL;COLORLESS,3,0,0.0,"If your opponent’s Active Pokémon is a Basic Pokémon, it is Knocked Out.",{F}{M}●,n/a
+786,551,Pidove,Scout,COLORLESS,1,0,0.0,Your opponent reveals their hand.,●,n/a
+787,551,Pidove,Stampede,COLORLESS,1,10,10.0,,●,10
+788,552,Tranquill,Fly,COLORLESS,1,40,40.0,"Flip a coin. If tails, this attack does nothing. If heads, during your opponent’s next turn, prevent all damage from and effects of attacks done to this Pokémon.",●,40
+789,553,Unfezant,Add On,COLORLESS,1,0,0.0,Draw 4 cards.,●,n/a
+790,553,Unfezant,Swift Flight,COLORLESS;COLORLESS,2,120,60.0,"Flip a coin. If heads, during your opponent’s next turn, prevent all damage from and effects of attacks done to this Pokémon.",●●,120
+791,554,Audino,Return,COLORLESS,1,30,30.0,You may draw cards until you have 6 cards in your hand.,●,30
+792,555,Minccino,Tail Slap,COLORLESS,1,0,0.0,Flip 2 coins. This attack does 20 damage for each heads.,●,20×
+793,556,Cinccino,Do the Wave,COLORLESS,1,20,20.0,This attack does 20 more damage for each of your Benched Pokémon.,●,20
+794,557,Sewaddle,Bug Bite,GRASS,1,20,20.0,,{G},20
+795,558,Swadloon,Bug Buzz,GRASS;COLORLESS,2,40,20.0,,{G}●,40
+796,559,Leavanny,Healing Wrapping,COLORLESS,1,0,0.0,Heal 100 damage from each of your Basic Pokémon.,●,n/a
+797,559,Leavanny,X-Scissor,GRASS;COLORLESS,2,90,45.0,"Flip a coin. If heads, this attack does 40 more damage.",{G}●,90
+798,560,Cottonee,Absorb,GRASS,1,10,10.0,Heal 10 damage from this Pokémon.,{G},10
+799,561,Whimsicott ex,Energy Gift,GRASS,1,0,0.0,"Search your deck for up to 3 Basic Energy cards and attach them to your Pokémon in any way you like. Then, shuffle your deck.",{G},n/a
+800,561,Whimsicott ex,Wondrous Cotton,GRASS,1,0,0.0,Your opponent reveals their hand. This attack does 50 damage for each Trainer card you find there.,{G},50×
+801,562,Deerling,Rear Kick,COLORLESS;COLORLESS,2,30,15.0,,●●,30
+802,563,Sawsbuck,Push Down,COLORLESS;COLORLESS,2,50,25.0,Switch out your opponent’s Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.),●●,50
+803,563,Sawsbuck,Solar Beam,GRASS;COLORLESS;COLORLESS,3,100,33.33,,{G}●●,100
+804,564,Shelmet,Headbutt Bounce,COLORLESS,1,10,10.0,,●,10
+805,565,Accelgor,Acid Spray,GRASS,1,50,50.0,"Flip a coin. If heads, discard an Energy from your opponent’s Active Pokémon.",{G},50
+806,566,Virizion,Giga Drain,GRASS,1,30,30.0,Heal from this Pokémon the same amount of damage you did to your opponent’s Active Pokémon.,{G},30
+807,566,Virizion,Emerald Blade,GRASS;GRASS;COLORLESS,3,130,43.33,"During your next turn, this Pokémon can’t use attacks.",{G}{G}●,130
+808,567,Tepig,Tackle,FIRE,1,10,10.0,,{R},10
+809,567,Tepig,Rollout,FIRE;FIRE,2,30,15.0,,{R}{R},30
+810,568,Pignite,Combustion,FIRE,1,30,30.0,,{R},30
+811,568,Pignite,Heat Crash,FIRE;FIRE;COLORLESS,3,80,26.67,,{R}{R}●,80
+812,569,Emboar,Heat Crash,FIRE;FIRE;FIRE;COLORLESS,4,120,30.0,,{R}{R}{R}●,120
+813,570,Pansear,Collect,COLORLESS,1,0,0.0,Draw a card.,●,n/a
+814,570,Pansear,Scratch,COLORLESS;COLORLESS,2,30,15.0,,●●,30
+815,571,Simisear,Gentle Slap,COLORLESS;COLORLESS,2,70,35.0,,●●,70
+816,572,Heatmor,Licking Catch,FIRE,1,0,0.0,"Search your deck for up to 3 in any combination of {R} Pokémon and Basic {R} Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.",{R},n/a
+817,572,Heatmor,Fire Claws,FIRE;FIRE,2,60,30.0,,{R}{R},60
+818,573,Reshiram ex,Slash,COLORLESS;COLORLESS,2,50,25.0,,●●,50
+819,573,Reshiram ex,Blazing Burst,FIRE;FIRE;COLORLESS,3,130,43.33,This attack does 50 more damage for each Prize card your opponent has taken. Discard an Energy from this Pokémon.,{R}{R}●,130
+820,574,Oshawott,Tackle,WATER,1,10,10.0,,{W},10
+821,574,Oshawott,Water Gun,WATER;WATER,2,30,15.0,,{W}{W},30
+822,575,Dewott,Energized Shell,WATER,1,0,0.0,This attack does 30 damage for each Energy attached to this Pokémon.,{W},30×
+823,576,Samurott,Energized Slash,WATER,1,30,30.0,This attack does 50 more damage for each Energy attached to this Pokémon.,{W},30
+824,577,Basculin,Bite,COLORLESS,1,10,10.0,,●,10
+825,577,Basculin,Bared Fangs,WATER,1,50,50.0,"If your opponent’s Active Pokémon has no damage counters on it before this attack does damage, this attack does nothing.",{W},50
+826,578,Ducklett,Firefighting,COLORLESS,1,0,0.0,Discard a {R} Energy from your opponent’s Active Pokémon.,●,n/a
+827,578,Ducklett,Wing Attack,COLORLESS;COLORLESS,2,20,10.0,,●●,20
+828,579,Swanna,Flap,COLORLESS,1,30,30.0,,●,30
+829,579,Swanna,Air Slash,COLORLESS;COLORLESS;COLORLESS,3,120,40.0,Discard an Energy from this Pokémon.,●●●,120
+830,580,Vanillite,Beat,COLORLESS,1,10,10.0,,●,10
+831,580,Vanillite,Ice Edge,WATER;COLORLESS,2,20,10.0,"Flip a coin. If heads, this attack does 20 more damage.",{W}●,20
+832,581,Vanillish,Ram,COLORLESS;COLORLESS,2,30,15.0,,●●,30
+833,581,Vanillish,Ice Beam,WATER;COLORLESS;COLORLESS,3,50,16.67,"Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",{W}●●,50
+834,582,Vanilluxe,Ram,COLORLESS;COLORLESS,2,60,30.0,,●●,60
+835,582,Vanilluxe,Double Freeze,WATER;COLORLESS;COLORLESS,3,0,0.0,"Flip 2 coins. This attack does 90 damage for each heads. If either of them is heads, your opponent’s Active Pokémon is now Paralyzed.",{W}●●,90×
+836,583,Keldeo ex,Gale Thrust,WATER;COLORLESS,2,30,15.0,"If this Pokémon moved from your Bench to the Active Spot this turn, this attack does 90 more damage.",{W}●,30
+837,583,Keldeo ex,Sonic Edge,WATER;COLORLESS;COLORLESS,3,120,40.0,This attack’s damage isn’t affected by any effects on your opponent’s Active Pokémon.,{W}●●,120
+838,584,Blitzle,Smash Kick,COLORLESS,1,10,10.0,,●,10
+839,584,Blitzle,Zap Kick,LIGHTNING;COLORLESS,2,30,15.0,,{L}●,30
+840,585,Zebstrika,Smash Kick,COLORLESS,1,30,30.0,,●,30
+841,585,Zebstrika,Electrobullet,LIGHTNING;LIGHTNING;COLORLESS,3,100,33.33,This attack also does 30 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.),{L}{L}●,100
+842,586,Joltik,Surprise Attack,LIGHTNING,1,30,30.0,"Flip a coin. If tails, this attack does nothing.",{L},30
+843,587,Galvantula,Discharge,LIGHTNING,1,0,0.0,Discard all {L} Energy from this Pokémon. This attack does 50 damage for each card you discarded in this way.,{L},50×
+844,588,Stunfisk,Muddy Bolt,COLORLESS,1,20,20.0,"If this Pokémon has any {F} Energy attached, this attack does 20 more damage.",●,20
+845,588,Stunfisk,Flop,LIGHTNING;COLORLESS,2,50,25.0,,{L}●,50
+846,589,Woobat,Heart Stamp,COLORLESS,1,10,10.0,,●,10
+847,590,Swoobat,Happy Return,COLORLESS,1,0,0.0,Put 1 of your Benched Pokémon and all attached cards into your hand.,●,n/a
+848,590,Swoobat,Gust,COLORLESS;COLORLESS,2,50,25.0,,●●,50
+849,591,Sigilyph,Reflect,COLORLESS,1,0,0.0,"During your opponent’s next turn, this Pokémon takes 40 less damage from attacks (after applying Weakness and Resistance).",●,n/a
+850,591,Sigilyph,Telekinesis,PSYCHIC;COLORLESS;COLORLESS,3,0,0.0,This attack does 70 damage to 1 of your opponent’s Pokémon. This attack’s damage isn’t affected by Weakness or Resistance.,{P}●●,n/a
+851,592,Yamask,Focused Wish,PSYCHIC;COLORLESS,2,20,10.0,"Flip a coin. If heads, this attack does 20 more damage.",{P}●,20
+852,593,Cofagrigus,Extended Damagriiigus,PSYCHIC;COLORLESS,2,0,0.0,Move all damage counters from 1 of your Benched Pokémon to 1 of your opponent’s Pokémon.,{P}●,n/a
+853,593,Cofagrigus,Perplex,PSYCHIC;COLORLESS;COLORLESS,3,60,20.0,Your opponent’s Active Pokémon is now Confused.,{P}●●,60
+854,594,Gothita,Super Psy Bolt,PSYCHIC,1,20,20.0,,{P},20
+855,595,Gothorita,Fortunate Eye,PSYCHIC,1,0,0.0,Look at the top 5 cards of your opponent’s deck and put them back in any order.,{P},n/a
+856,595,Gothorita,Psyshot,PSYCHIC;COLORLESS,2,40,20.0,,{P}●,40
+857,596,Gothitelle,Synchro Shot,PSYCHIC;COLORLESS,2,90,45.0,"If you have the same number of cards in your hand as your opponent, this attack does 90 more damage.",{P}●,90
+858,597,Frillish,Oceanic Gloom,PSYCHIC,1,20,20.0,"During your opponent’s next turn, they can’t play any Item cards from their hand.",{P},20
+859,598,Jellicent ex,Power Press,PSYCHIC;COLORLESS,2,80,40.0,"If this Pokémon has at least 2 extra Energy attached (in addition to this attack’s cost), this attack does 80 more damage.",{P}●,80
+860,599,Roggenrola,Harden,FIGHTING,1,0,0.0,"During your opponent’s next turn, prevent all damage done to this Pokémon by attacks if that damage is 40 or less.",{F},n/a
+861,599,Roggenrola,Rolling Rocks,FIGHTING;FIGHTING,2,30,15.0,,{F}{F},30
+862,600,Boldore,Smack Down,FIGHTING,1,30,30.0,"If your opponent’s Active Pokémon has {F} Resistance, this attack does 50 more damage.",{F},30
+863,600,Boldore,Power Gem,FIGHTING;FIGHTING;FIGHTING,3,90,30.0,,{F}{F}{F},90
+864,601,Gigalith,Vengeful Cannon,FIGHTING,1,0,0.0,This attack does 20 damage for each damage counter on all of your Benched {F} Pokémon.,{F},20×
+865,601,Gigalith,Heavy Impact,FIGHTING;FIGHTING;FIGHTING,3,160,53.33,,{F}{F}{F},160
+866,602,Sawk,Elbow Strike,FIGHTING,1,30,30.0,,{F},30
+867,602,Sawk,Rising Chop,FIGHTING,1,90,90.0,"If your opponent’s Active Pokémon isn’t a Pokémon {ex}, this attack does nothing. This attack’s damage isn’t affected by Weakness or Resistance.",{F},90
+868,603,Archen,Acrobatics,FIGHTING;COLORLESS,2,30,15.0,Flip 2 coins. This attack does 30 more damage for each heads.,{F}●,30
+869,604,Archeops,Rock Throw,FIGHTING;COLORLESS,2,100,50.0,,{F}●,100
+870,605,Mienfoo,Kick,FIGHTING,1,20,20.0,,{F},20
+871,606,Mienshao,Low Sweep,FIGHTING,1,40,40.0,,{F},40
+872,606,Mienshao,Smash Uppercut,FIGHTING;FIGHTING,2,80,40.0,This attack’s damage isn’t affected by Resistance.,{F}{F},80
+873,607,Terrakion,Retaliate,FIGHTING;COLORLESS,2,50,25.0,"If any of your Pokémon were Knocked Out by damage from an attack during your opponent’s last turn, this attack does 80 more damage.",{F}●,50
+874,607,Terrakion,Land Crush,FIGHTING;FIGHTING;COLORLESS,3,100,33.33,,{F}{F}●,100
+875,608,Purrloin,Invite Evil,DARKNESS,1,0,0.0,"Search your deck for up to 3 {D} Pokémon, reveal them, and put them into your hand. Then, shuffle your deck.",{D},n/a
+876,609,Liepard,Knock Off,DARKNESS,1,50,50.0,Discard a random card from your opponent’s hand.,{D},50
+877,610,Scraggy,Headbutt,DARKNESS,1,10,10.0,,{D},10
+878,610,Scraggy,Invade,DARKNESS;DARKNESS,2,30,15.0,,{D}{D},30
+879,611,Scrafty,Ruffians Attack,DARKNESS;DARKNESS,2,0,0.0,Flip a coin for each {D} Pokémon you have in play. This attack does 60 damage for each heads.,{D}{D},60×
+880,612,Trubbish,Drool,DARKNESS,1,10,10.0,,{D},10
+881,612,Trubbish,Sludge Bomb,DARKNESS;COLORLESS,2,20,10.0,,{D}●,20
+882,613,Garbodor,Suffocating Gas,DARKNESS,1,40,40.0,,{D},40
+883,613,Garbodor,Gunk Shot,DARKNESS;DARKNESS;COLORLESS,3,120,40.0,Your opponent’s Active Pokémon is now Poisoned.,{D}{D}●,120
+884,614,Zorua,Take Down,DARKNESS,1,30,30.0,This Pokémon also does 10 damage to itself.,{D},30
+885,615,Zoroark,Mind Jack,DARKNESS,1,0,0.0,This attack does 30 damage for each of your opponent’s Benched Pokémon.,{D},30×
+886,615,Zoroark,Foul Play,COLORLESS;COLORLESS;COLORLESS,3,0,0.0,Choose 1 of your opponent’s Active Pokémon’s attacks and use it as this attack.,●●●,n/a
+887,616,Deino,Body Slam,COLORLESS;COLORLESS,2,20,10.0,"Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",●●,20
+888,616,Deino,Darkness Fang,DARKNESS;COLORLESS;COLORLESS,3,50,16.67,,{D}●●,50
+889,617,Zweilous,Double Hit,COLORLESS;COLORLESS,2,0,0.0,Flip 2 coins. This attack does 40 damage for each heads.,●●,40×
+890,617,Zweilous,Pitch-Black Fangs,DARKNESS;DARKNESS;COLORLESS;COLORLESS,4,100,25.0,,{D}{D}●●,100
+891,618,Hydreigon ex,Dark Bite,DARKNESS;DARKNESS;DARKNESS;COLORLESS;COLORLESS,5,200,40.0,"During your opponent’s next turn, the Defending Pokémon can’t retreat.",{D}{D}{D}●●,200
+892,619,Ferroseed,Zzzt,METAL,1,10,10.0,,{M},10
+893,619,Ferroseed,Metal Claw,METAL;COLORLESS;COLORLESS,3,40,13.33,,{M}●●,40
+894,620,Ferrothorn,Power Whip,METAL,1,0,0.0,This attack does 20 damage to 1 of your opponent’s Pokémon for each Energy attached to this Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.),{M},n/a
+895,620,Ferrothorn,Metal Claw,METAL;COLORLESS;COLORLESS;COLORLESS,4,130,32.5,,{M}●●●,130
+896,621,Klink,Hard Gears,METAL,1,10,10.0,"During your opponent’s next turn, this Pokémon takes 10 less damage from attacks (after applying Weakness and Resistance).",{M},10
+897,622,Klang,Hard Gears,METAL;COLORLESS,2,50,25.0,"During your opponent’s next turn, this Pokémon takes 20 less damage from attacks (after applying Weakness and Resistance).",{M}●,50
+898,623,Klinklang,Hammer In,METAL;COLORLESS;COLORLESS,3,120,40.0,,{M}●●,120
+899,624,Durant,Bite Together,COLORLESS,1,20,20.0,"If Durant is on your Bench, this attack does 20 more damage.",●,20
+900,624,Durant,Vise Grip,METAL;COLORLESS,2,50,25.0,,{M}●,50
+901,625,Druddigon,Shred,COLORLESS,1,40,40.0,This attack’s damage isn’t affected by any effects on your opponent’s Active Pokémon.,●,40
+902,625,Druddigon,Ambush,FIRE;WATER;COLORLESS,3,90,30.0,"Flip a coin. If heads, this attack does 60 more damage.",{R}{W}●,90
+903,626,Patrat,Procurement,COLORLESS,1,0,0.0,"Search your deck for an Item card, reveal it, and put it into your hand. Then, shuffle your deck.",●,n/a
+904,626,Patrat,Gnaw,COLORLESS,1,10,10.0,,●,10
+905,627,Watchog,Focus Energy,COLORLESS,1,0,0.0,"During your next turn, this Pokémon’s Hyper Fang attack’s base damage is 240.",●,n/a
+906,627,Watchog,Hyper Fang,COLORLESS,1,80,80.0,"Flip a coin. If tails, this attack does nothing.",●,80
+907,628,Lillipup,Play Rough,COLORLESS,1,10,10.0,"Flip a coin. If heads, this attack does 20 more damage.",●,10
+908,629,Herdier,Roar,COLORLESS,1,0,0.0,Switch out your opponent’s Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.),●,n/a
+909,629,Herdier,Lunge Out,COLORLESS;COLORLESS;COLORLESS,3,70,23.33,,●●●,70
+910,630,Stoutland,Odor Sleuth,COLORLESS;COLORLESS,2,0,0.0,Flip 3 coins. Put a number of cards up to the number of heads from your discard pile into your hand.,●●,n/a
+911,630,Stoutland,Special Fang,COLORLESS;COLORLESS;COLORLESS;COLORLESS,4,100,25.0,"If this Pokémon has any Special Energy attached, this attack does 100 more damage.",●●●●,100
+912,631,Bouffalant ex,Gold Breaker,COLORLESS;COLORLESS;COLORLESS,3,100,33.33,"If your opponent’s Active Pokémon is a Pokémon {ex}, this attack does 100 more damage.",●●●,100
+913,632,Rufflet,Peck,COLORLESS,1,10,10.0,,●,10
+914,632,Rufflet,Glide,COLORLESS;COLORLESS,2,20,10.0,,●●,20
+915,633,Braviary,Aerial Ace,COLORLESS,1,40,40.0,"Flip a coin. If heads, this attack does 40 more damage.",●,40
+916,633,Braviary,Speed Wing,COLORLESS;COLORLESS;COLORLESS;COLORLESS,4,130,32.5,,●●●●,130
+917,634,Tornadus,Wrapped in Wind,COLORLESS,1,0,0.0,Attach a Basic Energy card from your hand to this Pokémon.,●,n/a
+918,634,Tornadus,Hurricane,COLORLESS;COLORLESS;COLORLESS,3,100,33.33,Move a Basic Energy from this Pokémon to 1 of your Benched Pokémon.,●●●,100
+919,635,Steven's Baltoy,Summoning Sign,COLORLESS,1,0,0.0,"Search your deck for up to 2 Basic Steven’s Pokémon and put them onto your Bench. Then, shuffle your deck.",●,n/a
+920,635,Steven's Baltoy,Psychic Sphere,PSYCHIC,1,20,20.0,,{P},20
+921,636,Steven's Claydol,Eerie Light,PSYCHIC,1,20,20.0,Your opponent’s Active Pokémon is now Confused.,{P},20
+922,636,Steven's Claydol,Clay Blast,PSYCHIC;PSYCHIC;COLORLESS,3,220,73.33,Discard all Energy from this Pokémon.,{P}{P}●,220
+923,637,Steven's Carbink,Magical Shot,PSYCHIC;COLORLESS;COLORLESS,3,80,26.67,,{P}●●,80
+924,638,Steven's Skarmory,Razor Wing,COLORLESS;COLORLESS,2,30,15.0,,●●,30
+925,638,Steven's Skarmory,Sonic Double,METAL;METAL;COLORLESS,3,0,0.0,This attack does 50 damage to 2 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.),{M}{M}●,n/a
+926,639,Steven's Beldum,Ram,METAL;COLORLESS,2,30,15.0,,{M}●,30
+927,640,Steven's Metang,Metal Slash,METAL;COLORLESS,2,70,35.0,"During your next turn, this Pokémon can’t attack.",{M}●,70
+928,641,Steven's Metagross ex,Metal Stomp,METAL;COLORLESS;COLORLESS,3,200,66.67,,{M}●●,200
+929,642,Marnie's Purrloin,Pointy Nails,DARKNESS,1,20,20.0,"If your opponent’s Active Pokémon is a Pokémon {ex}, this attack does 40 more damage.",{D},20
+930,643,Marnie's Liepard,Pointy Claws,DARKNESS;DARKNESS,2,70,35.0,"If your opponent’s Active Pokémon is a Pokémon {ex}, this attack does 70 more damage.",{D}{D},70
+931,644,Marnie's Scraggy,Crunch,DARKNESS;DARKNESS;COLORLESS,3,50,16.67,Discard an Energy from your opponent’s Active Pokémon.,{D}{D}●,50
+932,645,Marnie's Scrafty,Rear Kick,DARKNESS,1,40,40.0,,{D},40
+933,645,Marnie's Scrafty,Wild Tackle,DARKNESS;DARKNESS;COLORLESS,3,160,53.33,This Pokémon also does 30 damage to itself.,{D}{D}●,160
+934,646,Marnie's Impidimp,Filch,COLORLESS,1,0,0.0,Draw a card.,●,n/a
+935,646,Marnie's Impidimp,Corkscrew Punch,DARKNESS,1,10,10.0,,{D},10
+936,647,Marnie's Morgrem,Corkscrew Punch,DARKNESS;DARKNESS,2,60,30.0,,{D}{D},60
+937,648,Marnie's Grimmsnarl ex,Shadow Bullet,DARKNESS;DARKNESS,2,180,90.0,This attack also does 30 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.),{D}{D},180
+938,649,Marnie's Morpeko,Spiky Wheel,COLORLESS;COLORLESS;COLORLESS,3,20,6.67,This attack does 40 more damage for each {D} Energy attached to this Pokémon.,●●●,20
+939,650,Bulbasaur,Bind Down,GRASS,1,10,10.0,"During your opponent’s next turn, the Defending Pokémon can’t retreat.",{G},10
+940,651,Ivysaur,Razor Leaf,GRASS;GRASS,2,60,30.0,,{G}{G},60
+941,652,Mega Venusaur ex,Jungle Dump,GRASS;GRASS;GRASS;GRASS,4,240,60.0,Heal 30 damage from this Pokémon.,{G}{G}{G}{G},240
+942,653,Exeggcute,Jam-Packed,COLORLESS,1,0,0.0,"Search your deck for a Basic {G} Energy card and attach it to this Pokémon. Then, shuffle your deck.",●,n/a
+943,654,Exeggutor,Guard Press,GRASS,1,30,30.0,"During your opponent’s next turn, this Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",{G},30
+944,654,Exeggutor,Stomping Wood,COLORLESS;COLORLESS;COLORLESS,3,60,20.0,This attack does 30 more damage for each {G} Energy attached to this Pokémon.,●●●,60
+945,655,Celebi,Traverse Time,GRASS,1,0,0.0,"Search your deck for up to 3 in any combination of {G} Pokémon and Stadium cards, reveal them, and put them into your hand. Then, shuffle your deck.",{G},n/a
+946,655,Celebi,Solar Cutter,GRASS,1,30,30.0,,{G},30
+947,656,Seedot,Nap,COLORLESS,1,0,0.0,Heal 20 damage from this Pokémon.,●,n/a
+948,656,Seedot,Seed Bomb,GRASS;COLORLESS,2,20,10.0,,{G}●,20
+949,657,Nuzleaf,Pound,GRASS,1,30,30.0,,{G},30
+950,657,Nuzleaf,Low Kick,GRASS;COLORLESS,2,50,25.0,,{G}●,50
+951,658,Shiftry,Reversing Gust,GRASS,1,0,0.0,"Flip a coin. If heads, choose 1 of your opponent’s Pokémon. Shuffle that Pokémon and all attached cards into their deck.",{G},n/a
+952,658,Shiftry,Perplex,GRASS;COLORLESS,2,100,50.0,Your opponent’s Active Pokémon is now Confused.,{G}●,100
+953,659,Vulpix,Stampede,COLORLESS,1,10,10.0,,●,10
+954,659,Vulpix,Combustion,FIRE;COLORLESS,2,20,10.0,,{R}●,20
+955,660,Ninetales,Supernatural Shapeshifter,COLORLESS,1,0,0.0,"Discard the top card of your deck, and if that card is a Supporter card, use the effect of that card as the effect of this attack.",●,n/a
+956,660,Ninetales,Combustion,FIRE;COLORLESS,2,60,30.0,,{R}●,60
+957,661,Numel,Call for Family,FIRE,1,0,0.0,"Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Then, shuffle your deck.",{R},n/a
+958,661,Numel,Flare,FIRE;COLORLESS;COLORLESS,3,30,10.0,,{R}●●,30
+959,662,Mega Camerupt ex,Roasting Heat,FIRE,1,80,80.0,"If your opponent’s Active Pokémon is Burned, this attack does 160 more damage.",{R},80
+960,662,Mega Camerupt ex,Volcanic Meteor,FIRE;COLORLESS;COLORLESS;COLORLESS,4,280,70.0,Discard 2 Energy from this Pokémon.,{R}●●●,280
+961,663,Volcanion,Singe,FIRE,1,0,0.0,Your opponent’s Active Pokémon is now Burned.,{R},n/a
+962,663,Volcanion,Backfire,FIRE;FIRE;COLORLESS,3,130,43.33,Put 2 {R} Energy attached to this Pokémon into your hand.,{R}{R}●,130
+963,664,Scorbunny,Wild Kick,COLORLESS,1,30,30.0,"Flip a coin. If tails, this attack does nothing.",●,30
+964,665,Raboot,Jumping Kick,COLORLESS,1,0,0.0,This attack does 40 damage to 1 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.),●,n/a
+965,666,Cinderace,Turbo Flare,COLORLESS,1,50,50.0,"Search your deck for up to 3 Basic Energy cards and attach them to your Benched Pokémon in any way you like. Then, shuffle your deck.",●,50
+966,667,Corphish,Vise Grip,COLORLESS,1,10,10.0,,●,10
+967,667,Corphish,Take Down,COLORLESS;COLORLESS,2,30,15.0,This Pokémon also does 10 damage to itself.,●●,30
+968,668,Gimmighoul,Slap,COLORLESS,1,10,10.0,,●,10
+969,669,Sandshrew,Dig Claws,COLORLESS,1,10,10.0,,●,10
+970,669,Sandshrew,Mud-Slap,FIGHTING;COLORLESS,2,20,10.0,,{F}●,20
+971,670,Sandslash,Sand Attack,COLORLESS;COLORLESS,2,50,25.0,"During your opponent’s next turn, if the Defending Pokémon tries to use an attack, your opponent flips a coin. If tails, that attack doesn’t happen.",●●,50
+972,670,Sandslash,Mud Shot,FIGHTING;COLORLESS;COLORLESS,3,100,33.33,,{F}●●,100
+973,671,Onix,Bind,COLORLESS;COLORLESS,2,30,15.0,"Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",●●,30
+974,671,Onix,Strength,COLORLESS;COLORLESS;COLORLESS;COLORLESS,4,100,25.0,,●●●●,100
+975,672,Tyrogue,Pow-Pow Punching,,0,10,,Flip a coin until you get tails. This attack does 30 more damage for each heads.,No cost,10
+976,673,Makuhita,Corkscrew Punch,FIGHTING,1,10,10.0,,{F},10
+977,673,Makuhita,Confront,FIGHTING;FIGHTING,2,30,15.0,,{F}{F},30
+978,674,Hariyama,Wild Press,FIGHTING;FIGHTING;FIGHTING,3,210,70.0,This Pokémon also does 70 damage to itself.,{F}{F}{F},210
+979,675,Lunatone,Power Gem,FIGHTING;FIGHTING,2,50,25.0,,{F}{F},50
+980,676,Solrock,Cosmic Beam,FIGHTING,1,70,70.0,"If you don’t have Lunatone on your Bench, this attack does nothing. This attack’s damage isn’t affected by Weakness or Resistance.",{F},70
+981,677,Riolu,Accelerating Stab,FIGHTING,1,30,30.0,"During your next turn, this Pokémon can’t use Accelerating Stab.",{F},30
+982,678,Mega Lucario ex,Aura Jab,FIGHTING,1,130,130.0,Attach up to 3 Basic {F} Energy cards from your discard pile to your Benched Pokémon in any way you like.,{F},130
+983,678,Mega Lucario ex,Mega Brave,FIGHTING;FIGHTING,2,270,135.0,"During your next turn, this Pokémon can’t use Mega Brave.",{F}{F},270
+984,679,Croagunk,Smack,FIGHTING,1,20,20.0,,{F},20
+985,680,Toxicroak,Reckless Charge,FIGHTING,1,70,70.0,This Pokémon also does 20 damage to itself.,{F},70
+986,681,Marshadow,Shadowy Side Kick,FIGHTING;FIGHTING,2,60,30.0,"If your opponent’s Pokémon is Knocked Out by damage from this attack, during your opponent’s next turn, prevent all damage from and effects of attacks done to this Pokémon.",{F}{F},60
+987,682,Stonjourner,Stony Kick,FIGHTING,1,20,20.0,This attack also does 20 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.),{F},20
+988,682,Stonjourner,Boundless Power,FIGHTING;FIGHTING;COLORLESS,3,140,46.67,"During your next turn, this Pokémon can’t use attacks.",{F}{F}●,140
+989,683,Nacli,Ram,COLORLESS,1,10,10.0,,●,10
+990,684,Naclstack,Rock Hurl,FIGHTING;COLORLESS,2,50,25.0,This attack’s damage isn’t affected by Resistance.,{F}●,50
+991,685,Garganacl,Hammer In,FIGHTING;FIGHTING;COLORLESS,3,130,43.33,,{F}{F}●,130
+992,686,Crawdaunt,Vise Grip,COLORLESS,1,30,30.0,,●,30
+993,686,Crawdaunt,Cutting Riposte,DARKNESS;DARKNESS;COLORLESS,3,130,43.33,"If this Pokémon has any damage counters on it, this attack can be used for {D}.",{D}{D}●,130
+994,687,Mega Absol ex,Terminal Period,DARKNESS;COLORLESS,2,0,0.0,"If your opponent’s Active Pokémon has exactly 6 damage counters on it, that Pokémon is Knocked Out.",{D}●,n/a
+995,687,Mega Absol ex,Claw of Darkness,DARKNESS;DARKNESS;COLORLESS,3,200,66.67,"Your opponent reveals their hand, and you discard a card you find there.",{D}{D}●,200
+996,688,Spiritomb,Mountain Breaker,DARKNESS,1,10,10.0,Discard the top card of your opponent’s deck.,{D},10
+997,689,Yveltal,Clutch,DARKNESS,1,20,20.0,"During your opponent’s next turn, the Defending Pokémon can’t retreat.",{D},20
+998,689,Yveltal,Dark Feather,DARKNESS;DARKNESS;COLORLESS,3,110,36.67,,{D}{D}●,110
+999,690,Nickit,Darkness Fang,DARKNESS,1,20,20.0,,{D},20
+1000,691,Thievul,Greedy Hunt,COLORLESS,1,20,20.0,You may draw cards until you have 6 cards in your hand.,●,20
+1001,691,Thievul,Pitch-Black Fangs,DARKNESS;COLORLESS,2,60,30.0,,{D}●,60
+1002,692,Shroodle,Poison Jab,DARKNESS;COLORLESS,2,20,10.0,Your opponent’s Active Pokémon is now Poisoned.,{D}●,20
+1003,693,Grafaiai,Miraculous Paint,DARKNESS;COLORLESS,2,90,45.0,"Flip a coin. If heads, choose a Special Condition. Your opponent’s Active Pokémon is now affected by that Special Condition.",{D}●,90
+1004,694,Steelix,Welcoming Tail,COLORLESS;COLORLESS,2,40,20.0,"If you have exactly 6 Prize cards remaining, this attack does 200 more damage.",●●,40
+1005,694,Steelix,Skull Bash,METAL;METAL;COLORLESS;COLORLESS,4,140,35.0,,{M}{M}●●,140
+1006,695,Mega Mawile ex,Gobble Down,METAL;METAL,2,0,0.0,This attack does 80 damage for each Prize card you have taken.,{M}{M},80×
+1007,695,Mega Mawile ex,Huge Bite,METAL;METAL;COLORLESS,3,260,86.67,"If your opponent’s Active Pokémon already has any damage counters on it, this attack’s base damage is 30.",{M}{M}●,260
+1008,696,Dialga,Beam,METAL,1,30,30.0,,{M},30
+1009,696,Dialga,Chrono Burst,METAL;METAL;COLORLESS,3,80,26.67,You may shuffle all Energy attached to this Pokémon into your deck and have this attack do 80 more damage.,{M}{M}●,80
+1010,697,Tinkatink,Beat,METAL,1,20,20.0,,{M},20
+1011,698,Tinkatuff,Light Punch,METAL,1,30,30.0,,{M},30
+1012,699,Tinkaton,Windup Swing,METAL,1,240,240.0,This attack does 60 less damage for each Energy attached to your opponent’s Active Pokémon.,{M},-240
+1013,700,Gholdengo,All-You-Can-Grab,COLORLESS,1,0,0.0,"Flip a coin until you get tails. Search your deck for a number of cards up to the number of heads and put them into your hand. Then, shuffle your deck.",●,n/a
+1014,700,Gholdengo,Speed Attack,METAL;COLORLESS;COLORLESS,3,100,33.33,,{M}●●,100
+1015,701,Spearow,Pluck,COLORLESS,1,10,10.0,"Before doing damage, discard all Pokémon Tools from your opponent’s Active Pokémon.",●,10
+1016,702,Fearow,Repeating Drill,COLORLESS,1,0,0.0,Flip 5 coins. This attack does 30 damage for each heads.,●,30×
+1017,703,Miltank,Bellyful of Milk,COLORLESS;COLORLESS,2,0,0.0,"Flip 2 coins. If both of them are heads, heal all damage from 1 of your Pokémon.",●●,n/a
+1018,703,Miltank,Tackle,COLORLESS;COLORLESS;COLORLESS,3,60,20.0,,●●●,60
+1019,704,Yungoos,Collect,COLORLESS,1,0,0.0,Draw a card.,●,n/a
+1020,704,Yungoos,Gnaw,COLORLESS;COLORLESS,2,20,10.0,,●●,20
+1021,705,Gumshoos,Bite,COLORLESS;COLORLESS,2,50,25.0,,●●,50
+1022,706,Tangela,Poison Powder,GRASS,1,0,0.0,Your opponent’s Active Pokémon is now Poisoned.,{G},n/a
+1023,706,Tangela,Hook,GRASS;COLORLESS;COLORLESS,3,30,10.0,,{G}●●,30
+1024,707,Tangrowth,Absorb,GRASS;COLORLESS,2,30,15.0,Heal 30 damage from this Pokémon.,{G}●,30
+1025,707,Tangrowth,Pumped-Up Whip,GRASS;GRASS;COLORLESS;COLORLESS,4,120,30.0,"If this Pokémon has at least 2 extra Energy attached (in addition to this attack’s cost), this attack does 140 more damage.",{G}{G}●●,120
+1026,708,Chikorita,Razor Leaf,GRASS,1,20,20.0,,{G},20
+1027,709,Bayleef,Push Down,GRASS;COLORLESS,2,50,25.0,Switch out your opponent’s Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.),{G}●,50
+1028,710,Meganium,Solar Beam,GRASS;GRASS;COLORLESS;COLORLESS,4,140,35.0,,{G}{G}●●,140
+1029,711,Shuckle,Rollout,GRASS;COLORLESS,2,30,15.0,,{G}●,30
+1030,712,Nincada,Scratch,COLORLESS,1,20,20.0,,●,20
+1031,713,Ninjask,U-turn,GRASS;COLORLESS,2,90,45.0,Switch this Pokémon with 1 of your Benched Pokémon.,{G}●,90
+1032,714,Dhelmise,Earthen Power,GRASS;COLORLESS,2,30,15.0,"If you have a Stadium in play, this attack does 50 more damage.",{G}●,30
+1033,715,Litleo,Flare,FIRE;COLORLESS,2,30,15.0,,{R}●,30
+1034,716,Pyroar,Searing Flame,FIRE;COLORLESS;COLORLESS,3,70,23.33,Your opponent’s Active Pokémon is now Burned.,{R}●●,70
+1035,717,Sizzlipede,Ram,FIRE,1,10,10.0,,{R},10
+1036,717,Sizzlipede,Combustion,FIRE;FIRE;COLORLESS,3,50,16.67,,{R}{R}●,50
+1037,718,Centiskorch,Coiling Crush,COLORLESS;COLORLESS,2,50,25.0,"Flip 2 coins. For each heads, discard an Energy from your opponent’s Active Pokémon.",●●,50
+1038,718,Centiskorch,Heat Crawler,FIRE;FIRE;COLORLESS;COLORLESS,4,140,35.0,,{R}{R}●●,140
+1039,719,Chi-Yu,Scorching Earth,FIRE,1,40,40.0,"If your opponent has a Stadium in play, discard it. If you do, your opponent can’t play any Stadium cards from their hand during their next turn.",{R},40
+1040,720,Mantine,Call for Family,COLORLESS,1,0,0.0,"Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Then, shuffle your deck.",●,n/a
+1041,720,Mantine,Waterfall,WATER;COLORLESS,2,50,25.0,,{W}●,50
+1042,721,Kyogre,Riptide,WATER,1,0,0.0,"This attack does 20 damage for each Basic {W} Energy card in your discard pile. Then, shuffle those cards into your deck.",{W},20×
+1043,721,Kyogre,Swirling Waves,WATER;WATER;COLORLESS,3,130,43.33,Discard 2 Energy from this Pokémon.,{W}{W}●,130
+1044,722,Snover,Beat,WATER,1,10,10.0,,{W},10
+1045,722,Snover,Icy Snow,WATER;WATER,2,30,15.0,,{W}{W},30
+1046,723,Mega Abomasnow ex,Hammer-lanche,WATER;WATER,2,0,0.0,"Discard the top 6 cards of your deck, and this attack does 100 damage for each Basic {W} Energy card that you discarded in this way.",{W}{W},100×
+1047,723,Mega Abomasnow ex,Frost Barrier,WATER;WATER;WATER,3,200,66.67,"During your opponent’s next turn, this Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",{W}{W}{W},200
+1048,724,Clauncher,Wave Splash,WATER;WATER,2,50,25.0,,{W}{W},50
+1049,725,Clawitzer,Aqua Launcher,WATER;WATER;WATER,3,210,70.0,Discard all Energy from this Pokémon.,{W}{W}{W},210
+1050,726,Sobble,Surprise Attack,WATER,1,30,30.0,"Flip a coin. If tails, this attack does nothing.",{W},30
+1051,727,Drizzile,Double Stab,WATER,1,0,0.0,Flip 2 coins. This attack does 30 damage for each heads.,{W},30×
+1052,728,Inteleon,Bring Down,WATER,1,0,0.0,"Choose a Pokémon in play (yours or your opponent’s) that has the least HP remaining, except for this Pokémon, and it is Knocked Out.",{W},n/a
+1053,728,Inteleon,Water Shot,WATER,1,110,110.0,Discard an Energy from this Pokémon.,{W},110
+1054,729,Snom,Hide,WATER,1,0,0.0,"Flip a coin. If heads, during your opponent’s next turn, prevent all damage from and effects of attacks done to this Pokémon.",{W},n/a
+1055,730,Frosmoth,Chilling Wings,WATER,1,0,0.0,This attack does 20 damage to each of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.) Your opponent’s Active Pokémon is now Asleep.,{W},n/a
+1056,731,Eiscue,Freezing Headbutt,COLORLESS,1,20,20.0,"Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",●,20
+1057,731,Eiscue,Tackle,WATER;COLORLESS;COLORLESS,3,90,30.0,,{W}●●,90
+1058,732,Magnemite,Beam,LIGHTNING,1,10,10.0,,{L},10
+1059,733,Magneton,Thunder Shock,LIGHTNING,1,30,30.0,"Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",{L},30
+1060,734,Magnezone,Upper Spark,LIGHTNING,1,50,50.0,"If this Pokémon evolved from Magneton during this turn, this attack does 120 more damage.",{L},50
+1061,734,Magnezone,Flashing Bolt,LIGHTNING;LIGHTNING,2,160,80.0,"During your next turn, this Pokémon can’t use Flashing Bolt.",{L}{L},160
+1062,735,Raikou,Electro Fall,LIGHTNING;LIGHTNING,2,30,15.0,"If you have at least 4 {L} Energy in play, this attack does 90 more damage.",{L}{L},30
+1063,736,Electrike,Thunder Jolt,LIGHTNING,1,30,30.0,This Pokémon also does 10 damage to itself.,{L},30
+1064,737,Mega Manectric ex,Flash Ray,LIGHTNING;LIGHTNING,2,120,60.0,"During your opponent’s next turn, prevent all damage done to this Pokémon by attacks from Basic Pokémon.",{L}{L},120
+1065,737,Mega Manectric ex,Riotous Blasting,LIGHTNING;LIGHTNING;LIGHTNING,3,200,66.67,You may discard all Energy from this Pokémon and have this attack do 130 more damage.,{L}{L}{L},200
+1066,738,Pachirisu,Electrified Incisors,LIGHTNING,1,10,10.0,"During your opponent’s next turn, whenever they attach an Energy card from their hand to the Defending Pokémon, place 8 damage counters on that Pokémon.",{L},10
+1067,739,Helioptile,Double Scratch,COLORLESS,1,0,0.0,Flip 2 coins. This attack does 10 damage for each heads.,●,10×
+1068,740,Heliolisk,Dazzle Blast,COLORLESS,1,20,20.0,Your opponent’s Active Pokémon is now Confused.,●,20
+1069,740,Heliolisk,Head Bolt,LIGHTNING;COLORLESS,2,70,35.0,,{L}●,70
+1070,741,Abra,Teleportation Attack,PSYCHIC,1,10,10.0,Switch this Pokémon with 1 of your Benched Pokémon.,{P},10
+1071,742,Kadabra,Super Psy Bolt,PSYCHIC,1,30,30.0,,{P},30
+1072,743,Alakazam,Powerful Hand,PSYCHIC,1,0,0.0,Place 2 damage counters on your opponent’s Active Pokémon for each card in your hand.,{P},n/a
+1073,744,Jynx,Psychic,PSYCHIC;PSYCHIC,2,30,15.0,This attack does 30 more damage for each Energy attached to your opponent’s Active Pokémon.,{P}{P},30
+1074,745,Ralts,Collect,COLORLESS,1,0,0.0,Draw a card.,●,n/a
+1075,745,Ralts,Headbutt,PSYCHIC,1,10,10.0,,{P},10
+1076,746,Kirlia,Call Sign,PSYCHIC,1,0,0.0,"Search your deck for up to 3 Pokémon, reveal them, and put them into your hand. Then, shuffle your deck.",{P},n/a
+1077,746,Kirlia,Psyshot,PSYCHIC,1,30,30.0,,{P},30
+1078,747,Mega Gardevoir ex,Overflowing Wishes,PSYCHIC,1,0,0.0,"For each of your Benched Pokémon, search your deck for a Basic {P} Energy card and attach it to that Pokémon. Then, shuffle your deck.",{P},n/a
+1079,747,Mega Gardevoir ex,Mega Symphonia,PSYCHIC,1,0,0.0,This attack does 50 damage for each {P} Energy attached to all of your Pokémon.,{P},50×
+1080,748,Shedinja,Damage Beat,PSYCHIC,1,0,0.0,This attack does 20 damage for each damage counter on your opponent’s Active Pokémon.,{P},20×
+1081,749,Spoink,Triple Spin,PSYCHIC,1,0,0.0,Flip 3 coins. This attack does 10 damage for each heads.,{P},10×
+1082,750,Grumpig,Psychic Sphere,PSYCHIC;COLORLESS;COLORLESS,3,60,20.0,,{P}●●,60
+1083,751,Xerneas,Geo Gate,PSYCHIC,1,0,0.0,"Search your deck for up to 3 Basic {P} Pokémon and put them onto your Bench. Then, shuffle your deck.",{P},n/a
+1084,751,Xerneas,Bright Horns,PSYCHIC;PSYCHIC;COLORLESS,3,120,40.0,"During your next turn, this Pokémon can’t use Bright Horns.",{P}{P}●,120
+1085,752,Greavard,Stampede,PSYCHIC,1,10,10.0,,{P},10
+1086,752,Greavard,Take Down,PSYCHIC;COLORLESS,2,40,20.0,This Pokémon also does 10 damage to itself.,{P}●,40
+1087,753,Houndstone,Horrifying Bite,PSYCHIC,1,30,30.0,"Flip a coin until you get tails. For each heads, choose a random card from your opponent’s hand. Your opponent reveals those cards and shuffles them into their deck.",{P},30
+1088,753,Houndstone,Hammer In,PSYCHIC;PSYCHIC;COLORLESS,3,130,43.33,,{P}{P}●,130
+1089,754,Mega Latias ex,Strafe,COLORLESS,1,40,40.0,You may switch this Pokémon with 1 of your Benched Pokémon.,●,40
+1090,754,Mega Latias ex,Illusory Impulse,FIRE;PSYCHIC;COLORLESS,3,300,100.0,Discard all Energy from this Pokémon.,{R}{P}●,300
+1091,755,Latios,Dragon Claw,WATER;PSYCHIC;COLORLESS,3,130,43.33,,{W}{P}●,130
+1092,756,Mega Kangaskhan ex,Rapid-Fire Combo,COLORLESS;COLORLESS;COLORLESS,3,200,66.67,Flip a coin until you get tails. This attack does 50 more damage for each heads.,●●●,200
+1093,757,Delibird,Quick Gift,COLORLESS,1,0,0.0,"If you go first, you can use this attack during your first turn. Search your deck for a card and put it into your hand. Then, shuffle your deck.",●,n/a
+1094,757,Delibird,Gentle Slap,COLORLESS;COLORLESS,2,30,15.0,,●●,30
+1095,758,Buneary,Charm,COLORLESS,1,0,0.0,"During your opponent’s next turn, attacks used by the Defending Pokémon do 20 less damage (before applying Weakness and Resistance).",●,n/a
+1096,758,Buneary,Skip,COLORLESS,1,10,10.0,,●,10
+1097,759,Lopunny,Dashing Kick,COLORLESS,1,0,0.0,This attack does 50 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.),●,n/a
+1098,759,Lopunny,Spiral Kick,COLORLESS;COLORLESS,2,60,30.0,,●●,60
+1099,760,Stufful,Light Punch,COLORLESS,1,10,10.0,,●,10
+1100,760,Stufful,Flop,COLORLESS;COLORLESS,2,20,10.0,,●●,20
+1101,761,Bewear,Knuckle Punch,COLORLESS;COLORLESS,2,50,25.0,,●●,50
+1102,761,Bewear,Hyper Lariat,COLORLESS;COLORLESS;COLORLESS,3,100,33.33,"Flip 2 coins. If both of them are heads, this attack does 100 more damage.",●●●,100
+1103,762,Snubbull,Tackle,PSYCHIC;COLORLESS,2,20,10.0,,{P}●,20
+1104,763,Granbull,Bite,PSYCHIC;COLORLESS,2,50,25.0,,{P}●,50
+1105,763,Granbull,Finishing Blow,PSYCHIC;PSYCHIC;COLORLESS,3,90,30.0,"If your opponent’s Active Pokémon already has any damage counters on it, this attack does 90 more damage.",{P}{P}●,90
+1106,764,Cresselia,Swelling Light,PSYCHIC,1,0,0.0,"Search your deck for up to 2 Basic {P} Energy cards and attach them to this Pokémon. Then, shuffle your deck.",{P},n/a
+1107,764,Cresselia,Aurora Beam,PSYCHIC;PSYCHIC;COLORLESS,3,90,30.0,,{P}{P}●,90
+1108,765,Meloetta,Soothing Melody,PSYCHIC,1,0,0.0,Heal 120 damage from 1 of your Benched {P} Pokémon.,{P},n/a
+1109,765,Meloetta,Magical Shot,PSYCHIC;COLORLESS,2,50,25.0,,{P}●,50
+1110,766,Mega Diancie ex,Garland Ray,PSYCHIC;PSYCHIC,2,0,0.0,"Discard up to 2 Energy cards from this Pokémon, and this attack does 120 damage for each card you discarded in this way.",{P}{P},120×
+1111,767,Mimikyu,Call for Family,COLORLESS,1,0,0.0,"Search your deck for a Basic Pokémon and put it onto your Bench. Then, shuffle your deck.",●,n/a
+1112,767,Mimikyu,Scratch,PSYCHIC,1,20,20.0,,{P},20
+1113,768,Milcery,Draining Kiss,PSYCHIC,1,10,10.0,Heal 10 damage from this Pokémon.,{P},10
+1114,769,Alcremie,Sweet Circle,PSYCHIC,1,0,0.0,This attack does 20 damage for each of your Pokémon in play.,{P},20×
+1115,770,Gastly,Petty Grudge,DARKNESS,1,10,10.0,,{D},10
+1116,771,Haunter,Spooky Shot,DARKNESS,1,40,40.0,,{D},40
+1117,772,Mega Gengar ex,Void Gale,DARKNESS;DARKNESS,2,230,115.0,Move an Energy from this Pokémon to 1 of your Benched Pokémon.,{D}{D},230
+1118,773,Murkrow,Ambush,DARKNESS,1,10,10.0,"Flip a coin. If heads, this attack does 20 more damage.",{D},10
+1119,774,Honchkrow,Wind of Darkness,DARKNESS,1,30,30.0,,{D},30
+1120,774,Honchkrow,Sniping Feathers,DARKNESS;DARKNESS;COLORLESS,3,0,0.0,"Discard 2 Energy from this Pokémon, and this attack does 120 damage to 1 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",{D}{D}●,n/a
+1121,775,Sableye,Cocky Claw,DARKNESS,1,20,20.0,"If you have any Stage 2 {D} Pokémon on your Bench, this attack does 70 more damage.",{D},20
+1122,776,Absol,Allure,COLORLESS,1,0,0.0,Draw 2 cards.,●,n/a
+1123,776,Absol,Dark Cutter,DARKNESS;COLORLESS,2,60,30.0,,{D}●,60
+1124,777,Eternatus,Shatter,DARKNESS;DARKNESS,2,50,25.0,Discard a Stadium in play.,{D}{D},50
+1125,777,Eternatus,Power Rush,DARKNESS;DARKNESS;DARKNESS,3,130,43.33,"Flip a coin. If tails, during your next turn, this Pokémon can’t use attacks.",{D}{D}{D},130
+1126,778,Oddish,Seed Bomb,GRASS,1,20,20.0,,{G},20
+1127,779,Gloom,Disperse Drool,GRASS,1,20,20.0,This attack also does 20 damage to each Benched Pokémon (both yours and your opponent’s). (Don’t apply Weakness and Resistance for Benched Pokémon.),{G},20
+1128,780,Vileplume,Pollen Bomb,GRASS,1,30,30.0,Your opponent’s Active Pokémon is now Asleep and Poisoned.,{G},30
+1129,780,Vileplume,Lively Flower,GRASS,1,60,60.0,"If this Pokémon was healed during this turn, this attack does 120 more damage.",{G},60
+1130,781,Mega Heracross ex,Juggernaut Horn,GRASS;GRASS,2,100,50.0,"If this Pokémon was damaged by an attack during your opponent’s last turn, this attack does that much more damage.",{G}{G},100
+1131,781,Mega Heracross ex,Mountain Ramming,GRASS;GRASS;GRASS,3,170,56.67,Discard the top 2 cards of your opponent’s deck.,{G}{G}{G},170
+1132,782,Lotad,Headbutt,GRASS;COLORLESS,2,30,15.0,,{G}●,30
+1133,783,Lombre,Mega Drain,GRASS;COLORLESS,2,30,15.0,Heal 30 damage from this Pokémon.,{G}●,30
+1134,784,Ludicolo,Lunge Out,GRASS;COLORLESS,2,120,60.0,,{G}●,120
+1135,785,Genesect,Bug’s Cannon,GRASS,1,0,0.0,This attack does 20 damage to 1 of your opponent’s Pokémon for each {G} Energy attached to this Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.),{G},n/a
+1136,785,Genesect,Speed Attack,GRASS;GRASS;COLORLESS,3,110,36.67,,{G}{G}●,110
+1137,786,Nymble,Flail Around,GRASS,1,0,0.0,Flip 3 coins. This attack does 10 damage for each heads.,{G},10×
+1138,787,Lokix,Low Kick,GRASS,1,30,30.0,,{G},30
+1139,787,Lokix,Jumping Shot,COLORLESS;COLORLESS;COLORLESS,3,150,50.0,Shuffle this Pokémon and all attached cards into your deck.,●●●,150
+1140,788,Charmander,Live Coal,FIRE,1,20,20.0,,{R},20
+1141,789,Charmeleon,Steady Firebreathing,FIRE,1,40,40.0,,{R},40
+1142,790,Mega Charizard X ex,Inferno X,FIRE;FIRE,2,0,0.0,"Discard any amount of {R} Energy from among your Pokémon, and this attack does 90 damage for each card you discarded in this way.",{R}{R},90×
+1143,791,Moltres,Fighting Wings,FIRE,1,20,20.0,"If your opponent’s Active Pokémon is a Pokémon {ex}, this attack does 90 more damage.",{R},20
+1144,792,Darumaka,Blaze Ball,COLORLESS;COLORLESS;COLORLESS,3,10,3.33,This attack does 20 more damage for each {R} Energy attached to this Pokémon.,●●●,10
+1145,793,Darmanitan,Blaze Ball,COLORLESS;COLORLESS;COLORLESS;COLORLESS,4,40,10.0,This attack does 40 more damage for each {R} Energy attached to this Pokémon.,●●●●,40
+1146,794,Reshiram,Combustion,FIRE,1,30,30.0,,{R},30
+1147,794,Reshiram,Burning Flare,FIRE;FIRE;FIRE;FIRE,4,240,60.0,This Pokémon also does 60 damage to itself.,{R}{R}{R}{R},240
+1148,795,Oricorio ex,Fire Wing,FIRE;FIRE;COLORLESS,3,110,36.67,,{R}{R}●,110
+1149,796,Charcadet,Gather Strength,FIRE,1,0,0.0,"Search your deck for up to 2 Basic Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.",{R},n/a
+1150,796,Charcadet,Chop,FIRE,1,10,10.0,,{R},10
+1151,797,Ceruledge,Infernal Slash,FIRE,1,220,220.0,"Discard 4 Basic {R} Energy cards from your hand. If you can’t discard 4 cards in this way, this attack does nothing.",{R},220
+1152,798,Seel,Bubble Drain,WATER;COLORLESS,2,20,10.0,Heal 20 damage from this Pokémon.,{W}●,20
+1153,799,Dewgong,Slam,WATER;COLORLESS,2,0,0.0,Flip 2 coins. This attack does 70 damage for each heads.,{W}●,70×
+1154,800,Swinub,Stampede,COLORLESS,1,10,10.0,,●,10
+1155,800,Swinub,Icy Snow,WATER;COLORLESS,2,20,10.0,,{W}●,20
+1156,801,Piloswine,Rising Lunge,COLORLESS;COLORLESS,2,30,15.0,"Flip a coin. If heads, this attack does 30 more damage.",●●,30
+1157,801,Piloswine,Frost Smash,WATER;COLORLESS;COLORLESS,3,70,23.33,,{W}●●,70
+1158,802,Mamoswine,Wreck,COLORLESS;COLORLESS;COLORLESS,3,120,40.0,"If a Stadium is in play, this attack does 120 more damage. Then, discard that Stadium.",●●●,120
+1159,802,Mamoswine,Blizzard Edge,WATER;COLORLESS;COLORLESS;COLORLESS,4,200,50.0,Discard 2 Energy from this Pokémon.,{W}●●●,200
+1160,803,Suicune,Crystal Fall,WATER;WATER,2,30,15.0,"If you have at least 4 {W} Energy in play, this attack does 90 more damage.",{W}{W},30
+1161,804,Piplup,Call for Support,COLORLESS,1,0,0.0,"Search your deck for a Supporter card, reveal it, and put it into your hand. Then, shuffle your deck.",●,n/a
+1162,804,Piplup,Tackle,COLORLESS;COLORLESS,2,20,10.0,,●●,20
+1163,805,Prinplup,Peck,COLORLESS,1,20,20.0,,●,20
+1164,805,Prinplup,Targeted Dive,COLORLESS;COLORLESS;COLORLESS,3,0,0.0,This attack does 70 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.),●●●,n/a
+1165,806,Rotom ex,Thunderbolt,LIGHTNING;COLORLESS,2,130,65.0,Discard all Energy from this Pokémon.,{L}●,130
+1166,807,Yamper,Play Rough,LIGHTNING;COLORLESS,2,20,10.0,"Flip a coin. If heads, this attack does 20 more damage.",{L}●,20
+1167,808,Boltund,Electric Run,LIGHTNING;COLORLESS,2,70,35.0,"Flip a coin. If heads, this attack does 70 more damage.",{L}●,70
+1168,809,Pawmi,Growl,LIGHTNING,1,0,0.0,"During your opponent’s next turn, attacks used by the Defending Pokémon do 30 less damage (before applying Weakness and Resistance).",{L},n/a
+1169,809,Pawmi,Tiny Charge,LIGHTNING,1,10,10.0,,{L},10
+1170,810,Pawmo,Electric Punch,LIGHTNING;LIGHTNING,2,60,30.0,,{L}{L},60
+1171,811,Pawmot,Voltaic Fist,LIGHTNING;LIGHTNING,2,130,65.0,You may have this Pokémon also do 60 damage to itself and make your opponent’s Active Pokémon Paralyzed.,{L}{L},130
+1172,812,Misdreavus,Petty Grudge,PSYCHIC,1,20,20.0,,{P},20
+1173,813,Mismagius ex,Hexa-Magic,PSYCHIC;PSYCHIC,2,150,75.0,You may draw cards until you have 6 cards in your hand.,{P}{P},150
+1174,814,Cottonee,Collect,COLORLESS,1,0,0.0,Draw a card.,●,n/a
+1175,815,Whimsicott,Healing Fluff,COLORLESS,1,0,0.0,Heal all damage from 1 of your Benched Pokémon.,●,n/a
+1176,815,Whimsicott,U-turn,PSYCHIC,1,50,50.0,Switch this Pokémon with 1 of your Benched Pokémon.,{P},50
+1177,816,Zacian,Limit Break,PSYCHIC;COLORLESS,2,50,25.0,"If your opponent has 3 or fewer Prize cards remaining, this attack does 90 more damage.",{P}●,50
+1178,817,Bramblin,Sneaky Placement,PSYCHIC,1,0,0.0,Place 1 damage counter on 1 of your opponent’s Pokémon.,{P},n/a
+1179,818,Brambleghast,Psychic Sphere,PSYCHIC;COLORLESS;COLORLESS,3,80,26.67,,{P}●●,80
+1180,819,Paldean Tauros,Raging Charge,FIGHTING,1,0,0.0,This attack does 40 damage for each of your Pokémon that has “Tauros” in its name that has any damage counters on it.,{F},40×
+1181,819,Paldean Tauros,Double-Edge,FIGHTING;FIGHTING,2,70,35.0,This Pokémon also does 20 damage to itself.,{F}{F},70
+1182,820,Gligar,Poison Jab,FIGHTING,1,10,10.0,Your opponent’s Active Pokémon is now Poisoned.,{F},10
+1183,821,Gliscor,Poison Ring,FIGHTING,1,50,50.0,"Your opponent’s Active Pokémon is now Poisoned. During your opponent’s next turn, that Pokémon can’t retreat.",{F},50
+1184,822,Trapinch,Double Headbutt,FIGHTING,1,0,0.0,Flip 2 coins. This attack does 10 damage for each heads.,{F},10×
+1185,823,Vibrava,Super Vibration,FIGHTING;FIGHTING,2,60,30.0,,{F}{F},60
+1186,824,Flygon,Cutting Wind,FIGHTING;FIGHTING,2,130,65.0,,{F}{F},130
+1187,825,Sneasel,Dig Claws,DARKNESS,1,10,10.0,,{D},10
+1188,825,Sneasel,Scratch,DARKNESS;DARKNESS,2,30,15.0,,{D}{D},30
+1189,826,Weavile,Retaliatory Claw,DARKNESS;DARKNESS,2,20,10.0,"If this Pokémon’s remaining HP is 50 or less, this attack does 170 more damage.",{D}{D},20
+1190,826,Weavile,Cut,DARKNESS;DARKNESS,2,60,30.0,,{D}{D},60
+1191,827,Carvanha,Reckless Charge,DARKNESS,1,30,30.0,This Pokémon also does 10 damage to itself.,{D},30
+1192,828,Mega Sharpedo ex,Greedy Fang,DARKNESS,1,70,70.0,Draw 2 cards.,{D},70
+1193,828,Mega Sharpedo ex,Hungry Jaws,DARKNESS;DARKNESS,2,120,60.0,"If this Pokémon has any damage counters on it, this attack does 150 more damage.",{D}{D},120
+1194,829,Seviper,Pitch-Black Fangs,DARKNESS;DARKNESS;DARKNESS,3,120,40.0,,{D}{D}{D},120
+1195,830,Sandile,Ram,DARKNESS,1,10,10.0,,{D},10
+1196,830,Sandile,Rear Kick,DARKNESS;COLORLESS,2,20,10.0,,{D}●,20
+1197,831,Krokorok,Bite,DARKNESS,1,30,30.0,,{D},30
+1198,831,Krokorok,Confront,DARKNESS;COLORLESS;COLORLESS,3,60,20.0,,{D}●●,60
+1199,832,Krookodile,Vengeful Fang,DARKNESS,1,60,60.0,"If any of your Pokémon were Knocked Out by damage from an attack during your opponent’s last turn, this attack does 160 more damage.",{D},60
+1200,832,Krookodile,Hammer In,DARKNESS;COLORLESS;COLORLESS;COLORLESS,4,160,40.0,,{D}●●●,160
+1201,833,Toxel,Call for Family,DARKNESS,1,0,0.0,"Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Then, shuffle your deck.",{D},n/a
+1202,833,Toxel,Playful Kick,DARKNESS;COLORLESS,2,20,10.0,,{D}●,20
+1203,834,Toxtricity,Gentle Slap,DARKNESS;DARKNESS;COLORLESS,3,100,33.33,,{D}{D}●,100
+1204,835,Empoleon ex,Iron Feathers,METAL;METAL;COLORLESS,3,210,70.0,"During your opponent’s next turn, this Pokémon takes 60 less damage from attacks (after applying Weakness and Resistance).",{M}{M}●,210
+1205,836,Bronzor,Iron Defense,COLORLESS,1,0,0.0,"Flip a coin. If heads, during your opponent’s next turn, prevent all damage done to this Pokémon by attacks.",●,n/a
+1206,836,Bronzor,Rollout,COLORLESS;COLORLESS;COLORLESS,3,30,10.0,,●●●,30
+1207,837,Bronzong,Triple Draw,COLORLESS,1,0,0.0,Draw 3 cards.,●,n/a
+1208,837,Bronzong,Tool Drop,COLORLESS;COLORLESS;COLORLESS,3,0,0.0,This attack does 40 damage for each Pokémon Tool attached to all Pokémon.,●●●,40×
+1209,838,Togedemaru,Find a Friend,COLORLESS,1,0,0.0,"Search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.",●,n/a
+1210,838,Togedemaru,Gnaw,METAL,1,30,30.0,,{M},30
+1211,839,Duraludon,Hyper Beam,METAL;METAL;METAL,3,70,23.33,Discard an Energy from your opponent’s Active Pokémon.,{M}{M}{M},70
+1212,840,Archaludon,Coated Attack,METAL;METAL;METAL,3,120,40.0,"During your opponent’s next turn, prevent all damage done to this Pokémon by attacks from Basic Pokémon.",{M}{M}{M},120
+1213,841,Jigglypuff,Ball Roll,COLORLESS,1,0,0.0,Flip a coin until you get tails. This attack does 20 damage for each heads.,●,20×
+1214,842,Wigglytuff,Round,COLORLESS;COLORLESS,2,0,0.0,This attack does 40 damage for each of your Pokémon in play that has the Round attack.,●●,40×
+1215,842,Wigglytuff,Seismic Toss,COLORLESS;COLORLESS;COLORLESS,3,100,33.33,,●●●,100
+1216,843,Aipom,Astonish,COLORLESS;COLORLESS,2,20,10.0,"Choose a random card from your opponent’s hand, and your opponent reveals that card and shuffles it into their deck.",●●,20
+1217,844,Ambipom,Slap,COLORLESS;COLORLESS,2,50,25.0,,●●,50
+1218,844,Ambipom,Dual Tail,COLORLESS;COLORLESS;COLORLESS,3,0,0.0,"Discard 2 Energy from this Pokémon, and this attack does 60 damage to each of 2 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",●●●,n/a
+1219,845,Smeargle,Energizing Sketch,COLORLESS,1,0,0.0,Flip 3 coins. Attach an amount of Basic Energy up to the number of heads from your discard pile to your Benched Pokémon in any way you like.,●,n/a
+1220,845,Smeargle,Hook,COLORLESS;COLORLESS,2,40,20.0,,●●,40
+1221,846,Zigzagoon,Surprise Attack,COLORLESS,1,30,30.0,"Flip a coin. If tails, this attack does nothing.",●,30
+1222,847,Linoone,Slash,COLORLESS,1,70,70.0,,●,70
+1223,848,Buneary,Run Around,COLORLESS,1,0,0.0,Switch this Pokémon with 1 of your Benched Pokémon.,●,n/a
+1224,848,Buneary,Kick,COLORLESS;COLORLESS,2,20,10.0,,●●,20
+1225,849,Mega Lopunny ex,Gale Thrust,COLORLESS,1,60,60.0,"If this Pokémon moved from your Bench to the Active Spot this turn, this attack does 170 more damage.",●,60
+1226,849,Mega Lopunny ex,Spiky Hopper,COLORLESS;COLORLESS,2,160,80.0,This attack’s damage isn’t affected by any effects on your opponent’s Active Pokémon.,●●,160
+1227,850,Wurmple,Bug Bite,GRASS,1,20,20.0,,{G},20
+1228,851,Silcoon,Tackle,GRASS,1,30,30.0,,{G},30
+1229,852,Beautifly,Stun Spore,GRASS,1,40,40.0,"Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",{G},40
+1230,852,Beautifly,Energy Straw,GRASS,1,0,0.0,"Your opponent reveals their hand, and this attack does 80 damage for each Energy card you find there.",{G},80×
+1231,853,Cascoon,Trading Places,GRASS,1,0,0.0,Switch this Pokémon with 1 of your Benched Pokémon.,{G},n/a
+1232,854,Dustox,Twilight Poison,GRASS;GRASS,2,100,50.0,Your opponent’s Active Pokémon is now Asleep and Poisoned.,{G}{G},100
+1233,855,Entei,Flare Fall,FIRE;FIRE,2,30,15.0,"If you have at least 4 {R} Energy in play, this attack does 90 more damage.",{R}{R},30
+1234,856,Numel,Combustion,FIRE;COLORLESS,2,20,10.0,,{R}●,20
+1235,857,Camerupt,Roasting Burn,FIRE,1,110,110.0,"If your opponent’s Active Pokémon isn’t Burned, this attack does nothing.",{R},110
+1236,857,Camerupt,Power Stomp,FIRE;COLORLESS;COLORLESS;COLORLESS,4,170,42.5,Discard 2 Energy from this Pokémon.,{R}●●●,170
+1237,858,Psyduck,Ram,COLORLESS;COLORLESS,2,20,10.0,,●●,20
+1238,859,Golduck,Hydro Pump,COLORLESS;COLORLESS;COLORLESS,3,60,20.0,This attack does 20 more damage for each {W} Energy attached to this Pokémon.,●●●,60
+1239,860,Snorunt,Chilly,WATER,1,10,10.0,,{W},10
+1240,861,Mega Froslass ex,Resentful Refrain,WATER,1,0,0.0,This attack does 50 damage for each card in your opponent’s hand.,{W},50×
+1241,861,Mega Froslass ex,Absolute Snow,WATER;COLORLESS;COLORLESS,3,150,50.0,Your opponent’s Active Pokémon is now Asleep.,{W}●●,150
+1242,862,N's Vanillite,Call for Family,COLORLESS,1,0,0.0,"Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Then, shuffle your deck.",●,n/a
+1243,862,N's Vanillite,Icy Snow,WATER;COLORLESS,2,20,10.0,,{W}●,20
+1244,863,N's Vanillish,Flop,COLORLESS,1,20,20.0,,●,20
+1245,863,N's Vanillish,Sheer Cold,WATER;COLORLESS;COLORLESS,3,60,20.0,"During your opponent’s next turn, the Defending Pokémon can’t use attacks.",{W}●●,60
+1246,864,N's Vanilluxe,Snow Coating,COLORLESS;COLORLESS,2,0,0.0,Double the number of damage counters on each of your opponent’s Pokémon.,●●,n/a
+1247,864,N's Vanilluxe,Blizzard,WATER;COLORLESS;COLORLESS,3,120,40.0,This attack also does 10 damage to each of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.),{W}●●,120
+1248,865,Snom,Icicle,WATER,1,20,20.0,,{W},20
+1249,866,Frosmoth,Cold Cyclone,WATER;WATER,2,90,45.0,Move a {W} Energy from this Pokémon to 1 of your Benched Pokémon.,{W}{W},90
+1250,867,Glastrier,Ice Shot,WATER,1,20,20.0,This attack also does 20 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.),{W},20
+1251,867,Glastrier,Frosty Typhoon,WATER;WATER;WATER,3,130,43.33,"During your next turn, this Pokémon can’t use Frosty Typhoon.",{W}{W}{W},130
+1252,868,Mega Eelektross ex,Split Bomb,LIGHTNING;LIGHTNING,2,0,0.0,This attack does 60 damage to each of 2 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.),{L}{L},n/a
+1253,868,Mega Eelektross ex,Disaster Shock,LIGHTNING;LIGHTNING;LIGHTNING,3,190,63.33,You may discard 2 {L} Energy from this Pokémon and make your opponent’s Active Pokémon Paralyzed.,{L}{L}{L},190
+1254,869,Stunfisk,Pouncing Trap,LIGHTNING,1,30,30.0,"During your opponent’s next turn, the Defending Pokémon can’t retreat. During your next turn, the Defending Pokémon takes 100 more damage from attacks (after applying Weakness and Resistance).",{L},30
+1255,870,Helioptile,Zap Kick,LIGHTNING;COLORLESS,2,30,15.0,,{L}●,30
+1256,871,Heliolisk,Powerful Bolt,LIGHTNING;COLORLESS;COLORLESS,3,0,0.0,Flip a coin for each Energy attached to this Pokémon. This attack does 70 damage for each heads.,{L}●●,70×
+1257,872,Tapu Koko,Fast Flight,LIGHTNING,1,0,0.0,"If you go first, you can use this attack during your first turn. Discard your hand and draw 5 cards.",{L},n/a
+1258,872,Tapu Koko,Thunder Blast,LIGHTNING;LIGHTNING;COLORLESS,3,130,43.33,Discard 2 Energy from this Pokémon.,{L}{L}●,130
+1259,873,Team Rocket's Exeggcute,Focused Wish,PSYCHIC,1,10,10.0,"Flip a coin. If heads, this attack does 20 more damage.",{P},10
+1260,874,Team Rocket's Exeggutor,Tri Kinesis,COLORLESS;COLORLESS,2,0,0.0,"Flip 3 coins. If all of them are heads, Knock Out 1 of your opponent’s Pokémon.",●●,n/a
+1261,874,Team Rocket's Exeggutor,Double-Edge,PSYCHIC;COLORLESS;COLORLESS,3,150,50.0,This Pokémon also does 30 damage to itself.,{P}●●,150
+1262,875,Misdreavus,Ascension,PSYCHIC,1,0,0.0,"Search your deck for a card that evolves from this Pokémon and put it onto this Pokémon to evolve it. Then, shuffle your deck.",{P},n/a
+1263,876,Mismagius,Assassin’s Magic,PSYCHIC;COLORLESS,2,60,30.0,"If your opponent’s Active Pokémon is affected by a Special Condition, place 6 damage counters on 1 of your opponent’s Benched Pokémon.",{P}●,60
+1264,877,Rotom,Roto Call,COLORLESS,1,0,0.0,"You may search your deck for any number of Pokémon that have “Rotom” in their name and put them onto your Bench. Then, shuffle your deck.",●,n/a
+1265,877,Rotom,Gadget Show,COLORLESS;COLORLESS,2,0,0.0,This attack does 30 damage for each Pokémon Tool attached to all of your Pokémon.,●●,30×
+1266,878,Hop's Phantump,Splashing Dodge,COLORLESS,1,10,10.0,"Flip a coin. If heads, during your opponent’s next turn, prevent all damage from and effects of attacks done to this Pokémon.",●,10
+1267,879,Hop's Trevenant,Horrifying Revenge,COLORLESS,1,30,30.0,"If any of your Hop’s Pokémon were Knocked Out by damage from an attack during your opponent’s last turn, this attack does 100 more damage.",●,30
+1268,879,Hop's Trevenant,Corner,PSYCHIC;COLORLESS;COLORLESS,3,90,30.0,"During your opponent’s next turn, the Defending Pokémon can’t retreat.",{P}●●,90
+1269,880,Spectrier,Spooky Shot,PSYCHIC,1,30,30.0,,{P},30
+1270,880,Spectrier,Phantasmal Barrage,PSYCHIC;PSYCHIC;COLORLESS,3,0,0.0,Discard all Energy from this Pokémon and place 12 damage counters on 1 of your opponent’s Pokémon.,{P}{P}●,n/a
+1271,881,Team Rocket's Diglett,Relentless Burrowing,FIGHTING,1,0,0.0,"Flip a coin until you get tails. For each heads, discard the top card of your opponent’s deck.",{F},n/a
+1272,882,Team Rocket's Dugtrio,Mud Shot,FIGHTING;COLORLESS,2,50,25.0,,{F}●,50
+1273,883,Meditite,Collect,COLORLESS,1,0,0.0,Draw a card.,●,n/a
+1274,883,Meditite,Gentle Slap,FIGHTING,1,10,10.0,,{F},10
+1275,884,Medicham,Seventh Kick,FIGHTING,1,150,150.0,"If you don’t have exactly 7 cards in your hand, this attack does nothing.",{F},150
+1276,885,Pancham,Reckless Charge,COLORLESS,1,20,20.0,This Pokémon also does 10 damage to itself.,●,20
+1277,886,Mega Hawlucha ex,Somersault Dive,FIGHTING;FIGHTING;COLORLESS,3,120,40.0,"If a Stadium is in play, this attack does 140 more damage. Then, discard that Stadium.",{F}{F}●,120
+1278,887,Rolycoly,Mud-Slap,FIGHTING,1,20,20.0,,{F},20
+1279,888,Carkol,Guard Press,FIGHTING,1,20,20.0,"During your opponent’s next turn, this Pokémon takes 20 less damage from attacks (after applying Weakness and Resistance).",{F},20
+1280,888,Carkol,Power Gem,FIGHTING;COLORLESS;COLORLESS,3,60,20.0,,{F}●●,60
+1281,889,Coalossal,Tar Cannon,FIGHTING,1,0,0.0,"This attack does 140 damage to 1 of your opponent’s Pokémon. If you don’t have 10 or more Basic {F} Energy cards in your discard pile, this attack does nothing. (Don’t apply Weakness and Resistance for Benched Pokémon.)",{F},n/a
+1282,889,Coalossal,Bulky Bump,FIGHTING;COLORLESS;COLORLESS;COLORLESS,4,220,55.0,Discard 3 Energy from this Pokémon.,{F}●●●,220
+1283,890,Okidogi,Light Punch,FIGHTING,1,20,20.0,,{F},20
+1284,890,Okidogi,Settle the Score,FIGHTING;FIGHTING;COLORLESS,3,80,26.67,This attack does 60 more damage for each Prize card your opponent took during their last turn.,{F}{F}●,80
+1285,891,Team Rocket's Honchkrow,Rocket Feathers,COLORLESS;COLORLESS,2,0,0.0,"You may discard any number of Supporter cards that have “Team Rocket” in their name from your hand, and this attack does 60 damage for each card you discarded in this way.",●●,60×
+1286,891,Team Rocket's Honchkrow,Hammer In,DARKNESS;COLORLESS;COLORLESS,3,100,33.33,,{D}●●,100
+1287,892,Galarian Zigzagoon,Gnaw,DARKNESS,1,10,10.0,,{D},10
+1288,893,Galarian Linoone,Gnaw,DARKNESS,1,20,20.0,,{D},20
+1289,893,Galarian Linoone,Claw Slash,DARKNESS;COLORLESS,2,50,25.0,,{D}●,50
+1290,894,Galarian Obstagoon,Scarring Shout,DARKNESS;COLORLESS,2,0,0.0,This attack does 70 damage for each damage counter on your opponent’s Active Pokémon.,{D}●,70×
+1291,894,Galarian Obstagoon,Punk Smash,DARKNESS;COLORLESS;COLORLESS,3,160,53.33,Discard an Energy from this Pokémon.,{D}●●,160
+1292,895,Scraggy,Knock Off,DARKNESS;COLORLESS,2,20,10.0,Discard a random card from your opponent’s hand.,{D}●,20
+1293,896,Mega Scrafty ex,Outlaw Leg,DARKNESS;DARKNESS;COLORLESS,3,160,53.33,Discard a random card from your opponent’s hand. Discard the top card of your opponent’s deck.,{D}{D}●,160
+1294,897,Pangoro,Corkscrew Punch,DARKNESS,1,40,40.0,,{D},40
+1295,897,Pangoro,Master’s Punch,DARKNESS;DARKNESS;COLORLESS,3,80,26.67,"If any of your Benched Pancham have any damage counters on them, this attack does 120 more damage.",{D}{D}●,80
+1296,898,Pecharunt,Mochi Rush,DARKNESS,1,20,20.0,"During your next turn, this Pokémon’s Mochi Rush attack does 50 more damage (before applying Weakness and Resistance).",{D},20
+1297,899,Pawniard,Push Down,METAL,1,10,10.0,Switch out your opponent’s Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.),{M},10
+1298,900,Bisharp,Rapid Draw,METAL,1,50,50.0,Draw 2 cards.,{M},50
+1299,901,Kingambit,Double-Edged Slash,METAL;METAL,2,180,90.0,This Pokémon also does 50 damage to itself.,{M}{M},180
+1300,902,Dratini,Headbutt,WATER;LIGHTNING,2,30,15.0,,{W}{L},30
+1301,903,Dragonair,Tail Snap,WATER;LIGHTNING,2,60,30.0,,{W}{L},60
+1302,904,Mega Dragonite ex,Ryuno Glide,WATER;LIGHTNING;LIGHTNING,3,330,110.0,Discard 2 Energy from this Pokémon.,{W}{L}{L},330
+1303,905,Rayquaza,Breakthrough Assault,LIGHTNING;COLORLESS,2,20,10.0,"If this Pokémon moved from your Bench to the Active Spot this turn, this attack does 90 more damage.",{L}●,20
+1304,905,Rayquaza,Dragon Claw,FIRE;LIGHTNING;COLORLESS,3,130,43.33,,{R}{L}●,130
+1305,906,N's Zekrom,Shred,COLORLESS;COLORLESS;COLORLESS,3,70,23.33,This attack’s damage isn’t affected by any effects on your opponent’s Active Pokémon.,●●●,70
+1306,906,N's Zekrom,Rampaging Thunder,FIRE;LIGHTNING;LIGHTNING;COLORLESS,4,250,62.5,"During your next turn, this Pokémon can’t use attacks.",{R}{L}{L}●,250
+1307,907,Noibat,Knickknack Carrying,COLORLESS,1,0,0.0,"Search your deck for a Pokémon Tool card, reveal it, and put it into your hand. Then, shuffle your deck.",●,n/a
+1308,907,Noibat,Bite,PSYCHIC;DARKNESS,2,30,15.0,,{P}{D},30
+1309,908,Noivern,Agility,COLORLESS;COLORLESS,2,40,20.0,"Flip a coin. If heads, during your opponent’s next turn, prevent all damage from and effects of attacks done to this Pokémon.",●●,40
+1310,908,Noivern,Enhanced Blade,PSYCHIC;DARKNESS,2,70,35.0,"If this Pokémon has a Pokémon Tool attached, this attack does 70 more damage.",{P}{D},70
+1311,909,Erika's Oddish,Reckless Charge,GRASS,1,30,30.0,This Pokémon also does 10 damage to itself.,{G},30
+1312,910,Erika's Gloom,Poison Spray,GRASS;COLORLESS,2,50,25.0,Your opponent’s Active Pokémon is now Poisoned.,{G}●,50
+1313,911,Erika's Vileplume ex,Bloom Powder,GRASS;GRASS;COLORLESS,3,160,53.33,Your opponent’s Active Pokémon is now Asleep and Poisoned.,{G}{G}●,160
+1314,912,Erika's Bellsprout,Vine Slap,GRASS,1,20,20.0,,{G},20
+1315,913,Erika's Weepinbell,Melt,GRASS,1,30,30.0,,{G},30
+1316,913,Erika's Weepinbell,Leafy Cyclone,GRASS;COLORLESS,2,70,35.0,"During your next turn, this Pokémon can’t use attacks.",{G}●,70
+1317,914,Erika's Victreebel,Flower Garden Rondo,GRASS;COLORLESS,2,0,0.0,This attack does 40 damage for each of your Erika’s Pokémon in play.,{G}●,40×
+1318,914,Erika's Victreebel,Solar Beam,GRASS;GRASS;COLORLESS,3,130,43.33,,{G}{G}●,130
+1319,915,Erika's Tangela,Bind,GRASS;COLORLESS,2,50,25.0,"Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",{G}●,50
+1320,916,Scyther,Cut Up,COLORLESS,1,10,10.0,,●,10
+1321,916,Scyther,Slashing Strike,COLORLESS;COLORLESS,2,60,30.0,"During your next turn, this Pokémon can’t use Slashing Strike.",●●,60
+1322,917,Chikorita,Growl,COLORLESS,1,0,0.0,"During your opponent’s next turn, attacks used by the Defending Pokémon do 20 less damage (before applying Weakness and Resistance).",●,n/a
+1323,917,Chikorita,Seed Bomb,GRASS;GRASS,2,30,15.0,,{G}{G},30
+1324,918,Bayleef,Leaf Step,GRASS;GRASS,2,60,30.0,,{G}{G},60
+1325,919,Mega Meganium ex,Giant Bouquet,COLORLESS;COLORLESS;COLORLESS,3,70,23.33,This attack does 50 more damage for each {G} Energy attached to this Pokémon.,●●●,70
+1326,920,Tapu Bulu,Wood Hammer,GRASS;GRASS;COLORLESS;COLORLESS,4,220,55.0,This Pokémon also does 30 damage to itself.,{G}{G}●●,220
+1327,921,Dipplin,Coated Attack,GRASS,1,20,20.0,"During your opponent’s next turn, prevent all damage done to this Pokémon by attacks from Basic Pokémon.",{G},20
+1328,922,Sprigatito,Tons of Treading,COLORLESS,1,0,0.0,Flip 3 coins. This attack does 10 damage for each heads.,●,10×
+1329,923,Floragato,Magical Leaf,COLORLESS;COLORLESS,2,30,15.0,"Flip a coin. If heads, this attack does 30 more damage, and heal 30 damage from this Pokémon.",●●,30
+1330,924,Meowscarada,Rising Bloom,COLORLESS;COLORLESS,2,90,45.0,"If your opponent’s Active Pokémon is a Pokémon {ex}, this attack does 90 more damage.",●●,90
+1331,925,Capsakid,Headbutt Bounce,COLORLESS;COLORLESS,2,20,10.0,,●●,20
+1332,926,Charmander,Fire Claws,FIRE;COLORLESS,2,30,15.0,,{R}●,30
+1333,927,Charmeleon,Heat Blast,FIRE;COLORLESS,2,50,25.0,,{R}●,50
+1334,928,Mega Charizard Y ex,Explosion Y,FIRE;FIRE;COLORLESS,3,0,0.0,"Discard 3 Energy from this Pokémon, and this attack does 280 damage to 1 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",{R}{R}●,n/a
+1335,929,Magmar,Searing Flame,FIRE;COLORLESS,2,30,15.0,"Flip a coin. If heads, your opponent’s Active Pokémon is now Burned.",{R}●,30
+1336,930,Tepig,Steady Firebreathing,FIRE,1,20,20.0,,{R},20
+1337,931,Pignite,Super Singe,FIRE;FIRE;COLORLESS,3,70,23.33,Your opponent’s Active Pokémon is now Burned.,{R}{R}●,70
+1338,932,Mega Emboar ex,Crimson Blast,FIRE;FIRE;COLORLESS,3,320,106.67,This Pokémon also does 60 damage to itself.,{R}{R}●,320
+1339,933,Larvesta,Ram,COLORLESS,1,10,10.0,,●,10
+1340,933,Larvesta,Steady Firebreathing,FIRE;COLORLESS,2,20,10.0,,{R}●,20
+1341,934,Centiskorch,Billowing Heat Wave,FIRE,1,130,130.0,This attack also does 30 damage to each of your Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.),{R},130
+1342,934,Centiskorch,Heat Blast,COLORLESS;COLORLESS;COLORLESS,3,80,26.67,,●●●,80
+1343,935,Fuecoco,Heat Burn,FIRE;COLORLESS,2,20,10.0,Your opponent’s Active Pokémon is now Burned.,{R}●,20
+1344,936,Crocalor,Heat Breath,FIRE;COLORLESS,2,30,15.0,"Flip a coin. If heads, this attack does 50 more damage.",{R}●,30
+1345,937,Totodile,Slight Intrusion,WATER;WATER,2,40,20.0,This Pokémon also does 10 damage to itself.,{W}{W},40
+1346,938,Croconaw,Crunch,WATER;WATER,2,50,25.0,"Flip a coin. If heads, discard an Energy from your opponent’s Active Pokémon.",{W}{W},50
+1347,939,Mega Feraligatr ex,Mortal Crunch,WATER;WATER;COLORLESS,3,200,66.67,"If your opponent’s Active Pokémon already has any damage counters on it, this attack does 200 more damage.",{W}{W}●,200
+1348,940,Glalie,Damage Beat,WATER,1,0,0.0,This attack does 20 damage for each damage counter on your opponent’s Active Pokémon.,{W},20×
+1349,940,Glalie,Crazy Headbutt,WATER;COLORLESS;COLORLESS,3,140,46.67,Discard an Energy from this Pokémon.,{W}●●,140
+1350,941,Spheal,Powder Snow,WATER,1,10,10.0,Your opponent’s Active Pokémon is now Asleep.,{W},10
+1351,942,Sealeo,Lunge Out,WATER,1,30,30.0,,{W},30
+1352,942,Sealeo,Ice Ball,WATER;WATER,2,60,30.0,,{W}{W},60
+1353,943,Walrein,Frigid Fangs,WATER,1,60,60.0,"During your opponent’s next turn, Pokémon that have 2 or less Energy attached can’t use attacks. (This includes new Pokémon that come into play.)",{W},60
+1354,943,Walrein,Megaton Fall,WATER;WATER,2,170,85.0,This Pokémon also does 50 damage to itself.,{W}{W},170
+1355,944,Regice ex,Regi Charge,COLORLESS,1,0,0.0,Attach up to 2 Basic {W} Energy cards from your discard pile to this Pokémon.,●,n/a
+1356,944,Regice ex,Ice Prison,WATER;COLORLESS;COLORLESS;COLORLESS,4,140,35.0,"Discard 2 Energy from this Pokémon, and your opponent’s Active Pokémon is now Paralyzed.",{W}●●●,140
+1357,945,Froakie,Rain Splash,WATER;COLORLESS,2,20,10.0,,{W}●,20
+1358,946,Cramorant,Water Gun,WATER,1,20,20.0,,{W},20
+1359,946,Cramorant,Spit Shot,COLORLESS;COLORLESS;COLORLESS,3,0,0.0,"Discard all Energy from this Pokémon, and this attack does 120 damage to 1 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",●●●,n/a
+1360,947,Quaxly,Aerial Ace,WATER,1,10,10.0,"Flip a coin. If heads, this attack does 20 more damage.",{W},10
+1361,948,Pikachu,Tail Smack,LIGHTNING,1,10,10.0,,{L},10
+1362,948,Pikachu,Tiny Bolt,LIGHTNING;COLORLESS,2,30,15.0,,{L}●,30
+1363,949,Raichu,Quick Blow,LIGHTNING,1,20,20.0,"Flip a coin. If heads, this attack does 50 more damage.",{L},20
+1364,949,Raichu,Strong Volt,LIGHTNING;LIGHTNING;COLORLESS,3,150,50.0,Discard a {L} Energy from this Pokémon.,{L}{L}●,150
+1365,950,Magnemite,Lightning Ball,LIGHTNING,1,20,20.0,,{L},20
+1366,951,Voltorb ex,Hundred-Hitting Ball,COLORLESS;COLORLESS;COLORLESS,3,100,33.33,Flip a coin until you get tails. This attack does 100 more damage for each heads.,●●●,100
+1367,952,Zapdos,Follow-Up Bolt,LIGHTNING;COLORLESS,2,20,10.0,This attack does 10 more damage for each damage counter on your opponent’s Active Pokémon.,{L}●,20
+1368,952,Zapdos,Drill Peck,LIGHTNING;COLORLESS;COLORLESS,3,80,26.67,,{L}●●,80
+1369,953,Zapdos,Thunder Wave,LIGHTNING,1,0,0.0,"Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",{L},n/a
+1370,953,Zapdos,Thunderbolt,LIGHTNING;LIGHTNING;COLORLESS,3,190,63.33,Discard all Energy from this Pokémon.,{L}{L}●,190
+1371,954,Luxray ex,Piercing Gaze,COLORLESS;COLORLESS,2,120,60.0,"Your opponent reveals their hand, and you discard a card you find there.",●●,120
+1372,954,Luxray ex,Volt Strike,LIGHTNING;LIGHTNING,2,250,125.0,Discard all Energy from this Pokémon.,{L}{L},250
+1373,955,Helioptile,Collect,COLORLESS,1,0,0.0,Draw a card.,●,n/a
+1374,955,Helioptile,Static Shock,LIGHTNING,1,10,10.0,,{L},10
+1375,956,Zeraora,Combat Thunder,LIGHTNING;COLORLESS,2,20,10.0,This attack does 20 more damage for each of your opponent’s Benched Pokémon.,{L}●,20
+1376,957,Miraidon ex,Slashing Claw,LIGHTNING,1,40,40.0,,{L},40
+1377,957,Miraidon ex,Hadron Spark,LIGHTNING;LIGHTNING;COLORLESS,3,120,40.0,"If your opponent’s Active Pokémon is a Pokémon {ex}, this attack does 120 more damage.",{L}{L}●,120
+1378,958,Clefable,Metronome,COLORLESS;COLORLESS,2,0,0.0,Choose 1 of your opponent’s Active Pokémon’s attacks and use it as this attack.,●●,n/a
+1379,958,Clefable,Magical Shot,PSYCHIC;COLORLESS;COLORLESS,3,100,33.33,,{P}●●,100
+1380,959,Togepi,Pound,COLORLESS;COLORLESS,2,30,15.0,,●●,30
+1381,960,Togetic,Draining Kiss,COLORLESS;COLORLESS,2,30,15.0,Heal 30 damage from this Pokémon.,●●,30
+1382,961,Marill,Hide,COLORLESS,1,0,0.0,"Flip a coin. If heads, during your opponent’s next turn, prevent all damage from and effects of attacks done to this Pokémon.",●,n/a
+1383,961,Marill,Flop,PSYCHIC;COLORLESS,2,20,10.0,,{P}●,20
+1384,962,Azumarill ex,Energized Balloon,COLORLESS;COLORLESS;COLORLESS,3,60,20.0,This attack does 40 more damage for each {P} Energy attached to this Pokémon.,●●●,60
+1385,963,Shuppet,Spooky Shot,PSYCHIC,1,20,20.0,,{P},20
+1386,964,Beheeyem,Cosmic Beatdown,PSYCHIC,1,0,0.0,This attack does 20 damage for each of your Pokémon in play.,{P},20×
+1387,965,Swirlix,Ram,PSYCHIC,1,20,20.0,,{P},20
+1388,966,Slurpuff,Tackle,PSYCHIC,1,40,40.0,,{P},40
+1389,966,Slurpuff,Magical Shot,PSYCHIC;COLORLESS,2,70,35.0,,{P}●,70
+1390,967,Fidough,Pleasant Aroma,COLORLESS,1,0,0.0,"Search your deck for a Basic Pokémon and put it onto your Bench. Then, shuffle your deck.",●,n/a
+1391,967,Fidough,Stampede,COLORLESS,1,10,10.0,,●,10
+1392,968,Dachsbun ex,Wonder Shine,COLORLESS;COLORLESS,2,130,65.0,Your opponent’s Active Pokémon is now Confused.,●●,130
+1393,969,Scream Tail ex,Scream,COLORLESS,1,0,0.0,"You can use this attack only if you go second, and only during your first turn. Your opponent can’t play any Supporter cards from their hand during their next turn.",●,n/a
+1394,969,Scream Tail ex,Crunch,PSYCHIC;COLORLESS;COLORLESS,3,120,40.0,Discard an Energy from your opponent’s Active Pokémon.,{P}●●,120
+1395,970,Fezandipiti,Energy Feather,PSYCHIC,1,0,0.0,This attack does 30 damage for each Energy attached to this Pokémon.,{P},30×
+1396,971,Iron Boulder,Adjusted Horn,PSYCHIC;COLORLESS,2,170,85.0,"If you don’t have the same number of cards in your hand as your opponent, this attack does nothing.",{P}●,170
+1397,972,Hitmontop,Spin and Draw,COLORLESS,1,0,0.0,"Shuffle your hand into your deck. Then, draw 6 cards.",●,n/a
+1398,972,Hitmontop,Low Kick,FIGHTING;COLORLESS,2,50,25.0,,{F}●,50
+1399,973,Groudon,Hammer In,FIGHTING;FIGHTING;COLORLESS,3,80,26.67,,{F}{F}●,80
+1400,973,Groudon,Megaton Fall,FIGHTING;FIGHTING;COLORLESS;COLORLESS,4,150,37.5,This Pokémon also does 30 damage to itself.,{F}{F}●●,150
+1401,974,Riolu,Punch,FIGHTING;COLORLESS,2,30,15.0,,{F}●,30
+1402,975,Stunfisk ex,Big Bite,FIGHTING,1,30,30.0,"During your opponent’s next turn, the Defending Pokémon can’t retreat.",{F},30
+1403,975,Stunfisk ex,Flopping Trap,FIGHTING;COLORLESS;COLORLESS,3,100,33.33,"If this Pokémon has any damage counters on it, this attack does 100 more damage.",{F}●●,100
+1404,976,Carbink,Counter Jewel,FIGHTING;FIGHTING;COLORLESS,3,70,23.33,"If your opponent has 2 or fewer Prize cards remaining, this attack does 100 more damage.",{F}{F}●,70
+1405,977,Crabrawler,Vise Grip,COLORLESS;COLORLESS,2,20,10.0,,●●,20
+1406,977,Crabrawler,Crabhammer,COLORLESS;COLORLESS;COLORLESS,3,50,16.67,,●●●,50
+1407,978,Passimian,Coordinated Throwing,FIGHTING;COLORLESS,2,0,0.0,This attack does 20 damage for each of your Basic Pokémon in play.,{F}●,20×
+1408,979,Koraidon ex,Tera,FIGHTING;COLORLESS,2,50,25.0,"As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent’s).",n/a,n/a
+1409,979,Koraidon ex,Orichalcum Fang,FIGHTING;FIGHTING;COLORLESS,3,200,66.67,"If any of your Pokémon were Knocked Out by damage from an attack during your opponent’s last turn, this attack does 120 more damage.",{F}●,50
+1410,980,Venipede,Spit Poison,DARKNESS,1,0,0.0,Your opponent’s Active Pokémon is now Poisoned.,{D},n/a
+1411,980,Venipede,Spinning Attack,DARKNESS;COLORLESS;COLORLESS,3,40,13.33,,{D}●●,40
+1412,981,Whirlipede,Poison Ring,DARKNESS,1,0,0.0,"Your opponent’s Active Pokémon is now Poisoned. During your opponent’s next turn, that Pokémon can’t retreat.",{D},n/a
+1413,981,Whirlipede,Spinning Attack,DARKNESS;COLORLESS;COLORLESS,3,60,20.0,,{D}●●,60
+1414,982,Scolipede,Dastardly Jab,DARKNESS;COLORLESS,2,0,0.0,Place damage counters on your opponent’s Active Pokémon until its remaining HP is 10.,{D}●,n/a
+1415,982,Scolipede,Sludge Bomb,DARKNESS;COLORLESS;COLORLESS,3,160,53.33,,{D}●●,160
+1416,983,Vullaby,Flap,COLORLESS;COLORLESS,2,20,10.0,,●●,20
+1417,984,Mandibuzz ex,Bone Shot,COLORLESS;COLORLESS,2,0,0.0,This attack does 50 damage to 1 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.),●●,n/a
+1418,984,Mandibuzz ex,Vulture Claw,DARKNESS;COLORLESS;COLORLESS,3,160,53.33,Discard a random card from your opponent’s hand.,{D}●●,160
+1419,985,Hoopa,Filch,COLORLESS,1,0,0.0,Draw 2 cards.,●,n/a
+1420,985,Hoopa,Knuckle Impact,DARKNESS;DARKNESS;COLORLESS,3,130,43.33,"During your next turn, this Pokémon can’t use attacks.",{D}{D}●,130
+1421,986,Brute Bonnet,Poison Spray,DARKNESS,1,0,0.0,Your opponent’s Active Pokémon is now Poisoned.,{D},n/a
+1422,986,Brute Bonnet,Relentless Punches,DARKNESS;DARKNESS;DARKNESS,3,50,16.67,This attack does 50 more damage for each damage counter on your opponent’s Active Pokémon.,{D}{D}{D},50
+1423,987,Mawile,Call for Family,COLORLESS,1,0,0.0,"Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Then, shuffle your deck.",●,n/a
+1424,987,Mawile,Bite,METAL;COLORLESS;COLORLESS,3,90,30.0,,{M}●●,90
+1425,988,Registeel ex,Regi Charge,COLORLESS,1,0,0.0,Attach up to 2 Basic {M} Energy cards from your discard pile to this Pokémon.,●,n/a
+1426,988,Registeel ex,Protecting Steel,METAL;COLORLESS;COLORLESS;COLORLESS,4,140,35.0,"During your opponent’s next turn, this Pokémon takes 50 less damage from attacks (after applying Weakness and Resistance).",{M}●●●,140
+1427,989,Bronzor,Shield Attack,METAL;COLORLESS,2,20,10.0,"Flip a coin. If heads, this attack does 20 more damage.",{M}●,20
+1428,990,Togedemaru ex,Stun Needle,METAL,1,20,20.0,"Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",{M},20
+1429,990,Togedemaru ex,Spiky Rolling,METAL;COLORLESS,2,80,40.0,"If this Pokémon used Spiky Rolling during your last turn, this attack does 80 more damage.",{M}●,80
+1430,991,Melmetal,Hammer In,METAL;METAL;COLORLESS,3,120,40.0,,{M}{M}●,120
+1431,991,Melmetal,Iron Bash,METAL;METAL;METAL;METAL;COLORLESS,5,230,46.0,,{M}{M}{M}{M}●,230
+1432,992,Duraludon,Confront,METAL;METAL,2,50,25.0,,{M}{M},50
+1433,992,Duraludon,Duralubeam,METAL;METAL;METAL,3,130,43.33,Discard 2 Energy from this Pokémon.,{M}{M}{M},130
+1434,993,Orthworm ex,Rock Tomb,COLORLESS;COLORLESS;COLORLESS;COLORLESS,4,150,37.5,"During your opponent’s next turn, the Defending Pokémon can’t retreat.",●●●●,150
+1435,994,Fraxure,Dragon Pulse,FIGHTING;METAL,2,80,40.0,Discard the top card of your deck.,{F}{M},80
+1436,995,Haxorus,Bring Down the Axe,FIGHTING,1,0,0.0,"If your opponent’s Active Pokémon has any Special Energy attached, it is Knocked Out.",{F},n/a
+1437,995,Haxorus,Dragon Pulse,FIGHTING;METAL,2,230,115.0,Discard the top 3 cards of your deck.,{F}{M},230
+1438,996,Larry's Dunsparce,Rising Lunge,COLORLESS,1,10,10.0,"Flip a coin. If heads, this attack does 20 more damage.",●,10
+1439,997,Larry's Dudunsparce ex,Work Rush,COLORLESS;COLORLESS;COLORLESS,3,0,0.0,Flip a coin for each Energy attached to this Pokémon. This attack does 80 damage for each heads.,●●●,80×
+1440,998,Slakoth,Take It Easy,COLORLESS,1,0,0.0,"Heal 60 damage from this Pokémon. During your next turn, this Pokémon can’t retreat.",●,n/a
+1441,999,Vigoroth,Slashing Claw,COLORLESS;COLORLESS,2,50,25.0,,●●,50
+1442,1000,Skitty,Cat Kick,COLORLESS,1,20,20.0,,●,20
+1443,1001,Delcatty,Cat Kick,COLORLESS,1,40,40.0,,●,40
+1444,1001,Delcatty,Energy Crush,COLORLESS;COLORLESS,2,0,0.0,This attack does 40 damage for each Energy attached to all of your opponent’s Pokémon.,●●,40×
+1445,1002,Zangoose ex,Spike Draw,COLORLESS,1,20,20.0,Draw 2 cards.,●,20
+1446,1002,Zangoose ex,Wild Scissors,COLORLESS;COLORLESS;COLORLESS,3,180,60.0,This Pokémon also does 30 damage to itself.,●●●,180
+1447,1003,Larry's Starly,Minor Errand-Running,COLORLESS,1,0,0.0,"Search your deck for up to 2 Basic Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.",●,n/a
+1448,1003,Larry's Starly,Glide,COLORLESS,1,10,10.0,,●,10
+1449,1004,Larry's Staravia,Flap,COLORLESS,1,20,20.0,,●,20
+1450,1004,Larry's Staravia,Razor Wing,COLORLESS;COLORLESS,2,50,25.0,,●●,50
+1451,1005,Larry's Staraptor,Facade,COLORLESS,1,60,60.0,"If this Pokémon is Burned or Poisoned, this attack does 100 more damage.",●,60
+1452,1005,Larry's Staraptor,Feathery Strike,COLORLESS;COLORLESS;COLORLESS,3,150,50.0,"Discard 2 Energy from this Pokémon, and this attack also does 50 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",●●●,150
+1453,1006,Mega Audino ex,Kaleidowaltz,COLORLESS,1,0,0.0,"Flip 3 coins. For each heads, search your deck for up to 2 Basic Energy cards and attach them to your Pokémon in any way you like. Then, shuffle your deck.",●,n/a
+1454,1006,Mega Audino ex,Ear Force,COLORLESS;COLORLESS;COLORLESS,3,20,6.67,This attack does 80 more damage for each Energy attached to your opponent’s Active Pokémon.,●●●,20
+1455,1007,Larry's Rufflet,Peck the Wound,COLORLESS;COLORLESS,2,20,10.0,"If your opponent’s Active Pokémon already has any damage counters on it, this attack does 80 more damage.",●●,20
+1456,1008,Larry's Braviary,Clutch,COLORLESS;COLORLESS,2,50,25.0,"During your opponent’s next turn, the Defending Pokémon can’t retreat.",●●,50
+1457,1008,Larry's Braviary,Brave Bird,COLORLESS;COLORLESS;COLORLESS,3,120,40.0,This Pokémon also does 30 damage to itself.,●●●,120
+1458,1009,Larry's Komala,Dozing Draw,COLORLESS,1,0,0.0,This Pokémon is now Asleep. Draw 2 cards.,●,n/a
+1459,1010,Drampa,Gentle Slap,COLORLESS;COLORLESS,2,50,25.0,,●●,50
+1460,1010,Drampa,Dragon Strike,COLORLESS;COLORLESS;COLORLESS,3,120,40.0,"During your next turn, this Pokémon can’t use Dragon Strike.",●●●,120
+1461,1011,Spinarak,Gooey Thread,GRASS,1,10,10.0,"During your opponent’s next turn, the Defending Pokémon can’t retreat.",{G},10
+1462,1012,Ariados,Poison Ring,GRASS,1,50,50.0,"Your opponent’s Active Pokémon is now Poisoned. During your opponent’s next turn, that Pokémon can’t retreat.",{G},50
+1463,1013,Shaymin,Send Flowers,GRASS,1,0,0.0,"Search your deck for an Energy card and attach it to 1 of your Benched {G} Pokémon. Then, shuffle your deck.",{G},n/a
+1464,1013,Shaymin,Leaf Step,GRASS,1,30,30.0,,{G},30
+1465,1014,Snivy,Reckless Charge,GRASS,1,30,30.0,This Pokémon also does 10 damage to itself.,{G},30
+1466,1015,Servine,Solar Cutter,GRASS,1,40,40.0,,{G},40
+1467,1016,Serperior,Regal Command,GRASS,1,0,0.0,This attack does 20 damage for each of your Pokémon in play.,{G},20×
+1468,1016,Serperior,Solar Coiling,GRASS;GRASS;GRASS,3,100,33.33,"If Rosa’s Encouragement is in your discard pile, this attack does 150 more damage.",{G}{G}{G},100
+1469,1017,Scatterbug,Gnaw,GRASS,1,20,20.0,,{G},20
+1470,1018,Spewpa,Hide,GRASS,1,0,0.0,"Flip a coin. If heads, during your opponent’s next turn, prevent all damage from and effects of attacks done to this Pokémon.",{G},n/a
+1471,1019,Vivillon,Blow Through,GRASS,1,60,60.0,"If a Stadium is in play, this attack does 60 more damage.",{G},60
+1472,1020,Rowlet,Find a Friend,GRASS,1,0,0.0,"Search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.",{G},n/a
+1473,1020,Rowlet,Tackle,COLORLESS;COLORLESS;COLORLESS,3,30,10.0,,●●●,30
+1474,1021,Dartrix,Leafage,GRASS,1,20,20.0,,{G},20
+1475,1021,Dartrix,Feather Shot,COLORLESS;COLORLESS;COLORLESS,3,0,0.0,"Discard all Energy from this Pokémon, and this attack does 90 damage to 1 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",●●●,n/a
+1476,1022,Decidueye ex,Crushing Arrow,GRASS;COLORLESS;COLORLESS;COLORLESS,4,240,60.0,Discard an Energy from your opponent’s Active Pokémon.,{G}●●●,240
+1477,1023,Fletchinder,Flare,FIRE;FIRE,2,60,30.0,,{R}{R},60
+1478,1024,Talonflame,Fire Wing,FIRE;FIRE,2,110,55.0,,{R}{R},110
+1479,1025,Salandit,Fire Claws,FIRE,1,20,20.0,,{R},20
+1480,1026,Salazzle ex,Nasty Plot,FIRE,1,0,0.0,"Search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck.",{R},n/a
+1481,1026,Salazzle ex,Dire Nails,FIRE;FIRE,2,100,50.0,Your opponent’s Active Pokémon is now Burned and Poisoned. Switch this Pokémon with 1 of your Benched Pokémon.,{R}{R},100
+1482,1027,Turtonator,Heat Breath,FIRE;FIRE;COLORLESS,3,80,26.67,"Flip a coin. If heads, this attack does 80 more damage.",{R}{R}●,80
+1483,1028,Seel,Rain Splash,WATER,1,10,10.0,,{W},10
+1484,1028,Seel,Wave Splash,WATER;WATER,2,30,15.0,,{W}{W},30
+1485,1029,Dewgong,Wave Splash,WATER;WATER,2,60,30.0,,{W}{W},60
+1486,1030,Staryu,Water Gun,WATER,1,20,20.0,,{W},20
+1487,1031,Mega Starmie ex,Jetting Blow,WATER,1,120,120.0,This attack also does 50 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.),{W},120
+1488,1031,Mega Starmie ex,Nebula Beam,COLORLESS;COLORLESS;COLORLESS,3,210,70.0,"This attack’s damage isn’t affected by Weakness or Resistance, or by any effects on your opponent’s Active Pokémon.",●●●,210
+1489,1032,Amaura,Icy Wind,WATER;COLORLESS,2,50,25.0,Your opponent’s Active Pokémon is now Asleep.,{W}●,50
+1490,1033,Aurorus,Freezing Chill,WATER;WATER;COLORLESS,3,150,50.0,"During your opponent’s next turn, the Defending Pokémon can’t use attacks.",{W}{W}●,150
+1491,1034,Volcanion,Strength,WATER;COLORLESS,2,50,25.0,,{W}●,50
+1492,1034,Volcanion,Powerful Steam,WATER;WATER;COLORLESS,3,0,0.0,Flip a coin for each {W} Energy attached to this Pokémon. This attack does 90 damage for each heads.,{W}{W}●,90×
+1493,1035,Shinx,Double Scratch,LIGHTNING,1,0,0.0,Flip 2 coins. This attack does 10 damage for each heads.,{L},10×
+1494,1036,Luxio,Static Shock,LIGHTNING;COLORLESS,2,40,20.0,,{L}●,40
+1495,1037,Luxray,Incessant Onslaught,LIGHTNING;COLORLESS,2,0,0.0,This attack does 70 damage for each Prize card you have taken.,{L}●,70×
+1496,1037,Luxray,Strong Volt,LIGHTNING;COLORLESS;COLORLESS,3,200,66.67,Discard 2 Energy from this Pokémon.,{L}●●,200
+1497,1038,Dedenne,Tail Generator,LIGHTNING,1,0,0.0,Choose Basic {L} Energy cards from your discard pile up to the amount of Energy attached to all of your opponent’s Pokémon and attach them to your {L} Pokémon in any way you like.,{L},n/a
+1498,1038,Dedenne,Thunder Shock,LIGHTNING;COLORLESS,2,30,15.0,"Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",{L}●,30
+1499,1039,Clefairy,Follow Me,PSYCHIC,1,0,0.0,Switch in 1 of your opponent’s Benched Pokémon to the Active Spot.,{P},n/a
+1500,1039,Clefairy,Flop,PSYCHIC;PSYCHIC,2,30,15.0,,{P}{P},30
+1501,1040,Mega Clefable ex,Shooting Moons,PSYCHIC;PSYCHIC,2,120,60.0,"You may discard up to 4 Energy cards from your hand, and this attack does 40 more damage for each card you discarded in this way.",{P}{P},120
+1502,1041,Mawile,Double Eater,PSYCHIC;COLORLESS,2,0,0.0,"Discard up to 2 Energy cards from your hand, and this attack does 60 damage for each card you discarded in this way.",{P}●,60×
+1503,1042,Espurr,Nap,COLORLESS,1,0,0.0,Heal 20 damage from this Pokémon.,●,n/a
+1504,1042,Espurr,Stampede,PSYCHIC,1,10,10.0,,{P},10
+1505,1043,Meowstic,Perplex,PSYCHIC,1,0,0.0,Your opponent’s Active Pokémon is now Confused.,{P},n/a
+1506,1043,Meowstic,Psychic,PSYCHIC,1,30,30.0,This attack does 30 more damage for each Energy attached to your opponent’s Active Pokémon.,{P},30
+1507,1044,Spritzee,Sweet Scent,COLORLESS,1,0,0.0,Heal 30 damage from 1 of your Pokémon.,●,n/a
+1508,1044,Spritzee,Ram,PSYCHIC,1,10,10.0,,{P},10
+1509,1045,Aromatisse,Draining Kiss,PSYCHIC;COLORLESS,2,50,25.0,Heal 30 damage from this Pokémon.,{P}●,50
+1510,1046,Nosepass,Rolling Rocks,FIGHTING;FIGHTING,2,40,20.0,,{F}{F},40
+1511,1047,Probopass,Rolling Rocks,FIGHTING;FIGHTING,2,60,30.0,,{F}{F},60
+1512,1047,Probopass,Obliterating Nose,FIGHTING;FIGHTING;FIGHTING;COLORLESS,4,260,65.0,Discard 3 Energy from this Pokémon.,{F}{F}{F}●,260
+1513,1048,Hippopotas,Sand Attack,FIGHTING,1,10,10.0,"During your opponent’s next turn, if the Defending Pokémon tries to use an attack, your opponent flips a coin. If tails, that attack doesn’t happen.",{F},10
+1514,1048,Hippopotas,Bite,FIGHTING;COLORLESS;COLORLESS,3,60,20.0,,{F}●●,60
+1515,1049,Hippowdon,Twister Spewing,FIGHTING;FIGHTING;COLORLESS,3,80,26.67,"If you played Tarragon from your hand during this turn, discard the top 3 cards of your opponent’s deck.",{F}{F}●,80
+1516,1049,Hippowdon,Heavy Impact,FIGHTING;FIGHTING;COLORLESS;COLORLESS,4,130,32.5,,{F}{F}●●,130
+1517,1050,Landorus,Rock Tumble,FIGHTING;FIGHTING,2,50,25.0,This attack’s damage isn’t affected by Resistance.,{F}{F},50
+1518,1050,Landorus,Screw Knuckle,FIGHTING;FIGHTING;COLORLESS,3,120,40.0,Put an Energy attached to this Pokémon into your hand.,{F}{F}●,120
+1519,1051,Binacle,Double Draw,FIGHTING,1,0,0.0,Draw 2 cards.,{F},n/a
+1520,1051,Binacle,Scratch,FIGHTING;FIGHTING,2,30,15.0,,{F}{F},30
+1521,1052,Barbaracle,Hammer In,FIGHTING;FIGHTING;COLORLESS,3,80,26.67,,{F}{F}●,80
+1522,1053,Tyrunt,Get Angry,FIGHTING;COLORLESS,2,0,0.0,This attack does 20 damage for each damage counter on this Pokémon.,{F}●,20×
+1523,1054,Tyrantrum,Wreak Havoc,FIGHTING;COLORLESS,2,160,80.0,"Flip a coin until you get tails. For each heads, discard the top card of your opponent’s deck.",{F}●,160
+1524,1055,Hawlucha,Vengeful Kick,FIGHTING,1,30,30.0,"If your Benched Pokémon have any damage counters on them, this attack does 60 more damage.",{F},30
+1525,1056,Mega Zygarde ex,Gaia Wave,FIGHTING;FIGHTING;FIGHTING,3,200,66.67,"During your opponent’s next turn, this Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",{F}{F}{F},200
+1526,1056,Mega Zygarde ex,Nullifying Zero,FIGHTING;FIGHTING;FIGHTING;FIGHTING;FIGHTING,5,0,0.0,"For each of your opponent’s Pokémon, flip a coin. If heads, this attack does 150 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",{F}{F}{F}{F}{F},n/a
+1527,1057,Gastly,Surprise Attack,DARKNESS,1,30,30.0,"Flip a coin. If tails, this attack does nothing.",{D},30
+1528,1058,Haunter,Haunt,DARKNESS,1,0,0.0,Place 3 damage counters on your opponent’s Active Pokémon.,{D},n/a
+1529,1059,Gengar,Mind Jack,DARKNESS,1,10,10.0,This attack does 30 more damage for each of your opponent’s Benched Pokémon.,{D},10
+1530,1060,Skorupi,Poison Jab,DARKNESS;DARKNESS,2,20,10.0,Your opponent’s Active Pokémon is now Poisoned.,{D}{D},20
+1531,1061,Drapion,Wrack Down,DARKNESS;DARKNESS,2,60,30.0,,{D}{D},60
+1532,1061,Drapion,Hazardous Tail,DARKNESS;DARKNESS;DARKNESS,3,100,33.33,This Pokémon also does 70 damage to itself. Your opponent’s Active Pokémon is now Paralyzed and Poisoned.,{D}{D}{D},100
+1533,1062,Yveltal ex,Soul Destroyer,DARKNESS;DARKNESS;COLORLESS,3,0,0.0,Knock Out each of your opponent’s Pokémon that has 50 HP or less remaining.,{D}{D}●,n/a
+1534,1062,Yveltal ex,Dark Strike,DARKNESS;DARKNESS;COLORLESS,3,210,70.0,"During your next turn, this Pokémon can’t use Dark Strike.",{D}{D}●,210
+1535,1063,Chien-Pao,Strafe,DARKNESS,1,20,20.0,You may switch this Pokémon with 1 of your Benched Pokémon.,{D},20
+1536,1063,Chien-Pao,Rising Blade,DARKNESS;DARKNESS;COLORLESS,3,80,26.67,"If your opponent’s Active Pokémon is a Pokémon {ex}, this attack does 80 more damage.",{D}{D}●,80
+1537,1064,Mega Skarmory ex,Sonic Ripper,METAL;METAL;COLORLESS,3,0,0.0,"Shuffle all Energy attached to this Pokémon into your deck, and this attack does 220 damage to 1 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",{M}{M}●,n/a
+1538,1065,Honedge,Cut,COLORLESS,1,10,10.0,,●,10
+1539,1066,Doublade,Weaponized Swords,COLORLESS;COLORLESS,2,0,0.0,"Reveal any number of Honedge, Doublade, and Aegislash from your hand, and this attack does 60 damage for each card you revealed in this way.",●●,60×
+1540,1067,Aegislash,Slash,COLORLESS;COLORLESS;COLORLESS,3,80,26.67,,●●●,80
+1541,1067,Aegislash,Metal Slash,METAL;COLORLESS;COLORLESS;COLORLESS,4,230,57.5,"During your next turn, this Pokémon can’t use attacks.",{M}●●●,230
+1542,1068,Klefki,Memory Lock,METAL,1,30,30.0,"Choose 1 of your opponent’s Active Pokémon’s attacks. During your opponent’s next turn, that Pokémon can’t use that attack.",{M},30
+1543,1069,Rattata,Take Down,COLORLESS,1,30,30.0,This Pokémon also does 10 damage to itself.,●,30
+1544,1070,Raticate,Scrape Off,COLORLESS,1,20,20.0,"Before doing damage, discard all Pokémon Tools from your opponent’s Active Pokémon.",●,20
+1545,1070,Raticate,Retaliatory Incisors,COLORLESS,1,0,0.0,This attack does 40 damage for each damage counter on all of your Benched Rattata.,●,40×
+1546,1071,Meowth ex,Tuck Tail,COLORLESS;COLORLESS;COLORLESS,3,60,20.0,Put this Pokémon and all attached cards into your hand.,●●●,60
+1547,1072,Snorlax,Gormandizer,COLORLESS,1,0,0.0,"Flip a coin until you get tails. Search your deck for an amount of Basic Energy up to the number of heads and attach it to this Pokémon. Then, shuffle your deck.",●,n/a
+1548,1072,Snorlax,Collapse,COLORLESS;COLORLESS;COLORLESS;COLORLESS,4,160,40.0,This Pokémon is now Asleep.,●●●●,160
+1549,1073,Bunnelby,Smash Kick,COLORLESS,1,10,10.0,,●,10
+1550,1074,Diggersby,Earthquake,COLORLESS,1,140,140.0,This attack also does 30 damage to each of your Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.),●,140
+1551,1074,Diggersby,Whap Down,COLORLESS;COLORLESS;COLORLESS,3,100,33.33,,●●●,100
+1552,1075,Fletchling,Chirp,COLORLESS,1,0,0.0,"Search your deck for up to 2 Pokémon with {F} Resistance, reveal them, and put them into your hand. Then, shuffle your deck.",●,n/a
+1553,1075,Fletchling,Peck,COLORLESS;COLORLESS,2,20,10.0,,●●,20
+1554,1076,Furfrou,Hand Trim,COLORLESS,1,0,0.0,Discard random cards from your opponent’s hand until they have 5 cards in their hand.,●,n/a
+1555,1076,Furfrou,Headbutt,COLORLESS,1,30,30.0,,●,30
+1556,1180,Core Memory,Geobuster,FIGHTING;FIGHTING;FIGHTING;FIGHTING,4,350,87.5,Discard all Energy from this Pokémon.,{F}{F}{F}{F},350

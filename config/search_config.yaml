@@ -1,0 +1,88 @@
+# v4 search-layer configuration -- data, not hardcoded (build_agent() reads
+# this via search/config_loader.py::load_search_config()).
+#
+# `enabled: false` stays the shipped default deliberately, even though
+# depth=2 already won its real A/B gate below -- see "why enabled stays
+# false" underneath the result. `build_agent(deck)` (no search_config
+# argument -- what a real submission entrypoint calls) is therefore still
+# byte-identical to v1/v2 (tests/test_agent_matches_legacy.py,
+# tests/test_expectimax_matches_heuristic_at_depth_zero.py). Opt in
+# explicitly with `ExpectimaxConfig(enabled=True, depth=2)`, as
+# scripts/ab_test_search_vs_heuristic.py does.
+#
+# Real, measured result (scripts/ab_test_search_vs_heuristic.py, real
+# self-play through vendor/cg, seats alternated to cancel first-move
+# advantage, logged to replays/raw/ab_search_vs_heuristic_log.jsonl):
+#
+#   depth=1: n=60  search wins 34/60  = 56.7%  (95% Wilson CI [44.1%, 68.4%])
+#   depth=2: n=100 search wins 67/100 = 67.0%  (95% Wilson CI [57.3%, 75.4%])
+#
+# depth=2's interval does not cross 50% -- a real edge, not noise. Zero
+# engine errors were seen across the 1,645 real search_begin/search_step
+# calls this took. Read the result honestly anyway: it's a MIRROR MATCH
+# only (same deck both seats -- the same limitation the v1/v2 README's own
+# win-rate data already carries), and n=100 is a real sample, not a large
+# one.
+#
+# Why `enabled` stays false regardless: this result says v4's search layer
+# beats v1/v2's pure heuristic in this exact mirror match -- it does not yet
+# say that across the diverse opponent archetypes a real competition ladder
+# will show ("avoids over-reliance on specific matchups" is the whole
+# reason L4's rating ladder exists as a separate, later gate). Flipping the
+# agent the actual submission entrypoint builds is a bigger decision than
+# one config edit, so it's left to a deliberate, documented choice by
+# whoever assembles the submission -- not something a config file default
+# should decide silently. See docs/v4-architecture.md for the full
+# reasoning and how to opt in for real self-play, further validation, or a
+# submission that wants this on.
+
+search:
+  enabled: false
+  depth: 2                       # 0 = search never runs; 1 = one real ply per
+                                  # ATTACK candidate; 2 = adds the bounded
+                                  # opponent-reply fast-forward (see
+                                  # src/pokemon_agent/search/expectimax.py) --
+                                  # depth 2 is the validated configuration
+                                  # above, kept as the depth this file
+                                  # recommends even while enabled stays false
+  max_branch_steps: 8            # depth-2 fast-forward step budget per candidate
+  belief_informed_determinization: true   # bias opponent hidden-zone sampling
+                                  # by belief/energy_density.py instead of
+                                  # uniform sampling
+  transposition_table_size: 20000  # per-agent-lifetime cache entry cap (search/transposition_table.py)
+
+  # v5: leaf_value_mode "heuristic" (default) uses search/expectimax.py's
+  # hand-coded position_value(); "learned" swaps in
+  # learning/leaf_value.py's LearnedLeafValue (models/leaf_value_v5.joblib,
+  # trained by scripts/train_leaf_value_model.py on 76,486 real self-play
+  # records). Stays "heuristic" here because the learned leaf's real A/B
+  # result was a NULL result, not a win: 50.0% vs. the heuristic leaf at
+  # BOTH depth 1 (n=80, 95% CI [39.3%, 60.7%]) and depth 2 (n=60, 95% CI
+  # [37.7%, 62.3%]) -- see docs/v5-architecture.md and
+  # replays/raw/ab_learned_vs_heuristic_leaf_log.jsonl for the real data.
+  # This despite the model's real 69.4% held-out accuracy on its own
+  # training distribution -- that gap is itself the finding: better
+  # next-state prediction did not translate into better play through this
+  # narrow (ATTACK-only) search scope. Left here, set to "learned" with a
+  # path, only for re-running the A/B script against a future, better model
+  # -- never flip this by default without a new real A/B win.
+  leaf_value_mode: heuristic
+  leaf_value_model_path: models/leaf_value_v5.joblib  # relative to repo root; only read when leaf_value_mode: learned
+
+  # v7: config.depth now also accepts 3 (see search/expectimax.py's v7
+  # docstring section) -- real A/B result was WORSE than depth 2 (56.0%,
+  # n=100, 95% CI [46.2%, 65.3%], crosses 50%), so depth stays 2 above, not 3.
+  # See docs/v7-architecture.md.
+  #
+  # policy_top_k: null (default) searches every ATTACK candidate --
+  # byte-identical to v4/v5/v6. Setting an integer caps search to only the
+  # top-K candidates by baseline heuristic score before spending real engine
+  # calls on them. Real A/B result: a LOSS (policy_top_k=2 at depth=2: 35.0%,
+  # n=40, 95% CI [22.1%, 50.5%]) -- baseline scores rank candidates by raw
+  # printed damage, not dyn_damage()'s weakness/resistance/stadium-adjusted
+  # effective damage, so pruning by baseline discards exactly the candidates
+  # search exists to re-evaluate correctly. Left here, settable, only for
+  # re-running the A/B script against a smarter ranking function (see
+  # docs/v7-architecture.md's "Named next steps") -- never set this by
+  # default without a new real A/B win.
+  policy_top_k: null

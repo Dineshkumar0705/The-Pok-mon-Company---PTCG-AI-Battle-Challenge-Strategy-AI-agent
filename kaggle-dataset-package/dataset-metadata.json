@@ -1,0 +1,47 @@
+{
+  "title": "PTCG Card Data - Cleaned, Bilingual & Engine-Cross-Validated",
+  "id": "dineshkumar0705/ptcg-card-data-cleaned-bilingual",
+  "licenses": [
+    {
+      "name": "other"
+    }
+  ],
+  "resources": [
+    {
+      "path": "EN_Card_Data_canonical.csv",
+      "description": "Corrected EN card data, one row per attack/ability (2,022 rows / 1,267 unique cards)."
+    },
+    {
+      "path": "JP_Card_Data_canonical.csv",
+      "description": "Cleaned JP card data, one row per attack/ability (2,022 rows / 1,267 unique cards)."
+    },
+    {
+      "path": "EN_JP_Card_Index.csv",
+      "description": "Bilingual card-level index, one row per unique Card ID (1,267 rows)."
+    },
+    {
+      "path": "DATA_QUALITY_REPORT.md",
+      "description": "What was found wrong in the official files and exactly what was corrected."
+    },
+    {
+      "path": "cards_enriched.csv",
+      "description": "One row per unique card (1,267 rows), merging real battle-engine ground truth (HP, retreat cost, ex/megaEx/tera/aceSpec flags, evolves_from, real attack_ids) with the CSV's bilingual/expansion fields."
+    },
+    {
+      "path": "attacks_enriched.csv",
+      "description": "One row per real attack (1,556 rows), keyed by the real engine attack_id, with structured energy costs and integer damage."
+    },
+    {
+      "path": "abilities_enriched.csv",
+      "description": "One row per real named card effect (426 rows) -- a new entity split out from Attack for the first time."
+    },
+    {
+      "path": "evolution_lines.csv",
+      "description": "One row per real, reconstructed evolution chain (461 rows), Basic through Stage2."
+    },
+    {
+      "path": "DATASET_UPGRADE_REPORT.md",
+      "description": "Real cross-validation of the CSV against the battle engine's own structured data, two real accuracy bugs found and fixed, and real descriptive statistics."
+    }
+  ]
+}

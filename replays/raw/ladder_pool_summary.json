@@ -1,0 +1,32 @@
+{
+  "generated_utc": "2026-09-10T16:44:22.361279+00:00",
+  "games_per_pairing": 25,
+  "pool": [
+    "heuristic",
+    "search_d1",
+    "search_d2",
+    "learned_leaf_d2"
+  ],
+  "ladder": {
+    "heuristic": {
+      "rating": 1446.2,
+      "games": 75,
+      "win_rate": 0.4
+    },
+    "learned_leaf_d2": {
+      "rating": 1526.7,
+      "games": 75,
+      "win_rate": 0.6133333333333333
+    },
+    "search_d1": {
+      "rating": 1523.4,
+      "games": 75,
+      "win_rate": 0.52
+    },
+    "search_d2": {
+      "rating": 1503.6,
+      "games": 75,
+      "win_rate": 0.4666666666666667
+    }
+  }
+}

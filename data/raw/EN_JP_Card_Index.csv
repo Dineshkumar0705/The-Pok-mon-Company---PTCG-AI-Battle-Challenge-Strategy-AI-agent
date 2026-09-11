@@ -1,0 +1,1268 @@
+Card ID,EN Name,EN Expansion,EN Collection No.,JP Name,JP Expansion,JP Collection No.,Category,HP,Type
+1,Basic {G} Energy,SVE,1,基本【草】エネルギー,n/a,GRA,n/a,n/a,{G}
+2,Basic {R} Energy,SVE,2,基本【炎】エネルギー,n/a,FIR,n/a,n/a,{R}
+3,Basic {W} Energy,SVE,3,基本【水】エネルギー,n/a,WAT,n/a,n/a,{W}
+4,Basic {L} Energy,SVE,4,基本【雷】エネルギー,n/a,LIG,n/a,n/a,{L}
+5,Basic {P} Energy,SVE,5,基本【超】エネルギー,n/a,PSY,n/a,n/a,{P}
+6,Basic {F} Energy,SVE,6,基本【闘】エネルギー,n/a,FIG,n/a,n/a,{F}
+7,Basic {D} Energy,SVE,7,基本【悪】エネルギー,n/a,DAR,n/a,n/a,{D}
+8,Basic {M} Energy,SVE,8,基本【鋼】エネルギー,n/a,MET,n/a,n/a,{M}
+9,Boomerang Energy,TWM,166,ブーメランエネルギー,MC,738/742,n/a,n/a,{C}
+10,Neo Upper Energy,TEF,162,ネオアッパーエネルギー,SV5K,071/071,n/a,n/a,{A}{A}
+11,Mist Energy,TEF,161,ミストエネルギー,SVN,043/045,n/a,n/a,{C}
+12,Legacy Energy,TWM,167,レガシーエネルギー,MC,741/742,n/a,n/a,{A}
+13,Enriching Energy,SSP,191,リッチエネルギー,MC,740/742,n/a,n/a,{C}
+14,Spiky Energy,JTG,159,スパイクエネルギー,MC,737/742,n/a,n/a,{C}
+15,Team Rocket's Energy,DRI,182,ロケット団エネルギー,MC,742/742,n/a,n/a,{Team Rocket}{Team Rocket}
+16,Prism Energy,BLK,86,プリズムエネルギー,MC,739/742,n/a,n/a,{A}
+17,Ignition Energy,WHT,86,イグニッションエネルギー,MC,736/742,n/a,n/a,{C}{C}{C}
+18,Grow Grass Energy,POR,86,グロウ【草】エネルギー,M3,078/080,n/a,n/a,{G}
+19,Telepath Psychic Energy,POR,87,テレパス【超】エネルギー,M3,079/080,n/a,n/a,{P}
+20,Rock Fighting Energy,POR,88,ロック【闘】エネルギー,M3,080/080,n/a,n/a,{F}
+21,Scrafty,PROMO,188,ズルズキン,PROMO,158/SV-P,n/a,120,{D}
+22,Hippopotas,DRI,105,ヒポポタス,PROMO,186/SV-P,n/a,90,{F}
+23,Hippowdon,DRI,106,カバルドン,PROMO,187/SV-P,n/a,160,{F}
+24,Team Rocket's Kangaskhan ex,ASC,162,ロケット団のガルーラex,PROMO,265/SV-P,Trainer's Pokémon(Team Rocket),230,{C}
+25,Pinsir,TWM,3,カイロス,SV5a,003/066,n/a,110,{G}
+26,Leafeon,TWM,11,リーフィア,MC,037/742,n/a,120,{G}
+27,Iron Leaves,TWM,19,テツノイサハ,SV5a,007/066,Future,120,{G}
+28,Poltchageist,TWM,20,チャデス,SV8a,017/187,n/a,30,{G}
+29,Sinistcha ex,TWM,23,ヤバソチャex,MC,079/742,n/a,240,{G}
+30,Magcargo ex,TWM,29,マグカルゴex,MC,096/742,Tera(Fire),270,{R}
+31,Chi-Yu,TWM,39,イーユイ,SV5a,018/066,n/a,110,{R}
+32,Glaceon,TWM,54,グレイシア,SV8a,040/187,n/a,120,{W}
+33,Froakie,TWM,56,ケロマツ,SV5a,023/066,n/a,60,{W}
+34,Frogadier,TWM,57,ゲコガシラ,SV5a,024/066,n/a,90,{W}
+35,Walking Wake,TWM,63,ウネルミナモ,MC,221/742,Ancient,130,{W}
+36,Morpeko,TWM,72,モルペコ,MC,270/742,n/a,70,{L}
+37,Iron Thorns ex,TWM,77,テツノイバラex,MC,282/742,Future,230,{L}
+38,Girafarig,TWM,83,キリンリキ,MC,301/742,n/a,100,{P}
+39,Enamorus,TWM,93,ラブトロス,MC,346/742,n/a,120,{P}
+40,Greninja ex,TWM,106,ゲッコウガex,SV5a,045/066,Tera(Fighting),310,{F}
+41,Ting-Lu,TWM,110,ディンルー,SV5a,047/066,n/a,140,{F}
+42,Applin,TWM,126,カジッチュ,SV5a,048/066,n/a,40,{N}
+43,Eevee,TWM,135,イーブイ,SV5a,050/066,n/a,50,{C}
+44,Bloodmoon Ursaluna ex,TWM,141,ガチグマ アカツキex,MC,625/742,n/a,260,{C}
+45,Shaymin,TEF,13,シェイミ,MC,039/742,n/a,70,{G}
+46,Gouging Fire ex,TEF,38,ウガツホムラex,MC,151/742,Ancient,230,{R}
+47,Totodile,TEF,39,ワニノコ,MC,164/742,n/a,70,{W}
+48,Croconaw,TEF,40,アリゲイツ,MC,166/742,n/a,90,{W}
+49,Feraligatr,TEF,41,オーダイル,MC,168/742,n/a,180,{W}
+50,Wiglett,TEF,47,ウミディグダ,SV8a,042/187,n/a,60,{W}
+51,Palafin,TEF,49,イルカマン,SV5K,023/071,n/a,150,{W}
+52,Wugtrio ex,TEF,60,ウミトリオex,SV5K,025/071,Tera(Lightning),250,{L}
+53,Marill,TEF,64,マリル,SV5K,026/071,n/a,70,{P}
+54,Bronzor,TEF,68,ドーミラー,SV5K,028/071,n/a,80,{P}
+55,Bronzong,TEF,69,ドータクン,SV5K,029/071,n/a,110,{P}
+56,Flutter Mane,TEF,78,ハバタクカミ,MC,355/742,Ancient,90,{P}
+57,Relicanth,TEF,84,ジーランス,SV8a,079/187,n/a,100,{F}
+58,Great Tusk,TEF,97,イダイナキバ,SV8a,086/187,Ancient,140,{F}
+59,Gastly,TEF,102,ゴース,MC,441/742,n/a,60,{D}
+60,Haunter,TEF,103,ゴースト,MC,443/742,n/a,90,{D}
+61,Roaring Moon,TEF,109,トドロクツキ,SV8a,100/187,Ancient,140,{D}
+62,Koraidon,TEF,119,コライドン,MC,550/742,Ancient,140,{N}
+63,Raging Bolt ex,TEF,123,タケルライコex,MC,554/742,Ancient,240,{N}
+64,Hoothoot,TEF,126,ホーホー,SV5K,054/071,n/a,70,{C}
+65,Dunsparce,TEF,128,ノコッチ,SV8a,129/187,n/a,60,{C}
+66,Dudunsparce,TEF,129,ノココッチ,SV8a,130/187,n/a,140,{C}
+67,Pineco,TEF,2,クヌギダマ,SV5M,002/071,n/a,70,{G}
+68,Seedot,TEF,3,タネボー,SV5M,003/071,n/a,60,{G}
+69,Nuzleaf,TEF,4,コノハナ,SV5M,004/071,n/a,90,{G}
+70,Shiftry,TEF,5,ダーテング,SV5M,005/071,n/a,150,{G}
+71,Deerling,TEF,16,シキジカ,SV5M,008/071,n/a,70,{G}
+72,Sawsbuck,TEF,17,メブキジカ,SV5M,009/071,n/a,130,{G}
+73,Rellor,TEF,23,シガロコ,SV8a,013/187,n/a,50,{G}
+74,Rabsca,TEF,24,ベラカス,SV8a,014/187,n/a,70,{G}
+75,Iron Leaves ex,TEF,25,テツノイサハex,MC,077/742,Future,220,{G}
+76,Slugma,TEF,28,マグマッグ,SV5M,017/071,n/a,80,{R}
+77,Litten,TEF,32,ニャビー,MC,130/742,n/a,70,{R}
+78,Torracat,TEF,33,ニャヒート,MC,131/742,n/a,100,{R}
+79,Incineroar ex,TEF,34,ガオガエンex,MC,132/742,n/a,320,{R}
+80,Iron Crown ex,TEF,81,テツノカシラex,MC,361/742,Future,220,{P}
+81,Drilbur,TEF,85,モグリュー,SV8a,083/187,n/a,70,{F}
+82,Excadrill,TEF,86,ドリュウズ,SV5M,040/071,n/a,130,{F}
+83,Farigiraf ex,TEF,108,リキキリンex,MC,486/742,Tera(Darkness),260,{D}
+84,Scizor ex,TEF,111,ハッサムex,MC,492/742,n/a,270,{M}
+85,Beldum,TEF,113,ダンバル,MC,496/742,n/a,70,{M}
+86,Metang,TEF,114,メタング,MC,497/742,n/a,100,{M}
+87,Miraidon,TEF,121,ミライドン,MC,552/742,Future,110,{N}
+88,Volbeat,TWM,9,バルビート,SV6,004/101,n/a,70,{G}
+89,Grookey,TWM,14,サルノリ,SV8a,006/187,n/a,70,{G}
+90,Thwackey,TWM,15,バチンキー,SV8a,007/187,n/a,100,{G}
+91,Rillaboom,TWM,16,ゴリランダー,SV6,010/101,n/a,180,{G}
+92,Applin,TWM,17,カジッチュ,SV6,011/101,n/a,40,{G}
+93,Dipplin,TWM,18,カミッチュ,SV8a,009/187,n/a,80,{G}
+94,Sinistcha,TWM,22,ヤバソチャ,SV8a,018/187,n/a,70,{G}
+95,Teal Mask Ogerpon,TWM,24,オーガポン みどりのめん,MC,080/742,n/a,110,{G}
+96,Teal Mask Ogerpon ex,TWM,25,オーガポン みどりのめんex,MC,082/742,Tera(Grass),210,{G}
+97,Litwick,TWM,36,ヒトモシ,SV6,019/101,n/a,60,{R}
+98,Chandelure,TWM,38,シャンデラ,SV6,021/101,n/a,130,{R}
+99,Hearthflame Mask Ogerpon ex,TWM,40,オーガポン かまどのめんex,MC,149/742,Tera(Fire),210,{R}
+100,Goldeen,TWM,44,トサキント,SV8a,028/187,n/a,50,{W}
+101,Jynx,TWM,46,ルージュラ,SV6,028/101,n/a,90,{W}
+102,Milotic,TWM,50,ミロカロス,SV8a,036/187,n/a,120,{W}
+103,Snorunt,TWM,51,ユキワラシ,MC,186/742,n/a,60,{W}
+104,Froslass,TWM,53,ユキメノコ,SV8a,038/187,n/a,90,{W}
+105,Finizen,TWM,59,ナミイルカ,MC,214/742,n/a,70,{W}
+106,Palafin,TWM,60,イルカマン,MC,215/742,n/a,100,{W}
+107,Palafin ex,TWM,61,イルカマンex,MC,216/742,n/a,340,{W}
+108,Wellspring Mask Ogerpon ex,TWM,64,オーガポン いどのめんex,MC,224/742,Tera(Water),210,{W}
+109,Abra,TWM,80,ケーシィ,SV8a,057/187,n/a,40,{P}
+110,Slurpuff,TWM,90,ペロリーム,SV6,052/101,n/a,120,{P}
+111,Sandygast,TWM,91,スナバァ,SV6,053/101,n/a,90,{P}
+112,Munkidori,TWM,95,マシマシラ,MC,358/742,n/a,110,{P}
+113,Timburr,TWM,103,ドッコラー,SV6,059/101,n/a,80,{F}
+114,Gurdurr,TWM,104,ドテッコツ,SV6,060/101,n/a,100,{F}
+115,Conkeldurr,TWM,105,ローブシン,SV6,061/101,n/a,180,{F}
+116,Okidogi,TWM,111,イイネイヌ,MC,426/742,n/a,130,{F}
+117,Cornerstone Mask Ogerpon ex,TWM,112,オーガポン いしずえのめんex,MC,428/742,Tera(Fighting),210,{F}
+118,Heatran,TWM,123,ヒードラン,SV6,076/101,n/a,140,{M}
+119,Dreepy,TWM,128,ドラメシヤ,MC,546/742,n/a,70,{N}
+120,Drakloak,TWM,129,ドロンチ,MC,547/742,n/a,90,{N}
+121,Dragapult ex,TWM,130,ドラパルトex,MC,548/742,Tera(Dragon),320,{N}
+122,Tatsugiri,TWM,131,シャリタツ,MC,549/742,n/a,70,{N}
+123,Farfetch'd,TWM,132,カモネギ,SV6,083/101,n/a,70,{C}
+124,Chansey,TWM,133,ラッキー,MC,561/742,n/a,120,{C}
+125,Blissey ex,TWM,134,ハピナスex,MC,562/742,n/a,300,{C}
+126,Galvantula,SFA,2,デンチュラ,MC,050/742,n/a,100,{G}
+127,Rowlet,SFA,3,モクロー,SV6a,003/064,n/a,70,{G}
+128,Dartrix,SFA,4,フクスロー,SV6a,004/064,n/a,90,{G}
+129,Decidueye,SFA,5,ジュナイパー,SV6a,005/064,n/a,150,{G}
+130,Revavroom ex,SFA,15,ブロロロームex,SV6a,015/064,Tera(Lightning),280,{L}
+131,Duskull,SFA,18,ヨマワル,MC,308/742,n/a,60,{P}
+132,Dusclops,SFA,19,サマヨール,MC,309/742,n/a,90,{P}
+133,Dusknoir,SFA,20,ヨノワール,MC,310/742,n/a,160,{P}
+134,Sylveon,SFA,22,ニンフィア,SV8a,068/187,n/a,120,{P}
+135,Bloodmoon Ursaluna,SFA,25,ガチグマ アカツキ,MC,415/742,n/a,150,{F}
+136,Zorua,SFA,31,ゾロア,SV8a,096/187,n/a,70,{D}
+137,Zoroark,SFA,32,ゾロアーク,SV8a,097/187,n/a,120,{D}
+138,Okidogi ex,SFA,36,イイネイヌex,MC,488/742,n/a,250,{D}
+139,Munkidori ex,SFA,37,マシマシラex,SV8a,103/187,n/a,210,{D}
+140,Fezandipiti ex,SFA,38,キチキギスex,MC,489/742,n/a,210,{D}
+141,Pecharunt ex,SFA,39,モモワロウex,MC,491/742,n/a,190,{D}
+142,Genesect,SFA,40,ゲノセクト,SV6a,040/064,n/a,110,{M}
+143,Varoom,SFA,43,ブロロン,SV8a,114/187,n/a,70,{M}
+144,Kyurem,SFA,47,キュレム,SV6a,047/064,n/a,130,{N}
+145,Eevee,SFA,50,イーブイ,PROMO,196/SV-P,n/a,70,{C}
+146,Lileep,SCR,5,リリーラ,SV7,003/102,n/a,100,{G}
+147,Cradily,SCR,6,ユレイドル,SV7,004/102,n/a,150,{G}
+148,Mow Rotom,SCR,8,カットロトム,SV7,006/102,n/a,90,{G}
+149,Applin,SCR,12,カジッチュ,MC,062/742,n/a,40,{G}
+150,Hydrapple ex,SCR,14,カミツオロチex,MC,064/742,n/a,330,{G}
+151,Scorbunny,SCR,26,ヒバニー,MC,137/742,n/a,70,{R}
+152,Raboot,SCR,27,ラビフット,MC,138/742,n/a,90,{R}
+153,Cinderace ex,SCR,28,エースバーンex,MC,139/742,Tera(Stellar),320,{R}
+154,Lapras ex,SCR,32,ラプラスex,SV7,019/102,Tera(Stellar),220,{W}
+155,Carracosta,SCR,38,アバゴーラ,SV7,023/102,n/a,160,{W}
+156,Crabominable,SCR,42,ケケンカニ,MC,209/742,n/a,160,{W}
+157,Chewtle,SCR,43,カムカメ,SV7,025/102,n/a,80,{W}
+158,Drednaw,SCR,44,カジリガメ,SV7,026/102,n/a,140,{W}
+159,Veluza,SCR,45,ミガルーサ,MC,219/742,n/a,130,{W}
+160,Joltik,SCR,50,バチュル,MC,254/742,n/a,30,{L}
+161,Galvantula ex,SCR,51,デンチュラex,MC,255/742,Tera(Stellar),260,{L}
+162,Slowpoke,SCR,57,ヤドン,SV7,038/102,n/a,80,{P}
+163,Slowking,SCR,58,ヤドキング,SV7,039/102,n/a,120,{P}
+164,Comfey,SCR,63,キュワワー,SV7,042/102,n/a,70,{P}
+165,Klink,SCR,99,ギアル,SV7,067/102,n/a,60,{M}
+166,Klang,SCR,100,ギギアル,SV7,068/102,n/a,90,{M}
+167,Klinklang,SCR,101,ギギギアル,SV7,069/102,n/a,140,{M}
+168,Meltan,SCR,103,メルタン,SV7,070/102,n/a,70,{M}
+169,Duraludon,SCR,106,ジュラルドン,MC,524/742,n/a,130,{M}
+170,Archaludon,SCR,107,ブリジュラス,MC,525/742,n/a,180,{M}
+171,Raging Bolt,SCR,111,タケルライコ,SV7,075/102,Ancient,130,{N}
+172,Hoothoot,SCR,114,ホーホー,MC,572/742,n/a,70,{C}
+173,Noctowl,SCR,115,ヨルノズク,MC,573/742,n/a,100,{C}
+174,Fan Rotom,SCR,118,スピンロトム,M2a,139/193,n/a,70,{C}
+175,Bouffalant,SCR,119,バッフロン,M2a,140/193,n/a,100,{C}
+176,Terapagos ex,SCR,128,テラパゴスex,MC,630/742,Tera(Stellar),230,{C}
+177,Exeggcute,SSP,1,タマタマ,MC,009/742,n/a,30,{G}
+178,Zarude,SSP,11,ザルード,SV7a,005/064,n/a,120,{G}
+179,Black Kyurem ex,SSP,48,ブラックキュレムex,MC,204/742,n/a,230,{W}
+180,Bruxish,SSP,49,ハギギシリ,SV7a,012/064,n/a,110,{W}
+181,Quaxwell,SSP,51,ウェルカモ,MC,212/742,n/a,100,{W}
+182,Quaquaval,SSP,52,ウェーニバル,MC,213/742,n/a,170,{W}
+183,Smoochum,SSP,75,ムチュール,SV7a,018/064,n/a,30,{P}
+184,Latias ex,SSP,76,ラティアスex,MC,312/742,n/a,210,{P}
+185,Flittle,SSP,94,ヒラヒナ,SV7a,022/064,n/a,40,{P}
+186,Gimmighoul,SSP,97,コレクレー,SV7a,024/064,n/a,70,{P}
+187,Trapinch,SSP,104,ナックラー,SV7a,025/064,n/a,60,{F}
+188,Vibrava,SSP,105,ビブラーバ,SV7a,026/064,n/a,90,{F}
+189,Flygon ex,SSP,106,フライゴンex,SV7a,027/064,Tera(Stellar),310,{F}
+190,Archaludon ex,SSP,130,ブリジュラスex,MC,526/742,n/a,300,{M}
+191,Gholdengo,SSP,131,サーフゴー,MC,534/742,n/a,130,{M}
+192,Iron Crown,SSP,132,テツノカシラ,MC,536/742,Future,130,{M}
+193,Alolan Exeggutor ex,SSP,133,アローラ ナッシーex,MC,537/742,Tera(Stellar),300,{N}
+194,Altaria,SSP,134,チルタリス,SV7a,041/064,n/a,120,{N}
+195,Dialga,SSP,135,ディアルガ,SV7a,042/064,n/a,130,{N}
+196,Turtonator,SSP,137,バクガメス,SV7a,044/064,n/a,120,{N}
+197,Swablu,SSP,148,チルット,SV7a,048/064,n/a,50,{C}
+198,Durant ex,SSP,4,アイアントex,MC,052/742,n/a,190,{G}
+199,Scatterbug,SSP,5,コフキムシ,SV8,004/106,n/a,40,{G}
+200,Spewpa,SSP,6,コフーライ,SV8,005/106,n/a,80,{G}
+201,Wo-Chien,SSP,15,チオンジェン,SV8,010/106,n/a,130,{G}
+202,Victini,SSP,21,ビクティニ,SV8,012/106,n/a,70,{R}
+203,Skeledirge,SSP,31,ラウドボーン,MC,144/742,n/a,180,{R}
+204,Charcadet,SSP,33,カルボウ,SV8,020/106,n/a,80,{R}
+205,Scovillain ex,SSP,37,スコヴィランex,MC,147/742,n/a,260,{R}
+206,Feebas,SSP,41,ヒンバス,MC,184/742,n/a,30,{W}
+207,Milotic ex,SSP,42,ミロカロスex,MC,185/742,n/a,270,{W}
+208,Shellos,SSP,46,カラナクシ,SV8,030/106,n/a,70,{W}
+209,Chien-Pao,SSP,56,パオジアン,M2a,043/193,n/a,120,{W}
+210,Pikachu ex,SSP,57,ピカチュウex,M2a,044/193,Tera(Stellar),200,{L}
+211,Magneton,SSP,59,レアコイル,MC,232/742,n/a,100,{L}
+212,Rotom,SSP,61,ロトム,MC,248/742,n/a,80,{L}
+213,Tapu Koko,SSP,65,カプ・コケコ,MC,265/742,n/a,120,{L}
+214,Togekiss,SSP,72,トゲキッス,MC,293/742,n/a,140,{P}
+215,Uxie,SSP,78,ユクシー,MC,314/742,n/a,70,{P}
+216,Mesprit,SSP,79,エムリット,MC,315/742,n/a,70,{P}
+217,Azelf,SSP,80,アグノム,MC,316/742,n/a,70,{P}
+218,Yamask,SSP,82,デスマス,MC,319/742,n/a,70,{P}
+219,Cofagrigus,SSP,83,デスカーン,MC,321/742,n/a,120,{P}
+220,Espurr,SSP,84,ニャスパー,MC,331/742,n/a,60,{P}
+221,Meowstic,SSP,85,ニャオニクス,MC,332/742,n/a,90,{P}
+222,Dedenne,SSP,87,デデンネ,SV8,055/106,n/a,70,{P}
+223,PalossandEX,SSP,91,シロデスナex,SV8,057/106,Tera(Stellar),280,{P}
+224,Annihilape,SSP,100,コノヨザル,SV8,062/106,n/a,140,{F}
+225,Gastrodon,SSP,107,トリトドン,SV8,066/106,n/a,130,{F}
+226,Koraidon,SSP,116,コライドン,SV8,069/106,Ancient,130,{F}
+227,Deino,SSP,117,モノズ,SV8,070/106,n/a,70,{D}
+228,Zweilous,SSP,118,ジヘッド,SV8,071/106,n/a,100,{D}
+229,Hydreigon ex,SSP,119,サザンドラex,SV8,072/106,Tera(Stellar),330,{D}
+230,Pecharunt,SVP,149,モモワロウ,MC,490/742,n/a,80,{D}
+231,Tatsugiri ex,SSP,142,シャリタツex,SV8,081/106,Tera(Stellar),160,{N}
+232,Slaking ex,SSP,147,ケッキングex,MC,583/742,n/a,340,{C}
+233,Bouffalant,SSP,151,バッフロン,SV8,087/106,n/a,130,{C}
+234,Terapagos,SSP,161,テラパゴス,MC,629/742,n/a,120,{C}
+235,Budew,PRE,4,スボミー,M2a,011/193,n/a,30,{G}
+236,Leafeon ex,PRE,6,リーフィアex,MC,038/742,Tera(Stellar),270,{G}
+237,Cottonee,PRE,7,モンメン,SV8a,004/187,n/a,60,{G}
+238,Whimsicott,PRE,8,エルフーン,SV8a,005/187,n/a,100,{G}
+239,Flareon ex,PRE,14,ブースターex,MC,094/742,Tera(Stellar),270,{R}
+240,Seaking,PRE,21,アズマオウ,SV8a,029/187,n/a,110,{W}
+241,Vaporeon ex,PRE,23,シャワーズex,MC,161/742,Tera(Stellar),280,{W}
+242,Feebas,TWM,49,ヒンバス,SV8a,035/187,n/a,30,{W}
+243,Glaceon ex,PRE,26,グレイシアex,MC,162/742,Tera(Stellar),270,{W}
+244,Jolteon ex,PRE,30,サンダースex,MC,238/742,Tera(Stellar),260,{L}
+245,Alakazam,TWM,82,フーディン,SV8a,059/187,n/a,140,{P}
+246,Espeon ex,PRE,34,エーフィex,MC,298/742,Tera(Stellar),270,{P}
+247,Swirlix,TWM,89,ペロッパフ,SV8a,067/187,n/a,50,{P}
+248,Umbreon ex,PRE,60,ブラッキーex,MC,446/742,Tera(Stellar),280,{D}
+249,Eevee ex,PRE,75,イーブイex,MC,566/742,Tera(Stellar),200,{C}
+250,Hoothoot,PRE,77,ホーホー,SV8a,127/187,n/a,80,{C}
+251,Regigigas,PRE,86,レジギガス,SV8a,132/187,n/a,160,{C}
+252,Caterpie,JTG,1,キャタピー,SV9,001/100,n/a,50,{G}
+253,Metapod,JTG,2,トランセル,SV9,002/100,n/a,90,{G}
+254,Butterfree,JTG,3,バタフリー,SV9,003/100,n/a,120,{G}
+255,Maractus,JTG,8,マラカッチ,SV9,006/100,n/a,110,{G}
+256,Magmortar,JTG,21,ブーバーン,MC,092/742,n/a,130,{R}
+257,N’s Darumaka,JTG,26,Nのダルマッカ,MC,118/742,Trainer's Pokémon(N),80,{R}
+258,N’s Darmanitan,JTG,27,Nのヒヒダルマ,MC,119/742,Trainer's Pokémon(N),140,{R}
+259,Volcanion ex,JTG,31,ボルケニオンex,MC,129/742,n/a,220,{R}
+260,Lotad,JTG,35,ハスボー,MC,175/742,n/a,60,{W}
+261,Lombre,JTG,36,ハスブレロ,MC,176/742,n/a,90,{W}
+262,Ludicolo,JTG,37,ルンパッパ,MC,177/742,n/a,140,{W}
+263,Wailmer,JTG,40,ホエルコ,MC,180/742,n/a,130,{W}
+264,Wailord,JTG,41,ホエルオー,MC,181/742,n/a,240,{W}
+265,Iono’s Voltorb,JTG,47,ナンジャモのビリリダマ,MC,234/742,Trainer's Pokémon(Iono),70,{L}
+266,Iono’s Electrode,JTG,48,ナンジャモのマルマイン,MC,235/742,Trainer's Pokémon(Iono),100,{L}
+267,N’s Joltik,JTG,49,Nのバチュル,SV9,028/100,Trainer's Pokémon(N),40,{L}
+268,Iono’s Tadbulb,JTG,52,ナンジャモのズピカ,MC,273/742,Trainer's Pokémon(Iono),60,{L}
+269,Iono’s Bellibolt ex,JTG,53,ナンジャモのハラバリーex,MC,274/742,Trainer's Pokémon(Iono),280,{L}
+270,Iono’s Wattrel,JTG,54,ナンジャモのカイデン,MC,278/742,Trainer's Pokémon(Iono),60,{L}
+271,Iono’s Kilowattrel,JTG,55,ナンジャモのタイカイデン,MC,279/742,Trainer's Pokémon(Iono),120,{L}
+272,Lillie’s Clefairy ex,JTG,56,リーリエのピッピex,MC,287/742,Trainer's Pokémon(Lillie),190,{P}
+273,Banette,JTG,60,ジュペッタ,SV9,036/100,n/a,90,{P}
+274,Beldum,JTG,61,ダンバル,SV9,037/100,n/a,60,{P}
+275,Metang,JTG,62,メタング,SV9,038/100,n/a,100,{P}
+276,Metagross,JTG,63,メタグロス,SV9,039/100,n/a,170,{P}
+277,N’s Sigilyph,JTG,64,Nのシンボラー,SV9,040/100,Trainer's Pokémon(N),110,{P}
+278,Lillie’s Cutiefly,JTG,66,リーリエのアブリー,MC,338/742,Trainer's Pokémon(Lillie),30,{P}
+279,Lillie’s Ribombee,JTG,67,リーリエのアブリボン,MC,339/742,Trainer's Pokémon(Lillie),70,{P}
+280,Lillie’s Comfey,JTG,68,リーリエのキュワワー,MC,340/742,Trainer's Pokémon(Lillie),70,{P}
+281,Swinub,JTG,77,ウリムー,MC,362/742,n/a,70,{F}
+282,Piloswine,JTG,78,イノムー,MC,363/742,n/a,100,{F}
+283,Mamoswine ex,JTG,79,マンムーex,MC,364/742,n/a,340,{F}
+284,Larvitar,JTG,80,ヨーギラス,SV9,047/100,n/a,70,{F}
+285,Pupitar,JTG,81,サナギラス,SV9,048/100,n/a,90,{F}
+286,Rockruff,JTG,84,イワンコ,SV9,051/100,n/a,70,{F}
+287,Lycanroc,JTG,85,ルガルガン,SV9,052/100,n/a,120,{F}
+288,Hop’s Silicobra,JTG,86,ホップのスナヘビ,SV9,053/100,Trainer's Pokémon(Hop),80,{F}
+289,Hop’s Sandaconda,JTG,87,ホップのサダイジャ,SV9,054/100,Trainer's Pokémon(Hop),140,{F}
+290,Tyranitar,JTG,95,バンギラス,SV9,058/100,n/a,190,{D}
+291,N’s Purrloin,JTG,96,Nのチョロネコ,MC,457/742,Trainer's Pokémon(N),70,{D}
+292,N’s Zorua,JTG,97,Nのゾロア,MC,469/742,Trainer's Pokémon(N),70,{D}
+293,N’s Zoroark ex,JTG,98,Nのゾロアークex,MC,470/742,Trainer's Pokémon(N),280,{D}
+294,N’s Klink,JTG,103,Nのギアル,SV9,064/100,Trainer's Pokémon(N),60,{M}
+295,N’s Klang,JTG,104,Nのギギアル,SV9,065/100,Trainer's Pokémon(N),90,{M}
+296,N’s Klinklang,JTG,105,Nのギギギアル,SV9,066/100,Trainer's Pokémon(N),160,{M}
+297,Magearna,JTG,107,マギアナ,MC,515/742,n/a,90,{M}
+298,Hop’s Corviknight,JTG,108,ホップのアーマーガア,MC,520/742,Trainer's Pokémon(Hop),170,{M}
+299,Hop’s Zacian ex,JTG,111,ホップのザシアンex,MC,527/742,Trainer's Pokémon(Hop),230,{M}
+300,Bagon,JTG,112,タツベイ,MC,538/742,n/a,70,{N}
+301,Shelgon,JTG,113,コモルー,MC,539/742,n/a,100,{N}
+302,Salamence ex,JTG,114,ボーマンダex,MC,540/742,n/a,320,{N}
+303,N’s Reshiram,JTG,116,Nのレシラム,MC,545/742,Trainer's Pokémon(N),130,{N}
+304,Hop’s Snorlax,JTG,117,ホップのカビゴン,MC,569/742,Trainer's Pokémon(Hop),150,{C}
+305,Dunsparce,JTG,120,ノコッチ,MC,574/742,n/a,70,{C}
+306,Dudunsparce ex,JTG,121,ノココッチex,MC,575/742,n/a,270,{C}
+307,Hop’s Rookidee,JTG,133,ホップのココガラ,MC,622/742,Trainer's Pokémon(Hop),60,{C}
+308,Hop’s Corvisquire,JTG,134,ホップのアオガラス,MC,623/742,Trainer's Pokémon(Hop),90,{C}
+309,Hop’s Wooloo,JTG,135,ホップのウールー,M2a,141/193,Trainer's Pokémon(Hop),70,{C}
+310,Hop’s Dubwool,JTG,136,ホップのバイウールー,M2a,142/193,Trainer's Pokémon(Hop),120,{C}
+311,Hop’s Cramorant,JTG,138,ホップのウッウ,MC,624/742,Trainer's Pokémon(Hop),110,{C}
+312,Sandy Shocks,TEF,98,スナノケガワ,MC,424/742,Ancient,120,{F}
+313,Miraidon ex,TEF,122,ミライドンex,MC,553/742,Future,220,{N}
+314,Marill,SCR,33,マリル,SVI,013/066,n/a,70,{W}
+315,Azumarill,SSP,74,マリルリ,SVLN,004/022,n/a,120,{P}
+316,Sylveon ex,SSP,86,ニンフィアex,MC,299/742,Tera(Stellar),270,{P}
+317,Eevee,SSP,143,イーブイ,MC,565/742,n/a,50,{C}
+318,Ho-Oh,SSP,19,ホウオウ,SVLS,003/022,n/a,130,{R}
+319,Charcadet,SSP,32,カルボウ,M2a,030/193,n/a,70,{R}
+320,Ceruledge ex,SSP,36,ソウブレイズex,M2a,031/193,Tera(Stellar),270,{R}
+321,Petilil,JTG,6,チュリネ,SVM,007/175,n/a,50,{G}
+322,Lilligant,JTG,7,ドレディア,SVM,008/175,n/a,110,{G}
+323,Nymble,JTG,19,マメバッタ,SVM,013/175,n/a,50,{G}
+324,Torchic,JTG,22,アチャモ,SVM,014/175,n/a,60,{R}
+325,Combusken,JTG,23,ワカシャモ,SVM,015/175,n/a,90,{R}
+326,Blaziken ex,JTG,24,バシャーモex,SVM,016/175,n/a,320,{R}
+327,Slowpoke,PRE,18,ヤドン,SVM,027/175,n/a,70,{W}
+328,Pikachu ex,PRE,28,ピカチュウex,SVM,038/175,n/a,190,{L}
+329,Tapu Koko ex,JTG,51,カプ・コケコex,SVM,046/175,n/a,200,{L}
+330,Sylveon,PRE,40,ニンフィア,SVM,050/175,n/a,120,{P}
+331,XerneasEX,PROMO,179,ゼルネアスex,SVM,052/175,n/a,210,{P}
+332,Dhelmise,JTG,70,ダダリン,SVM,055/175,n/a,130,{P}
+333,Riolu,PRE,50,リオル,SVM,064/175,n/a,70,{F}
+334,Sneasel,PRE,61,ニューラ,SVM,075/175,n/a,60,{D}
+335,Bronzor,PRE,66,ドーミラー,SVM,081/175,n/a,70,{M}
+336,Zacian ex,SVP,198,ザシアンex,SVM,089/175,n/a,220,{M}
+337,LugiaEX,PRE,82,ルギアex,SVM,097/175,n/a,220,{C}
+338,Ethan's Pinsir,DRI,1,ヒビキのカイロス,M2a,001/193,Trainer's Pokémon(Ethan),120,{G}
+339,Yanma,DRI,2,ヤンヤンマ,MC,021/742,n/a,70,{G}
+340,Yanmega ex,DRI,3,メガヤンマex,MC,022/742,n/a,280,{G}
+341,Cynthia's Roselia,DRI,7,シロナのロゼリア,MC,032/742,Trainer's Pokémon(Cynthia),70,{G}
+342,Cynthia's Roserade,DRI,8,シロナのロズレイド,MC,033/742,Trainer's Pokémon(Cynthia),130,{G}
+343,Shaymin,DRI,10,シェイミ,MA,001/043,n/a,80,{G}
+344,Dwebble,DRI,11,イシズマイ,MC,045/742,n/a,70,{G}
+345,Crustle,DRI,12,イワパレス,MC,046/742,n/a,150,{G}
+346,Applin,DRI,16,カジッチュ,SV9a,009/063,n/a,40,{G}
+347,Dipplin,DRI,17,カミッチュ,SV9a,010/063,n/a,90,{G}
+348,Hydrapple,DRI,18,カミツオロチ,SV9a,011/063,n/a,170,{G}
+349,Teal Mask Ogerpon,DRI,26,オーガポン みどりのめん,MC,081/742,n/a,110,{G}
+350,Ponyta,DRI,29,ポニータ,SV9a,013/063,n/a,70,{R}
+351,Rapidash,DRI,30,ギャロップ,MC,090/742,n/a,110,{R}
+352,Ethan's Cyndaquil,DRI,32,ヒビキのヒノアラシ,SV9a,015/063,Trainer's Pokémon(Ethan),70,{R}
+353,Ethan's Quilava,DRI,33,ヒビキのマグマラシ,SV9a,016/063,Trainer's Pokémon(Ethan),100,{R}
+354,Ethan's Typhlosion,DRI,34,ヒビキのバクフーン,SV9a,017/063,Trainer's Pokémon(Ethan),170,{R}
+355,Ethan's Slugma,DRI,35,ヒビキのマグマッグ,M2a,018/193,Trainer's Pokémon(Ethan),80,{R}
+356,Ethan's Magcargo,DRI,36,ヒビキのマグカルゴ,M2a,019/193,Trainer's Pokémon(Ethan),130,{R}
+357,Ethan's Ho-Oh ex,DRI,39,ヒビキのホウオウex,M2a,021/193,Trainer's Pokémon(Ethan),230,{R}
+358,Hearthflame Mask Ogerpon,DRI,44,オーガポン かまどのめん,MC,148/742,n/a,110,{R}
+359,Misty's Psyduck,DRI,45,カスミのコダック,SV9a,022/063,Trainer's Pokémon(Misty),70,{W}
+360,Misty's Staryu,DRI,46,カスミのヒトデマン,MC,155/742,Trainer's Pokémon(Misty),70,{W}
+361,Misty's Starmie,DRI,47,カスミのスターミー,MC,156/742,Trainer's Pokémon(Misty),100,{W}
+362,Misty's Magikarp,DRI,48,カスミのコイキング,MC,157/742,Trainer's Pokémon(Misty),30,{W}
+363,Misty's Gyarados,DRI,49,カスミのギャラドス,MC,158/742,Trainer's Pokémon(Misty),180,{W}
+364,Misty's Lapras,DRI,50,カスミのラプラス,MC,160/742,Trainer's Pokémon(Misty),110,{W}
+365,Cynthia's Feebas,DRI,52,シロナのヒンバス,SV9a,028/063,Trainer's Pokémon(Cynthia),30,{W}
+366,Cynthia's Milotic,DRI,53,シロナのミロカロス,SV9a,029/063,Trainer's Pokémon(Cynthia),130,{W}
+367,Buizel,DRI,57,ブイゼル,MC,193/742,n/a,70,{W}
+368,Floatzel,DRI,58,フローゼル,MC,194/742,n/a,120,{W}
+369,Dondozo ex,DRI,66,ヘイラッシャex,MC,220/742,n/a,260,{W}
+370,Wellspring Mask Ogerpon,DRI,67,オーガポン いどのめん,MC,223/742,n/a,110,{W}
+371,Electabuzz,DRI,68,エレブー,MC,236/742,n/a,90,{L}
+372,Electivire ex,DRI,69,エレキブルex,MC,237/742,n/a,280,{L}
+373,Ethan's Pichu,DRI,71,ヒビキのピチュー,MC,241/742,Trainer's Pokémon(Ethan),30,{L}
+374,Electrike,DRI,75,ラクライ,MC,242/742,n/a,60,{L}
+375,Manectric,DRI,76,ライボルト,MC,243/742,n/a,120,{L}
+376,Rotom,DRI,77,ロトム,SV9a,039/063,n/a,60,{L}
+377,Zeraora,DRI,78,ゼラオラ,M2a,055/193,n/a,100,{L}
+378,Ethan's Sudowoodo,DRI,93,ヒビキのウソッキー,SV9a,041/063,Trainer's Pokémon(Ethan),110,{F}
+379,Cynthia's Gible,DRI,102,シロナのフカマル,MC,376/742,Trainer's Pokémon(Cynthia),70,{F}
+380,Cynthia's Gabite,DRI,103,シロナのガバイト,MC,377/742,Trainer's Pokémon(Cynthia),100,{F}
+381,Cynthia's Garchomp ex,DRI,104,シロナのガブリアスex,MC,378/742,Trainer's Pokémon(Cynthia),330,{F}
+382,Mudbray,DRI,107,ドロバンコ,SV9a,045/063,n/a,90,{F}
+383,Mudsdale,DRI,108,バンバドロ,MC,406/742,n/a,150,{F}
+384,Arven's Toedscool,DRI,109,ペパーのノノクラゲ,MC,419/742,Trainer's Pokémon(Arven),70,{F}
+385,Arven's Toedscruel,DRI,110,ペパーのリククラゲ,MC,420/742,Trainer's Pokémon(Arven),140,{F}
+386,Cornerstone Mask Ogerpon,DRI,111,オーガポン いしずえのめん,MC,427/742,n/a,110,{F}
+387,Cynthia's Spiritomb,DRI,129,シロナのミカルゲ,M2a,108/193,Trainer's Pokémon(Cynthia),70,{D}
+388,Arven's Maschiff,DRI,138,ペパーのオラチフ,MC,483/742,Trainer's Pokémon(Arven),70,{D}
+389,Arven's Mabosstiff ex,DRI,139,ペパーのマフィティフex,MC,484/742,Trainer's Pokémon(Arven),270,{D}
+390,Tauros,DRI,152,ケンタロス,MC,563/742,n/a,130,{C}
+391,Arven's Skwovet,DRI,158,ペパーのホシガリス,SV9a,054/063,Trainer's Pokémon(Arven),60,{C}
+392,Arven's Greedent,DRI,159,ペパーのヨクバリス,SV9a,055/063,Trainer's Pokémon(Arven),120,{C}
+393,Pineco,DRI,4,クヌギダマ,SV10,001/098,n/a,70,{G}
+394,Shroomish,DRI,5,キノココ,MC,027/742,n/a,60,{G}
+395,Breloom,DRI,6,キノガッサ,MC,029/742,n/a,120,{G}
+396,Mow Rotom,DRI,9,カットロトム,SV10,004/098,n/a,70,{G}
+397,Fomantis,DRI,13,カリキリ,SV10,005/098,n/a,60,{G}
+398,Lurantis,DRI,14,ラランテス,SV10,006/098,n/a,120,{G}
+399,Team Rocket's Blipbug,DRI,15,ロケット団のサッチムシ,SV10,007/098,Trainer's Pokémon(Team Rocket),60,{G}
+400,Team Rocket's Tarountula,DRI,19,ロケット団のタマンチュラ,M2a,015/193,Trainer's Pokémon(Team Rocket),50,{G}
+401,Team Rocket's Spidops,DRI,20,ロケット団のワナイダー,M2a,016/193,Trainer's Pokémon(Team Rocket),130,{G}
+402,Smoliv,DRI,21,ミニーブ,MC,069/742,n/a,60,{G}
+403,Dolliv,DRI,22,オリーニョ,MC,070/742,n/a,90,{G}
+404,Arboliva ex,DRI,23,オリーヴァex,MC,071/742,n/a,310,{G}
+405,Growlithe,DRI,27,ガーディ,SV10,013/098,n/a,80,{R}
+406,Arcanine,DRI,28,ウインディ,SV10,014/098,n/a,140,{R}
+407,Team Rocket's Moltres ex,DRI,31,ロケット団のファイヤーex,SV10,015/098,Trainer's Pokémon(Team Rocket),220,{R}
+408,Team Rocket's Houndour,DRI,37,ロケット団のデルビル,MC,099/742,Trainer's Pokémon(Team Rocket),70,{R}
+409,Team Rocket's Houndoom,DRI,38,ロケット団のヘルガー,MC,100/742,Trainer's Pokémon(Team Rocket),130,{R}
+410,Torchic,DRI,40,アチャモ,SV10,018/098,n/a,70,{R}
+411,Combusken,DRI,41,ワカシャモ,SV10,019/098,n/a,100,{R}
+412,Blaziken,DRI,42,バシャーモ,SV10,020/098,n/a,170,{R}
+413,Heat Rotom,DRI,43,ヒートロトム,SV10,021/098,n/a,80,{R}
+414,Team Rocket's Articuno,DRI,51,ロケット団のフリーザー,M2a,034/193,Trainer's Pokémon(Team Rocket),120,{W}
+415,Clamperl,DRI,54,パールル,SV10,023/098,n/a,60,{W}
+416,Huntail,DRI,55,ハンテール,SV10,024/098,n/a,110,{W}
+417,Gorebyss,DRI,56,サクラビス,SV10,025/098,n/a,90,{W}
+418,Snover,DRI,59,ユキカブリ,SV10,026/098,n/a,90,{W}
+419,Abomasnow,DRI,60,ユキノオー,SV10,027/098,n/a,150,{W}
+420,Wash Rotom,DRI,61,ウォッシュロトム,SV10,028/098,n/a,80,{W}
+421,Arrokuda,DRI,62,サシカマス,SV10,029/098,n/a,70,{W}
+422,Barraskewda,DRI,63,カマスジョー,SV10,030/098,n/a,130,{W}
+423,Cetoddle,DRI,64,アルクジラ,SV10,031/098,n/a,100,{W}
+424,Cetitan ex,DRI,65,ハルクジラex,SV10,032/098,n/a,300,{W}
+425,Team Rocket's Zapdos,DRI,70,ロケット団のサンダー,SV10,033/098,Trainer's Pokémon(Team Rocket),120,{L}
+426,Team Rocket's Mareep,DRI,72,ロケット団のメリープ,SV10,034/098,Trainer's Pokémon(Team Rocket),60,{L}
+427,Team Rocket's Flaaffy,DRI,73,ロケット団のモココ,SV10,035/098,Trainer's Pokémon(Team Rocket),90,{L}
+428,Team Rocket's Ampharos,DRI,74,ロケット団のデンリュウ,SV10,036/098,Trainer's Pokémon(Team Rocket),140,{L}
+429,Team Rocket's Drowzee,DRI,79,ロケット団のスリープ,MC,288/742,Trainer's Pokémon(Team Rocket),80,{P}
+430,Team Rocket's Hypno,DRI,80,ロケット団のスリーパー,MC,289/742,Trainer's Pokémon(Team Rocket),130,{P}
+431,Team Rocket's Mewtwo ex,DRI,81,ロケット団のミュウツーex,MC,290/742,Trainer's Pokémon(Team Rocket),280,{P}
+432,Team Rocket's Wobbuffet,DRI,82,ロケット団のソーナンス,SV10,040/098,Trainer's Pokémon(Team Rocket),110,{P}
+433,Team Rocket's Chingling,DRI,85,ロケット団のリーシャン,SV10,041/098,Trainer's Pokémon(Team Rocket),30,{P}
+434,Team Rocket's Mimikyu,DRI,87,ロケット団のミミッキュ,MC,341/742,Trainer's Pokémon(Team Rocket),60,{P}
+435,Team Rocket's Dottler,DRI,88,ロケット団のレドームシ,SV10,043/098,Trainer's Pokémon(Team Rocket),80,{P}
+436,Team Rocket's Orbeetle,DRI,89,ロケット団のイオルブ,SV10,044/098,Trainer's Pokémon(Team Rocket),130,{P}
+437,Mankey,DRI,90,マンキー,SV10,045/098,n/a,70,{F}
+438,Primeape,DRI,91,オコリザル,SV10,046/098,n/a,110,{F}
+439,Annihilape,DRI,92,コノヨザル,SV10,047/098,n/a,150,{F}
+440,Team Rocket's Larvitar,DRI,94,ロケット団のヨーギラス,SV10,048/098,Trainer's Pokémon(Team Rocket),70,{F}
+441,Team Rocket's Pupitar,DRI,95,ロケット団のサナギラス,SV10,049/098,Trainer's Pokémon(Team Rocket),100,{F}
+442,Team Rocket's Tyranitar,DRI,96,ロケット団のバンギラス,SV10,050/098,Trainer's Pokémon(Team Rocket),180,{F}
+443,Nosepass,DRI,97,ノズパス,SV10,051/098,n/a,80,{F}
+444,Probopass,DRI,98,ダイノーズ,SV10,052/098,n/a,140,{F}
+445,Meditite,DRI,99,アサナン,SV10,053/098,n/a,70,{F}
+446,Medicham,DRI,100,チャーレム,SV10,054/098,n/a,120,{F}
+447,Regirock ex,DRI,101,レジロックex,MC,374/742,n/a,230,{F}
+448,Team Rocket's Ekans,DRI,112,ロケット団のアーボ,SV10,056/098,Trainer's Pokémon(Team Rocket),70,{D}
+449,Team Rocket's Arbok,DRI,113,ロケット団のアーボック,SV10,057/098,Trainer's Pokémon(Team Rocket),130,{D}
+450,Team Rocket's Nidoran♀,DRI,114,ロケット団のニドラン♀,MC,432/742,Trainer's Pokémon(Team Rocket),70,{D}
+451,Team Rocket's Nidorina,DRI,115,ロケット団のニドリーナ,MC,433/742,Trainer's Pokémon(Team Rocket),90,{D}
+452,Team Rocket's Nidoqueen,DRI,116,ロケット団のニドクイン,MC,434/742,Trainer's Pokémon(Team Rocket),170,{D}
+453,Team Rocket's Nidoran♂,DRI,117,ロケット団のニドラン♂,MC,435/742,Trainer's Pokémon(Team Rocket),70,{D}
+454,Team Rocket's Nidorino,DRI,118,ロケット団のニドリーノ,MC,436/742,Trainer's Pokémon(Team Rocket),100,{D}
+455,Team Rocket's Nidoking ex,DRI,119,ロケット団のニドキングex,MC,437/742,Trainer's Pokémon(Team Rocket),330,{D}
+456,Team Rocket's Zubat,DRI,120,ロケット団のズバット,MC,438/742,Trainer's Pokémon(Team Rocket),50,{D}
+457,Team Rocket's Golbat,DRI,121,ロケット団のゴルバット,MC,439/742,Trainer's Pokémon(Team Rocket),80,{D}
+458,Team Rocket's Crobat ex,DRI,122,ロケット団のクロバットex,MC,440/742,Trainer's Pokémon(Team Rocket),310,{D}
+459,Team Rocket's Grimer,DRI,123,ロケット団のベトベター,SV10,067/098,Trainer's Pokémon(Team Rocket),80,{D}
+460,Team Rocket's Muk,DRI,124,ロケット団のベトベトン,SV10,068/098,Trainer's Pokémon(Team Rocket),150,{D}
+461,Team Rocket's Koffing,DRI,125,ロケット団のドガース,SV10,069/098,Trainer's Pokémon(Team Rocket),70,{D}
+462,Team Rocket's Weezing,DRI,126,ロケット団のマタドガス,SV10,070/098,Trainer's Pokémon(Team Rocket),130,{D}
+463,Team Rocket's Murkrow,DRI,127,ロケット団のヤミカラス,MC,447/742,Trainer's Pokémon(Team Rocket),80,{D}
+464,Team Rocket's Sneasel,DRI,128,ロケット団のニューラ,MC,448/742,Trainer's Pokémon(Team Rocket),80,{D}
+465,Forretress,DRI,140,フォレトス,SV10,073/098,n/a,130,{M}
+466,Skarmory,DRI,141,エアームド,SV10,074/098,n/a,110,{M}
+467,Zamazenta,DRI,146,ザマゼンタ,SV10,075/098,n/a,130,{M}
+468,Team Rocket's Rattata,DRI,147,ロケット団のコラッタ,MC,555/742,Trainer's Pokémon(Team Rocket),50,{C}
+469,Team Rocket's Raticate,DRI,148,ロケット団のラッタ,MC,556/742,Trainer's Pokémon(Team Rocket),90,{C}
+470,Team Rocket's Meowth,DRI,149,ロケット団のニャース,MC,559/742,Trainer's Pokémon(Team Rocket),70,{C}
+471,Team Rocket's Persian ex,DRI,150,ロケット団のペルシアンex,MC,560/742,Trainer's Pokémon(Team Rocket),260,{C}
+472,Kangaskhan,DRI,151,ガルーラ,SV10,080/098,n/a,120,{C}
+473,Team Rocket's Porygon,DRI,153,ロケット団のポリゴン,SV10,081/098,Trainer's Pokémon(Team Rocket),60,{C}
+474,Team Rocket's Porygon2,DRI,154,ロケット団のポリゴン2,SV10,082/098,Trainer's Pokémon(Team Rocket),90,{C}
+475,Team Rocket's Porygon-Z,DRI,155,ロケット団のポリゴンZ,SV10,083/098,Trainer's Pokémon(Team Rocket),140,{C}
+476,Taillow,DRI,156,スバメ,MC,579/742,n/a,60,{C}
+477,Swellow,DRI,157,オオスバメ,MC,580/742,n/a,100,{C}
+478,Squawkabilly,DRI,160,イキリンコ,SV10,086/098,n/a,70,{C}
+479,Snivy,BLK,1,ツタージャ,MC,040/742,n/a,70,{G}
+480,Servine,BLK,2,ジャノビー,MC,041/742,n/a,100,{G}
+481,Serperior ex,BLK,3,ジャローダex,MC,042/742,n/a,320,{G}
+482,Pansage,BLK,4,ヤナップ,SV11B,004/086,n/a,70,{G}
+483,Simisage,BLK,5,ヤナッキー,SV11B,005/086,n/a,100,{G}
+484,Petilil,BLK,6,チュリネ,SV11B,006/086,n/a,60,{G}
+485,Lilligant,BLK,7,ドレディア,SV11B,007/086,n/a,100,{G}
+486,Maractus,BLK,8,マラカッチ,SV11B,008/086,n/a,100,{G}
+487,Karrablast,BLK,9,カブルモ,SV11B,009/086,n/a,60,{G}
+488,Foongus,BLK,10,タマゲタケ,MC,048/742,n/a,50,{G}
+489,Amoonguss,BLK,11,モロバレル,MC,049/742,n/a,120,{G}
+490,Victini,BLK,12,ビクティニ,MC,107/742,n/a,80,{R}
+491,Darumaka,BLK,13,ダルマッカ,MC,116/742,n/a,80,{R}
+492,Darmanitan,BLK,14,ヒヒダルマ,MC,117/742,n/a,140,{R}
+493,Litwick,WHT,16,ヒトモシ,SV11B,015/086,n/a,60,{R}
+494,Lampent,WHT,17,ランプラー,SV11B,016/086,n/a,80,{R}
+495,Chandelure,WHT,18,シャンデラ,SV11B,017/086,n/a,150,{R}
+496,Larvesta,BLK,15,メラルバ,SV11B,018/086,n/a,60,{R}
+497,Volcarona,BLK,16,ウルガモス,MC,124/742,n/a,120,{R}
+498,Panpour,BLK,17,ヒヤップ,SV11B,020/086,n/a,70,{W}
+499,Simipour,BLK,18,ヒヤッキー,SV11B,021/086,n/a,100,{W}
+500,Tympole,BLK,19,オタマロ,SV11B,022/086,n/a,60,{W}
+501,Palpitoad,BLK,20,ガマガル,SV11B,023/086,n/a,90,{W}
+502,Seismitoad,BLK,21,ガマゲロゲ,SV11B,024/086,n/a,170,{W}
+503,Tirtouga,BLK,22,プロトーガ,SV11B,025/086,n/a,100,{W}
+504,Carracosta,BLK,23,アバゴーラ,SV11B,026/086,n/a,180,{W}
+505,Alomomola,BLK,24,ママンボウ,SV11B,027/086,n/a,110,{W}
+506,Cubchoo,BLK,25,クマシュン,SV11B,028/086,n/a,70,{W}
+507,Beartic,BLK,26,ツンベアー,SV11B,029/086,n/a,150,{W}
+508,Cryogonal,BLK,27,フリージオ,SV11B,030/086,n/a,90,{W}
+509,Kyurem ex,BLK,28,キュレムex,MC,203/742,n/a,230,{W}
+510,Emolga,BLK,29,エモンガ,MC,253/742,n/a,70,{L}
+511,Tynamo,BLK,30,シビシラス,MC,256/742,n/a,40,{L}
+512,Eelektrik,BLK,31,シビビール,MC,257/742,n/a,90,{L}
+513,Eelektross,BLK,32,シビルドン,SV11B,035/086,n/a,160,{L}
+514,Thundurus,BLK,33,ボルトロス,MC,258/742,n/a,120,{L}
+515,Zekrom ex,BLK,34,ゼクロムex,MC,259/742,n/a,230,{L}
+516,Munna,BLK,35,ムンナ,SV11B,038/086,n/a,70,{P}
+517,Musharna,BLK,36,ムシャーナ,SV11B,039/086,n/a,120,{P}
+518,Solosis,BLK,37,ユニラン,SV11B,040/086,n/a,40,{P}
+519,Duosion,BLK,38,ダブラン,SV11B,041/086,n/a,70,{P}
+520,Reuniclus,BLK,39,ランクルス,SV11B,042/086,n/a,140,{P}
+521,Elgyem,BLK,40,リグレー,SV11B,043/086,n/a,60,{P}
+522,Beheeyem,BLK,41,オーベム,SV11B,044/086,n/a,90,{P}
+523,Golett,BLK,42,ゴビット,SV11B,045/086,n/a,90,{P}
+524,Golurk,BLK,43,ゴルーグ,SV11B,046/086,n/a,160,{P}
+525,Meloetta ex,BLK,44,メロエッタex,SV11B,047/086,n/a,200,{P}
+526,Drilbur,BLK,45,モグリュー,MC,385/742,n/a,70,{F}
+527,Excadrill ex,BLK,46,ドリュウズex,MC,387/742,n/a,270,{F}
+528,Timburr,BLK,47,ドッコラー,MC,388/742,n/a,70,{F}
+529,Gurdurr,BLK,48,ドテッコツ,MC,389/742,n/a,100,{F}
+530,Conkeldurr,BLK,49,ローブシン,MC,390/742,n/a,140,{F}
+531,Throh,BLK,50,ナゲキ,SV11B,053/086,n/a,130,{F}
+532,Dwebble,BLK,51,イシズマイ,SV11B,054/086,n/a,70,{F}
+533,Crustle,BLK,52,イワパレス,SV11B,055/086,n/a,150,{F}
+534,Landorus,BLK,53,ランドロス,MC,398/742,n/a,130,{F}
+535,Venipede,BLK,54,フシデ,SV11B,057/086,n/a,80,{D}
+536,Whirlipede,BLK,55,ホイーガ,SV11B,058/086,n/a,100,{D}
+537,Scolipede,BLK,56,ペンドラー,SV11B,059/086,n/a,160,{D}
+538,Sandile,BLK,57,メグロコ,SV11B,060/086,n/a,70,{D}
+539,Krokorok,BLK,58,ワルビル,SV11B,061/086,n/a,100,{D}
+540,Krookodile,BLK,59,ワルビアル,SV11B,062/086,n/a,170,{D}
+541,Vullaby,WHT,63,バルチャイ,SV11B,063/086,n/a,70,{D}
+542,Mandibuzz,WHT,64,バルジーナ,SV11B,064/086,n/a,110,{D}
+543,Escavalier,BLK,60,シュバルゴ,MC,505/742,n/a,130,{M}
+544,Pawniard,BLK,64,コマタナ,MC,510/742,n/a,60,{M}
+545,Bisharp,BLK,65,キリキザン,MC,511/742,n/a,120,{M}
+546,Cobalion,BLK,66,コバルオン,SV11B,068/086,n/a,120,{M}
+547,Genesect ex,BLK,67,ゲノセクトex,MC,512/742,n/a,220,{M}
+548,Axew,BLK,68,キバゴ,SV11B,070/086,n/a,70,{N}
+549,Fraxure,BLK,69,オノンド,SV11B,071/086,n/a,100,{N}
+550,Haxorus,BLK,70,オノノクス,SV11B,072/086,n/a,170,{N}
+551,Pidove,BLK,71,マメパト,MC,598/742,n/a,60,{C}
+552,Tranquill,BLK,72,ハトーボー,MC,599/742,n/a,80,{C}
+553,Unfezant,BLK,73,ケンホロウ,MC,600/742,n/a,150,{C}
+554,Audino,BLK,74,タブンネ,MC,601/742,n/a,100,{C}
+555,Minccino,BLK,75,チラーミィ,MC,603/742,n/a,60,{C}
+556,Cinccino,BLK,76,チラチーノ,MC,604/742,n/a,100,{C}
+557,Sewaddle,WHT,1,クルミル,SV11W,001/086,n/a,50,{G}
+558,Swadloon,WHT,2,クルマユ,SV11W,002/086,n/a,80,{G}
+559,Leavanny,WHT,3,ハハコモリ,SV11W,003/086,n/a,130,{G}
+560,Cottonee,WHT,4,モンメン,MC,043/742,n/a,60,{G}
+561,Whimsicott ex,WHT,5,エルフーンex,MC,044/742,n/a,230,{G}
+562,Deerling,WHT,6,シキジカ,SV11W,006/086,n/a,70,{G}
+563,Sawsbuck,WHT,7,メブキジカ,SV11W,007/086,n/a,130,{G}
+564,Shelmet,WHT,8,チョボマキ,SV11W,008/086,n/a,60,{G}
+565,Accelgor,WHT,9,アギルダー,SV11W,009/086,n/a,100,{G}
+566,Virizion,WHT,10,ビリジオン,MC,054/742,n/a,120,{G}
+567,Tepig,WHT,11,ポカブ,MC,108/742,n/a,70,{R}
+568,Pignite,WHT,12,チャオブー,MC,110/742,n/a,110,{R}
+569,Emboar,WHT,13,エンブオー,MC,112/742,n/a,180,{R}
+570,Pansear,WHT,14,バオップ,SV11W,014/086,n/a,70,{R}
+571,Simisear,WHT,15,バオッキー,SV11W,015/086,n/a,100,{R}
+572,Heatmor,WHT,19,クイタラン,MC,120/742,n/a,120,{R}
+573,Reshiram ex,WHT,20,レシラムex,MC,126/742,n/a,230,{R}
+574,Oshawott,WHT,21,ミジュマル,SV11W,018/086,n/a,70,{W}
+575,Dewott,WHT,22,フタチマル,SV11W,019/086,n/a,100,{W}
+576,Samurott,WHT,23,ダイケンキ,SV11W,020/086,n/a,160,{W}
+577,Basculin,WHT,24,バスラオ,SV11W,021/086,n/a,90,{W}
+578,Ducklett,WHT,25,コアルヒー,MC,197/742,n/a,70,{W}
+579,Swanna,WHT,26,スワンナ,MC,198/742,n/a,120,{W}
+580,Vanillite,WHT,27,バニプッチ,MC,199/742,n/a,60,{W}
+581,Vanillish,WHT,28,バニリッチ,MC,200/742,n/a,90,{W}
+582,Vanilluxe,WHT,29,バイバニラ,MC,201/742,n/a,150,{W}
+583,Keldeo ex,WHT,30,ケルディオex,MC,205/742,n/a,210,{W}
+584,Blitzle,WHT,31,シママ,MC,250/742,n/a,60,{L}
+585,Zebstrika,WHT,32,ゼブライカ,MC,252/742,n/a,120,{L}
+586,Joltik,WHT,33,バチュル,SV11W,030/086,n/a,40,{L}
+587,Galvantula,WHT,34,デンチュラ,SV11W,031/086,n/a,90,{L}
+588,Stunfisk,WHT,35,マッギョ,SV11W,032/086,n/a,110,{L}
+589,Woobat,WHT,36,コロモリ,SV11W,033/086,n/a,60,{P}
+590,Swoobat,WHT,37,ココロモリ,SV11W,034/086,n/a,90,{P}
+591,Sigilyph,WHT,38,シンボラー,SV11W,035/086,n/a,120,{P}
+592,Yamask,WHT,39,デスマス,MC,320/742,n/a,70,{P}
+593,Cofagrigus,WHT,40,デスカーン,MC,322/742,n/a,120,{P}
+594,Gothita,WHT,41,ゴチム,MC,323/742,n/a,70,{P}
+595,Gothorita,WHT,42,ゴチミル,MC,324/742,n/a,90,{P}
+596,Gothitelle,WHT,43,ゴチルゼル,MC,325/742,n/a,150,{P}
+597,Frillish,WHT,44,プルリル,SV11W,041/086,n/a,80,{P}
+598,Jellicent ex,WHT,45,ブルンゲルex,SV11W,042/086,n/a,270,{P}
+599,Roggenrola,WHT,46,ダンゴロ,SV11W,043/086,n/a,80,{F}
+600,Boldore,WHT,47,ガントル,SV11W,044/086,n/a,110,{F}
+601,Gigalith,WHT,48,ギガイアス,SV11W,045/086,n/a,170,{F}
+602,Sawk,WHT,49,ダゲキ,MC,391/742,n/a,110,{F}
+603,Archen,WHT,50,アーケン,MC,392/742,n/a,80,{F}
+604,Archeops,WHT,51,アーケオス,MC,393/742,n/a,140,{F}
+605,Mienfoo,WHT,52,コジョフー,MC,395/742,n/a,60,{F}
+606,Mienshao,WHT,53,コジョンド,MC,396/742,n/a,100,{F}
+607,Terrakion,WHT,54,テラキオン,SV11W,051/086,n/a,140,{F}
+608,Purrloin,WHT,55,チョロネコ,SV11W,052/086,n/a,60,{D}
+609,Liepard,WHT,56,レパルダス,SV11W,053/086,n/a,110,{D}
+610,Scraggy,WHT,57,ズルッグ,SV11W,054/086,n/a,70,{D}
+611,Scrafty,WHT,58,ズルズキン,SV11W,055/086,n/a,120,{D}
+612,Trubbish,WHT,59,ヤブクロン,MC,465/742,n/a,70,{D}
+613,Garbodor,WHT,60,ダストダス,MC,466/742,n/a,140,{D}
+614,Zorua,WHT,61,ゾロア,MC,467/742,n/a,70,{D}
+615,Zoroark,WHT,62,ゾロアーク,MC,468/742,n/a,120,{D}
+616,Deino,WHT,65,モノズ,MC,476/742,n/a,80,{D}
+617,Zweilous,WHT,66,ジヘッド,MC,477/742,n/a,110,{D}
+618,Hydreigon ex,WHT,67,サザンドラex,MC,478/742,n/a,330,{D}
+619,Ferroseed,WHT,68,テッシード,SV11W,063/086,n/a,70,{M}
+620,Ferrothorn,WHT,69,ナットレイ,SV11W,064/086,n/a,140,{M}
+621,Klink,BLK,61,ギアル,MC,506/742,n/a,60,{M}
+622,Klang,BLK,62,ギギアル,MC,507/742,n/a,90,{M}
+623,Klinklang,BLK,63,ギギギアル,MC,508/742,n/a,150,{M}
+624,Durant,WHT,70,アイアント,SV11W,068/086,n/a,110,{M}
+625,Druddigon,WHT,71,クリムガン,MC,544/742,n/a,120,{N}
+626,Patrat,WHT,72,ミネズミ,SV11W,070/086,n/a,60,{C}
+627,Watchog,WHT,73,ミルホッグ,SV11W,071/086,n/a,90,{C}
+628,Lillipup,WHT,74,ヨーテリー,SV11W,072/086,n/a,60,{C}
+629,Herdier,WHT,75,ハーデリア,SV11W,073/086,n/a,90,{C}
+630,Stoutland,WHT,76,ムーランド,SV11W,074/086,n/a,160,{C}
+631,Bouffalant ex,WHT,77,バッフロンex,MC,605/742,n/a,220,{C}
+632,Rufflet,BLK,77,ワシボン,MC,606/742,n/a,70,{C}
+633,Braviary,BLK,78,ウォーグル,MC,607/742,n/a,140,{C}
+634,Tornadus,WHT,78,トルネロス,MC,610/742,n/a,120,{C}
+635,Steven's Baltoy,DRI,83,ダイゴのヤジロン,SVOD,001/018,Trainer's Pokémon(Steven),60,{P}
+636,Steven's Claydol,DRI,84,ダイゴのネンドール,SVOD,002/018,Trainer's Pokémon(Steven),120,{P}
+637,Steven's Carbink,DRI,86,ダイゴのメレシー,SVOD,003/018,Trainer's Pokémon(Steven),80,{P}
+638,Steven's Skarmory,DRI,142,ダイゴのエアームド,MC,494/742,Trainer's Pokémon(Steven),120,{M}
+639,Steven's Beldum,DRI,143,ダイゴのダンバル,SVOD,019/018,Trainer's Pokémon(Steven),70,{M}
+640,Steven's Metang,DRI,144,ダイゴのメタング,SVOD,006/018,Trainer's Pokémon(Steven),100,{M}
+641,Steven's Metagross ex,DRI,145,ダイゴのメタグロスex,SVOD,007/018,Trainer's Pokémon(Steven),340,{M}
+642,Marnie's Purrloin,DRI,130,マリィのチョロネコ,MC,458/742,Trainer's Pokémon(Marnie),60,{D}
+643,Marnie's Liepard,DRI,131,マリィのレパルダス,MC,459/742,Trainer's Pokémon(Marnie),100,{D}
+644,Marnie's Scraggy,DRI,132,マリィのズルッグ,MC,463/742,Trainer's Pokémon(Marnie),70,{D}
+645,Marnie's Scrafty,DRI,133,マリィのズルズキン,MC,464/742,Trainer's Pokémon(Marnie),120,{D}
+646,Marnie's Impidimp,DRI,134,マリィのベロバー,SVOM,005/019,Trainer's Pokémon(Marnie),70,{D}
+647,Marnie's Morgrem,DRI,135,マリィのギモー,SVOM,006/019,Trainer's Pokémon(Marnie),100,{D}
+648,Marnie's Grimmsnarl ex,DRI,136,マリィのオーロンゲex,SVOM,007/019,Trainer's Pokémon(Marnie),320,{D}
+649,Marnie's Morpeko,DRI,137,マリィのモルペコ,SVOM,020/019,Trainer's Pokémon(Marnie),70,{D}
+650,Bulbasaur,MEG,1,フシギダネ,M1L,001/063,n/a,80,{G}
+651,Ivysaur,MEG,2,フシギソウ,M1L,002/063,n/a,110,{G}
+652,Mega Venusaur ex,MEG,3,メガフシギバナex,M1L,003/063,n/a,380,{G}
+653,Exeggcute,MEG,4,タマタマ,M1L,004/063,n/a,60,{G}
+654,Exeggutor,MEG,5,ナッシー,M1L,005/063,n/a,140,{G}
+655,Celebi,MEG,12,セレビィ,M1L,006/063,n/a,80,{G}
+656,Seedot,MEG,13,タネボー,M1L,007/063,n/a,60,{G}
+657,Nuzleaf,MEG,14,コノハナ,M1L,008/063,n/a,100,{G}
+658,Shiftry,MEG,15,ダーテング,M1L,009/063,n/a,160,{G}
+659,Vulpix,MEG,19,ロコン,M1L,010/063,n/a,70,{R}
+660,Ninetales,MEG,20,キュウコン,M1L,011/063,n/a,120,{R}
+661,Numel,MEG,21,ドンメル,M1L,012/063,n/a,80,{R}
+662,Mega Camerupt ex,MEG,22,メガバクーダex,M1L,013/063,n/a,340,{R}
+663,Volcanion,MEG,25,ボルケニオン,M1L,014/063,n/a,130,{R}
+664,Scorbunny,MEG,26,ヒバニー,M1L,015/063,n/a,70,{R}
+665,Raboot,MEG,27,ラビフット,M1L,016/063,n/a,100,{R}
+666,Cinderace,MEG,28,エースバーン,M1L,017/063,n/a,160,{R}
+667,Corphish,MEG,33,ヘイガニ,M1L,018/063,n/a,80,{W}
+668,Gimmighoul,MEG,67,コレクレー,MC,356/742,n/a,70,{P}
+669,Sandshrew,MEG,68,サンド,M1L,020/063,n/a,70,{F}
+670,Sandslash,MEG,69,サンドパン,M1L,021/063,n/a,120,{F}
+671,Onix,MEG,70,イワーク,M1L,022/063,n/a,120,{F}
+672,Tyrogue,MEG,71,バルキー,M1L,023/063,n/a,30,{F}
+673,Makuhita,MEG,72,マクノシタ,M1L,024/063,n/a,80,{F}
+674,Hariyama,MEG,73,ハリテヤマ,M1L,025/063,n/a,150,{F}
+675,Lunatone,MEG,74,ルナトーン,MC,371/742,n/a,110,{F}
+676,Solrock,MEG,75,ソルロック,MC,372/742,n/a,110,{F}
+677,Riolu,MEG,76,リオル,M2a,091/193,n/a,80,{F}
+678,Mega Lucario ex,MEG,77,メガルカリオex,M2a,092/193,n/a,340,{F}
+679,Croagunk,MEG,78,グレッグル,MC,382/742,n/a,70,{F}
+680,Toxicroak,MEG,79,ドクロッグ,MC,384/742,n/a,130,{F}
+681,Marshadow,MEG,80,マーシャドー,MC,408/742,n/a,90,{F}
+682,Stonjourner,MEG,81,イシヘンジン,MC,414/742,n/a,130,{F}
+683,Nacli,MEG,82,コジオ,MC,416/742,n/a,70,{F}
+684,Naclstack,MEG,83,ジオヅム,MC,417/742,n/a,110,{F}
+685,Garganacl,MEG,84,キョジオーン,MC,418/742,n/a,180,{F}
+686,Crawdaunt,MEG,85,シザリガー,M1L,037/063,n/a,130,{D}
+687,Mega Absol ex,MEG,86,メガアブソルex,M1L,038/063,n/a,280,{D}
+688,Spiritomb,MEG,87,ミカルゲ,MC,455/742,n/a,80,{D}
+689,Yveltal,MEG,88,イベルタル,MC,481/742,n/a,110,{D}
+690,Nickit,MEG,89,クスネ,M1L,041/063,n/a,70,{D}
+691,Thievul,MEG,90,フォクスライ,M1L,042/063,n/a,120,{D}
+692,Shroodle,MEG,91,シルシュルー,M1L,043/063,n/a,60,{D}
+693,Grafaiai,MEG,92,タギングル,M1L,044/063,n/a,100,{D}
+694,Steelix,MEG,93,ハガネール,M1L,045/063,n/a,200,{M}
+695,Mega Mawile ex,MEG,94,メガクチートex,M1L,046/063,n/a,270,{M}
+696,Dialga,MEG,95,ディアルガ,MC,502/742,n/a,140,{M}
+697,Tinkatink,MEG,96,カヌチャン,MC,528/742,n/a,70,{M}
+698,Tinkatuff,MEG,97,ナカヌチャン,MC,529/742,n/a,90,{M}
+699,Tinkaton,MEG,98,デカヌチャン,MC,530/742,n/a,160,{M}
+700,Gholdengo,MEG,99,サーフゴー,MC,535/742,n/a,130,{M}
+701,Spearow,MEG,102,オニスズメ,MC,557/742,n/a,60,{C}
+702,Fearow,MEG,103,オニドリル,MC,558/742,n/a,100,{C}
+703,Miltank,MEG,106,ミルタンク,MC,578/742,n/a,120,{C}
+704,Yungoos,MEG,109,ヤングース,M1L,055/063,n/a,70,{C}
+705,Gumshoos,MEG,110,デカグース,M1L,056/063,n/a,100,{C}
+706,Tangela,MEG,6,モンジャラ,M1S,001/063,n/a,80,{G}
+707,Tangrowth,MEG,7,モジャンボ,M1S,002/063,n/a,150,{G}
+708,Chikorita,MEG,8,チコリータ,M1S,003/063,n/a,70,{G}
+709,Bayleef,MEG,9,ベイリーフ,M1S,004/063,n/a,110,{G}
+710,Meganium,MEG,10,メガニウム,M1S,005/063,n/a,160,{G}
+711,Shuckle,MEG,11,ツボツボ,MC,023/742,n/a,80,{G}
+712,Nincada,MEG,16,ツチニン,M1S,007/063,n/a,50,{G}
+713,Ninjask,MEG,17,テッカニン,M1S,008/063,n/a,80,{G}
+714,Dhelmise,MEG,18,ダダリン,M1S,009/063,n/a,120,{G}
+715,Litleo,MEG,23,シシコ,M1S,010/063,n/a,70,{R}
+716,Pyroar,MEG,24,カエンジシ,M1S,011/063,n/a,130,{R}
+717,Sizzlipede,MEG,29,ヤクデ,M1S,012/063,n/a,80,{R}
+718,Centiskorch,MEG,30,マルヤクデ,M1S,013/063,n/a,140,{R}
+719,Chi-Yu,MEG,31,イーユイ,M1S,014/063,n/a,110,{R}
+720,Mantine,MEG,32,マンタイン,MC,173/742,n/a,110,{W}
+721,Kyogre,MEG,34,カイオーガ,M1S,016/063,n/a,150,{W}
+722,Snover,MEG,35,ユキカブリ,M1S,017/063,n/a,90,{W}
+723,Mega Abomasnow ex,MEG,36,メガユキノオーex,M1S,018/063,n/a,350,{W}
+724,Clauncher,MEG,37,ウデッポウ,M1S,019/063,n/a,80,{W}
+725,Clawitzer,MEG,38,ブロスター,M1S,020/063,n/a,130,{W}
+726,Sobble,MEG,39,メッソン,M1S,021/063,n/a,70,{W}
+727,Drizzile,MEG,40,ジメレオン,M1S,022/063,n/a,100,{W}
+728,Inteleon,MEG,41,インテレオン,M1S,023/063,n/a,150,{W}
+729,Snom,MEG,42,ユキハミ,M1S,024/063,n/a,50,{W}
+730,Frosmoth,MEG,43,モスノウ,M1S,025/063,n/a,110,{W}
+731,Eiscue,MEG,44,コオリッポ,M1S,026/063,n/a,110,{W}
+732,Magnemite,MEG,45,コイル,M1S,027/063,n/a,70,{L}
+733,Magneton,MEG,46,レアコイル,M1S,028/063,n/a,90,{L}
+734,Magnezone,MEG,47,ジバコイル,M1S,029/063,n/a,160,{L}
+735,Raikou,MEG,48,ライコウ,M1S,030/063,n/a,120,{L}
+736,Electrike,MEG,49,ラクライ,M1S,031/063,n/a,70,{L}
+737,Mega Manectric ex,MEG,50,メガライボルトex,M1S,032/063,n/a,330,{L}
+738,Pachirisu,MEG,51,パチリス,MC,247/742,n/a,70,{L}
+739,Helioptile,MEG,52,エリキテル,M1S,034/063,n/a,70,{L}
+740,Heliolisk,MEG,53,エレザード,M1S,035/063,n/a,120,{L}
+741,Abra,MEG,54,ケーシィ,M1S,036/063,n/a,50,{P}
+742,Kadabra,MEG,55,ユンゲラー,M1S,037/063,n/a,80,{P}
+743,Alakazam,MEG,56,フーディン,M1S,038/063,n/a,140,{P}
+744,Jynx,MEG,57,ルージュラ,M1S,039/063,n/a,110,{P}
+745,Ralts,MEG,58,ラルトス,M2a,069/193,n/a,70,{P}
+746,Kirlia,MEG,59,キルリア,M2a,070/193,n/a,100,{P}
+747,Mega Gardevoir ex,MEG,60,メガサーナイトex,M2a,071/193,n/a,360,{P}
+748,Shedinja,MEG,61,ヌケニン,M1S,043/063,n/a,60,{P}
+749,Spoink,MEG,62,バネブー,MC,305/742,n/a,70,{P}
+750,Grumpig,MEG,63,ブーピッグ,MC,306/742,n/a,120,{P}
+751,Xerneas,MEG,64,ゼルネアス,M1S,046/063,n/a,120,{P}
+752,Greavard,MEG,65,ボチ,MC,349/742,n/a,80,{P}
+753,Houndstone,MEG,66,ハカドッグ,MC,350/742,n/a,140,{P}
+754,Mega Latias ex,MEG,100,メガラティアスex,M1S,049/063,n/a,280,{N}
+755,Latios,MEG,101,ラティオス,M1S,050/063,n/a,130,{N}
+756,Mega Kangaskhan ex,MEG,104,メガガルーラex,M1S,051/063,n/a,300,{C}
+757,Delibird,MEG,105,デリバード,M1S,052/063,n/a,90,{C}
+758,Buneary,MEG,107,ミミロル,MC,593/742,n/a,70,{C}
+759,Lopunny,MEG,108,ミミロップ,MC,594/742,n/a,110,{C}
+760,Stufful,MEG,111,ヌイコグマ,M1S,055/063,n/a,70,{C}
+761,Bewear,MEG,112,キテルグマ,M1S,056/063,n/a,130,{C}
+762,Snubbull,PFL,37,ブルー,MC,303/742,n/a,70,{P}
+763,Granbull,PFL,38,グランブル,MC,304/742,n/a,130,{P}
+764,Cresselia,PFL,39,クレセリア,MBD,003/021,n/a,120,{P}
+765,Meloetta,PFL,40,メロエッタ,MBD,022/021,n/a,90,{P}
+766,Mega Diancie ex,PFL,41,メガディアンシーex,MBD,005/021,n/a,270,{P}
+767,Mimikyu,PFL,42,ミミッキュ,MBD,006/021,n/a,70,{P}
+768,Milcery,PFL,43,マホミル,MBD,007/021,n/a,50,{P}
+769,Alcremie,PFL,44,マホイップ,MBD,008/021,n/a,90,{P}
+770,Gastly,PFL,54,ゴース,MC,442/742,n/a,70,{D}
+771,Haunter,PFL,55,ゴースト,MC,444/742,n/a,100,{D}
+772,Mega Gengar ex,PFL,56,メガゲンガーex,MBG,003/021,n/a,350,{D}
+773,Murkrow,PFL,57,ヤミカラス,MBG,004/021,n/a,60,{D}
+774,Honchkrow,PFL,58,ドンカラス,MBG,005/021,n/a,130,{D}
+775,Sableye,PFL,59,ヤミラミ,MBG,006/021,n/a,80,{D}
+776,Absol,PFL,63,アブソル,MBG,007/021,n/a,110,{D}
+777,Eternatus,PFL,69,ムゲンダイナ,MBG,008/021,n/a,150,{D}
+778,Oddish,PFL,1,ナゾノクサ,M2,001/080,n/a,50,{G}
+779,Gloom,PFL,2,クサイハナ,M2,002/080,n/a,70,{G}
+780,Vileplume,PFL,3,ラフレシア,M2,003/080,n/a,150,{G}
+781,Mega Heracross ex,PFL,4,メガヘラクロスex,M2,004/080,n/a,280,{G}
+782,Lotad,PFL,5,ハスボー,M2,005/080,n/a,70,{G}
+783,Lombre,PFL,6,ハスブレロ,M2,006/080,n/a,90,{G}
+784,Ludicolo,PFL,7,ルンパッパ,M2,007/080,n/a,160,{G}
+785,Genesect,PFL,8,ゲノセクト,M2,008/080,n/a,120,{G}
+786,Nymble,PFL,9,マメバッタ,M2,009/080,n/a,50,{G}
+787,Lokix,PFL,10,エクスレッグ,M2,010/080,n/a,120,{G}
+788,Charmander,PFL,11,ヒトカゲ,M2,011/080,n/a,80,{R}
+789,Charmeleon,PFL,12,リザード,M2,012/080,n/a,110,{R}
+790,Mega Charizard X ex,PFL,13,メガリザードンXex,M2,013/080,n/a,360,{R}
+791,Moltres,PFL,14,ファイヤー,M2,014/080,n/a,120,{R}
+792,Darumaka,PFL,15,ダルマッカ,M2,015/080,n/a,80,{R}
+793,Darmanitan,PFL,16,ヒヒダルマ,M2,016/080,n/a,150,{R}
+794,Reshiram,PFL,17,レシラム,M2,017/080,n/a,130,{R}
+795,Oricorio ex,PFL,18,オドリドリex,M2,018/080,n/a,190,{R}
+796,Charcadet,PFL,19,カルボウ,M2,019/080,n/a,70,{R}
+797,Ceruledge,PFL,20,ソウブレイズ,M2,020/080,n/a,140,{R}
+798,Seel,PFL,21,パウワウ,M2,021/080,n/a,80,{W}
+799,Dewgong,PFL,22,ジュゴン,M2,022/080,n/a,130,{W}
+800,Swinub,PFL,23,ウリムー,M2,023/080,n/a,70,{W}
+801,Piloswine,PFL,24,イノムー,M2,024/080,n/a,100,{W}
+802,Mamoswine,PFL,25,マンムー,M2,025/080,n/a,180,{W}
+803,Suicune,PFL,26,スイクン,M2,026/080,n/a,130,{W}
+804,Piplup,PFL,27,ポッチャマ,M2,027/080,n/a,70,{W}
+805,Prinplup,PFL,28,ポッタイシ,M2,028/080,n/a,100,{W}
+806,Rotom ex,PFL,29,ロトムex,M2,029/080,n/a,190,{L}
+807,Yamper,PFL,30,ワンパチ,M2,030/080,n/a,70,{L}
+808,Boltund,PFL,31,パルスワン,M2,031/080,n/a,130,{L}
+809,Pawmi,PFL,32,パモ,M2,032/080,n/a,60,{L}
+810,Pawmo,PFL,33,パモット,M2,033/080,n/a,90,{L}
+811,Pawmot,PFL,34,パーモット,M2,034/080,n/a,140,{L}
+812,Misdreavus,PFL,35,ムウマ,M2,035/080,n/a,70,{P}
+813,Mismagius ex,PFL,36,ムウマージex,M2,036/080,n/a,260,{P}
+814,Cottonee,PROMO,18,モンメン,M2,037/080,n/a,60,{P}
+815,Whimsicott,PROMO,19,エルフーン,M2,038/080,n/a,90,{P}
+816,Zacian,PFL,45,ザシアン,M2,039/080,n/a,130,{P}
+817,Bramblin,PFL,46,アノクサ,M2,040/080,n/a,50,{P}
+818,Brambleghast,PFL,47,アノホラグサ,M2,041/080,n/a,100,{P}
+819,Paldean Tauros,PFL,48,パルデア ケンタロス,M2,042/080,n/a,130,{F}
+820,Gligar,PFL,49,グライガー,M2,043/080,n/a,70,{F}
+821,Gliscor,PFL,50,グライオン,M2,044/080,n/a,120,{F}
+822,Trapinch,PFL,51,ナックラー,M2,045/080,n/a,70,{F}
+823,Vibrava,PFL,52,ビブラーバ,M2,046/080,n/a,90,{F}
+824,Flygon,PFL,53,フライゴン,M2,047/080,n/a,150,{F}
+825,Sneasel,PROMO,20,ニューラ,M2,048/080,n/a,70,{D}
+826,Weavile,PROMO,21,マニューラ,M2,049/080,n/a,90,{D}
+827,Carvanha,PFL,60,キバニア,M2,050/080,n/a,70,{D}
+828,Mega Sharpedo ex,PFL,61,メガサメハダーex,M2,051/080,n/a,330,{D}
+829,Seviper,PFL,62,ハブネーク,M2,052/080,n/a,120,{D}
+830,Sandile,PFL,64,メグロコ,M2,053/080,n/a,70,{D}
+831,Krokorok,PFL,65,ワルビル,M2,054/080,n/a,100,{D}
+832,Krookodile,PFL,66,ワルビアル,M2,055/080,n/a,170,{D}
+833,Toxel,PFL,67,エレズン,M2,056/080,n/a,70,{D}
+834,Toxtricity,PFL,68,ストリンダー,M2,057/080,n/a,140,{D}
+835,Empoleon ex,PFL,70,エンペルトex,M2,058/080,n/a,320,{M}
+836,Bronzor,PFL,71,ドーミラー,M2,059/080,n/a,80,{M}
+837,Bronzong,PFL,72,ドータクン,M2,060/080,n/a,140,{M}
+838,Togedemaru,PFL,73,トゲデマル,M2,061/080,n/a,80,{M}
+839,Duraludon,PFL,74,ジュラルドン,M2,062/080,n/a,130,{M}
+840,Archaludon,PFL,75,ブリジュラス,M2,063/080,n/a,180,{M}
+841,Jigglypuff,PFL,76,プリン,M2,064/080,n/a,70,{C}
+842,Wigglytuff,PFL,77,プクリン,M2,065/080,n/a,120,{C}
+843,Aipom,PFL,78,エイパム,M2,066/080,n/a,70,{C}
+844,Ambipom,PFL,79,エテボース,M2,067/080,n/a,110,{C}
+845,Smeargle,PFL,80,ドーブル,M2,068/080,n/a,80,{C}
+846,Zigzagoon,PFL,81,ジグザグマ,M2,069/080,n/a,70,{C}
+847,Linoone,PFL,82,マッスグマ,M2,070/080,n/a,100,{C}
+848,Buneary,PFL,83,ミミロル,M2,071/080,n/a,70,{C}
+849,Mega Lopunny ex,PFL,84,メガミミロップex,M2,072/080,n/a,330,{C}
+850,Wurmple,ASC,11,ケムッソ,M2a,004/193,n/a,60,{G}
+851,Silcoon,ASC,12,カラサリス,M2a,005/193,n/a,90,{G}
+852,Beautifly,ASC,13,アゲハント,M2a,006/193,n/a,130,{G}
+853,Cascoon,ASC,14,マユルド,M2a,007/193,n/a,90,{G}
+854,Dustox,ASC,15,ドクケイル,M2a,008/193,n/a,140,{G}
+855,Entei,ASC,25,エンテイ,M2a,020/193,n/a,140,{R}
+856,Numel,ASC,27,ドンメル,M2a,022/193,n/a,80,{R}
+857,Camerupt,ASC,28,バクーダ,M2a,023/193,n/a,140,{R}
+858,Psyduck,ASC,39,コダック,M2a,032/193,n/a,70,{W}
+859,Golduck,ASC,40,ゴルダック,M2a,033/193,n/a,120,{W}
+860,Snorunt,ASC,46,ユキワラシ,M2a,035/193,n/a,70,{W}
+861,Mega Froslass ex,ASC,47,メガユキメノコex,M2a,036/193,n/a,310,{W}
+862,N's Vanillite,ASC,49,Nのバニプッチ,M2a,037/193,Trainer's Pokémon(N),60,{W}
+863,N's Vanillish,ASC,50,Nのバニリッチ,M2a,038/193,Trainer's Pokémon(N),100,{W}
+864,N's Vanilluxe,ASC,51,Nのバイバニラ,M2a,039/193,Trainer's Pokémon(N),150,{W}
+865,Snom,ASC,52,ユキハミ,M2a,040/193,n/a,50,{W}
+866,Frosmoth,ASC,53,モスノウ,M2a,041/193,n/a,110,{W}
+867,Glastrier,ASC,54,ブリザポス,M2a,042/193,n/a,130,{W}
+868,Mega Eelektross ex,ASC,61,メガシビルドンex,M2a,049/193,n/a,350,{L}
+869,Stunfisk,ASC,62,マッギョ,M2a,050/193,n/a,110,{L}
+870,Helioptile,ASC,63,エリキテル,M2a,052/193,n/a,70,{L}
+871,Heliolisk,ASC,64,エレザード,M2a,053/193,n/a,120,{L}
+872,Tapu Koko,ASC,67,カプ・コケコ,M2a,054/193,n/a,120,{L}
+873,Team Rocket's Exeggcute,ASC,77,ロケット団のタマタマ,M2a,061/193,Trainer's Pokémon(Team Rocket),60,{P}
+874,Team Rocket's Exeggutor,ASC,78,ロケット団のナッシー,M2a,062/193,Trainer's Pokémon(Team Rocket),140,{P}
+875,Misdreavus,ASC,85,ムウマ,M2a,067/193,n/a,60,{P}
+876,Mismagius,ASC,86,ムウマージ,M2a,068/193,n/a,110,{P}
+877,Rotom,ASC,92,ロトム,M2a,076/193,n/a,60,{P}
+878,Hop's Phantump,ASC,95,ホップのボクレー,M2a,077/193,Trainer's Pokémon(Hop),70,{P}
+879,Hop's Trevenant,ASC,96,ホップのオーロット,M2a,078/193,Trainer's Pokémon(Hop),140,{P}
+880,Spectrier,ASC,98,レイスポス,M2a,080/193,n/a,120,{P}
+881,Team Rocket's Diglett,ASC,100,ロケット団のディグダ,M2a,082/193,Trainer's Pokémon(Team Rocket),60,{F}
+882,Team Rocket's Dugtrio,ASC,101,ロケット団のダグトリオ,M2a,083/193,Trainer's Pokémon(Team Rocket),100,{F}
+883,Meditite,ASC,103,アサナン,M2a,084/193,n/a,70,{F}
+884,Medicham,ASC,104,チャーレム,M2a,085/193,n/a,120,{F}
+885,Pancham,ASC,115,ヤンチャム,M2a,093/193,n/a,70,{F}
+886,Mega Hawlucha ex,ASC,116,メガルチャブルex,M2a,094/193,n/a,250,{F}
+887,Rolycoly,ASC,118,タンドン,M2a,095/193,n/a,80,{F}
+888,Carkol,ASC,119,トロッゴン,M2a,096/193,n/a,110,{F}
+889,Coalossal,ASC,120,セキタンザン,M2a,097/193,n/a,180,{F}
+890,Okidogi,ASC,122,イイネイヌ,M2a,098/193,n/a,140,{F}
+891,Team Rocket's Honchkrow,ASC,127,ロケット団のドンカラス,M2a,103/193,Trainer's Pokémon(Team Rocket),130,{D}
+892,Galarian Zigzagoon,ASC,130,ガラル ジグザグマ,M2a,105/193,n/a,70,{D}
+893,Galarian Linoone,ASC,131,ガラル マッスグマ,M2a,106/193,n/a,90,{D}
+894,Galarian Obstagoon,ASC,132,ガラル タチフサグマ,M2a,107/193,n/a,170,{D}
+895,Scraggy,ASC,134,ズルッグ,M2a,109/193,n/a,80,{D}
+896,Mega Scrafty ex,ASC,135,メガズルズキンex,M2a,110/193,n/a,330,{D}
+897,Pangoro,ASC,140,ゴロンダ,M2a,113/193,n/a,140,{D}
+898,Pecharunt,ASC,143,モモワロウ,M2a,115/193,n/a,80,{D}
+899,Pawniard,ASC,146,コマタナ,M2a,116/193,n/a,70,{M}
+900,Bisharp,ASC,147,キリキザン,M2a,117/193,n/a,120,{M}
+901,Kingambit,ASC,148,ドドゲザン,M2a,118/193,n/a,170,{M}
+902,Dratini,ASC,150,ミニリュウ,M2a,124/193,n/a,80,{N}
+903,Dragonair,ASC,151,ハクリュー,M2a,125/193,n/a,100,{N}
+904,Mega Dragonite ex,ASC,152,メガカイリューex,M2a,126/193,n/a,370,{N}
+905,Rayquaza,ASC,153,レックウザ,M2a,127/193,n/a,120,{N}
+906,N's Zekrom,ASC,155,Nのゼクロム,M2a,129/193,Trainer's Pokémon(N),130,{N}
+907,Noibat,ASC,156,オンバット,M2a,130/193,n/a,70,{N}
+908,Noivern,ASC,157,オンバーン,M2a,131/193,n/a,120,{N}
+909,Erika's Oddish,ASC,1,エリカのナゾノクサ,MC,001/742,Trainer's Pokémon(Erika),60,{G}
+910,Erika's Gloom,ASC,2,エリカのクサイハナ,MC,002/742,Trainer's Pokémon(Erika),90,{G}
+911,Erika's Vileplume ex,ASC,3,エリカのラフレシアex,MC,003/742,Trainer's Pokémon(Erika),310,{G}
+912,Erika's Bellsprout,ASC,4,エリカのマダツボミ,MC,006/742,Trainer's Pokémon(Erika),60,{G}
+913,Erika's Weepinbell,ASC,5,エリカのウツドン,MC,007/742,Trainer's Pokémon(Erika),90,{G}
+914,Erika's Victreebel,ASC,6,エリカのウツボット,MC,008/742,Trainer's Pokémon(Erika),150,{G}
+915,Erika's Tangela,ASC,7,エリカのモンジャラ,MC,014/742,Trainer's Pokémon(Erika),80,{G}
+916,Scyther,,1,ストライク,MC,015/742,n/a,90,{G}
+917,Chikorita,ASC,8,チコリータ,MC,016/742,n/a,70,{G}
+918,Bayleef,ASC,9,ベイリーフ,MC,017/742,n/a,100,{G}
+919,Mega Meganium ex,ASC,10,メガメガニウムex,MC,018/742,n/a,360,{G}
+920,Tapu Bulu,SFA,6,カプ・ブルル,MC,061/742,n/a,140,{G}
+921,Dipplin,SCR,13,カミッチュ,MC,063/742,n/a,90,{G}
+922,Sprigatito,JTG,16,ニャオハ,MC,065/742,n/a,60,{G}
+923,Floragato,JTG,17,ニャローテ,MC,066/742,n/a,90,{G}
+924,Meowscarada,JTG,18,マスカーニャ,MC,067/742,n/a,160,{G}
+925,Capsakid,,12,カプサイジ,MC,076/742,n/a,70,{G}
+926,Charmander,ASC,20,ヒトカゲ,MC,083/742,n/a,80,{R}
+927,Charmeleon,ASC,21,リザード,MC,084/742,n/a,100,{R}
+928,Mega Charizard Y ex,ASC,22,メガリザードンYex,MC,085/742,n/a,360,{R}
+929,Magmar,,20,ブーバー,MC,091/742,n/a,80,{R}
+930,Tepig,ASC,29,ポカブ,MC,109/742,n/a,80,{R}
+931,Pignite,ASC,30,チャオブー,MC,111/742,n/a,110,{R}
+932,Mega Emboar ex,ASC,31,メガエンブオーex,MC,113/742,n/a,380,{R}
+933,Larvesta,SSP,24,メラルバ,MC,121/742,n/a,70,{R}
+934,Centiskorch,SSP,28,マルヤクデ,MC,141/742,n/a,130,{R}
+935,Fuecoco,SSP,29,ホゲータ,MC,142/742,n/a,80,{R}
+936,Crocalor,SSP,30,アチゲータ,MC,143/742,n/a,110,{R}
+937,Totodile,ASC,41,ワニノコ,MC,165/742,n/a,80,{W}
+938,Croconaw,ASC,42,アリゲイツ,MC,167/742,n/a,100,{W}
+939,Mega Feraligatr ex,ASC,43,メガオーダイルex,MC,169/742,n/a,370,{W}
+940,Glalie,TWM,52,オニゴーリ,MC,187/742,n/a,120,{W}
+941,Spheal,SSP,43,タマザラシ,MC,188/742,n/a,70,{W}
+942,Sealeo,SSP,44,トドグラー,MC,189/742,n/a,100,{W}
+943,Walrein,SSP,45,トドゼルガ,MC,190/742,n/a,170,{W}
+944,Regice ex,ASC,48,レジアイスex,MC,192/742,n/a,230,{W}
+945,Froakie,SCR,39,ケロマツ,MC,206/742,n/a,60,{W}
+946,Cramorant,TWM,58,ウッウ,MC,210/742,n/a,110,{W}
+947,Quaxly,,50,クワッス,MC,211/742,n/a,60,{W}
+948,Pikachu,ASC,55,ピカチュウ,MC,225/742,n/a,70,{L}
+949,Raichu,ASC,56,ライチュウ,MC,226/742,n/a,130,{L}
+950,Magnemite,SSP,58,コイル,MC,231/742,n/a,60,{L}
+951,Voltorb ex,ASC,58,ビリリダマex,MC,233/742,n/a,170,{L}
+952,Zapdos,PROMO,157,サンダー,MC,239/742,n/a,110,{L}
+953,Zapdos,TWM,65,サンダー,MC,240/742,n/a,120,{L}
+954,Luxray ex,TWM,68,レントラーex,MC,246/742,n/a,310,{L}
+955,Helioptile,TWM,70,エリキテル,MC,260/742,n/a,60,{L}
+956,Zeraora,SCR,55,ゼラオラ,MC,267/742,n/a,120,{L}
+957,Miraidon ex,ASC,73,ミライドンex,MC,284/742,Tera(Lightning),220,{L}
+958,Clefable,ASC,75,ピクシー,MC,286/742,n/a,120,{P}
+959,Togepi,ASC,80,トゲピー,MC,291/742,n/a,50,{P}
+960,Togetic,ASC,81,トゲチック,MC,292/742,n/a,90,{P}
+961,Marill,ASC,83,マリル,MC,295/742,n/a,70,{P}
+962,Azumarill ex,ASC,84,マリルリex,MC,297/742,n/a,270,{P}
+963,Shuppet,ASC,90,カゲボウズ,MC,307/742,n/a,60,{P}
+964,Beheeyem,TEF,74,オーベム,MC,327/742,n/a,100,{P}
+965,Swirlix,ASC,93,ペロッパフ,MC,333/742,n/a,60,{P}
+966,Slurpuff,ASC,94,ペロリーム,MC,334/742,n/a,120,{P}
+967,Fidough,SCR,66,パピモッチ,MC,347/742,n/a,60,{P}
+968,Dachsbun ex,SCR,67,バウッツェルex,MC,348/742,n/a,250,{P}
+969,Scream Tail ex,TWM,94,サケブシッポex,MC,353/742,Ancient,190,{P}
+970,Fezandipiti,TWM,96,キチキギス,MC,359/742,n/a,120,{P}
+971,Iron Boulder,SCR,71,テツノイワオ,MC,360/742,Future,140,{P}
+972,Hitmontop,ASC,102,カポエラー,MC,367/742,n/a,100,{F}
+973,Groudon,ASC,108,グラードン,MC,375/742,n/a,140,{F}
+974,Riolu,SCR,81,リオル,MC,379/742,n/a,70,{F}
+975,Stunfisk ex,ASC,114,マッギョex,MC,394/742,n/a,210,{F}
+976,Carbink,ASC,117,メレシー,MC,400/742,n/a,90,{F}
+977,Crabrawler,SCR,87,マケンカニ,MC,401/742,n/a,90,{F}
+978,Passimian,SSP,111,ナゲツケサル,MC,407/742,n/a,110,{F}
+979,Koraidon ex,ASC,121,コライドンex,MC,425/742,Tera(Fighting),230,{F}
+980,Venipede,TWM,115,フシデ,MC,460/742,n/a,80,{D}
+981,Whirlipede,TWM,116,ホイーガ,MC,461/742,n/a,100,{D}
+982,Scolipede,TWM,117,ペンドラー,MC,462/742,n/a,170,{D}
+983,Vullaby,ASC,138,バルチャイ,MC,474/742,n/a,70,{D}
+984,Mandibuzz ex,ASC,139,バルジーナex,MC,475/742,n/a,260,{D}
+985,Hoopa,ASC,141,フーパ,MC,482/742,n/a,120,{D}
+986,Brute Bonnet,TWM,118,アラブルタケ,MC,487/742,Ancient,120,{D}
+987,Mawile,ASC,144,クチート,MC,495/742,n/a,90,{M}
+988,Registeel ex,ASC,145,レジスチルex,MC,499/742,n/a,230,{M}
+989,Bronzor,SSP,126,ドーミラー,MC,500/742,n/a,60,{M}
+990,Togedemaru ex,ASC,149,トゲデマルex,MC,514/742,n/a,190,{M}
+991,Melmetal,TEF,117,メルメタル,MC,518/742,n/a,160,{M}
+992,Duraludon,,129,ジュラルドン,MC,523/742,n/a,130,{M}
+993,Orthworm ex,SCR,110,ミミズズex,MC,533/742,n/a,220,{M}
+994,Fraxure,SFA,45,オノンド,MC,542/742,n/a,100,{N}
+995,Haxorus,SFA,46,オノノクス,MC,543/742,n/a,170,{N}
+996,Larry's Dunsparce,ASC,163,アオキのノコッチ,MC,576/742,Trainer's Pokémon(Larry),70,{C}
+997,Larry's Dudunsparce ex,ASC,164,アオキのノココッチex,MC,577/742,Trainer's Pokémon(Larry),270,{C}
+998,Slakoth,,145,ナマケロ,MC,581/742,n/a,60,{C}
+999,Vigoroth,,146,ヤルキモノ,MC,582/742,n/a,90,{C}
+1000,Skitty,ASC,165,エネコ,MC,585/742,n/a,60,{C}
+1001,Delcatty,ASC,166,エネコロロ,MC,586/742,n/a,100,{C}
+1002,Zangoose ex,ASC,167,ザングースex,MC,588/742,n/a,200,{C}
+1003,Larry's Starly,ASC,168,アオキのムックル,MC,590/742,Trainer's Pokémon(Larry),60,{C}
+1004,Larry's Staravia,ASC,169,アオキのムクバード,MC,591/742,Trainer's Pokémon(Larry),90,{C}
+1005,Larry's Staraptor,ASC,170,アオキのムクホーク,MC,592/742,Trainer's Pokémon(Larry),150,{C}
+1006,Mega Audino ex,ASC,172,メガタブンネex,MC,602/742,n/a,270,{C}
+1007,Larry's Rufflet,ASC,173,アオキのワシボン,MC,608/742,Trainer's Pokémon(Larry),70,{C}
+1008,Larry's Braviary,ASC,174,アオキのウォーグル,MC,609/742,Trainer's Pokémon(Larry),130,{C}
+1009,Larry's Komala,ASC,175,アオキのネッコアラ,MC,619/742,Trainer's Pokémon(Larry),90,{C}
+1010,Drampa,ASC,176,ジジーロン,MC,621/742,n/a,130,{C}
+1011,Spinarak,POR,1,イトマル,M3,001/080,n/a,60,{G}
+1012,Ariados,POR,2,アリアドス,M3,002/080,n/a,110,{G}
+1013,Shaymin,POR,3,シェイミ,M3,003/080,n/a,70,{G}
+1014,Snivy,POR,4,ツタージャ,M3,004/080,n/a,70,{G}
+1015,Servine,POR,5,ジャノビー,M3,005/080,n/a,100,{G}
+1016,Serperior,POR,6,ジャローダ,M3,006/080,n/a,160,{G}
+1017,Scatterbug,POR,7,コフキムシ,M3,007/080,n/a,40,{G}
+1018,Spewpa,POR,8,コフーライ,M3,008/080,n/a,80,{G}
+1019,Vivillon,POR,9,ビビヨン,M3,009/080,n/a,120,{G}
+1020,Rowlet,POR,10,モクロー,M3,010/080,n/a,80,{G}
+1021,Dartrix,POR,11,フクスロー,M3,011/080,n/a,100,{G}
+1022,Decidueye ex,POR,12,ジュナイパーex,M3,012/080,n/a,320,{G}
+1023,Fletchinder,POR,13,ヒノヤコマ,M3,013/080,n/a,90,{R}
+1024,Talonflame,POR,14,ファイアロー,M3,014/080,n/a,150,{R}
+1025,Salandit,POR,15,ヤトウモリ,M3,015/080,n/a,70,{R}
+1026,Salazzle ex,POR,16,エンニュートex,M3,016/080,n/a,260,{R}
+1027,Turtonator,POR,17,バクガメス,M3,017/080,n/a,120,{R}
+1028,Seel,POR,18,パウワウ,M3,018/080,n/a,80,{W}
+1029,Dewgong,POR,19,ジュゴン,M3,019/080,n/a,130,{W}
+1030,Staryu,POR,20,ヒトデマン,M3,020/080,n/a,70,{W}
+1031,Mega Starmie ex,POR,21,メガスターミーex,M3,021/080,n/a,330,{W}
+1032,Amaura,POR,23,アマルス,M3,022/080,n/a,100,{W}
+1033,Aurorus,POR,24,アマルルガ,M3,023/080,n/a,170,{W}
+1034,Volcanion,POR,25,ボルケニオン,M3,024/080,n/a,130,{W}
+1035,Shinx,POR,26,コリンク,M3,025/080,n/a,70,{L}
+1036,Luxio,POR,27,ルクシオ,M3,026/080,n/a,90,{L}
+1037,Luxray,POR,28,レントラー,M3,027/080,n/a,150,{L}
+1038,Dedenne,POR,29,デデンネ,M3,028/080,n/a,70,{L}
+1039,Clefairy,POR,30,ピッピ,M3,029/080,n/a,70,{P}
+1040,Mega Clefable ex,POR,31,メガピクシーex,M3,030/080,n/a,320,{P}
+1041,Mawile,POR,32,クチート,M3,031/080,n/a,110,{P}
+1042,Espurr,POR,33,ニャスパー,M3,032/080,n/a,60,{P}
+1043,Meowstic,POR,34,ニャオニクス,M3,033/080,n/a,100,{P}
+1044,Spritzee,POR,35,シュシュプ,M3,034/080,n/a,70,{P}
+1045,Aromatisse,POR,36,フレフワン,M3,035/080,n/a,120,{P}
+1046,Nosepass,POR,37,ノズパス,M3,036/080,n/a,90,{F}
+1047,Probopass,POR,38,ダイノーズ,M3,037/080,n/a,140,{F}
+1048,Hippopotas,POR,39,ヒポポタス,M3,038/080,n/a,100,{F}
+1049,Hippowdon,POR,40,カバルドン,M3,039/080,n/a,150,{F}
+1050,Landorus,POR,41,ランドロス,M3,040/080,n/a,120,{F}
+1051,Binacle,POR,42,カメテテ,M3,041/080,n/a,80,{F}
+1052,Barbaracle,POR,43,ガメノデス,M3,042/080,n/a,130,{F}
+1053,Tyrunt,POR,44,チゴラス,M3,043/080,n/a,100,{F}
+1054,Tyrantrum,POR,45,ガチゴラス,M3,044/080,n/a,180,{F}
+1055,Hawlucha,POR,46,ルチャブル,M3,045/080,n/a,70,{F}
+1056,Mega Zygarde ex,POR,47,メガジガルデex,M3,046/080,n/a,310,{F}
+1057,Gastly,POR,48,ゴース,M3,047/080,n/a,70,{D}
+1058,Haunter,POR,49,ゴースト,M3,048/080,n/a,100,{D}
+1059,Gengar,POR,50,ゲンガー,M3,049/080,n/a,130,{D}
+1060,Skorupi,POR,51,スコルピ,M3,050/080,n/a,80,{D}
+1061,Drapion,POR,52,ドラピオン,M3,051/080,n/a,140,{D}
+1062,Yveltal ex,POR,53,イベルタルex,M3,052/080,n/a,210,{D}
+1063,Chien-Pao,POR,54,パオジアン,M3,053/080,n/a,120,{D}
+1064,Mega Skarmory ex,POR,55,メガエアームドex,M3,054/080,n/a,260,{M}
+1065,Honedge,POR,56,ヒトツキ,M3,055/080,n/a,70,{M}
+1066,Doublade,POR,57,ニダンギル,M3,056/080,n/a,100,{M}
+1067,Aegislash,POR,58,ギルガルド,M3,057/080,n/a,150,{M}
+1068,Klefki,POR,59,クレッフィ,M3,058/080,n/a,70,{M}
+1069,Rattata,POR,60,コラッタ,M3,059/080,n/a,40,{C}
+1070,Raticate,POR,61,ラッタ,M3,060/080,n/a,90,{C}
+1071,Meowth ex,POR,62,ニャースex,M3,061/080,n/a,170,{C}
+1072,Snorlax,POR,63,カビゴン,M3,062/080,n/a,160,{C}
+1073,Bunnelby,POR,64,ホルビー,M3,063/080,n/a,70,{C}
+1074,Diggersby,POR,65,ホルード,M3,064/080,n/a,150,{C}
+1075,Fletchling,POR,66,ヤヤコマ,M3,065/080,n/a,60,{C}
+1076,Furfrou,POR,67,トリミアン,M3,066/080,n/a,90,{C}
+1077,Roto-Stick,PRE,127,ロトりぼう,PROMO,160/SV-P,n/a,n/a,n/a
+1078,Hole-Digging Shovel,POR,74,あなあけスコップ,PROMO,005/M-P,n/a,n/a,n/a
+1079,Rare Candy,SVI,191,ふしぎなアメ,MC,655/742,n/a,n/a,n/a
+1080,Unfair Stamp,TWM,165,アンフェアスタンプ,MC,633/742,n/a,n/a,n/a
+1081,Enhanced Hammer,TWM,148,改造ハンマー,M2a,148/193,n/a,n/a,n/a
+1082,Hyper Aroma,TWM,152,ハイパーアロマ,MC,650/742,n/a,n/a,n/a
+1083,Love Ball,,156,ラブラブボール,SV5a,058/066,n/a,n/a,n/a
+1084,Boxed Order,TEF,143,おとりよせボックス,SV5K,061/071,n/a,n/a,n/a
+1085,Awakening Drum,TEF,141,覚醒のドラム,MC,642/742,Ancient,n/a,n/a
+1086,Buddy-Buddy Poffin,TEF,144,なかよしポフィン,MC,648/742,n/a,n/a,n/a
+1087,Hand Trimmer,TEF,150,ハンドトリマー,MC,653/742,n/a,n/a,n/a
+1088,Prime Catcher,TEF,157,プライムキャッチャー,MC,656/742,n/a,n/a,n/a
+1089,Reboot Pod,TEF,158,リブートポッド,MC,671/742,Future,n/a,n/a
+1090,Ogre’s Mask,TWM,159,鬼の仮面,MC,641/742,n/a,n/a,n/a
+1091,Accompanying Flute,TWM,142,おはやし笛,SV6,091/101,n/a,n/a,n/a
+1092,Secret Box,TWM,163,シークレットボックス,SV6,092/101,n/a,n/a,n/a
+1093,Scoop Up Cyclone,TWM,162,ポケモン回収サイクロン,MC,664/742,n/a,n/a,n/a
+1094,Bug Catching Set,TWM,143,むしとりセット,MC,667/742,n/a,n/a,n/a
+1095,Dangerous Laser,SFA,58,デンジャラス光線,MC,647/742,n/a,n/a,n/a
+1096,Poké Vital A,SFA,62,ポケバイタルA,MC,661/742,n/a,n/a,n/a
+1097,Night Stretcher,SFA,61,夜のタンカ,MC,670/742,n/a,n/a,n/a
+1098,Glass Trumpet,SCR,135,ガラスのラッパ,M2a,149/193,n/a,n/a,n/a
+1099,Antique Root Fossil,SCR,130,古びたねっこの化石,SV7,090/102,Fossil,60,n/a
+1100,Energy Search Pro,SSP,176,エネルギー転送PRO,SV7a,052/064,n/a,n/a,n/a
+1101,Call Bell,SSP,165,おたすけベル,SV7a,053/064,n/a,n/a,n/a
+1102,Dusk Ball,SSP,175,ダークボール,SV7a,054/064,n/a,n/a,n/a
+1103,Meddling Memo,SSP,181,ぼうがいレター,SV7a,055/064,n/a,n/a,n/a
+1104,Megaton Blower,SSP,182,メガトンブロアー,SV7a,056/064,n/a,n/a,n/a
+1105,Dragon Elixir,SSP,172,竜の秘薬,MC,672/742,n/a,n/a,n/a
+1106,Deduction Kit,SSP,171,推理セット,MC,645/742,n/a,n/a,n/a
+1107,Scramble Switch,SSP,186,スクランブルスイッチ,MC,646/742,n/a,n/a,n/a
+1108,Chill Teaser Toy,SSP,166,のんびりじゃらし,MC,649/742,n/a,n/a,n/a
+1109,Miracle Headset,SSP,183,ミラクルインカム,SV8,097/106,n/a,n/a,n/a
+1110,Max Rod,PRE,116,つりざおMAX,SV8a,142/187,n/a,n/a,n/a
+1111,Treasure Tracker,PRE,131,トレジャーガジェット,SV8a,146/187,n/a,n/a,n/a
+1112,Super Potion,JTG,158,いいきずぐすり,MC,634/742,n/a,n/a,n/a
+1113,N’s PP Up,JTG,153,Nのポイントアップ,MC,635/742,n/a,n/a,n/a
+1114,Redeemable Ticket,JTG,156,とりかえチケット,SV9,090/100,n/a,n/a,n/a
+1115,Hop’s Bag,JTG,147,ホップのバッグ,MC,666/742,n/a,n/a,n/a
+1116,Energy Switch,SVI,173,エネルギーつけかえ,MC,638/742,n/a,n/a,n/a
+1117,Potion,SVI,188,きずぐすり,MC,643/742,n/a,n/a,n/a
+1118,Energy Retrieval,SVI,171,エネルギー回収,MC,636/742,n/a,n/a,n/a
+1119,Energy Search,SVI,172,エネルギー転送,MC,639/742,n/a,n/a,n/a
+1120,Crushing Hammer,SVI,168,クラッシュハンマー,MC,644/742,n/a,n/a,n/a
+1121,Ultra Ball,SVI,196,ハイパーボール,MC,651/742,n/a,n/a,n/a
+1122,Pokégear 3.0,SVI,186,ポケギア3.0,MC,660/742,n/a,n/a,n/a
+1123,Switch,SVI,194,ポケモンいれかえ,MC,663/742,n/a,n/a,n/a
+1124,Pokémon Catcher,SVI,187,ポケモンキャッチャー,MC,665/742,n/a,n/a,n/a
+1125,Master Ball,TEF,153,マスターボール,SVHM,032/053,n/a,n/a,n/a
+1126,Precious Trolley,SSP,185,プレシャスキャリー,MC,658/742,n/a,n/a,n/a
+1127,Tera Orb,SSP,189,テラスタルオーブ,M2a,152/193,n/a,n/a,n/a
+1128,Brilliant Blender,SSP,164,パーフェクトミキサー,SVLS,014/022,n/a,n/a,n/a
+1129,Sacred Ash,DRI,168,せいなるはい,M2a,150/193,n/a,n/a,n/a
+1130,Arven's Sandwich,DRI,161,ペパーのサンドウィッチ,MC,659/742,n/a,n/a,n/a
+1131,Team Rocket's Bother-Bot,DRI,172,ロケット団のおじゃまロボ,SV10,087/098,n/a,n/a,n/a
+1132,Team Rocket's Great Ball,DRI,175,ロケット団のスーパーボール,MC,673/742,n/a,n/a,n/a
+1133,Team Rocket's Venture Bomb,DRI,179,ロケット団のびっくりボム,MC,674/742,n/a,n/a,n/a
+1134,Team Rocket's Transceiver,DRI,178,ロケット団のレシーバー,MC,675/742,n/a,n/a,n/a
+1135,Energy Coin,BLK,81,エネルギーコイン,MC,637/742,n/a,n/a,n/a
+1136,Antique Cover Fossil,BLK,80,古びたふたの化石,SV11B,080/086,Fossil,60,n/a
+1137,Tool Scrapper,WHT,85,ツールスクラッパー,MA,017/043,n/a,n/a,n/a
+1138,Antique Plume Fossil,WHT,79,古びたはねの化石,MC,657/742,Fossil,60,n/a
+1139,Energy Recycler,DRI,164,エネルギーリサイクル,MC,640/742,n/a,n/a,n/a
+1140,Iron Defender,MEG,118,アイアンディフェンダー,MC,631/742,n/a,n/a,n/a
+1141,Premium Power Pro,MEG,124,パワープロテイン,MC,652/742,n/a,n/a,n/a
+1142,Fighting Gong,MEG,116,ファイトゴング,MC,654/742,n/a,n/a,n/a
+1143,Repel,MEG,126,むしよけスプレー,MC,668/742,n/a,n/a,n/a
+1144,Strange Timepiece,MEG,128,あやしい時計,MC,632/742,n/a,n/a,n/a
+1145,Mega Signal,MEG,121,メガシグナル,MBG,015/021,n/a,n/a,n/a
+1146,Wondrous Patch,PFL,94,ワンダーパッチ,MBD,015/021,n/a,n/a,n/a
+1147,Jumbo Ice Cream,PFL,91,ジャンボアイス,M2,073/080,n/a,n/a,n/a
+1148,Blowtorch,PFL,86,ヒートバーナー,M2,074/080,n/a,n/a,n/a
+1149,Energy Swatter,POR,73,エネはたき,M3,067/080,n/a,n/a,n/a
+1150,Antique Jaw Fossil,POR,68,古びたアゴの化石,M3,068/080,Fossil,60,n/a
+1151,Antique Sail Fossil,POR,69,古びたヒレの化石,M3,069/080,Fossil,60,n/a
+1152,Poké Pad,POR,81,ポケパッド,M3,070/080,n/a,n/a,n/a
+1153,Lumiose Galette,POR,78,ミアレガレット,M3,071/080,n/a,n/a,n/a
+1154,Team Rocket’s Hypnotizer,ASC,206,ロケット団のさいみん装置,PROMO,267/SV-P,n/a,n/a,n/a
+1155,Survival Brace,TWM,164,サバイブギプス,SV5a,059/066,n/a,n/a,n/a
+1156,Lucky Helmet,TWM,158,ラッキーメット,SV5a,060/066,n/a,n/a,n/a
+1157,Rescue Board,TEF,159,緊急ボード,SVN,026/045,n/a,n/a,n/a
+1158,Maximum Belt,TEF,154,マキシマムベルト,MC,691/742,n/a,n/a,n/a
+1159,Hero’s Cape,TEF,152,ヒーローマント,MC,687/742,n/a,n/a,n/a
+1160,Heavy Baton,TEF,151,ヘビーバトン,SV5M,066/071,n/a,n/a,n/a
+1161,Handheld Fan,TWM,150,ハンディサーキュレーター,SV6,095/101,n/a,n/a,n/a
+1162,Binding Mochi,SFA,55,くさりもち,MC,681/742,n/a,n/a,n/a
+1163,Powerglass,SFA,63,力の砂時計,MC,683/742,n/a,n/a,n/a
+1164,Payapa Berry,SCR,141,ウタンのみ,MC,677/742,n/a,n/a,n/a
+1165,Sparkling Crystal,SCR,142,きらめく結晶,MC,680/742,n/a,n/a,n/a
+1166,Gravity Gemstone,SCR,137,重力玉,SV7,095/102,n/a,n/a,n/a
+1167,Deluxe Bomb,SCR,134,デラックスボム,MC,684/742,n/a,n/a,n/a
+1168,Counter Gain,SSP,169,カウンターゲイン,MC,679/742,n/a,n/a,n/a
+1169,Amulet of Hope,SSP,162,希望のアミュレット,SV8,098/106,n/a,n/a,n/a
+1170,Haban Berry,PRE,111,ハバンのみ,MC,686/742,n/a,n/a,n/a
+1171,Hop’s Choice Band,JTG,148,ホップのこだわりハチマキ,MC,690/742,n/a,n/a,n/a
+1172,Lillie’s Pearl,JTG,151,リーリエのしんじゅ,MC,692/742,n/a,n/a,n/a
+1173,Cynthia's Power Weight,DRI,162,シロナのパワーウエイト,MC,682/742,n/a,n/a,n/a
+1174,Air Balloon,BLK,79,ふうせん,MC,688/742,n/a,n/a,n/a
+1175,Brave Bangle,WHT,80,ブレイブバングル,MC,689/742,n/a,n/a,n/a
+1176,Punk Helmet,PFL,92,パンクメット,MBG,017/021,n/a,n/a,n/a
+1177,Sacred Charm,PFL,93,せいなるおまもり,M2,075/080,n/a,n/a,n/a
+1178,Light Ball,ASC,191,でんきだま,M2a,163/193,n/a,n/a,n/a
+1179,Thick Scale,ASC,211,ぶあついうろこ,M2a,164/193,n/a,n/a,n/a
+1180,Core Memory,POR,70,コアメモリ,M3,072/080,Technical Machine,n/a,n/a
+1181,Billy & O'Nare,JTG,142,ビリオとネア,PROMO,170/SV-P,n/a,n/a,n/a
+1182,Boss’s Orders,PAL,172,ボスの指令,MC,724/742,n/a,n/a,n/a
+1183,Perrin,TWM,160,サザレ,MC,709/742,n/a,n/a,n/a
+1184,Lana’s Aid,TWM,155,スイレンのお世話,MC,712/742,n/a,n/a,n/a
+1185,Explorer’s Guidance,TEF,147,探検家の先導,MC,717/742,Ancient,n/a,n/a
+1186,Eri,TEF,146,ビワ,SV5K,068/071,n/a,n/a,n/a
+1187,Morty’s Conviction,TEF,155,マツバの確信,MC,727/742,n/a,n/a,n/a
+1188,Ciphermaniac’s Codebreaking,TEF,145,暗号マニアの解読,MC,698/742,Future,n/a,n/a
+1189,Salvatore,TEF,160,セイジ,MC,714/742,n/a,n/a,n/a
+1190,Bianca’s Devotion,TEF,142,ベルのまごころ,MC,723/742,n/a,n/a,n/a
+1191,Kieran,TWM,154,スグリ,MC,713/742,n/a,n/a,n/a
+1192,Carmine,TWM,145,ゼイユ,MC,715/742,n/a,n/a,n/a
+1193,Hassel,TWM,151,ハッサク,MC,721/742,n/a,n/a,n/a
+1194,Colress’s Tenacity,SFA,57,アクロマの執念,SV8a,164/187,n/a,n/a,n/a
+1195,Janine’s Secret Art,SFA,59,アンズの秘技,MC,699/742,n/a,n/a,n/a
+1196,Cassiopeia,SFA,56,カシオペア,SV6a,061/064,n/a,n/a,n/a
+1197,Xerosic’s Machinations,SFA,64,クセロシキのたくらみ,MC,705/742,n/a,n/a,n/a
+1198,Crispin,SCR,133,アカマツ,MC,696/742,n/a,n/a,n/a
+1199,Lacey,SCR,139,タロ,MC,716/742,n/a,n/a,n/a
+1200,Kofu,SCR,138,ハイダイ,MC,720/742,n/a,n/a,n/a
+1201,Briar,SCR,132,ブライア,MC,722/742,n/a,n/a,n/a
+1202,Drayton,SSP,174,カキツバタ,MC,703/742,n/a,n/a,n/a
+1203,Surfer,SSP,187,サーファー,MC,708/742,n/a,n/a,n/a
+1204,Lisia’s Appeal,SSP,179,ルチアのアピール,MC,730/742,n/a,n/a,n/a
+1205,Cyrano,SSP,170,シアノ,SV8,102/106,n/a,n/a,n/a
+1206,Larry’s Skill,PRE,115,アオキの手際,MC,695/742,n/a,n/a,n/a
+1207,Amarys,PRE,93,ネリネ,SV8a,173/187,n/a,n/a,n/a
+1208,Iris’s Fighting Spirit,JTG,149,アイリスの闘志,MC,694/742,n/a,n/a,n/a
+1209,Ruffian,JTG,157,怖いお兄さん,SV9,095/100,n/a,n/a,n/a
+1210,Brock’s Scouting,JTG,146,タケシのスカウト,SV9,096/100,n/a,n/a,n/a
+1211,Black Belt’s Training,PRE,96,からておうの稽古,MC,704/742,n/a,n/a,n/a
+1212,Cook,TWM,147,コック,MC,706/742,n/a,n/a,n/a
+1213,Judge,SVI,176,ジャッジマン,MC,711/742,n/a,n/a,n/a
+1214,Emcee's Hype,DRI,163,MCの盛り上げ,SV9a,061/063,n/a,n/a,n/a
+1215,Ethan's Adventure,DRI,165,ヒビキの冒険,M2a,174/193,n/a,n/a,n/a
+1216,Team Rocket's Ariana,DRI,171,ロケット団のアテナ,MC,731/742,n/a,n/a,n/a
+1217,Team Rocket's Archer,DRI,170,ロケット団のアポロ,MC,732/742,n/a,n/a,n/a
+1218,Team Rocket's Giovanni,DRI,174,ロケット団のサカキ,MC,733/742,n/a,n/a,n/a
+1219,Team Rocket's Petrel,DRI,176,ロケット団のラムダ,MC,734/742,n/a,n/a,n/a
+1220,Team Rocket's Proton,DRI,177,ロケット団のランス,MC,735/742,n/a,n/a,n/a
+1221,N's Plan,BLK,83,Nの筋書き,MC,701/742,n/a,n/a,n/a
+1222,Fennel,BLK,82,マコモ,MC,725/742,n/a,n/a,n/a
+1223,Harlequin,WHT,83,クラウン,SV11W,083/086,n/a,n/a,n/a
+1224,Cheren,WHT,81,チェレン,SV11W,084/086,n/a,n/a,n/a
+1225,Hilda,WHT,84,トウコ,MC,718/742,n/a,n/a,n/a
+1226,Lt. Surge's Bargain,MEG,120,マチスの取引,MC,726/742,n/a,n/a,n/a
+1227,Lillie's Determination,MEG,119,リーリエの決心,MC,729/742,n/a,n/a,n/a
+1228,Acerola's Mischief,MEG,113,アセロラのいたずら,MC,697/742,n/a,n/a,n/a
+1229,Wally's Compassion,MEG,132,ミツルの思いやり,MA,040/043,n/a,n/a,n/a
+1230,Grimsley's Move,PFL,90,ギーマの一手,M2,076/080,n/a,n/a,n/a
+1231,Dawn,PFL,87,ヒカリ,M2,077/080,n/a,n/a,n/a
+1232,Firebreather,PFL,89,ひふきやろう,M2,078/080,n/a,n/a,n/a
+1233,Canari,ASC,185,カナリィ,M2a,170/193,n/a,n/a,n/a
+1234,Anthea & Concordia,ASC,182,バーベナとヘレナ,M2a,173/193,n/a,n/a,n/a
+1235,Waitress,ASC,215,ウエートレス,MC,700/742,n/a,n/a,n/a
+1236,Urbain,ASC,214,ガイ,MC,702/742,n/a,n/a,n/a
+1237,Lucian,TWM,157,ゴヨウ,MC,707/742,n/a,n/a,n/a
+1238,Tarragon,POR,85,タラゴン,M3,073/080,n/a,n/a,n/a
+1239,Naveen,POR,79,ピュール,M3,074/080,n/a,n/a,n/a
+1240,Rosa's Encouragement,POR,84,メイのはげまし,M3,075/080,n/a,n/a,n/a
+1241,Jacinthe,POR,75,ユカリ,M3,076/080,n/a,n/a,n/a
+1242,Community Center,TWM,146,公民館,SV5a,065/066,n/a,n/a,n/a
+1243,Perilous Jungle,TEF,156,危険な密林,SV5K,070/071,n/a,n/a,n/a
+1244,Full Metal Lab,TEF,148,フルメタルラボ,SV5M,070/071,n/a,n/a,n/a
+1245,Festival Grounds,TWM,149,お祭り会場,SV8a,180/187,n/a,n/a,n/a
+1246,Jamming Tower,TWM,153,ジャミングタワー,SVN,039/045,n/a,n/a,n/a
+1247,Neutralization Zone,SFA,60,ニュートラルセンター,SV8a,184/187,n/a,n/a,n/a
+1248,Academy at Night,SFA,54,夜のアカデミー,SV6a,064/064,n/a,n/a,n/a
+1249,Grand Tree,SCR,136,偉大な大樹,SV7,101/102,n/a,n/a,n/a
+1250,Area Zero Underdepths,SCR,131,ゼロの大空洞,M2a,184/193,n/a,n/a,n/a
+1251,Lively Stadium,SSP,180,エキサイトスタジアム,PROMO,251/SV-P,n/a,n/a,n/a
+1252,Gravity Mountain,SSP,177,グラビティーマウンテン,M2a,183/193,n/a,n/a,n/a
+1253,N’s Castle,JTG,152,Nの城,M2a,181/193,n/a,n/a,n/a
+1254,Levincia,JTG,150,ハッコウシティ,M2a,185/193,n/a,n/a,n/a
+1255,Postwick,JTG,154,ハロンタウン,M2a,186/193,n/a,n/a,n/a
+1256,Team Rocket's Watchtower,DRI,180,ロケット団の監視塔,M2a,189/193,n/a,n/a,n/a
+1257,Team Rocket's Factory,DRI,173,ロケット団のファクトリー,M2a,190/193,n/a,n/a,n/a
+1258,Granite Cave,DRI,166,いしのどうくつ,SVOD,018/018,n/a,n/a,n/a
+1259,Spikemuth Gym,DRI,169,スパイクタウンジム,SVOM,019/019,n/a,n/a,n/a
+1260,Risky Ruins,MEG,127,危ない廃墟,M1L,063/063,n/a,n/a,n/a
+1261,Forest of Vitality,MEG,117,活力の森,M2a,182/193,n/a,n/a,n/a
+1262,Surfing Beach,MEG,129,なみのりビーチ,M1S,062/063,n/a,n/a,n/a
+1263,Mystery Garden,MEG,122,ミステリーガーデン,MBD,021/021,n/a,n/a,n/a
+1264,Battle Cage,PFL,85,バトルコロシアム,M2,079/080,n/a,n/a,n/a
+1265,Dizzying Valley,PFL,88,めまいの谷,M2,080/080,n/a,n/a,n/a
+1266,Nighttime Mine,ASC,197,夜の鉱山,M2a,188/193,n/a,n/a,n/a
+1267,Lumiose City,POR,77,ミアレシティ,M3,077/080,n/a,n/a,n/a

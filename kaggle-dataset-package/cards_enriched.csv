@@ -1,0 +1,1268 @@
+card_id,name,jp_name,expansion,jp_expansion,collection_no,jp_collection_no,card_type,stage,rule_text,category,hp,energy_type,weakness_type,resistance_type,retreat_cost,is_ex,is_mega_ex,is_tera,is_ace_spec,evolves_from,evolution_stage_number,num_attacks,num_abilities,has_ability,attack_ids
+1,Basic {G} Energy,基本【草】エネルギー,SVE,n/a,1,GRA,BASIC_ENERGY,,n/a,n/a,,GRASS,,,0,False,False,False,False,,,0,0,False,
+2,Basic {R} Energy,基本【炎】エネルギー,SVE,n/a,2,FIR,BASIC_ENERGY,,n/a,n/a,,FIRE,,,0,False,False,False,False,,,0,0,False,
+3,Basic {W} Energy,基本【水】エネルギー,SVE,n/a,3,WAT,BASIC_ENERGY,,n/a,n/a,,WATER,,,0,False,False,False,False,,,0,0,False,
+4,Basic {L} Energy,基本【雷】エネルギー,SVE,n/a,4,LIG,BASIC_ENERGY,,n/a,n/a,,LIGHTNING,,,0,False,False,False,False,,,0,0,False,
+5,Basic {P} Energy,基本【超】エネルギー,SVE,n/a,5,PSY,BASIC_ENERGY,,n/a,n/a,,PSYCHIC,,,0,False,False,False,False,,,0,0,False,
+6,Basic {F} Energy,基本【闘】エネルギー,SVE,n/a,6,FIG,BASIC_ENERGY,,n/a,n/a,,FIGHTING,,,0,False,False,False,False,,,0,0,False,
+7,Basic {D} Energy,基本【悪】エネルギー,SVE,n/a,7,DAR,BASIC_ENERGY,,n/a,n/a,,DARKNESS,,,0,False,False,False,False,,,0,0,False,
+8,Basic {M} Energy,基本【鋼】エネルギー,SVE,n/a,8,MET,BASIC_ENERGY,,n/a,n/a,,METAL,,,0,False,False,False,False,,,0,0,False,
+9,Boomerang Energy,ブーメランエネルギー,TWM,MC,166,738/742,SPECIAL_ENERGY,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+10,Neo Upper Energy,ネオアッパーエネルギー,TEF,SV5K,162,071/071,SPECIAL_ENERGY,,ACE SPEC,n/a,,COLORLESS,,,0,False,False,False,True,,,0,1,True,
+11,Mist Energy,ミストエネルギー,TEF,SVN,161,043/045,SPECIAL_ENERGY,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+12,Legacy Energy,レガシーエネルギー,TWM,MC,167,741/742,SPECIAL_ENERGY,,ACE SPEC,n/a,,RAINBOW,,,0,False,False,False,True,,,0,1,True,
+13,Enriching Energy,リッチエネルギー,SSP,MC,191,740/742,SPECIAL_ENERGY,,ACE SPEC,n/a,,COLORLESS,,,0,False,False,False,True,,,0,1,True,
+14,Spiky Energy,スパイクエネルギー,JTG,MC,159,737/742,SPECIAL_ENERGY,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+15,Team Rocket's Energy,ロケット団エネルギー,DRI,MC,182,742/742,SPECIAL_ENERGY,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+16,Prism Energy,プリズムエネルギー,BLK,MC,86,739/742,SPECIAL_ENERGY,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+17,Ignition Energy,イグニッションエネルギー,WHT,MC,86,736/742,SPECIAL_ENERGY,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+18,Grow Grass Energy,グロウ【草】エネルギー,POR,M3,86,078/080,SPECIAL_ENERGY,,n/a,n/a,,GRASS,,,0,False,False,False,False,,,0,1,True,
+19,Telepath Psychic Energy,テレパス【超】エネルギー,POR,M3,87,079/080,SPECIAL_ENERGY,,n/a,n/a,,PSYCHIC,,,0,False,False,False,False,,,0,1,True,
+20,Rock Fighting Energy,ロック【闘】エネルギー,POR,M3,88,080/080,SPECIAL_ENERGY,,n/a,n/a,,FIGHTING,,,0,False,False,False,False,,,0,1,True,
+21,Scrafty,ズルズキン,PROMO,PROMO,188,158/SV-P,POKEMON,Stage1,n/a,n/a,120,DARKNESS,GRASS,,1,False,False,False,False,Scraggy,2,2,0,False,1;2
+22,Hippopotas,ヒポポタス,DRI,PROMO,105,186/SV-P,POKEMON,Basic,n/a,n/a,90,FIGHTING,GRASS,,3,False,False,False,False,,1,1,0,False,3
+23,Hippowdon,カバルドン,DRI,PROMO,106,187/SV-P,POKEMON,Stage1,n/a,n/a,160,FIGHTING,GRASS,,4,False,False,False,False,Hippopotas,2,2,0,False,4;5
+24,Team Rocket's Kangaskhan ex,ロケット団のガルーラex,ASC,PROMO,162,265/SV-P,POKEMON,Basic,Pokémon ex,Trainer's Pokémon(Team Rocket),230,COLORLESS,FIGHTING,,2,True,False,False,False,,1,2,0,False,6;7
+25,Pinsir,カイロス,TWM,SV5a,3,003/066,POKEMON,Basic,n/a,n/a,110,GRASS,FIRE,,2,False,False,False,False,,1,2,0,False,8;9
+26,Leafeon,リーフィア,TWM,MC,11,037/742,POKEMON,Stage1,n/a,n/a,120,GRASS,FIRE,,1,False,False,False,False,Eevee,2,2,0,False,10;11
+27,Iron Leaves,テツノイサハ,TWM,SV5a,19,007/066,POKEMON,Basic,n/a,Future,120,GRASS,FIRE,,1,False,False,False,False,,1,2,0,False,12;13
+28,Poltchageist,チャデス,TWM,SV8a,20,017/187,POKEMON,Basic,n/a,n/a,30,GRASS,FIRE,,1,False,False,False,False,,1,1,1,True,14
+29,Sinistcha ex,ヤバソチャex,TWM,MC,23,079/742,POKEMON,Stage1,Pokémon ex,n/a,240,GRASS,FIRE,,1,True,False,False,False,Poltchageist,2,2,0,False,15;16
+30,Magcargo ex,マグカルゴex,TWM,MC,29,096/742,POKEMON,Stage1,Pokémon ex,Tera(Fire),270,FIRE,WATER,,3,True,False,True,False,Slugma,2,2,0,False,17;18
+31,Chi-Yu,イーユイ,TWM,SV5a,39,018/066,POKEMON,Basic,n/a,n/a,110,FIRE,WATER,,1,False,False,False,False,,1,2,0,False,19;20
+32,Glaceon,グレイシア,TWM,SV8a,54,040/187,POKEMON,Stage1,n/a,n/a,120,WATER,METAL,,1,False,False,False,False,Eevee,2,2,0,False,21;22
+33,Froakie,ケロマツ,TWM,SV5a,56,023/066,POKEMON,Basic,n/a,n/a,60,WATER,LIGHTNING,,1,False,False,False,False,,1,2,0,False,23;24
+34,Frogadier,ゲコガシラ,TWM,SV5a,57,024/066,POKEMON,Stage1,n/a,n/a,90,WATER,LIGHTNING,,1,False,False,False,False,Froakie,2,1,0,False,25
+35,Walking Wake,ウネルミナモ,TWM,MC,63,221/742,POKEMON,Basic,n/a,Ancient,130,WATER,LIGHTNING,,1,False,False,False,False,,1,2,0,False,26;27
+36,Morpeko,モルペコ,TWM,MC,72,270/742,POKEMON,Basic,n/a,n/a,70,LIGHTNING,FIGHTING,,1,False,False,False,False,,1,1,1,True,28
+37,Iron Thorns ex,テツノイバラex,TWM,MC,77,282/742,POKEMON,Basic,Pokémon ex,Future,230,LIGHTNING,FIGHTING,,4,True,False,False,False,,1,1,1,True,29
+38,Girafarig,キリンリキ,TWM,MC,83,301/742,POKEMON,Basic,n/a,n/a,100,PSYCHIC,DARKNESS,FIGHTING,1,False,False,False,False,,1,1,0,False,30
+39,Enamorus,ラブトロス,TWM,MC,93,346/742,POKEMON,Basic,n/a,n/a,120,PSYCHIC,METAL,,1,False,False,False,False,,1,2,0,False,31;32
+40,Greninja ex,ゲッコウガex,TWM,SV5a,106,045/066,POKEMON,Stage2,Pokémon ex,Tera(Fighting),310,FIGHTING,PSYCHIC,,1,True,False,True,False,Frogadier,3,2,0,False,33;34
+41,Ting-Lu,ディンルー,TWM,SV5a,110,047/066,POKEMON,Basic,n/a,n/a,140,FIGHTING,GRASS,,3,False,False,False,False,,1,2,0,False,35;36
+42,Applin,カジッチュ,TWM,SV5a,126,048/066,POKEMON,Basic,n/a,n/a,40,DRAGON,,,1,False,False,False,False,,1,2,0,False,37;38
+43,Eevee,イーブイ,TWM,SV5a,135,050/066,POKEMON,Basic,n/a,n/a,50,COLORLESS,FIGHTING,,1,False,False,False,False,,1,2,0,False,39;40
+44,Bloodmoon Ursaluna ex,ガチグマ アカツキex,TWM,MC,141,625/742,POKEMON,Basic,Pokémon ex,n/a,260,COLORLESS,FIGHTING,,3,True,False,False,False,,1,1,1,True,41
+45,Shaymin,シェイミ,TEF,MC,13,039/742,POKEMON,Basic,n/a,n/a,70,GRASS,FIRE,,0,False,False,False,False,,1,2,0,False,42;43
+46,Gouging Fire ex,ウガツホムラex,TEF,MC,38,151/742,POKEMON,Basic,Pokémon ex,Ancient,230,FIRE,WATER,,2,True,False,False,False,,1,2,0,False,44;45
+47,Totodile,ワニノコ,TEF,MC,39,164/742,POKEMON,Basic,n/a,n/a,70,WATER,LIGHTNING,,1,False,False,False,False,,1,1,0,False,46
+48,Croconaw,アリゲイツ,TEF,MC,40,166/742,POKEMON,Stage1,n/a,n/a,90,WATER,LIGHTNING,,2,False,False,False,False,Totodile,2,1,0,False,47
+49,Feraligatr,オーダイル,TEF,MC,41,168/742,POKEMON,Stage2,n/a,n/a,180,WATER,LIGHTNING,,3,False,False,False,False,Croconaw,3,1,1,True,48
+50,Wiglett,ウミディグダ,TEF,SV8a,47,042/187,POKEMON,Basic,n/a,n/a,60,WATER,LIGHTNING,,1,False,False,False,False,,1,2,0,False,49;50
+51,Palafin,イルカマン,TEF,SV5K,49,023/071,POKEMON,Stage1,n/a,n/a,150,WATER,LIGHTNING,,2,False,False,False,False,Finizen,2,2,0,False,51;52
+52,Wugtrio ex,ウミトリオex,TEF,SV5K,60,025/071,POKEMON,Stage1,Pokémon ex,Tera(Lightning),250,LIGHTNING,FIGHTING,,1,True,False,True,False,Wiglett,2,2,0,False,53;54
+53,Marill,マリル,TEF,SV5K,64,026/071,POKEMON,Basic,n/a,n/a,70,PSYCHIC,METAL,,2,False,False,False,False,,1,2,0,False,55;56
+54,Bronzor,ドーミラー,TEF,SV5K,68,028/071,POKEMON,Basic,n/a,n/a,80,PSYCHIC,DARKNESS,FIGHTING,3,False,False,False,False,,1,1,0,False,57
+55,Bronzong,ドータクン,TEF,SV5K,69,029/071,POKEMON,Stage1,n/a,n/a,110,PSYCHIC,DARKNESS,FIGHTING,3,False,False,False,False,Bronzor,2,2,0,False,58;59
+56,Flutter Mane,ハバタクカミ,TEF,MC,78,355/742,POKEMON,Basic,n/a,Ancient,90,PSYCHIC,METAL,,1,False,False,False,False,,1,1,1,True,60
+57,Relicanth,ジーランス,TEF,SV8a,84,079/187,POKEMON,Basic,n/a,n/a,100,FIGHTING,GRASS,,1,False,False,False,False,,1,1,1,True,61
+58,Great Tusk,イダイナキバ,TEF,SV8a,97,086/187,POKEMON,Basic,n/a,Ancient,140,FIGHTING,PSYCHIC,,3,False,False,False,False,,1,2,0,False,62;63
+59,Gastly,ゴース,TEF,MC,102,441/742,POKEMON,Basic,n/a,n/a,60,DARKNESS,FIGHTING,,1,False,False,False,False,,1,2,0,False,64;65
+60,Haunter,ゴースト,TEF,MC,103,443/742,POKEMON,Stage1,n/a,n/a,90,DARKNESS,FIGHTING,,1,False,False,False,False,Gastly,2,1,0,False,66
+61,Roaring Moon,トドロクツキ,TEF,SV8a,109,100/187,POKEMON,Basic,n/a,Ancient,140,DARKNESS,GRASS,,2,False,False,False,False,,1,2,0,False,67;68
+62,Koraidon,コライドン,TEF,MC,119,550/742,POKEMON,Basic,n/a,Ancient,140,DRAGON,,,2,False,False,False,False,,1,2,0,False,69;70
+63,Raging Bolt ex,タケルライコex,TEF,MC,123,554/742,POKEMON,Basic,Pokémon ex,Ancient,240,DRAGON,,,3,True,False,False,False,,1,2,0,False,71;72
+64,Hoothoot,ホーホー,TEF,SV5K,126,054/071,POKEMON,Basic,n/a,n/a,70,COLORLESS,LIGHTNING,FIGHTING,1,False,False,False,False,,1,1,0,False,73
+65,Dunsparce,ノコッチ,TEF,SV8a,128,129/187,POKEMON,Basic,n/a,n/a,60,COLORLESS,FIGHTING,,0,False,False,False,False,,1,2,0,False,74;75
+66,Dudunsparce,ノココッチ,TEF,SV8a,129,130/187,POKEMON,Stage1,n/a,n/a,140,COLORLESS,FIGHTING,,3,False,False,False,False,Dunsparce,2,1,1,True,76
+67,Pineco,クヌギダマ,TEF,SV5M,2,002/071,POKEMON,Basic,n/a,n/a,70,GRASS,FIRE,,2,False,False,False,False,,1,1,0,False,77
+68,Seedot,タネボー,TEF,SV5M,3,003/071,POKEMON,Basic,n/a,n/a,60,GRASS,FIRE,,1,False,False,False,False,,1,2,0,False,78;79
+69,Nuzleaf,コノハナ,TEF,SV5M,4,004/071,POKEMON,Stage1,n/a,n/a,90,GRASS,FIRE,,1,False,False,False,False,Seedot,2,2,0,False,80;81
+70,Shiftry,ダーテング,TEF,SV5M,5,005/071,POKEMON,Stage2,n/a,n/a,150,GRASS,FIRE,,2,False,False,False,False,Nuzleaf,3,2,0,False,82;83
+71,Deerling,シキジカ,TEF,SV5M,16,008/071,POKEMON,Basic,n/a,n/a,70,GRASS,FIRE,,1,False,False,False,False,,1,2,0,False,84;85
+72,Sawsbuck,メブキジカ,TEF,SV5M,17,009/071,POKEMON,Stage1,n/a,n/a,130,GRASS,FIRE,,2,False,False,False,False,Deerling,2,1,1,True,86
+73,Rellor,シガロコ,TEF,SV8a,23,013/187,POKEMON,Basic,n/a,n/a,50,GRASS,FIRE,,1,False,False,False,False,,1,1,0,False,87
+74,Rabsca,ベラカス,TEF,SV8a,24,014/187,POKEMON,Stage1,n/a,n/a,70,GRASS,FIRE,,1,False,False,False,False,Rellor,2,1,1,True,88
+75,Iron Leaves ex,テツノイサハex,TEF,MC,25,077/742,POKEMON,Basic,Pokémon ex,Future,220,GRASS,FIRE,,1,True,False,False,False,,1,1,1,True,89
+76,Slugma,マグマッグ,TEF,SV5M,28,017/071,POKEMON,Basic,n/a,n/a,80,FIRE,WATER,,2,False,False,False,False,,1,1,0,False,90
+77,Litten,ニャビー,TEF,MC,32,130/742,POKEMON,Basic,n/a,n/a,70,FIRE,WATER,,2,False,False,False,False,,1,1,0,False,91
+78,Torracat,ニャヒート,TEF,MC,33,131/742,POKEMON,Stage1,n/a,n/a,100,FIRE,WATER,,2,False,False,False,False,Litten,2,2,0,False,92;93
+79,Incineroar ex,ガオガエンex,TEF,MC,34,132/742,POKEMON,Stage2,Pokémon ex,n/a,320,FIRE,WATER,,2,True,False,False,False,Torracat,3,1,1,True,94
+80,Iron Crown ex,テツノカシラex,TEF,MC,81,361/742,POKEMON,Basic,Pokémon ex,Future,220,PSYCHIC,DARKNESS,FIGHTING,2,True,False,False,False,,1,1,1,True,95
+81,Drilbur,モグリュー,TEF,SV8a,85,083/187,POKEMON,Basic,n/a,n/a,70,FIGHTING,GRASS,,1,False,False,False,False,,1,1,1,True,96
+82,Excadrill,ドリュウズ,TEF,SV5M,86,040/071,POKEMON,Stage1,n/a,n/a,130,FIGHTING,GRASS,,2,False,False,False,False,Drilbur,2,2,0,False,97;98
+83,Farigiraf ex,リキキリンex,TEF,MC,108,486/742,POKEMON,Stage1,Pokémon ex,Tera(Darkness),260,DARKNESS,GRASS,,2,True,False,True,False,Girafarig,2,1,1,True,99
+84,Scizor ex,ハッサムex,TEF,MC,111,492/742,POKEMON,Stage1,Pokémon ex,n/a,270,METAL,FIRE,GRASS,2,True,False,False,False,Scyther,2,2,0,False,100;101
+85,Beldum,ダンバル,TEF,MC,113,496/742,POKEMON,Basic,n/a,n/a,70,METAL,FIRE,GRASS,1,False,False,False,False,,1,2,0,False,102;103
+86,Metang,メタング,TEF,MC,114,497/742,POKEMON,Stage1,n/a,n/a,100,METAL,FIRE,GRASS,2,False,False,False,False,Beldum,2,1,1,True,104
+87,Miraidon,ミライドン,TEF,MC,121,552/742,POKEMON,Basic,n/a,Future,110,DRAGON,,,2,False,False,False,False,,1,2,0,False,105;106
+88,Volbeat,バルビート,TWM,SV6,9,004/101,POKEMON,Basic,n/a,n/a,70,GRASS,FIRE,,1,False,False,False,False,,1,2,0,False,107;108
+89,Grookey,サルノリ,TWM,SV8a,14,006/187,POKEMON,Basic,n/a,n/a,70,GRASS,FIRE,,1,False,False,False,False,,1,2,0,False,109;110
+90,Thwackey,バチンキー,TWM,SV8a,15,007/187,POKEMON,Stage1,n/a,n/a,100,GRASS,FIRE,,2,False,False,False,False,Grookey,2,1,1,True,111
+91,Rillaboom,ゴリランダー,TWM,SV6,16,010/101,POKEMON,Stage2,n/a,n/a,180,GRASS,FIRE,,4,False,False,False,False,Thwackey,3,2,0,False,112;113
+92,Applin,カジッチュ,TWM,SV6,17,011/101,POKEMON,Basic,n/a,n/a,40,GRASS,FIRE,,1,False,False,False,False,,1,1,0,False,114
+93,Dipplin,カミッチュ,TWM,SV8a,18,009/187,POKEMON,Stage1,n/a,n/a,80,GRASS,FIRE,,2,False,False,False,False,Applin,2,1,1,True,115
+94,Sinistcha,ヤバソチャ,TWM,SV8a,22,018/187,POKEMON,Stage1,n/a,n/a,70,GRASS,FIRE,,1,False,False,False,False,Poltchageist,2,2,0,False,116;117
+95,Teal Mask Ogerpon,オーガポン みどりのめん,TWM,MC,24,080/742,POKEMON,Basic,n/a,n/a,110,GRASS,FIRE,,1,False,False,False,False,,1,2,0,False,118;119
+96,Teal Mask Ogerpon ex,オーガポン みどりのめんex,TWM,MC,25,082/742,POKEMON,Basic,Pokémon ex,Tera(Grass),210,GRASS,FIRE,,1,True,False,True,False,,1,1,1,True,120
+97,Litwick,ヒトモシ,TWM,SV6,36,019/101,POKEMON,Basic,n/a,n/a,60,FIRE,WATER,,1,False,False,False,False,,1,2,0,False,121;122
+98,Chandelure,シャンデラ,TWM,SV6,38,021/101,POKEMON,Stage2,n/a,n/a,130,FIRE,WATER,,2,False,False,False,False,Lampent,3,1,1,True,123
+99,Hearthflame Mask Ogerpon ex,オーガポン かまどのめんex,TWM,MC,40,149/742,POKEMON,Basic,Pokémon ex,Tera(Fire),210,FIRE,WATER,,1,True,False,True,False,,1,2,0,False,124;125
+100,Goldeen,トサキント,TWM,SV8a,44,028/187,POKEMON,Basic,n/a,n/a,50,WATER,LIGHTNING,,1,False,False,False,False,,1,1,1,True,126
+101,Jynx,ルージュラ,TWM,SV6,46,028/101,POKEMON,Basic,n/a,n/a,90,WATER,METAL,,1,False,False,False,False,,1,2,0,False,127;128
+102,Milotic,ミロカロス,TWM,SV8a,50,036/187,POKEMON,Stage1,n/a,n/a,120,WATER,LIGHTNING,,1,False,False,False,False,Feebas,2,1,1,True,129
+103,Snorunt,ユキワラシ,TWM,MC,51,186/742,POKEMON,Basic,n/a,n/a,60,WATER,METAL,,1,False,False,False,False,,1,1,0,False,130
+104,Froslass,ユキメノコ,TWM,SV8a,53,038/187,POKEMON,Stage1,n/a,n/a,90,WATER,METAL,,1,False,False,False,False,Snorunt,2,1,1,True,131
+105,Finizen,ナミイルカ,TWM,MC,59,214/742,POKEMON,Basic,n/a,n/a,70,WATER,LIGHTNING,,1,False,False,False,False,,1,1,0,False,132
+106,Palafin,イルカマン,TWM,MC,60,215/742,POKEMON,Stage1,n/a,n/a,100,WATER,LIGHTNING,,1,False,False,False,False,Finizen,2,1,1,True,133
+107,Palafin ex,イルカマンex,TWM,MC,61,216/742,POKEMON,Stage1,Pokémon ex,n/a,340,WATER,LIGHTNING,,2,True,False,False,False,Finizen,2,1,1,True,134
+108,Wellspring Mask Ogerpon ex,オーガポン いどのめんex,TWM,MC,64,224/742,POKEMON,Basic,Pokémon ex,Tera(Water),210,WATER,LIGHTNING,,1,True,False,True,False,,1,2,0,False,135;136
+109,Abra,ケーシィ,TWM,SV8a,80,057/187,POKEMON,Basic,n/a,n/a,40,PSYCHIC,DARKNESS,FIGHTING,1,False,False,False,False,,1,1,1,True,137
+110,Slurpuff,ペロリーム,TWM,SV6,90,052/101,POKEMON,Stage1,n/a,n/a,120,PSYCHIC,METAL,,2,False,False,False,False,Swirlix,2,1,0,False,138
+111,Sandygast,スナバァ,TWM,SV6,91,053/101,POKEMON,Basic,n/a,n/a,90,PSYCHIC,DARKNESS,FIGHTING,3,False,False,False,False,,1,2,0,False,139;140
+112,Munkidori,マシマシラ,TWM,MC,95,358/742,POKEMON,Basic,n/a,n/a,110,PSYCHIC,DARKNESS,FIGHTING,1,False,False,False,False,,1,1,1,True,141
+113,Timburr,ドッコラー,TWM,SV6,103,059/101,POKEMON,Basic,n/a,n/a,80,FIGHTING,PSYCHIC,,2,False,False,False,False,,1,1,0,False,142
+114,Gurdurr,ドテッコツ,TWM,SV6,104,060/101,POKEMON,Stage1,n/a,n/a,100,FIGHTING,PSYCHIC,,2,False,False,False,False,Timburr,2,2,0,False,143;144
+115,Conkeldurr,ローブシン,TWM,SV6,105,061/101,POKEMON,Stage2,n/a,n/a,180,FIGHTING,PSYCHIC,,3,False,False,False,False,Gurdurr,3,2,0,False,145;146
+116,Okidogi,イイネイヌ,TWM,MC,111,426/742,POKEMON,Basic,n/a,n/a,130,FIGHTING,PSYCHIC,,2,False,False,False,False,,1,1,1,True,147
+117,Cornerstone Mask Ogerpon ex,オーガポン いしずえのめんex,TWM,MC,112,428/742,POKEMON,Basic,Pokémon ex,Tera(Fighting),210,FIGHTING,GRASS,,1,True,False,True,False,,1,1,1,True,148
+118,Heatran,ヒードラン,TWM,SV6,123,076/101,POKEMON,Basic,n/a,n/a,140,METAL,FIRE,GRASS,4,False,False,False,False,,1,1,1,True,149
+119,Dreepy,ドラメシヤ,TWM,MC,128,546/742,POKEMON,Basic,n/a,n/a,70,DRAGON,,,1,False,False,False,False,,1,2,0,False,150;151
+120,Drakloak,ドロンチ,TWM,MC,129,547/742,POKEMON,Stage1,n/a,n/a,90,DRAGON,,,1,False,False,False,False,Dreepy,2,1,1,True,152
+121,Dragapult ex,ドラパルトex,TWM,MC,130,548/742,POKEMON,Stage2,Pokémon ex,Tera(Dragon),320,DRAGON,,,1,True,False,True,False,Drakloak,3,2,0,False,153;154
+122,Tatsugiri,シャリタツ,TWM,MC,131,549/742,POKEMON,Basic,n/a,n/a,70,DRAGON,,,1,False,False,False,False,,1,1,1,True,155
+123,Farfetch'd,カモネギ,TWM,SV6,132,083/101,POKEMON,Basic,n/a,n/a,70,COLORLESS,LIGHTNING,FIGHTING,1,False,False,False,False,,1,1,1,True,156
+124,Chansey,ラッキー,TWM,MC,133,561/742,POKEMON,Basic,n/a,n/a,120,COLORLESS,FIGHTING,,2,False,False,False,False,,1,2,0,False,157;158
+125,Blissey ex,ハピナスex,TWM,MC,134,562/742,POKEMON,Stage1,Pokémon ex,n/a,300,COLORLESS,FIGHTING,,4,True,False,False,False,Chansey,2,1,1,True,159
+126,Galvantula,デンチュラ,SFA,MC,2,050/742,POKEMON,Stage1,n/a,n/a,100,GRASS,FIRE,,1,False,False,False,False,Joltik,2,1,1,True,160
+127,Rowlet,モクロー,SFA,SV6a,3,003/064,POKEMON,Basic,n/a,n/a,70,GRASS,FIRE,,1,False,False,False,False,,1,2,0,False,161;162
+128,Dartrix,フクスロー,SFA,SV6a,4,004/064,POKEMON,Stage1,n/a,n/a,90,GRASS,FIRE,,1,False,False,False,False,Rowlet,2,2,0,False,163;164
+129,Decidueye,ジュナイパー,SFA,SV6a,5,005/064,POKEMON,Stage2,n/a,n/a,150,GRASS,FIRE,,2,False,False,False,False,Dartrix,3,2,0,False,165;166
+130,Revavroom ex,ブロロロームex,SFA,SV6a,15,015/064,POKEMON,Stage1,Pokémon ex,Tera(Lightning),280,LIGHTNING,FIGHTING,,1,True,False,True,False,Varoom,2,2,0,False,167;168
+131,Duskull,ヨマワル,SFA,MC,18,308/742,POKEMON,Basic,n/a,n/a,60,PSYCHIC,DARKNESS,FIGHTING,1,False,False,False,False,,1,2,0,False,169;170
+132,Dusclops,サマヨール,SFA,MC,19,309/742,POKEMON,Stage1,n/a,n/a,90,PSYCHIC,DARKNESS,FIGHTING,2,False,False,False,False,Duskull,2,1,1,True,171
+133,Dusknoir,ヨノワール,SFA,MC,20,310/742,POKEMON,Stage2,n/a,n/a,160,PSYCHIC,DARKNESS,FIGHTING,3,False,False,False,False,Dusclops,3,1,1,True,172
+134,Sylveon,ニンフィア,SFA,SV8a,22,068/187,POKEMON,Stage1,n/a,n/a,120,PSYCHIC,METAL,,1,False,False,False,False,Eevee,2,2,0,False,173;174
+135,Bloodmoon Ursaluna,ガチグマ アカツキ,SFA,MC,25,415/742,POKEMON,Basic,n/a,n/a,150,FIGHTING,GRASS,,4,False,False,False,False,,1,1,1,True,175
+136,Zorua,ゾロア,SFA,SV8a,31,096/187,POKEMON,Basic,n/a,n/a,70,DARKNESS,GRASS,,1,False,False,False,False,,1,2,0,False,176;177
+137,Zoroark,ゾロアーク,SFA,SV8a,32,097/187,POKEMON,Stage1,n/a,n/a,120,DARKNESS,GRASS,,1,False,False,False,False,Zorua,2,2,0,False,178;179
+138,Okidogi ex,イイネイヌex,SFA,MC,36,488/742,POKEMON,Basic,Pokémon ex,n/a,250,DARKNESS,FIGHTING,,3,True,False,False,False,,1,2,0,False,180;181
+139,Munkidori ex,マシマシラex,SFA,SV8a,37,103/187,POKEMON,Basic,Pokémon ex,n/a,210,DARKNESS,FIGHTING,,1,True,False,False,False,,1,1,1,True,182
+140,Fezandipiti ex,キチキギスex,SFA,MC,38,489/742,POKEMON,Basic,Pokémon ex,n/a,210,DARKNESS,FIGHTING,,1,True,False,False,False,,1,1,1,True,183
+141,Pecharunt ex,モモワロウex,SFA,MC,39,491/742,POKEMON,Basic,Pokémon ex,n/a,190,DARKNESS,FIGHTING,,1,True,False,False,False,,1,1,1,True,184
+142,Genesect,ゲノセクト,SFA,SV6a,40,040/064,POKEMON,Basic,n/a,n/a,110,METAL,FIRE,GRASS,1,False,False,False,False,,1,1,1,True,185
+143,Varoom,ブロロン,SFA,SV8a,43,114/187,POKEMON,Basic,n/a,n/a,70,METAL,FIRE,GRASS,1,False,False,False,False,,1,2,0,False,186;187
+144,Kyurem,キュレム,SFA,SV6a,47,047/064,POKEMON,Basic,n/a,n/a,130,DRAGON,,,2,False,False,False,False,,1,1,1,True,188
+145,Eevee,イーブイ,SFA,PROMO,50,196/SV-P,POKEMON,Basic,n/a,n/a,70,COLORLESS,FIGHTING,,1,False,False,False,False,,1,2,0,False,189;190
+146,Lileep,リリーラ,SCR,SV7,5,003/102,POKEMON,Stage1,n/a,n/a,100,GRASS,FIRE,,2,False,False,False,False,Antique Root Fossil,2,1,0,False,191
+147,Cradily,ユレイドル,SCR,SV7,6,004/102,POKEMON,Stage2,n/a,n/a,150,GRASS,FIRE,,3,False,False,False,False,Lileep,3,1,1,True,192
+148,Mow Rotom,カットロトム,SCR,SV7,8,006/102,POKEMON,Basic,n/a,n/a,90,GRASS,FIRE,,1,False,False,False,False,,1,1,0,False,193
+149,Applin,カジッチュ,SCR,MC,12,062/742,POKEMON,Basic,n/a,n/a,40,GRASS,FIRE,,1,False,False,False,False,,1,1,0,False,194
+150,Hydrapple ex,カミツオロチex,SCR,MC,14,064/742,POKEMON,Stage2,Pokémon ex,n/a,330,GRASS,FIRE,,3,True,False,False,False,Dipplin,3,1,1,True,195
+151,Scorbunny,ヒバニー,SCR,MC,26,137/742,POKEMON,Basic,n/a,n/a,70,FIRE,WATER,,1,False,False,False,False,,1,1,0,False,196
+152,Raboot,ラビフット,SCR,MC,27,138/742,POKEMON,Stage1,n/a,n/a,90,FIRE,WATER,,1,False,False,False,False,Scorbunny,2,2,0,False,197;198
+153,Cinderace ex,エースバーンex,SCR,MC,28,139/742,POKEMON,Stage2,Pokémon ex,Tera(Stellar),320,FIRE,WATER,,0,True,False,True,False,Raboot,3,2,0,False,199;200
+154,Lapras ex,ラプラスex,SCR,SV7,32,019/102,POKEMON,Basic,Pokémon ex,Tera(Stellar),220,WATER,METAL,,2,True,False,True,False,,1,2,0,False,201;202
+155,Carracosta,アバゴーラ,SCR,SV7,38,023/102,POKEMON,Stage2,n/a,n/a,160,WATER,LIGHTNING,,3,False,False,False,False,Tirtouga,3,1,1,True,203
+156,Crabominable,ケケンカニ,SCR,MC,42,209/742,POKEMON,Stage1,n/a,n/a,160,WATER,METAL,,3,False,False,False,False,Crabrawler,2,1,1,True,204
+157,Chewtle,カムカメ,SCR,SV7,43,025/102,POKEMON,Basic,n/a,n/a,80,WATER,LIGHTNING,,2,False,False,False,False,,1,1,0,False,205
+158,Drednaw,カジリガメ,SCR,SV7,44,026/102,POKEMON,Stage1,n/a,n/a,140,WATER,LIGHTNING,,3,False,False,False,False,Chewtle,2,1,1,True,206
+159,Veluza,ミガルーサ,SCR,MC,45,219/742,POKEMON,Basic,n/a,n/a,130,WATER,LIGHTNING,,2,False,False,False,False,,1,1,1,True,207
+160,Joltik,バチュル,SCR,MC,50,254/742,POKEMON,Basic,n/a,n/a,30,LIGHTNING,FIGHTING,,1,False,False,False,False,,1,1,0,False,208
+161,Galvantula ex,デンチュラex,SCR,MC,51,255/742,POKEMON,Stage1,Pokémon ex,Tera(Stellar),260,LIGHTNING,FIGHTING,,1,True,False,True,False,Joltik,2,2,0,False,209;210
+162,Slowpoke,ヤドン,SCR,SV7,57,038/102,POKEMON,Basic,n/a,n/a,80,PSYCHIC,DARKNESS,FIGHTING,2,False,False,False,False,,1,2,0,False,211;212
+163,Slowking,ヤドキング,SCR,SV7,58,039/102,POKEMON,Stage1,n/a,n/a,120,PSYCHIC,DARKNESS,FIGHTING,3,False,False,False,False,Slowpoke,2,2,0,False,213;214
+164,Comfey,キュワワー,SCR,SV7,63,042/102,POKEMON,Basic,n/a,n/a,70,PSYCHIC,METAL,,1,False,False,False,False,,1,2,0,False,215;216
+165,Klink,ギアル,SCR,SV7,99,067/102,POKEMON,Basic,n/a,n/a,60,METAL,FIRE,GRASS,2,False,False,False,False,,1,2,0,False,217;218
+166,Klang,ギギアル,SCR,SV7,100,068/102,POKEMON,Stage1,n/a,n/a,90,METAL,FIRE,GRASS,3,False,False,False,False,Klink,2,1,0,False,219
+167,Klinklang,ギギギアル,SCR,SV7,101,069/102,POKEMON,Stage2,n/a,n/a,140,METAL,FIRE,GRASS,3,False,False,False,False,Klang,3,1,1,True,220
+168,Meltan,メルタン,SCR,SV7,103,070/102,POKEMON,Basic,n/a,n/a,70,METAL,FIRE,GRASS,1,False,False,False,False,,1,2,0,False,221;222
+169,Duraludon,ジュラルドン,SCR,MC,106,524/742,POKEMON,Basic,n/a,n/a,130,METAL,FIRE,GRASS,2,False,False,False,False,,1,2,0,False,223;224
+170,Archaludon,ブリジュラス,SCR,MC,107,525/742,POKEMON,Stage1,n/a,n/a,180,METAL,FIRE,GRASS,2,False,False,False,False,Duraludon,2,1,1,True,225
+171,Raging Bolt,タケルライコ,SCR,SV7,111,075/102,POKEMON,Basic,n/a,Ancient,130,DRAGON,,,3,False,False,False,False,,1,2,0,False,226;227
+172,Hoothoot,ホーホー,SCR,MC,114,572/742,POKEMON,Basic,n/a,n/a,70,COLORLESS,LIGHTNING,FIGHTING,1,False,False,False,False,,1,1,0,False,228
+173,Noctowl,ヨルノズク,SCR,MC,115,573/742,POKEMON,Stage1,n/a,n/a,100,COLORLESS,LIGHTNING,FIGHTING,1,False,False,False,False,Hoothoot,2,1,1,True,229
+174,Fan Rotom,スピンロトム,SCR,M2a,118,139/193,POKEMON,Basic,n/a,n/a,70,COLORLESS,LIGHTNING,FIGHTING,1,False,False,False,False,,1,1,1,True,230
+175,Bouffalant,バッフロン,SCR,M2a,119,140/193,POKEMON,Basic,n/a,n/a,100,COLORLESS,FIGHTING,,2,False,False,False,False,,1,1,1,True,231
+176,Terapagos ex,テラパゴスex,SCR,MC,128,630/742,POKEMON,Basic,Pokémon ex,Tera(Stellar),230,COLORLESS,FIGHTING,,2,True,False,True,False,,1,2,0,False,232;233
+177,Exeggcute,タマタマ,SSP,MC,1,009/742,POKEMON,Basic,n/a,n/a,30,GRASS,FIRE,,1,False,False,False,False,,1,1,0,False,234
+178,Zarude,ザルード,SSP,SV7a,11,005/064,POKEMON,Basic,n/a,n/a,120,GRASS,FIRE,,1,False,False,False,False,,1,2,0,False,235;236
+179,Black Kyurem ex,ブラックキュレムex,SSP,MC,48,204/742,POKEMON,Basic,Pokémon ex,n/a,230,WATER,METAL,,3,True,False,False,False,,1,2,0,False,237;238
+180,Bruxish,ハギギシリ,SSP,SV7a,49,012/064,POKEMON,Basic,n/a,n/a,110,WATER,LIGHTNING,,1,False,False,False,False,,1,1,1,True,239
+181,Quaxwell,ウェルカモ,SSP,MC,51,212/742,POKEMON,Stage1,n/a,n/a,100,WATER,LIGHTNING,,1,False,False,False,False,Quaxly,2,1,0,False,240
+182,Quaquaval,ウェーニバル,SSP,MC,52,213/742,POKEMON,Stage2,n/a,n/a,170,WATER,LIGHTNING,,2,False,False,False,False,Quaxwell,3,1,1,True,241
+183,Smoochum,ムチュール,SSP,SV7a,75,018/064,POKEMON,Basic,n/a,n/a,30,PSYCHIC,DARKNESS,FIGHTING,0,False,False,False,False,,1,1,0,False,242
+184,Latias ex,ラティアスex,SSP,MC,76,312/742,POKEMON,Basic,Pokémon ex,n/a,210,PSYCHIC,DARKNESS,FIGHTING,2,True,False,False,False,,1,1,1,True,243
+185,Flittle,ヒラヒナ,SSP,SV7a,94,022/064,POKEMON,Basic,n/a,n/a,40,PSYCHIC,DARKNESS,FIGHTING,1,False,False,False,False,,1,1,0,False,244
+186,Gimmighoul,コレクレー,SSP,SV7a,97,024/064,POKEMON,Basic,n/a,n/a,70,PSYCHIC,DARKNESS,FIGHTING,2,False,False,False,False,,1,2,0,False,245;246
+187,Trapinch,ナックラー,SSP,SV7a,104,025/064,POKEMON,Basic,n/a,n/a,60,FIGHTING,GRASS,,1,False,False,False,False,,1,2,0,False,247;248
+188,Vibrava,ビブラーバ,SSP,SV7a,105,026/064,POKEMON,Stage1,n/a,n/a,90,FIGHTING,GRASS,,1,False,False,False,False,Trapinch,2,2,0,False,249;250
+189,Flygon ex,フライゴンex,SSP,SV7a,106,027/064,POKEMON,Stage2,Pokémon ex,Tera(Stellar),310,FIGHTING,GRASS,,1,True,False,True,False,Vibrava,3,2,0,False,251;252
+190,Archaludon ex,ブリジュラスex,SSP,MC,130,526/742,POKEMON,Stage1,Pokémon ex,n/a,300,METAL,FIRE,GRASS,2,True,False,False,False,Duraludon,2,1,1,True,253
+191,Gholdengo,サーフゴー,SSP,MC,131,534/742,POKEMON,Stage1,n/a,n/a,130,METAL,FIRE,GRASS,2,False,False,False,False,Gimmighoul,2,2,0,False,254;255
+192,Iron Crown,テツノカシラ,SSP,MC,132,536/742,POKEMON,Basic,n/a,Future,130,METAL,FIRE,GRASS,2,False,False,False,False,,1,2,0,False,256;257
+193,Alolan Exeggutor ex,アローラ ナッシーex,SSP,MC,133,537/742,POKEMON,Stage1,Pokémon ex,Tera(Stellar),300,DRAGON,,,3,True,False,True,False,Exeggcute,2,2,0,False,258;259
+194,Altaria,チルタリス,SSP,SV7a,134,041/064,POKEMON,Stage1,n/a,n/a,120,DRAGON,,,1,False,False,False,False,Swablu,2,2,0,False,260;261
+195,Dialga,ディアルガ,SSP,SV7a,135,042/064,POKEMON,Basic,n/a,n/a,130,DRAGON,,,2,False,False,False,False,,1,2,0,False,262;263
+196,Turtonator,バクガメス,SSP,SV7a,137,044/064,POKEMON,Basic,n/a,n/a,120,DRAGON,,,3,False,False,False,False,,1,2,0,False,264;265
+197,Swablu,チルット,SSP,SV7a,148,048/064,POKEMON,Basic,n/a,n/a,50,COLORLESS,LIGHTNING,FIGHTING,1,False,False,False,False,,1,1,0,False,266
+198,Durant ex,アイアントex,SSP,MC,4,052/742,POKEMON,Basic,Pokémon ex,n/a,190,GRASS,FIRE,,2,True,False,False,False,,1,1,1,True,267
+199,Scatterbug,コフキムシ,SSP,SV8,5,004/106,POKEMON,Basic,n/a,n/a,40,GRASS,FIRE,,1,False,False,False,False,,1,1,0,False,268
+200,Spewpa,コフーライ,SSP,SV8,6,005/106,POKEMON,Stage1,n/a,n/a,80,GRASS,FIRE,,3,False,False,False,False,Scatterbug,2,2,0,False,269;270
+201,Wo-Chien,チオンジェン,SSP,SV8,15,010/106,POKEMON,Basic,n/a,n/a,130,GRASS,FIRE,,3,False,False,False,False,,1,2,0,False,271;272
+202,Victini,ビクティニ,SSP,SV8,21,012/106,POKEMON,Basic,n/a,n/a,70,FIRE,WATER,,1,False,False,False,False,,1,1,1,True,273
+203,Skeledirge,ラウドボーン,SSP,MC,31,144/742,POKEMON,Stage2,n/a,n/a,180,FIRE,WATER,,3,False,False,False,False,Crocalor,3,1,1,True,274
+204,Charcadet,カルボウ,SSP,SV8,33,020/106,POKEMON,Basic,n/a,n/a,80,FIRE,WATER,,2,False,False,False,False,,1,2,0,False,275;276
+205,Scovillain ex,スコヴィランex,SSP,MC,37,147/742,POKEMON,Stage1,Pokémon ex,n/a,260,FIRE,WATER,,2,True,False,False,False,Capsakid,2,1,1,True,277
+206,Feebas,ヒンバス,SSP,MC,41,184/742,POKEMON,Basic,n/a,n/a,30,WATER,LIGHTNING,,1,False,False,False,False,,1,1,0,False,278
+207,Milotic ex,ミロカロスex,SSP,MC,42,185/742,POKEMON,Stage1,Pokémon ex,n/a,270,WATER,LIGHTNING,,2,True,False,False,False,Feebas,2,1,1,True,279
+208,Shellos,カラナクシ,SSP,SV8,46,030/106,POKEMON,Basic,n/a,n/a,70,WATER,LIGHTNING,,2,False,False,False,False,,1,1,0,False,280
+209,Chien-Pao,パオジアン,SSP,M2a,56,043/193,POKEMON,Basic,n/a,n/a,120,WATER,METAL,,1,False,False,False,False,,1,1,1,True,281
+210,Pikachu ex,ピカチュウex,SSP,M2a,57,044/193,POKEMON,Basic,Pokémon ex,Tera(Stellar),200,LIGHTNING,FIGHTING,,1,True,False,True,False,,1,1,1,True,282
+211,Magneton,レアコイル,SSP,MC,59,232/742,POKEMON,Stage1,n/a,n/a,100,LIGHTNING,FIGHTING,,1,False,False,False,False,Magnemite,2,1,1,True,283
+212,Rotom,ロトム,SSP,MC,61,248/742,POKEMON,Basic,n/a,n/a,80,LIGHTNING,FIGHTING,,1,False,False,False,False,,1,2,0,False,284;285
+213,Tapu Koko,カプ・コケコ,SSP,MC,65,265/742,POKEMON,Basic,n/a,n/a,120,LIGHTNING,FIGHTING,,1,False,False,False,False,,1,2,0,False,286;287
+214,Togekiss,トゲキッス,SSP,MC,72,293/742,POKEMON,Stage2,n/a,n/a,140,PSYCHIC,METAL,,1,False,False,False,False,Togetic,3,1,1,True,288
+215,Uxie,ユクシー,SSP,MC,78,314/742,POKEMON,Basic,n/a,n/a,70,PSYCHIC,DARKNESS,FIGHTING,1,False,False,False,False,,1,1,0,False,289
+216,Mesprit,エムリット,SSP,MC,79,315/742,POKEMON,Basic,n/a,n/a,70,PSYCHIC,DARKNESS,FIGHTING,1,False,False,False,False,,1,2,0,False,290;291
+217,Azelf,アグノム,SSP,MC,80,316/742,POKEMON,Basic,n/a,n/a,70,PSYCHIC,DARKNESS,FIGHTING,1,False,False,False,False,,1,1,0,False,292
+218,Yamask,デスマス,SSP,MC,82,319/742,POKEMON,Basic,n/a,n/a,70,PSYCHIC,DARKNESS,FIGHTING,2,False,False,False,False,,1,2,0,False,293;294
+219,Cofagrigus,デスカーン,SSP,MC,83,321/742,POKEMON,Stage1,n/a,n/a,120,PSYCHIC,DARKNESS,FIGHTING,2,False,False,False,False,Yamask,2,2,0,False,295;296
+220,Espurr,ニャスパー,SSP,MC,84,331/742,POKEMON,Basic,n/a,n/a,60,PSYCHIC,DARKNESS,FIGHTING,1,False,False,False,False,,1,2,0,False,297;298
+221,Meowstic,ニャオニクス,SSP,MC,85,332/742,POKEMON,Stage1,n/a,n/a,90,PSYCHIC,DARKNESS,FIGHTING,1,False,False,False,False,Espurr,2,1,1,True,299
+222,Dedenne,デデンネ,SSP,SV8,87,055/106,POKEMON,Basic,n/a,n/a,70,PSYCHIC,METAL,,1,False,False,False,False,,1,2,0,False,300;301
+223,PalossandEX,シロデスナex,SSP,SV8,91,057/106,POKEMON,Stage1,Pokémon ex,Tera(Stellar),280,PSYCHIC,DARKNESS,FIGHTING,4,True,False,True,False,Sandygast,2,2,0,False,302;303
+224,Annihilape,コノヨザル,SSP,SV8,100,062/106,POKEMON,Stage2,n/a,n/a,140,FIGHTING,PSYCHIC,,2,False,False,False,False,Primeape,3,2,0,False,304;305
+225,Gastrodon,トリトドン,SSP,SV8,107,066/106,POKEMON,Stage1,n/a,n/a,130,FIGHTING,GRASS,,3,False,False,False,False,Shellos,2,1,1,True,306
+226,Koraidon,コライドン,SSP,SV8,116,069/106,POKEMON,Basic,n/a,Ancient,130,FIGHTING,PSYCHIC,,2,False,False,False,False,,1,2,0,False,307;308
+227,Deino,モノズ,SSP,SV8,117,070/106,POKEMON,Basic,n/a,n/a,70,DARKNESS,GRASS,,1,False,False,False,False,,1,2,0,False,309;310
+228,Zweilous,ジヘッド,SSP,SV8,118,071/106,POKEMON,Stage1,n/a,n/a,100,DARKNESS,GRASS,,2,False,False,False,False,Deino,2,2,0,False,311;312
+229,Hydreigon ex,サザンドラex,SSP,SV8,119,072/106,POKEMON,Stage2,Pokémon ex,Tera(Stellar),330,DARKNESS,GRASS,,3,True,False,True,False,Zweilous,3,2,0,False,313;314
+230,Pecharunt,モモワロウ,SVP,MC,149,490/742,POKEMON,Basic,n/a,n/a,80,DARKNESS,FIGHTING,,1,False,False,False,False,,1,1,1,True,315
+231,Tatsugiri ex,シャリタツex,SSP,SV8,142,081/106,POKEMON,Basic,Pokémon ex,Tera(Stellar),160,DRAGON,,,1,True,False,True,False,,1,2,0,False,316;317
+232,Slaking ex,ケッキングex,SSP,MC,147,583/742,POKEMON,Stage2,Pokémon ex,n/a,340,COLORLESS,FIGHTING,,4,True,False,False,False,Vigoroth,3,1,1,True,318
+233,Bouffalant,バッフロン,SSP,SV8,151,087/106,POKEMON,Basic,n/a,n/a,130,COLORLESS,FIGHTING,,2,False,False,False,False,,1,2,0,False,319;320
+234,Terapagos,テラパゴス,SSP,MC,161,629/742,POKEMON,Basic,n/a,n/a,120,COLORLESS,FIGHTING,,2,False,False,False,False,,1,2,0,False,321;322
+235,Budew,スボミー,PRE,M2a,4,011/193,POKEMON,Basic,n/a,n/a,30,GRASS,FIRE,,0,False,False,False,False,,1,1,0,False,323
+236,Leafeon ex,リーフィアex,PRE,MC,6,038/742,POKEMON,Stage1,Pokémon ex,Tera(Stellar),270,GRASS,FIRE,,2,True,False,True,False,Eevee,2,2,0,False,324;325
+237,Cottonee,モンメン,PRE,SV8a,7,004/187,POKEMON,Basic,n/a,n/a,60,GRASS,FIRE,,1,False,False,False,False,,1,1,0,False,326
+238,Whimsicott,エルフーン,PRE,SV8a,8,005/187,POKEMON,Stage1,n/a,n/a,100,GRASS,FIRE,,1,False,False,False,False,Cottonee,2,1,1,True,327
+239,Flareon ex,ブースターex,PRE,MC,14,094/742,POKEMON,Stage1,Pokémon ex,Tera(Stellar),270,FIRE,WATER,,2,True,False,True,False,Eevee,2,2,0,False,328;329
+240,Seaking,アズマオウ,PRE,SV8a,21,029/187,POKEMON,Stage1,n/a,n/a,110,WATER,LIGHTNING,,1,False,False,False,False,Goldeen,2,1,1,True,330
+241,Vaporeon ex,シャワーズex,PRE,MC,23,161/742,POKEMON,Stage1,Pokémon ex,Tera(Stellar),280,WATER,LIGHTNING,,2,True,False,True,False,Eevee,2,2,0,False,331;332
+242,Feebas,ヒンバス,TWM,SV8a,49,035/187,POKEMON,Basic,n/a,n/a,30,WATER,LIGHTNING,,1,False,False,False,False,,1,1,0,False,333
+243,Glaceon ex,グレイシアex,PRE,MC,26,162/742,POKEMON,Stage1,Pokémon ex,Tera(Stellar),270,WATER,METAL,,1,True,False,True,False,Eevee,2,2,0,False,334;335
+244,Jolteon ex,サンダースex,PRE,MC,30,238/742,POKEMON,Stage1,Pokémon ex,Tera(Stellar),260,LIGHTNING,FIGHTING,,0,True,False,True,False,Eevee,2,2,0,False,336;337
+245,Alakazam,フーディン,TWM,SV8a,82,059/187,POKEMON,Stage2,n/a,n/a,140,PSYCHIC,DARKNESS,FIGHTING,1,False,False,False,False,Kadabra,3,2,0,False,338;339
+246,Espeon ex,エーフィex,PRE,MC,34,298/742,POKEMON,Stage1,Pokémon ex,Tera(Stellar),270,PSYCHIC,DARKNESS,FIGHTING,1,True,False,True,False,Eevee,2,2,0,False,340;341
+247,Swirlix,ペロッパフ,TWM,SV8a,89,067/187,POKEMON,Basic,n/a,n/a,50,PSYCHIC,METAL,,1,False,False,False,False,,1,1,1,True,342
+248,Umbreon ex,ブラッキーex,PRE,MC,60,446/742,POKEMON,Stage1,Pokémon ex,Tera(Stellar),280,DARKNESS,GRASS,,2,True,False,True,False,Eevee,2,2,0,False,343;344
+249,Eevee ex,イーブイex,PRE,MC,75,566/742,POKEMON,Basic,Pokémon ex,Tera(Stellar),200,COLORLESS,FIGHTING,,1,True,False,True,False,,1,1,1,True,345
+250,Hoothoot,ホーホー,PRE,SV8a,77,127/187,POKEMON,Basic,n/a,n/a,80,COLORLESS,LIGHTNING,FIGHTING,2,False,False,False,False,,1,1,1,True,346
+251,Regigigas,レジギガス,PRE,SV8a,86,132/187,POKEMON,Basic,n/a,n/a,160,COLORLESS,FIGHTING,,4,False,False,False,False,,1,1,0,False,347
+252,Caterpie,キャタピー,JTG,SV9,1,001/100,POKEMON,Basic,n/a,n/a,50,GRASS,FIRE,,1,False,False,False,False,,1,1,0,False,348
+253,Metapod,トランセル,JTG,SV9,2,002/100,POKEMON,Stage1,n/a,n/a,90,GRASS,FIRE,,3,False,False,False,False,Caterpie,2,1,0,False,349
+254,Butterfree,バタフリー,JTG,SV9,3,003/100,POKEMON,Stage2,n/a,n/a,120,GRASS,FIRE,,1,False,False,False,False,Metapod,3,1,0,False,350
+255,Maractus,マラカッチ,JTG,SV9,8,006/100,POKEMON,Basic,n/a,n/a,110,GRASS,FIRE,,2,False,False,False,False,,1,1,1,True,351
+256,Magmortar,ブーバーン,JTG,MC,21,092/742,POKEMON,Stage1,n/a,n/a,130,FIRE,WATER,,2,False,False,False,False,Magmar,2,1,1,True,352
+257,N’s Darumaka,Nのダルマッカ,JTG,MC,26,118/742,POKEMON,Basic,n/a,Trainer's Pokémon(N),80,FIRE,WATER,,2,False,False,False,False,,1,2,0,False,353;354
+258,N’s Darmanitan,Nのヒヒダルマ,JTG,MC,27,119/742,POKEMON,Stage1,n/a,Trainer's Pokémon(N),140,FIRE,WATER,,3,False,False,False,False,N’s Darumaka,2,2,0,False,355;356
+259,Volcanion ex,ボルケニオンex,JTG,MC,31,129/742,POKEMON,Basic,Pokémon ex,n/a,220,FIRE,WATER,,3,True,False,False,False,,1,1,1,True,357
+260,Lotad,ハスボー,JTG,MC,35,175/742,POKEMON,Basic,n/a,n/a,60,WATER,LIGHTNING,,1,False,False,False,False,,1,1,0,False,358
+261,Lombre,ハスブレロ,JTG,MC,36,176/742,POKEMON,Stage1,n/a,n/a,90,WATER,LIGHTNING,,1,False,False,False,False,Lotad,2,1,0,False,359
+262,Ludicolo,ルンパッパ,JTG,MC,37,177/742,POKEMON,Stage2,n/a,n/a,140,WATER,LIGHTNING,,2,False,False,False,False,Lombre,3,1,1,True,360
+263,Wailmer,ホエルコ,JTG,MC,40,180/742,POKEMON,Basic,n/a,n/a,130,WATER,LIGHTNING,,3,False,False,False,False,,1,1,0,False,361
+264,Wailord,ホエルオー,JTG,MC,41,181/742,POKEMON,Stage1,n/a,n/a,240,WATER,LIGHTNING,,4,False,False,False,False,Wailmer,2,1,0,False,362
+265,Iono’s Voltorb,ナンジャモのビリリダマ,JTG,MC,47,234/742,POKEMON,Basic,n/a,Trainer's Pokémon(Iono),70,LIGHTNING,FIGHTING,,1,False,False,False,False,,1,1,0,False,363
+266,Iono’s Electrode,ナンジャモのマルマイン,JTG,MC,48,235/742,POKEMON,Stage1,n/a,Trainer's Pokémon(Iono),100,LIGHTNING,FIGHTING,,0,False,False,False,False,Iono’s Voltorb,2,2,0,False,364;365
+267,N’s Joltik,Nのバチュル,JTG,SV9,49,028/100,POKEMON,Basic,n/a,Trainer's Pokémon(N),40,LIGHTNING,FIGHTING,,1,False,False,False,False,,1,1,0,False,366
+268,Iono’s Tadbulb,ナンジャモのズピカ,JTG,MC,52,273/742,POKEMON,Basic,n/a,Trainer's Pokémon(Iono),60,LIGHTNING,FIGHTING,,2,False,False,False,False,,1,1,0,False,367
+269,Iono’s Bellibolt ex,ナンジャモのハラバリーex,JTG,MC,53,274/742,POKEMON,Stage1,Pokémon ex,Trainer's Pokémon(Iono),280,LIGHTNING,FIGHTING,,2,True,False,False,False,Iono’s Tadbulb,2,1,1,True,368
+270,Iono’s Wattrel,ナンジャモのカイデン,JTG,MC,54,278/742,POKEMON,Basic,n/a,Trainer's Pokémon(Iono),60,LIGHTNING,LIGHTNING,FIGHTING,1,False,False,False,False,,1,1,0,False,369
+271,Iono’s Kilowattrel,ナンジャモのタイカイデン,JTG,MC,55,279/742,POKEMON,Stage1,n/a,Trainer's Pokémon(Iono),120,LIGHTNING,LIGHTNING,FIGHTING,1,False,False,False,False,Iono’s Wattrel,2,1,1,True,370
+272,Lillie’s Clefairy ex,リーリエのピッピex,JTG,MC,56,287/742,POKEMON,Basic,Pokémon ex,Trainer's Pokémon(Lillie),190,PSYCHIC,METAL,,1,True,False,False,False,,1,1,1,True,371
+273,Banette,ジュペッタ,JTG,SV9,60,036/100,POKEMON,Stage1,n/a,n/a,90,PSYCHIC,DARKNESS,FIGHTING,1,False,False,False,False,Shuppet,2,2,0,False,372;373
+274,Beldum,ダンバル,JTG,SV9,61,037/100,POKEMON,Basic,n/a,n/a,60,PSYCHIC,DARKNESS,FIGHTING,1,False,False,False,False,,1,2,0,False,374;375
+275,Metang,メタング,JTG,SV9,62,038/100,POKEMON,Stage1,n/a,n/a,100,PSYCHIC,DARKNESS,FIGHTING,2,False,False,False,False,Beldum,2,2,0,False,376;377
+276,Metagross,メタグロス,JTG,SV9,63,039/100,POKEMON,Stage2,n/a,n/a,170,PSYCHIC,DARKNESS,FIGHTING,3,False,False,False,False,Metang,3,2,0,False,378;379
+277,N’s Sigilyph,Nのシンボラー,JTG,SV9,64,040/100,POKEMON,Basic,n/a,Trainer's Pokémon(N),110,PSYCHIC,LIGHTNING,FIGHTING,1,False,False,False,False,,1,2,0,False,380;381
+278,Lillie’s Cutiefly,リーリエのアブリー,JTG,MC,66,338/742,POKEMON,Basic,n/a,Trainer's Pokémon(Lillie),30,PSYCHIC,METAL,,0,False,False,False,False,,1,1,0,False,382
+279,Lillie’s Ribombee,リーリエのアブリボン,JTG,MC,67,339/742,POKEMON,Stage1,n/a,Trainer's Pokémon(Lillie),70,PSYCHIC,METAL,,0,False,False,False,False,Lillie’s Cutiefly,2,1,1,True,383
+280,Lillie’s Comfey,リーリエのキュワワー,JTG,MC,68,340/742,POKEMON,Basic,n/a,Trainer's Pokémon(Lillie),70,PSYCHIC,METAL,,1,False,False,False,False,,1,2,0,False,384;385
+281,Swinub,ウリムー,JTG,MC,77,362/742,POKEMON,Basic,n/a,n/a,70,FIGHTING,GRASS,,2,False,False,False,False,,1,2,0,False,386;387
+282,Piloswine,イノムー,JTG,MC,78,363/742,POKEMON,Stage1,n/a,n/a,100,FIGHTING,GRASS,,3,False,False,False,False,Swinub,2,2,0,False,388;389
+283,Mamoswine ex,マンムーex,JTG,MC,79,364/742,POKEMON,Stage2,Pokémon ex,n/a,340,FIGHTING,GRASS,,4,True,False,False,False,Piloswine,3,1,1,True,390
+284,Larvitar,ヨーギラス,JTG,SV9,80,047/100,POKEMON,Basic,n/a,n/a,70,FIGHTING,GRASS,,1,False,False,False,False,,1,1,0,False,391
+285,Pupitar,サナギラス,JTG,SV9,81,048/100,POKEMON,Stage1,n/a,n/a,90,FIGHTING,GRASS,,1,False,False,False,False,Larvitar,2,1,0,False,392
+286,Rockruff,イワンコ,JTG,SV9,84,051/100,POKEMON,Basic,n/a,n/a,70,FIGHTING,GRASS,,1,False,False,False,False,,1,2,0,False,393;394
+287,Lycanroc,ルガルガン,JTG,SV9,85,052/100,POKEMON,Stage1,n/a,n/a,120,FIGHTING,GRASS,,2,False,False,False,False,Rockruff,2,1,1,True,395
+288,Hop’s Silicobra,ホップのスナヘビ,JTG,SV9,86,053/100,POKEMON,Basic,n/a,Trainer's Pokémon(Hop),80,FIGHTING,GRASS,,2,False,False,False,False,,1,2,0,False,396;397
+289,Hop’s Sandaconda,ホップのサダイジャ,JTG,SV9,87,054/100,POKEMON,Stage1,n/a,Trainer's Pokémon(Hop),140,FIGHTING,GRASS,,3,False,False,False,False,Hop’s Silicobra,2,2,0,False,398;399
+290,Tyranitar,バンギラス,JTG,SV9,95,058/100,POKEMON,Stage2,n/a,n/a,190,DARKNESS,GRASS,,3,False,False,False,False,Pupitar,3,1,1,True,400
+291,N’s Purrloin,Nのチョロネコ,JTG,MC,96,457/742,POKEMON,Basic,n/a,Trainer's Pokémon(N),70,DARKNESS,GRASS,,1,False,False,False,False,,1,1,0,False,401
+292,N’s Zorua,Nのゾロア,JTG,MC,97,469/742,POKEMON,Basic,n/a,Trainer's Pokémon(N),70,DARKNESS,GRASS,,1,False,False,False,False,,1,1,0,False,402
+293,N’s Zoroark ex,Nのゾロアークex,JTG,MC,98,470/742,POKEMON,Stage1,Pokémon ex,Trainer's Pokémon(N),280,DARKNESS,GRASS,,2,True,False,False,False,N’s Zorua,2,1,1,True,403
+294,N’s Klink,Nのギアル,JTG,SV9,103,064/100,POKEMON,Basic,n/a,Trainer's Pokémon(N),60,METAL,FIRE,GRASS,1,False,False,False,False,,1,1,0,False,404
+295,N’s Klang,Nのギギアル,JTG,SV9,104,065/100,POKEMON,Stage1,n/a,Trainer's Pokémon(N),90,METAL,FIRE,GRASS,3,False,False,False,False,N’s Klink,2,2,0,False,405;406
+296,N’s Klinklang,Nのギギギアル,JTG,SV9,105,066/100,POKEMON,Stage2,n/a,Trainer's Pokémon(N),160,METAL,FIRE,GRASS,3,False,False,False,False,N’s Klang,3,2,0,False,407;408
+297,Magearna,マギアナ,JTG,MC,107,515/742,POKEMON,Basic,n/a,n/a,90,METAL,FIRE,GRASS,1,False,False,False,False,,1,1,1,True,409
+298,Hop’s Corviknight,ホップのアーマーガア,JTG,MC,108,520/742,POKEMON,Stage2,n/a,Trainer's Pokémon(Hop),170,METAL,LIGHTNING,FIGHTING,2,False,False,False,False,Hop’s Corvisquire,3,2,0,False,410;411
+299,Hop’s Zacian ex,ホップのザシアンex,JTG,MC,111,527/742,POKEMON,Basic,Pokémon ex,Trainer's Pokémon(Hop),230,METAL,FIRE,GRASS,2,True,False,False,False,,1,2,0,False,412;413
+300,Bagon,タツベイ,JTG,MC,112,538/742,POKEMON,Basic,n/a,n/a,70,DRAGON,,,2,False,False,False,False,,1,2,0,False,414;415
+301,Shelgon,コモルー,JTG,MC,113,539/742,POKEMON,Stage1,n/a,n/a,100,DRAGON,,,2,False,False,False,False,Bagon,2,2,0,False,416;417
+302,Salamence ex,ボーマンダex,JTG,MC,114,540/742,POKEMON,Stage2,Pokémon ex,n/a,320,DRAGON,,,2,True,False,False,False,Shelgon,3,2,0,False,418;419
+303,N’s Reshiram,Nのレシラム,JTG,MC,116,545/742,POKEMON,Basic,n/a,Trainer's Pokémon(N),130,DRAGON,,,2,False,False,False,False,,1,2,0,False,420;421
+304,Hop’s Snorlax,ホップのカビゴン,JTG,MC,117,569/742,POKEMON,Basic,n/a,Trainer's Pokémon(Hop),150,COLORLESS,FIGHTING,,4,False,False,False,False,,1,1,1,True,422
+305,Dunsparce,ノコッチ,JTG,MC,120,574/742,POKEMON,Basic,n/a,n/a,70,COLORLESS,FIGHTING,,1,False,False,False,False,,1,2,0,False,423;424
+306,Dudunsparce ex,ノココッチex,JTG,MC,121,575/742,POKEMON,Stage1,Pokémon ex,n/a,270,COLORLESS,FIGHTING,,3,True,False,False,False,Dunsparce,2,2,0,False,425;426
+307,Hop’s Rookidee,ホップのココガラ,JTG,MC,133,622/742,POKEMON,Basic,n/a,Trainer's Pokémon(Hop),60,COLORLESS,LIGHTNING,FIGHTING,1,False,False,False,False,,1,2,0,False,427;428
+308,Hop’s Corvisquire,ホップのアオガラス,JTG,MC,134,623/742,POKEMON,Stage1,n/a,Trainer's Pokémon(Hop),90,COLORLESS,LIGHTNING,FIGHTING,1,False,False,False,False,Hop’s Rookidee,2,2,0,False,429;430
+309,Hop’s Wooloo,ホップのウールー,JTG,M2a,135,141/193,POKEMON,Basic,n/a,Trainer's Pokémon(Hop),70,COLORLESS,FIGHTING,,1,False,False,False,False,,1,1,0,False,431
+310,Hop’s Dubwool,ホップのバイウールー,JTG,M2a,136,142/193,POKEMON,Stage1,n/a,Trainer's Pokémon(Hop),120,COLORLESS,FIGHTING,,2,False,False,False,False,Hop’s Wooloo,2,1,1,True,432
+311,Hop’s Cramorant,ホップのウッウ,JTG,MC,138,624/742,POKEMON,Basic,n/a,Trainer's Pokémon(Hop),110,COLORLESS,LIGHTNING,FIGHTING,1,False,False,False,False,,1,1,0,False,433
+312,Sandy Shocks,スナノケガワ,TEF,MC,98,424/742,POKEMON,Basic,n/a,Ancient,120,FIGHTING,GRASS,,2,False,False,False,False,,1,2,0,False,434;435
+313,Miraidon ex,ミライドンex,TEF,MC,122,553/742,POKEMON,Basic,Pokémon ex,Future,220,DRAGON,,,1,True,False,False,False,,1,2,0,False,436;437
+314,Marill,マリル,SCR,SVI,33,013/066,POKEMON,Basic,n/a,n/a,70,WATER,LIGHTNING,,1,False,False,False,False,,1,1,0,False,438
+315,Azumarill,マリルリ,SSP,SVLN,74,004/022,POKEMON,Stage1,n/a,n/a,120,PSYCHIC,METAL,,2,False,False,False,False,Marill,2,1,1,True,439
+316,Sylveon ex,ニンフィアex,SSP,MC,86,299/742,POKEMON,Stage1,Pokémon ex,Tera(Stellar),270,PSYCHIC,METAL,,2,True,False,True,False,Eevee,2,2,0,False,440;441
+317,Eevee,イーブイ,SSP,MC,143,565/742,POKEMON,Basic,n/a,n/a,50,COLORLESS,FIGHTING,,1,False,False,False,False,,1,1,1,True,442
+318,Ho-Oh,ホウオウ,SSP,SVLS,19,003/022,POKEMON,Basic,n/a,n/a,130,FIRE,LIGHTNING,FIGHTING,2,False,False,False,False,,1,2,0,False,443;444
+319,Charcadet,カルボウ,SSP,M2a,32,030/193,POKEMON,Basic,n/a,n/a,70,FIRE,WATER,,1,False,False,False,False,,1,1,0,False,445
+320,Ceruledge ex,ソウブレイズex,SSP,M2a,36,031/193,POKEMON,Stage1,Pokémon ex,Tera(Stellar),270,FIRE,WATER,,2,True,False,True,False,Charcadet,2,2,0,False,446;447
+321,Petilil,チュリネ,JTG,SVM,6,007/175,POKEMON,Basic,n/a,n/a,50,GRASS,FIRE,,1,False,False,False,False,,1,1,0,False,448
+322,Lilligant,ドレディア,JTG,SVM,7,008/175,POKEMON,Stage1,n/a,n/a,110,GRASS,FIRE,,2,False,False,False,False,Petilil,2,1,1,True,449
+323,Nymble,マメバッタ,JTG,SVM,19,013/175,POKEMON,Basic,n/a,n/a,50,GRASS,FIRE,,1,False,False,False,False,,1,1,0,False,450
+324,Torchic,アチャモ,JTG,SVM,22,014/175,POKEMON,Basic,n/a,n/a,60,FIRE,WATER,,1,False,False,False,False,,1,1,0,False,451
+325,Combusken,ワカシャモ,JTG,SVM,23,015/175,POKEMON,Stage1,n/a,n/a,90,FIRE,WATER,,2,False,False,False,False,Torchic,2,1,0,False,452
+326,Blaziken ex,バシャーモex,JTG,SVM,24,016/175,POKEMON,Stage2,Pokémon ex,n/a,320,FIRE,WATER,,2,True,False,False,False,Combusken,3,1,1,True,453
+327,Slowpoke,ヤドン,PRE,SVM,18,027/175,POKEMON,Basic,n/a,n/a,70,WATER,LIGHTNING,,2,False,False,False,False,,1,2,0,False,454;455
+328,Pikachu ex,ピカチュウex,PRE,SVM,28,038/175,POKEMON,Basic,Pokémon ex,n/a,190,LIGHTNING,FIGHTING,,1,True,False,False,False,,1,2,0,False,456;457
+329,Tapu Koko ex,カプ・コケコex,JTG,SVM,51,046/175,POKEMON,Basic,Pokémon ex,n/a,200,LIGHTNING,FIGHTING,,0,True,False,False,False,,1,1,0,False,458
+330,Sylveon,ニンフィア,PRE,SVM,40,050/175,POKEMON,Stage1,n/a,n/a,120,PSYCHIC,METAL,,1,False,False,False,False,Eevee,2,1,1,True,459
+331,XerneasEX,ゼルネアスex,PROMO,SVM,179,052/175,POKEMON,Basic,Pokémon ex,n/a,210,PSYCHIC,METAL,,1,True,False,False,False,,1,2,0,False,460;461
+332,Dhelmise,ダダリン,JTG,SVM,70,055/175,POKEMON,Basic,n/a,n/a,130,PSYCHIC,DARKNESS,FIGHTING,3,False,False,False,False,,1,2,0,False,462;463
+333,Riolu,リオル,PRE,SVM,50,064/175,POKEMON,Basic,n/a,n/a,70,FIGHTING,PSYCHIC,,1,False,False,False,False,,1,1,0,False,464
+334,Sneasel,ニューラ,PRE,SVM,61,075/175,POKEMON,Basic,n/a,n/a,60,DARKNESS,GRASS,,0,False,False,False,False,,1,1,0,False,465
+335,Bronzor,ドーミラー,PRE,SVM,66,081/175,POKEMON,Basic,n/a,n/a,70,METAL,FIRE,GRASS,1,False,False,False,False,,1,1,0,False,466
+336,Zacian ex,ザシアンex,SVP,SVM,198,089/175,POKEMON,Basic,Pokémon ex,n/a,220,METAL,FIRE,GRASS,2,True,False,False,False,,1,2,0,False,467;468
+337,LugiaEX,ルギアex,PRE,SVM,82,097/175,POKEMON,Basic,Pokémon ex,n/a,220,COLORLESS,LIGHTNING,FIGHTING,2,True,False,False,False,,1,1,0,False,469
+338,Ethan's Pinsir,ヒビキのカイロス,DRI,M2a,1,001/193,POKEMON,Basic,n/a,Trainer's Pokémon(Ethan),120,GRASS,FIRE,,2,False,False,False,False,,1,2,0,False,470;471
+339,Yanma,ヤンヤンマ,DRI,MC,2,021/742,POKEMON,Basic,n/a,n/a,70,GRASS,LIGHTNING,FIGHTING,1,False,False,False,False,,1,2,0,False,472;473
+340,Yanmega ex,メガヤンマex,DRI,MC,3,022/742,POKEMON,Stage1,Pokémon ex,n/a,280,GRASS,LIGHTNING,FIGHTING,1,True,False,False,False,Yanma,2,1,1,True,474
+341,Cynthia's Roselia,シロナのロゼリア,DRI,MC,7,032/742,POKEMON,Basic,n/a,Trainer's Pokémon(Cynthia),70,GRASS,FIRE,,1,False,False,False,False,,1,1,0,False,475
+342,Cynthia's Roserade,シロナのロズレイド,DRI,MC,8,033/742,POKEMON,Stage1,n/a,Trainer's Pokémon(Cynthia),130,GRASS,FIRE,,1,False,False,False,False,Cynthia's Roselia,2,1,1,True,476
+343,Shaymin,シェイミ,DRI,MA,10,001/043,POKEMON,Basic,n/a,n/a,80,GRASS,FIRE,,1,False,False,False,False,,1,1,1,True,477
+344,Dwebble,イシズマイ,DRI,MC,11,045/742,POKEMON,Basic,n/a,n/a,70,GRASS,FIRE,,2,False,False,False,False,,1,1,0,False,478
+345,Crustle,イワパレス,DRI,MC,12,046/742,POKEMON,Stage1,n/a,n/a,150,GRASS,FIRE,,3,False,False,False,False,Dwebble,2,1,1,True,479
+346,Applin,カジッチュ,DRI,SV9a,16,009/063,POKEMON,Basic,n/a,n/a,40,GRASS,FIRE,,1,False,False,False,False,,1,1,0,False,480
+347,Dipplin,カミッチュ,DRI,SV9a,17,010/063,POKEMON,Stage1,n/a,n/a,90,GRASS,FIRE,,3,False,False,False,False,Applin,2,1,0,False,481
+348,Hydrapple,カミツオロチ,DRI,SV9a,18,011/063,POKEMON,Stage2,n/a,n/a,170,GRASS,FIRE,,3,False,False,False,False,Dipplin,3,2,0,False,482;483
+349,Teal Mask Ogerpon,オーガポン みどりのめん,DRI,MC,26,081/742,POKEMON,Basic,n/a,n/a,110,GRASS,FIRE,,1,False,False,False,False,,1,2,0,False,484;485
+350,Ponyta,ポニータ,DRI,SV9a,29,013/063,POKEMON,Basic,n/a,n/a,70,FIRE,WATER,,1,False,False,False,False,,1,1,0,False,486
+351,Rapidash,ギャロップ,DRI,MC,30,090/742,POKEMON,Stage1,n/a,n/a,110,FIRE,WATER,,1,False,False,False,False,Ponyta,2,1,1,True,487
+352,Ethan's Cyndaquil,ヒビキのヒノアラシ,DRI,SV9a,32,015/063,POKEMON,Basic,n/a,Trainer's Pokémon(Ethan),70,FIRE,WATER,,1,False,False,False,False,,1,1,0,False,488
+353,Ethan's Quilava,ヒビキのマグマラシ,DRI,SV9a,33,016/063,POKEMON,Stage1,n/a,Trainer's Pokémon(Ethan),100,FIRE,WATER,,1,False,False,False,False,Ethan's Cyndaquil,2,1,1,True,489
+354,Ethan's Typhlosion,ヒビキのバクフーン,DRI,SV9a,34,017/063,POKEMON,Stage2,n/a,Trainer's Pokémon(Ethan),170,FIRE,WATER,,2,False,False,False,False,Ethan's Quilava,3,2,0,False,490;491
+355,Ethan's Slugma,ヒビキのマグマッグ,DRI,M2a,35,018/193,POKEMON,Basic,n/a,Trainer's Pokémon(Ethan),80,FIRE,WATER,,2,False,False,False,False,,1,1,0,False,492
+356,Ethan's Magcargo,ヒビキのマグカルゴ,DRI,M2a,36,019/193,POKEMON,Stage1,n/a,Trainer's Pokémon(Ethan),130,FIRE,WATER,,3,False,False,False,False,Ethan's Slugma,2,1,1,True,493
+357,Ethan's Ho-Oh ex,ヒビキのホウオウex,DRI,M2a,39,021/193,POKEMON,Basic,Pokémon ex,Trainer's Pokémon(Ethan),230,FIRE,WATER,,2,True,False,False,False,,1,1,1,True,494
+358,Hearthflame Mask Ogerpon,オーガポン かまどのめん,DRI,MC,44,148/742,POKEMON,Basic,n/a,n/a,110,FIRE,WATER,,1,False,False,False,False,,1,2,0,False,495;496
+359,Misty's Psyduck,カスミのコダック,DRI,SV9a,45,022/063,POKEMON,Basic,n/a,Trainer's Pokémon(Misty),70,WATER,LIGHTNING,,1,False,False,False,False,,1,1,1,True,497
+360,Misty's Staryu,カスミのヒトデマン,DRI,MC,46,155/742,POKEMON,Basic,n/a,Trainer's Pokémon(Misty),70,WATER,LIGHTNING,,1,False,False,False,False,,1,1,0,False,498
+361,Misty's Starmie,カスミのスターミー,DRI,MC,47,156/742,POKEMON,Stage1,n/a,Trainer's Pokémon(Misty),100,WATER,LIGHTNING,,1,False,False,False,False,Misty's Staryu,2,1,0,False,499
+362,Misty's Magikarp,カスミのコイキング,DRI,MC,48,157/742,POKEMON,Basic,n/a,Trainer's Pokémon(Misty),30,WATER,LIGHTNING,,1,False,False,False,False,,1,1,1,True,500
+363,Misty's Gyarados,カスミのギャラドス,DRI,MC,49,158/742,POKEMON,Stage1,n/a,Trainer's Pokémon(Misty),180,WATER,LIGHTNING,,4,False,False,False,False,Misty's Magikarp,2,2,0,False,501;502
+364,Misty's Lapras,カスミのラプラス,DRI,MC,50,160/742,POKEMON,Basic,n/a,Trainer's Pokémon(Misty),110,WATER,LIGHTNING,,1,False,False,False,False,,1,2,0,False,503;504
+365,Cynthia's Feebas,シロナのヒンバス,DRI,SV9a,52,028/063,POKEMON,Basic,n/a,Trainer's Pokémon(Cynthia),30,WATER,LIGHTNING,,1,False,False,False,False,,1,1,0,False,505
+366,Cynthia's Milotic,シロナのミロカロス,DRI,SV9a,53,029/063,POKEMON,Stage1,n/a,Trainer's Pokémon(Cynthia),130,WATER,LIGHTNING,,2,False,False,False,False,Cynthia's Feebas,2,1,0,False,506
+367,Buizel,ブイゼル,DRI,MC,57,193/742,POKEMON,Basic,n/a,n/a,70,WATER,LIGHTNING,,1,False,False,False,False,,1,2,0,False,507;508
+368,Floatzel,フローゼル,DRI,MC,58,194/742,POKEMON,Stage1,n/a,n/a,120,WATER,LIGHTNING,,1,False,False,False,False,Buizel,2,2,0,False,509;510
+369,Dondozo ex,ヘイラッシャex,DRI,MC,66,220/742,POKEMON,Basic,Pokémon ex,n/a,260,WATER,LIGHTNING,,4,True,False,False,False,,1,2,0,False,511;512
+370,Wellspring Mask Ogerpon,オーガポン いどのめん,DRI,MC,67,223/742,POKEMON,Basic,n/a,n/a,110,WATER,LIGHTNING,,1,False,False,False,False,,1,2,0,False,513;514
+371,Electabuzz,エレブー,DRI,MC,68,236/742,POKEMON,Basic,n/a,n/a,90,LIGHTNING,FIGHTING,,2,False,False,False,False,,1,1,0,False,515
+372,Electivire ex,エレキブルex,DRI,MC,69,237/742,POKEMON,Stage1,Pokémon ex,n/a,280,LIGHTNING,FIGHTING,,4,True,False,False,False,Electabuzz,2,2,0,False,516;517
+373,Ethan's Pichu,ヒビキのピチュー,DRI,MC,71,241/742,POKEMON,Basic,n/a,Trainer's Pokémon(Ethan),30,LIGHTNING,FIGHTING,,0,False,False,False,False,,1,1,0,False,518
+374,Electrike,ラクライ,DRI,MC,75,242/742,POKEMON,Basic,n/a,n/a,60,LIGHTNING,FIGHTING,,1,False,False,False,False,,1,2,0,False,519;520
+375,Manectric,ライボルト,DRI,MC,76,243/742,POKEMON,Stage1,n/a,n/a,120,LIGHTNING,FIGHTING,,1,False,False,False,False,Electrike,2,2,0,False,521;522
+376,Rotom,ロトム,DRI,SV9a,77,039/063,POKEMON,Basic,n/a,n/a,60,LIGHTNING,FIGHTING,,1,False,False,False,False,,1,2,0,False,523;524
+377,Zeraora,ゼラオラ,DRI,M2a,78,055/193,POKEMON,Basic,n/a,n/a,100,LIGHTNING,FIGHTING,,1,False,False,False,False,,1,2,0,False,525;526
+378,Ethan's Sudowoodo,ヒビキのウソッキー,DRI,SV9a,93,041/063,POKEMON,Basic,n/a,Trainer's Pokémon(Ethan),110,FIGHTING,GRASS,,1,False,False,False,False,,1,2,0,False,527;528
+379,Cynthia's Gible,シロナのフカマル,DRI,MC,102,376/742,POKEMON,Basic,n/a,Trainer's Pokémon(Cynthia),70,FIGHTING,GRASS,,1,False,False,False,False,,1,1,0,False,529
+380,Cynthia's Gabite,シロナのガバイト,DRI,MC,103,377/742,POKEMON,Stage1,n/a,Trainer's Pokémon(Cynthia),100,FIGHTING,GRASS,,1,False,False,False,False,Cynthia's Gible,2,1,1,True,530
+381,Cynthia's Garchomp ex,シロナのガブリアスex,DRI,MC,104,378/742,POKEMON,Stage2,Pokémon ex,Trainer's Pokémon(Cynthia),330,FIGHTING,GRASS,,0,True,False,False,False,Cynthia's Gabite,3,2,0,False,531;532
+382,Mudbray,ドロバンコ,DRI,SV9a,107,045/063,POKEMON,Basic,n/a,n/a,90,FIGHTING,GRASS,,3,False,False,False,False,,1,1,0,False,533
+383,Mudsdale,バンバドロ,DRI,MC,108,406/742,POKEMON,Stage1,n/a,n/a,150,FIGHTING,GRASS,,3,False,False,False,False,Mudbray,2,1,1,True,534
+384,Arven's Toedscool,ペパーのノノクラゲ,DRI,MC,109,419/742,POKEMON,Basic,n/a,Trainer's Pokémon(Arven),70,FIGHTING,GRASS,,1,False,False,False,False,,1,1,0,False,535
+385,Arven's Toedscruel,ペパーのリククラゲ,DRI,MC,110,420/742,POKEMON,Stage1,n/a,Trainer's Pokémon(Arven),140,FIGHTING,GRASS,,2,False,False,False,False,Arven's Toedscool,2,2,0,False,536;537
+386,Cornerstone Mask Ogerpon,オーガポン いしずえのめん,DRI,MC,111,427/742,POKEMON,Basic,n/a,n/a,110,FIGHTING,GRASS,,1,False,False,False,False,,1,2,0,False,538;539
+387,Cynthia's Spiritomb,シロナのミカルゲ,DRI,M2a,129,108/193,POKEMON,Basic,n/a,Trainer's Pokémon(Cynthia),70,DARKNESS,GRASS,,1,False,False,False,False,,1,1,0,False,540
+388,Arven's Maschiff,ペパーのオラチフ,DRI,MC,138,483/742,POKEMON,Basic,n/a,Trainer's Pokémon(Arven),70,DARKNESS,GRASS,,2,False,False,False,False,,1,2,0,False,541;542
+389,Arven's Mabosstiff ex,ペパーのマフィティフex,DRI,MC,139,484/742,POKEMON,Stage1,Pokémon ex,Trainer's Pokémon(Arven),270,DARKNESS,GRASS,,3,True,False,False,False,Arven's Maschiff,2,2,0,False,543;544
+390,Tauros,ケンタロス,DRI,MC,152,563/742,POKEMON,Basic,n/a,n/a,130,COLORLESS,FIGHTING,,2,False,False,False,False,,1,2,0,False,545;546
+391,Arven's Skwovet,ペパーのホシガリス,DRI,SV9a,158,054/063,POKEMON,Basic,n/a,Trainer's Pokémon(Arven),60,COLORLESS,FIGHTING,,1,False,False,False,False,,1,1,0,False,547
+392,Arven's Greedent,ペパーのヨクバリス,DRI,SV9a,159,055/063,POKEMON,Stage1,n/a,Trainer's Pokémon(Arven),120,COLORLESS,FIGHTING,,2,False,False,False,False,Arven's Skwovet,2,1,1,True,548
+393,Pineco,クヌギダマ,DRI,SV10,4,001/098,POKEMON,Basic,n/a,n/a,70,GRASS,FIRE,,2,False,False,False,False,,1,1,0,False,549
+394,Shroomish,キノココ,DRI,MC,5,027/742,POKEMON,Basic,n/a,n/a,60,GRASS,FIRE,,1,False,False,False,False,,1,1,0,False,550
+395,Breloom,キノガッサ,DRI,MC,6,029/742,POKEMON,Stage1,n/a,n/a,120,GRASS,FIRE,,2,False,False,False,False,Shroomish,2,2,0,False,551;552
+396,Mow Rotom,カットロトム,DRI,SV10,9,004/098,POKEMON,Basic,n/a,n/a,70,GRASS,FIRE,,1,False,False,False,False,,1,2,0,False,553;554
+397,Fomantis,カリキリ,DRI,SV10,13,005/098,POKEMON,Basic,n/a,n/a,60,GRASS,FIRE,,1,False,False,False,False,,1,1,0,False,555
+398,Lurantis,ラランテス,DRI,SV10,14,006/098,POKEMON,Stage1,n/a,n/a,120,GRASS,FIRE,,1,False,False,False,False,Fomantis,2,2,0,False,556;557
+399,Team Rocket's Blipbug,ロケット団のサッチムシ,DRI,SV10,15,007/098,POKEMON,Basic,n/a,Trainer's Pokémon(Team Rocket),60,GRASS,FIRE,,1,False,False,False,False,,1,1,0,False,558
+400,Team Rocket's Tarountula,ロケット団のタマンチュラ,DRI,M2a,19,015/193,POKEMON,Basic,n/a,Trainer's Pokémon(Team Rocket),50,GRASS,FIRE,,1,False,False,False,False,,1,1,0,False,559
+401,Team Rocket's Spidops,ロケット団のワナイダー,DRI,M2a,20,016/193,POKEMON,Stage1,n/a,Trainer's Pokémon(Team Rocket),130,GRASS,FIRE,,2,False,False,False,False,Team Rocket's Tarountula,2,1,1,True,560
+402,Smoliv,ミニーブ,DRI,MC,21,069/742,POKEMON,Basic,n/a,n/a,60,GRASS,FIRE,,1,False,False,False,False,,1,1,0,False,561
+403,Dolliv,オリーニョ,DRI,MC,22,070/742,POKEMON,Stage1,n/a,n/a,90,GRASS,FIRE,,1,False,False,False,False,Smoliv,2,2,0,False,562;563
+404,Arboliva ex,オリーヴァex,DRI,MC,23,071/742,POKEMON,Stage2,Pokémon ex,n/a,310,GRASS,FIRE,,2,True,False,False,False,Dolliv,3,2,0,False,564;565
+405,Growlithe,ガーディ,DRI,SV10,27,013/098,POKEMON,Basic,n/a,n/a,80,FIRE,WATER,,2,False,False,False,False,,1,2,0,False,566;567
+406,Arcanine,ウインディ,DRI,SV10,28,014/098,POKEMON,Stage1,n/a,n/a,140,FIRE,WATER,,3,False,False,False,False,Growlithe,2,2,0,False,568;569
+407,Team Rocket's Moltres ex,ロケット団のファイヤーex,DRI,SV10,31,015/098,POKEMON,Basic,Pokémon ex,Trainer's Pokémon(Team Rocket),220,FIRE,LIGHTNING,FIGHTING,2,True,False,False,False,,1,2,0,False,570;571
+408,Team Rocket's Houndour,ロケット団のデルビル,DRI,MC,37,099/742,POKEMON,Basic,n/a,Trainer's Pokémon(Team Rocket),70,FIRE,WATER,,1,False,False,False,False,,1,1,0,False,572
+409,Team Rocket's Houndoom,ロケット団のヘルガー,DRI,MC,38,100/742,POKEMON,Stage1,n/a,Trainer's Pokémon(Team Rocket),130,FIRE,WATER,,2,False,False,False,False,Team Rocket's Houndour,2,2,0,False,573;574
+410,Torchic,アチャモ,DRI,SV10,40,018/098,POKEMON,Basic,n/a,n/a,70,FIRE,WATER,,1,False,False,False,False,,1,2,0,False,575;576
+411,Combusken,ワカシャモ,DRI,SV10,41,019/098,POKEMON,Stage1,n/a,n/a,100,FIRE,WATER,,2,False,False,False,False,Torchic,2,2,0,False,577;578
+412,Blaziken,バシャーモ,DRI,SV10,42,020/098,POKEMON,Stage2,n/a,n/a,170,FIRE,WATER,,2,False,False,False,False,Combusken,3,2,0,False,579;580
+413,Heat Rotom,ヒートロトム,DRI,SV10,43,021/098,POKEMON,Basic,n/a,n/a,80,FIRE,WATER,,2,False,False,False,False,,1,2,0,False,581;582
+414,Team Rocket's Articuno,ロケット団のフリーザー,DRI,M2a,51,034/193,POKEMON,Basic,n/a,Trainer's Pokémon(Team Rocket),120,WATER,LIGHTNING,FIGHTING,1,False,False,False,False,,1,1,1,True,583
+415,Clamperl,パールル,DRI,SV10,54,023/098,POKEMON,Basic,n/a,n/a,60,WATER,LIGHTNING,,2,False,False,False,False,,1,1,0,False,584
+416,Huntail,ハンテール,DRI,SV10,55,024/098,POKEMON,Stage1,n/a,n/a,110,WATER,LIGHTNING,,1,False,False,False,False,Clamperl,2,1,1,True,585
+417,Gorebyss,サクラビス,DRI,SV10,56,025/098,POKEMON,Stage1,n/a,n/a,90,WATER,LIGHTNING,,1,False,False,False,False,Clamperl,2,1,0,False,586
+418,Snover,ユキカブリ,DRI,SV10,59,026/098,POKEMON,Basic,n/a,n/a,90,WATER,METAL,,3,False,False,False,False,,1,2,0,False,587;588
+419,Abomasnow,ユキノオー,DRI,SV10,60,027/098,POKEMON,Stage1,n/a,n/a,150,WATER,METAL,,4,False,False,False,False,Snover,2,2,0,False,589;590
+420,Wash Rotom,ウォッシュロトム,DRI,SV10,61,028/098,POKEMON,Basic,n/a,n/a,80,WATER,LIGHTNING,,2,False,False,False,False,,1,2,0,False,591;592
+421,Arrokuda,サシカマス,DRI,SV10,62,029/098,POKEMON,Basic,n/a,n/a,70,WATER,LIGHTNING,,1,False,False,False,False,,1,1,0,False,593
+422,Barraskewda,カマスジョー,DRI,SV10,63,030/098,POKEMON,Stage1,n/a,n/a,130,WATER,LIGHTNING,,1,False,False,False,False,Arrokuda,2,2,0,False,594;595
+423,Cetoddle,アルクジラ,DRI,SV10,64,031/098,POKEMON,Basic,n/a,n/a,100,WATER,METAL,,3,False,False,False,False,,1,2,0,False,596;597
+424,Cetitan ex,ハルクジラex,DRI,SV10,65,032/098,POKEMON,Stage1,Pokémon ex,n/a,300,WATER,METAL,,4,True,False,False,False,Cetoddle,2,1,1,True,598
+425,Team Rocket's Zapdos,ロケット団のサンダー,DRI,SV10,70,033/098,POKEMON,Basic,n/a,Trainer's Pokémon(Team Rocket),120,LIGHTNING,LIGHTNING,FIGHTING,1,False,False,False,False,,1,2,0,False,599;600
+426,Team Rocket's Mareep,ロケット団のメリープ,DRI,SV10,72,034/098,POKEMON,Basic,n/a,Trainer's Pokémon(Team Rocket),60,LIGHTNING,FIGHTING,,1,False,False,False,False,,1,2,0,False,601;602
+427,Team Rocket's Flaaffy,ロケット団のモココ,DRI,SV10,73,035/098,POKEMON,Stage1,n/a,Trainer's Pokémon(Team Rocket),90,LIGHTNING,FIGHTING,,2,False,False,False,False,Team Rocket's Mareep,2,1,0,False,603
+428,Team Rocket's Ampharos,ロケット団のデンリュウ,DRI,SV10,74,036/098,POKEMON,Stage2,n/a,Trainer's Pokémon(Team Rocket),140,LIGHTNING,FIGHTING,,2,False,False,False,False,Team Rocket's Flaaffy,3,1,1,True,604
+429,Team Rocket's Drowzee,ロケット団のスリープ,DRI,MC,79,288/742,POKEMON,Basic,n/a,Trainer's Pokémon(Team Rocket),80,PSYCHIC,DARKNESS,FIGHTING,2,False,False,False,False,,1,1,0,False,605
+430,Team Rocket's Hypno,ロケット団のスリーパー,DRI,MC,80,289/742,POKEMON,Stage1,n/a,Trainer's Pokémon(Team Rocket),130,PSYCHIC,DARKNESS,FIGHTING,2,False,False,False,False,Team Rocket's Drowzee,2,2,0,False,606;607
+431,Team Rocket's Mewtwo ex,ロケット団のミュウツーex,DRI,MC,81,290/742,POKEMON,Basic,Pokémon ex,Trainer's Pokémon(Team Rocket),280,PSYCHIC,DARKNESS,FIGHTING,3,True,False,False,False,,1,1,1,True,608
+432,Team Rocket's Wobbuffet,ロケット団のソーナンス,DRI,SV10,82,040/098,POKEMON,Basic,n/a,Trainer's Pokémon(Team Rocket),110,PSYCHIC,DARKNESS,FIGHTING,2,False,False,False,False,,1,2,0,False,609;610
+433,Team Rocket's Chingling,ロケット団のリーシャン,DRI,SV10,85,041/098,POKEMON,Basic,n/a,Trainer's Pokémon(Team Rocket),30,PSYCHIC,DARKNESS,FIGHTING,0,False,False,False,False,,1,1,0,False,611
+434,Team Rocket's Mimikyu,ロケット団のミミッキュ,DRI,MC,87,341/742,POKEMON,Basic,n/a,Trainer's Pokémon(Team Rocket),60,PSYCHIC,DARKNESS,FIGHTING,0,False,False,False,False,,1,1,0,False,612
+435,Team Rocket's Dottler,ロケット団のレドームシ,DRI,SV10,88,043/098,POKEMON,Stage1,n/a,Trainer's Pokémon(Team Rocket),80,PSYCHIC,DARKNESS,FIGHTING,2,False,False,False,False,Team Rocket's Blipbug,2,2,0,False,613;614
+436,Team Rocket's Orbeetle,ロケット団のイオルブ,DRI,SV10,89,044/098,POKEMON,Stage2,n/a,Trainer's Pokémon(Team Rocket),130,PSYCHIC,DARKNESS,FIGHTING,2,False,False,False,False,Team Rocket's Dottler,3,1,1,True,615
+437,Mankey,マンキー,DRI,SV10,90,045/098,POKEMON,Basic,n/a,n/a,70,FIGHTING,PSYCHIC,,1,False,False,False,False,,1,1,0,False,616
+438,Primeape,オコリザル,DRI,SV10,91,046/098,POKEMON,Stage1,n/a,n/a,110,FIGHTING,PSYCHIC,,2,False,False,False,False,Mankey,2,1,0,False,617
+439,Annihilape,コノヨザル,DRI,SV10,92,047/098,POKEMON,Stage2,n/a,n/a,150,FIGHTING,PSYCHIC,,2,False,False,False,False,Primeape,3,1,1,True,618
+440,Team Rocket's Larvitar,ロケット団のヨーギラス,DRI,SV10,94,048/098,POKEMON,Basic,n/a,Trainer's Pokémon(Team Rocket),70,FIGHTING,GRASS,,1,False,False,False,False,,1,1,0,False,619
+441,Team Rocket's Pupitar,ロケット団のサナギラス,DRI,SV10,95,049/098,POKEMON,Stage1,n/a,Trainer's Pokémon(Team Rocket),100,FIGHTING,GRASS,,2,False,False,False,False,Team Rocket's Larvitar,2,1,0,False,620
+442,Team Rocket's Tyranitar,ロケット団のバンギラス,DRI,SV10,96,050/098,POKEMON,Stage2,n/a,Trainer's Pokémon(Team Rocket),180,FIGHTING,GRASS,,3,False,False,False,False,Team Rocket's Pupitar,3,1,1,True,621
+443,Nosepass,ノズパス,DRI,SV10,97,051/098,POKEMON,Basic,n/a,n/a,80,FIGHTING,GRASS,,3,False,False,False,False,,1,2,0,False,622;623
+444,Probopass,ダイノーズ,DRI,SV10,98,052/098,POKEMON,Stage1,n/a,n/a,140,FIGHTING,GRASS,,3,False,False,False,False,Nosepass,2,2,0,False,624;625
+445,Meditite,アサナン,DRI,SV10,99,053/098,POKEMON,Basic,n/a,n/a,70,FIGHTING,PSYCHIC,,1,False,False,False,False,,1,1,0,False,626
+446,Medicham,チャーレム,DRI,SV10,100,054/098,POKEMON,Stage1,n/a,n/a,120,FIGHTING,PSYCHIC,,1,False,False,False,False,Meditite,2,1,0,False,627
+447,Regirock ex,レジロックex,DRI,MC,101,374/742,POKEMON,Basic,Pokémon ex,n/a,230,FIGHTING,GRASS,,3,True,False,False,False,,1,2,0,False,628;629
+448,Team Rocket's Ekans,ロケット団のアーボ,DRI,SV10,112,056/098,POKEMON,Basic,n/a,Trainer's Pokémon(Team Rocket),70,DARKNESS,FIGHTING,,1,False,False,False,False,,1,2,0,False,630;631
+449,Team Rocket's Arbok,ロケット団のアーボック,DRI,SV10,113,057/098,POKEMON,Stage1,n/a,Trainer's Pokémon(Team Rocket),130,DARKNESS,FIGHTING,,2,False,False,False,False,Team Rocket's Ekans,2,1,1,True,632
+450,Team Rocket's Nidoran♀,ロケット団のニドラン♀,DRI,MC,114,432/742,POKEMON,Basic,n/a,Trainer's Pokémon(Team Rocket),70,DARKNESS,FIGHTING,,1,False,False,False,False,,1,1,0,False,633
+451,Team Rocket's Nidorina,ロケット団のニドリーナ,DRI,MC,115,433/742,POKEMON,Stage1,n/a,Trainer's Pokémon(Team Rocket),90,DARKNESS,FIGHTING,,2,False,False,False,False,Team Rocket's Nidoran♀,2,2,0,False,634;635
+452,Team Rocket's Nidoqueen,ロケット団のニドクイン,DRI,MC,116,434/742,POKEMON,Stage2,n/a,Trainer's Pokémon(Team Rocket),170,DARKNESS,FIGHTING,,3,False,False,False,False,Team Rocket's Nidorina,3,2,0,False,636;637
+453,Team Rocket's Nidoran♂,ロケット団のニドラン♂,DRI,MC,117,435/742,POKEMON,Basic,n/a,Trainer's Pokémon(Team Rocket),70,DARKNESS,FIGHTING,,1,False,False,False,False,,1,2,0,False,638;639
+454,Team Rocket's Nidorino,ロケット団のニドリーノ,DRI,MC,118,436/742,POKEMON,Stage1,n/a,Trainer's Pokémon(Team Rocket),100,DARKNESS,FIGHTING,,2,False,False,False,False,Team Rocket's Nidoran♂,2,2,0,False,640;641
+455,Team Rocket's Nidoking ex,ロケット団のニドキングex,DRI,MC,119,437/742,POKEMON,Stage2,Pokémon ex,Trainer's Pokémon(Team Rocket),330,DARKNESS,FIGHTING,,3,True,False,False,False,Team Rocket's Nidorino,3,2,0,False,642;643
+456,Team Rocket's Zubat,ロケット団のズバット,DRI,MC,120,438/742,POKEMON,Basic,n/a,Trainer's Pokémon(Team Rocket),50,DARKNESS,LIGHTNING,FIGHTING,1,False,False,False,False,,1,1,0,False,644
+457,Team Rocket's Golbat,ロケット団のゴルバット,DRI,MC,121,439/742,POKEMON,Stage1,n/a,Trainer's Pokémon(Team Rocket),80,DARKNESS,LIGHTNING,FIGHTING,1,False,False,False,False,Team Rocket's Zubat,2,1,1,True,645
+458,Team Rocket's Crobat ex,ロケット団のクロバットex,DRI,MC,122,440/742,POKEMON,Stage2,Pokémon ex,Trainer's Pokémon(Team Rocket),310,DARKNESS,LIGHTNING,FIGHTING,1,True,False,False,False,Team Rocket's Golbat,3,1,1,True,646
+459,Team Rocket's Grimer,ロケット団のベトベター,DRI,SV10,123,067/098,POKEMON,Basic,n/a,Trainer's Pokémon(Team Rocket),80,DARKNESS,FIGHTING,,3,False,False,False,False,,1,1,0,False,647
+460,Team Rocket's Muk,ロケット団のベトベトン,DRI,SV10,124,068/098,POKEMON,Stage1,n/a,Trainer's Pokémon(Team Rocket),150,DARKNESS,FIGHTING,,4,False,False,False,False,Team Rocket's Grimer,2,2,0,False,648;649
+461,Team Rocket's Koffing,ロケット団のドガース,DRI,SV10,125,069/098,POKEMON,Basic,n/a,Trainer's Pokémon(Team Rocket),70,DARKNESS,FIGHTING,,1,False,False,False,False,,1,1,1,True,650
+462,Team Rocket's Weezing,ロケット団のマタドガス,DRI,SV10,126,070/098,POKEMON,Stage1,n/a,Trainer's Pokémon(Team Rocket),130,DARKNESS,FIGHTING,,2,False,False,False,False,Team Rocket's Koffing,2,1,0,False,651
+463,Team Rocket's Murkrow,ロケット団のヤミカラス,DRI,MC,127,447/742,POKEMON,Basic,n/a,Trainer's Pokémon(Team Rocket),80,DARKNESS,LIGHTNING,FIGHTING,1,False,False,False,False,,1,2,0,False,652;653
+464,Team Rocket's Sneasel,ロケット団のニューラ,DRI,MC,128,448/742,POKEMON,Basic,n/a,Trainer's Pokémon(Team Rocket),80,DARKNESS,GRASS,,1,False,False,False,False,,1,2,0,False,654;655
+465,Forretress,フォレトス,DRI,SV10,140,073/098,POKEMON,Stage1,n/a,n/a,130,METAL,FIRE,GRASS,2,False,False,False,False,Pineco,2,2,0,False,656;657
+466,Skarmory,エアームド,DRI,SV10,141,074/098,POKEMON,Basic,n/a,n/a,110,METAL,LIGHTNING,FIGHTING,1,False,False,False,False,,1,2,0,False,658;659
+467,Zamazenta,ザマゼンタ,DRI,SV10,146,075/098,POKEMON,Basic,n/a,n/a,130,METAL,FIRE,GRASS,2,False,False,False,False,,1,1,0,False,660
+468,Team Rocket's Rattata,ロケット団のコラッタ,DRI,MC,147,555/742,POKEMON,Basic,n/a,Trainer's Pokémon(Team Rocket),50,COLORLESS,FIGHTING,,1,False,False,False,False,,1,1,0,False,661
+469,Team Rocket's Raticate,ロケット団のラッタ,DRI,MC,148,556/742,POKEMON,Stage1,n/a,Trainer's Pokémon(Team Rocket),90,COLORLESS,FIGHTING,,1,False,False,False,False,Team Rocket's Rattata,2,1,0,False,662
+470,Team Rocket's Meowth,ロケット団のニャース,DRI,MC,149,559/742,POKEMON,Basic,n/a,Trainer's Pokémon(Team Rocket),70,COLORLESS,FIGHTING,,1,False,False,False,False,,1,2,0,False,663;664
+471,Team Rocket's Persian ex,ロケット団のペルシアンex,DRI,MC,150,560/742,POKEMON,Stage1,Pokémon ex,Trainer's Pokémon(Team Rocket),260,COLORLESS,FIGHTING,,2,True,False,False,False,Team Rocket's Meowth,2,2,0,False,665;666
+472,Kangaskhan,ガルーラ,DRI,SV10,151,080/098,POKEMON,Basic,n/a,n/a,120,COLORLESS,FIGHTING,,2,False,False,False,False,,1,2,0,False,667;668
+473,Team Rocket's Porygon,ロケット団のポリゴン,DRI,SV10,153,081/098,POKEMON,Basic,n/a,Trainer's Pokémon(Team Rocket),60,COLORLESS,FIGHTING,,1,False,False,False,False,,1,1,0,False,669
+474,Team Rocket's Porygon2,ロケット団のポリゴン2,DRI,SV10,154,082/098,POKEMON,Stage1,n/a,Trainer's Pokémon(Team Rocket),90,COLORLESS,FIGHTING,,1,False,False,False,False,Team Rocket's Porygon,2,1,0,False,670
+475,Team Rocket's Porygon-Z,ロケット団のポリゴンZ,DRI,SV10,155,083/098,POKEMON,Stage2,n/a,Trainer's Pokémon(Team Rocket),140,COLORLESS,FIGHTING,,1,False,False,False,False,Team Rocket's Porygon2,3,1,1,True,671
+476,Taillow,スバメ,DRI,MC,156,579/742,POKEMON,Basic,n/a,n/a,60,COLORLESS,LIGHTNING,FIGHTING,1,False,False,False,False,,1,1,0,False,672
+477,Swellow,オオスバメ,DRI,MC,157,580/742,POKEMON,Stage1,n/a,n/a,100,COLORLESS,LIGHTNING,FIGHTING,0,False,False,False,False,Taillow,2,2,0,False,673;674
+478,Squawkabilly,イキリンコ,DRI,SV10,160,086/098,POKEMON,Basic,n/a,n/a,70,COLORLESS,LIGHTNING,FIGHTING,1,False,False,False,False,,1,1,0,False,675
+479,Snivy,ツタージャ,BLK,MC,1,040/742,POKEMON,Basic,n/a,n/a,70,GRASS,FIRE,,1,False,False,False,False,,1,2,0,False,676;677
+480,Servine,ジャノビー,BLK,MC,2,041/742,POKEMON,Stage1,n/a,n/a,100,GRASS,FIRE,,1,False,False,False,False,Snivy,2,2,0,False,678;679
+481,Serperior ex,ジャローダex,BLK,MC,3,042/742,POKEMON,Stage2,Pokémon ex,n/a,320,GRASS,FIRE,,2,True,False,False,False,Servine,3,1,1,True,680
+482,Pansage,ヤナップ,BLK,SV11B,4,004/086,POKEMON,Basic,n/a,n/a,70,GRASS,FIRE,,1,False,False,False,False,,1,2,0,False,681;682
+483,Simisage,ヤナッキー,BLK,SV11B,5,005/086,POKEMON,Stage1,n/a,n/a,100,GRASS,FIRE,,1,False,False,False,False,Pansage,2,1,0,False,683
+484,Petilil,チュリネ,BLK,SV11B,6,006/086,POKEMON,Basic,n/a,n/a,60,GRASS,FIRE,,1,False,False,False,False,,1,2,0,False,684;685
+485,Lilligant,ドレディア,BLK,SV11B,7,007/086,POKEMON,Stage1,n/a,n/a,100,GRASS,FIRE,,1,False,False,False,False,Petilil,2,2,0,False,686;687
+486,Maractus,マラカッチ,BLK,SV11B,8,008/086,POKEMON,Basic,n/a,n/a,100,GRASS,FIRE,,1,False,False,False,False,,1,2,0,False,688;689
+487,Karrablast,カブルモ,BLK,SV11B,9,009/086,POKEMON,Basic,n/a,n/a,60,GRASS,FIRE,,1,False,False,False,False,,1,1,1,True,690
+488,Foongus,タマゲタケ,BLK,MC,10,048/742,POKEMON,Basic,n/a,n/a,50,GRASS,FIRE,,1,False,False,False,False,,1,1,0,False,691
+489,Amoonguss,モロバレル,BLK,MC,11,049/742,POKEMON,Stage1,n/a,n/a,120,GRASS,FIRE,,2,False,False,False,False,Foongus,2,2,0,False,692;693
+490,Victini,ビクティニ,BLK,MC,12,107/742,POKEMON,Basic,n/a,n/a,80,FIRE,WATER,,1,False,False,False,False,,1,1,0,False,694
+491,Darumaka,ダルマッカ,BLK,MC,13,116/742,POKEMON,Basic,n/a,n/a,80,FIRE,WATER,,2,False,False,False,False,,1,1,0,False,695
+492,Darmanitan,ヒヒダルマ,BLK,MC,14,117/742,POKEMON,Stage1,n/a,n/a,140,FIRE,WATER,,2,False,False,False,False,Darumaka,2,2,0,False,696;697
+493,Litwick,ヒトモシ,WHT,SV11B,16,015/086,POKEMON,Basic,n/a,n/a,60,FIRE,WATER,,1,False,False,False,False,,1,1,0,False,698
+494,Lampent,ランプラー,WHT,SV11B,17,016/086,POKEMON,Stage1,n/a,n/a,80,FIRE,WATER,,1,False,False,False,False,Litwick,2,1,0,False,699
+495,Chandelure,シャンデラ,WHT,SV11B,18,017/086,POKEMON,Stage2,n/a,n/a,150,FIRE,WATER,,2,False,False,False,False,Lampent,3,2,0,False,700;701
+496,Larvesta,メラルバ,BLK,SV11B,15,018/086,POKEMON,Basic,n/a,n/a,60,FIRE,WATER,,1,False,False,False,False,,1,1,0,False,702
+497,Volcarona,ウルガモス,BLK,MC,16,124/742,POKEMON,Stage1,n/a,n/a,120,FIRE,WATER,,1,False,False,False,False,Larvesta,2,1,1,True,703
+498,Panpour,ヒヤップ,BLK,SV11B,17,020/086,POKEMON,Basic,n/a,n/a,70,WATER,LIGHTNING,,1,False,False,False,False,,1,2,0,False,704;705
+499,Simipour,ヒヤッキー,BLK,SV11B,18,021/086,POKEMON,Stage1,n/a,n/a,100,WATER,LIGHTNING,,1,False,False,False,False,Panpour,2,1,0,False,706
+500,Tympole,オタマロ,BLK,SV11B,19,022/086,POKEMON,Basic,n/a,n/a,60,WATER,LIGHTNING,,1,False,False,False,False,,1,1,0,False,707
+501,Palpitoad,ガマガル,BLK,SV11B,20,023/086,POKEMON,Stage1,n/a,n/a,90,WATER,LIGHTNING,,2,False,False,False,False,Tympole,2,2,0,False,708;709
+502,Seismitoad,ガマゲロゲ,BLK,SV11B,21,024/086,POKEMON,Stage2,n/a,n/a,170,WATER,LIGHTNING,,3,False,False,False,False,Palpitoad,3,2,0,False,710;711
+503,Tirtouga,プロトーガ,BLK,SV11B,22,025/086,POKEMON,Stage1,n/a,n/a,100,WATER,LIGHTNING,,3,False,False,False,False,Antique Cover Fossil,2,2,0,False,712;713
+504,Carracosta,アバゴーラ,BLK,SV11B,23,026/086,POKEMON,Stage2,n/a,n/a,180,WATER,LIGHTNING,,3,False,False,False,False,Tirtouga,3,1,1,True,714
+505,Alomomola,ママンボウ,BLK,SV11B,24,027/086,POKEMON,Basic,n/a,n/a,110,WATER,LIGHTNING,,1,False,False,False,False,,1,1,1,True,715
+506,Cubchoo,クマシュン,BLK,SV11B,25,028/086,POKEMON,Basic,n/a,n/a,70,WATER,METAL,,2,False,False,False,False,,1,1,0,False,716
+507,Beartic,ツンベアー,BLK,SV11B,26,029/086,POKEMON,Stage1,n/a,n/a,150,WATER,METAL,,3,False,False,False,False,Cubchoo,2,2,0,False,717;718
+508,Cryogonal,フリージオ,BLK,SV11B,27,030/086,POKEMON,Basic,n/a,n/a,90,WATER,METAL,,1,False,False,False,False,,1,2,0,False,719;720
+509,Kyurem ex,キュレムex,BLK,MC,28,203/742,POKEMON,Basic,Pokémon ex,n/a,230,WATER,METAL,,2,True,False,False,False,,1,2,0,False,721;722
+510,Emolga,エモンガ,BLK,MC,29,253/742,POKEMON,Basic,n/a,n/a,70,LIGHTNING,FIGHTING,,0,False,False,False,False,,1,2,0,False,723;724
+511,Tynamo,シビシラス,BLK,MC,30,256/742,POKEMON,Basic,n/a,n/a,40,LIGHTNING,FIGHTING,,0,False,False,False,False,,1,1,0,False,725
+512,Eelektrik,シビビール,BLK,MC,31,257/742,POKEMON,Stage1,n/a,n/a,90,LIGHTNING,FIGHTING,,2,False,False,False,False,Tynamo,2,1,1,True,726
+513,Eelektross,シビルドン,BLK,SV11B,32,035/086,POKEMON,Stage2,n/a,n/a,160,LIGHTNING,FIGHTING,,3,False,False,False,False,Eelektrik,3,2,0,False,727;728
+514,Thundurus,ボルトロス,BLK,MC,33,258/742,POKEMON,Basic,n/a,n/a,120,LIGHTNING,FIGHTING,,1,False,False,False,False,,1,2,0,False,729;730
+515,Zekrom ex,ゼクロムex,BLK,MC,34,259/742,POKEMON,Basic,Pokémon ex,n/a,230,LIGHTNING,FIGHTING,,2,True,False,False,False,,1,2,0,False,731;732
+516,Munna,ムンナ,BLK,SV11B,35,038/086,POKEMON,Basic,n/a,n/a,70,PSYCHIC,DARKNESS,FIGHTING,1,False,False,False,False,,1,2,0,False,733;734
+517,Musharna,ムシャーナ,BLK,SV11B,36,039/086,POKEMON,Stage1,n/a,n/a,120,PSYCHIC,DARKNESS,FIGHTING,2,False,False,False,False,Munna,2,2,0,False,735;736
+518,Solosis,ユニラン,BLK,SV11B,37,040/086,POKEMON,Basic,n/a,n/a,40,PSYCHIC,DARKNESS,FIGHTING,1,False,False,False,False,,1,1,0,False,737
+519,Duosion,ダブラン,BLK,SV11B,38,041/086,POKEMON,Stage1,n/a,n/a,70,PSYCHIC,DARKNESS,FIGHTING,1,False,False,False,False,Solosis,2,2,0,False,738;739
+520,Reuniclus,ランクルス,BLK,SV11B,39,042/086,POKEMON,Stage2,n/a,n/a,140,PSYCHIC,DARKNESS,FIGHTING,1,False,False,False,False,Duosion,3,2,0,False,740;741
+521,Elgyem,リグレー,BLK,SV11B,40,043/086,POKEMON,Basic,n/a,n/a,60,PSYCHIC,DARKNESS,FIGHTING,1,False,False,False,False,,1,2,0,False,742;743
+522,Beheeyem,オーベム,BLK,SV11B,41,044/086,POKEMON,Stage1,n/a,n/a,90,PSYCHIC,DARKNESS,FIGHTING,1,False,False,False,False,Elgyem,2,2,0,False,744;745
+523,Golett,ゴビット,BLK,SV11B,42,045/086,POKEMON,Basic,n/a,n/a,90,PSYCHIC,DARKNESS,FIGHTING,3,False,False,False,False,,1,1,0,False,746
+524,Golurk,ゴルーグ,BLK,SV11B,43,046/086,POKEMON,Stage1,n/a,n/a,160,PSYCHIC,DARKNESS,FIGHTING,4,False,False,False,False,Golett,2,2,0,False,747;748
+525,Meloetta ex,メロエッタex,BLK,SV11B,44,047/086,POKEMON,Basic,Pokémon ex,n/a,200,PSYCHIC,DARKNESS,FIGHTING,1,True,False,False,False,,1,1,1,True,749
+526,Drilbur,モグリュー,BLK,MC,45,385/742,POKEMON,Basic,n/a,n/a,70,FIGHTING,GRASS,,1,False,False,False,False,,1,2,0,False,750;751
+527,Excadrill ex,ドリュウズex,BLK,MC,46,387/742,POKEMON,Stage1,Pokémon ex,n/a,270,FIGHTING,GRASS,,3,True,False,False,False,Drilbur,2,2,0,False,752;753
+528,Timburr,ドッコラー,BLK,MC,47,388/742,POKEMON,Basic,n/a,n/a,70,FIGHTING,PSYCHIC,,2,False,False,False,False,,1,2,0,False,754;755
+529,Gurdurr,ドテッコツ,BLK,MC,48,389/742,POKEMON,Stage1,n/a,n/a,100,FIGHTING,PSYCHIC,,3,False,False,False,False,Timburr,2,2,0,False,756;757
+530,Conkeldurr,ローブシン,BLK,MC,49,390/742,POKEMON,Stage2,n/a,n/a,140,FIGHTING,PSYCHIC,,3,False,False,False,False,Gurdurr,3,1,1,True,758
+531,Throh,ナゲキ,BLK,SV11B,50,053/086,POKEMON,Basic,n/a,n/a,130,FIGHTING,PSYCHIC,,2,False,False,False,False,,1,1,0,False,759
+532,Dwebble,イシズマイ,BLK,SV11B,51,054/086,POKEMON,Basic,n/a,n/a,70,FIGHTING,GRASS,,2,False,False,False,False,,1,2,0,False,760;761
+533,Crustle,イワパレス,BLK,SV11B,52,055/086,POKEMON,Stage1,n/a,n/a,150,FIGHTING,GRASS,,3,False,False,False,False,Dwebble,2,1,1,True,762
+534,Landorus,ランドロス,BLK,MC,53,398/742,POKEMON,Basic,n/a,n/a,130,FIGHTING,GRASS,,2,False,False,False,False,,1,2,0,False,763;764
+535,Venipede,フシデ,BLK,SV11B,54,057/086,POKEMON,Basic,n/a,n/a,80,DARKNESS,FIGHTING,,3,False,False,False,False,,1,1,0,False,765
+536,Whirlipede,ホイーガ,BLK,SV11B,55,058/086,POKEMON,Stage1,n/a,n/a,100,DARKNESS,FIGHTING,,3,False,False,False,False,Venipede,2,1,0,False,766
+537,Scolipede,ペンドラー,BLK,SV11B,56,059/086,POKEMON,Stage2,n/a,n/a,160,DARKNESS,FIGHTING,,3,False,False,False,False,Whirlipede,3,1,1,True,767
+538,Sandile,メグロコ,BLK,SV11B,57,060/086,POKEMON,Basic,n/a,n/a,70,DARKNESS,GRASS,,2,False,False,False,False,,1,1,0,False,768
+539,Krokorok,ワルビル,BLK,SV11B,58,061/086,POKEMON,Stage1,n/a,n/a,100,DARKNESS,GRASS,,2,False,False,False,False,Sandile,2,1,0,False,769
+540,Krookodile,ワルビアル,BLK,SV11B,59,062/086,POKEMON,Stage2,n/a,n/a,170,DARKNESS,GRASS,,3,False,False,False,False,Krokorok,3,2,0,False,770;771
+541,Vullaby,バルチャイ,WHT,SV11B,63,063/086,POKEMON,Basic,n/a,n/a,70,DARKNESS,LIGHTNING,FIGHTING,1,False,False,False,False,,1,1,0,False,772
+542,Mandibuzz,バルジーナ,WHT,SV11B,64,064/086,POKEMON,Stage1,n/a,n/a,110,DARKNESS,LIGHTNING,FIGHTING,1,False,False,False,False,Vullaby,2,1,1,True,773
+543,Escavalier,シュバルゴ,BLK,MC,60,505/742,POKEMON,Stage1,n/a,n/a,130,METAL,FIRE,GRASS,3,False,False,False,False,Karrablast,2,1,0,False,774
+544,Pawniard,コマタナ,BLK,MC,64,510/742,POKEMON,Basic,n/a,n/a,60,METAL,FIRE,GRASS,1,False,False,False,False,,1,1,0,False,775
+545,Bisharp,キリキザン,BLK,MC,65,511/742,POKEMON,Stage1,n/a,n/a,120,METAL,FIRE,GRASS,2,False,False,False,False,Pawniard,2,2,0,False,776;777
+546,Cobalion,コバルオン,BLK,SV11B,66,068/086,POKEMON,Basic,n/a,n/a,120,METAL,FIRE,GRASS,2,False,False,False,False,,1,2,0,False,778;779
+547,Genesect ex,ゲノセクトex,BLK,MC,67,512/742,POKEMON,Basic,Pokémon ex,n/a,220,METAL,FIRE,GRASS,2,True,False,False,False,,1,1,1,True,780
+548,Axew,キバゴ,BLK,SV11B,68,070/086,POKEMON,Basic,n/a,n/a,70,DRAGON,,,2,False,False,False,False,,1,1,0,False,781
+549,Fraxure,オノンド,BLK,SV11B,69,071/086,POKEMON,Stage1,n/a,n/a,100,DRAGON,,,2,False,False,False,False,Axew,2,2,0,False,782;783
+550,Haxorus,オノノクス,BLK,SV11B,70,072/086,POKEMON,Stage2,n/a,n/a,170,DRAGON,,,3,False,False,False,False,Fraxure,3,2,0,False,784;785
+551,Pidove,マメパト,BLK,MC,71,598/742,POKEMON,Basic,n/a,n/a,60,COLORLESS,LIGHTNING,FIGHTING,1,False,False,False,False,,1,2,0,False,786;787
+552,Tranquill,ハトーボー,BLK,MC,72,599/742,POKEMON,Stage1,n/a,n/a,80,COLORLESS,LIGHTNING,FIGHTING,0,False,False,False,False,Pidove,2,1,0,False,788
+553,Unfezant,ケンホロウ,BLK,MC,73,600/742,POKEMON,Stage2,n/a,n/a,150,COLORLESS,LIGHTNING,FIGHTING,0,False,False,False,False,Tranquill,3,2,0,False,789;790
+554,Audino,タブンネ,BLK,MC,74,601/742,POKEMON,Basic,n/a,n/a,100,COLORLESS,FIGHTING,,1,False,False,False,False,,1,1,0,False,791
+555,Minccino,チラーミィ,BLK,MC,75,603/742,POKEMON,Basic,n/a,n/a,60,COLORLESS,FIGHTING,,1,False,False,False,False,,1,1,0,False,792
+556,Cinccino,チラチーノ,BLK,MC,76,604/742,POKEMON,Stage1,n/a,n/a,100,COLORLESS,FIGHTING,,1,False,False,False,False,Minccino,2,1,0,False,793
+557,Sewaddle,クルミル,WHT,SV11W,1,001/086,POKEMON,Basic,n/a,n/a,50,GRASS,FIRE,,1,False,False,False,False,,1,1,0,False,794
+558,Swadloon,クルマユ,WHT,SV11W,2,002/086,POKEMON,Stage1,n/a,n/a,80,GRASS,FIRE,,2,False,False,False,False,Sewaddle,2,1,1,True,795
+559,Leavanny,ハハコモリ,WHT,SV11W,3,003/086,POKEMON,Stage2,n/a,n/a,130,GRASS,FIRE,,1,False,False,False,False,Swadloon,3,2,0,False,796;797
+560,Cottonee,モンメン,WHT,MC,4,043/742,POKEMON,Basic,n/a,n/a,60,GRASS,FIRE,,1,False,False,False,False,,1,1,0,False,798
+561,Whimsicott ex,エルフーンex,WHT,MC,5,044/742,POKEMON,Stage1,Pokémon ex,n/a,230,GRASS,FIRE,,0,True,False,False,False,Cottonee,2,2,0,False,799;800
+562,Deerling,シキジカ,WHT,SV11W,6,006/086,POKEMON,Basic,n/a,n/a,70,GRASS,FIRE,,1,False,False,False,False,,1,1,0,False,801
+563,Sawsbuck,メブキジカ,WHT,SV11W,7,007/086,POKEMON,Stage1,n/a,n/a,130,GRASS,FIRE,,2,False,False,False,False,Deerling,2,2,0,False,802;803
+564,Shelmet,チョボマキ,WHT,SV11W,8,008/086,POKEMON,Basic,n/a,n/a,60,GRASS,FIRE,,3,False,False,False,False,,1,1,1,True,804
+565,Accelgor,アギルダー,WHT,SV11W,9,009/086,POKEMON,Stage1,n/a,n/a,100,GRASS,FIRE,,1,False,False,False,False,Shelmet,2,1,0,False,805
+566,Virizion,ビリジオン,WHT,MC,10,054/742,POKEMON,Basic,n/a,n/a,120,GRASS,FIRE,,1,False,False,False,False,,1,2,0,False,806;807
+567,Tepig,ポカブ,WHT,MC,11,108/742,POKEMON,Basic,n/a,n/a,70,FIRE,WATER,,1,False,False,False,False,,1,2,0,False,808;809
+568,Pignite,チャオブー,WHT,MC,12,110/742,POKEMON,Stage1,n/a,n/a,110,FIRE,WATER,,3,False,False,False,False,Tepig,2,2,0,False,810;811
+569,Emboar,エンブオー,WHT,MC,13,112/742,POKEMON,Stage2,n/a,n/a,180,FIRE,WATER,,4,False,False,False,False,Pignite,3,1,1,True,812
+570,Pansear,バオップ,WHT,SV11W,14,014/086,POKEMON,Basic,n/a,n/a,70,FIRE,WATER,,1,False,False,False,False,,1,2,0,False,813;814
+571,Simisear,バオッキー,WHT,SV11W,15,015/086,POKEMON,Stage1,n/a,n/a,100,FIRE,WATER,,1,False,False,False,False,Pansear,2,1,0,False,815
+572,Heatmor,クイタラン,WHT,MC,19,120/742,POKEMON,Basic,n/a,n/a,120,FIRE,WATER,,2,False,False,False,False,,1,2,0,False,816;817
+573,Reshiram ex,レシラムex,WHT,MC,20,126/742,POKEMON,Basic,Pokémon ex,n/a,230,FIRE,WATER,,2,True,False,False,False,,1,2,0,False,818;819
+574,Oshawott,ミジュマル,WHT,SV11W,21,018/086,POKEMON,Basic,n/a,n/a,70,WATER,LIGHTNING,,1,False,False,False,False,,1,2,0,False,820;821
+575,Dewott,フタチマル,WHT,SV11W,22,019/086,POKEMON,Stage1,n/a,n/a,100,WATER,LIGHTNING,,1,False,False,False,False,Oshawott,2,1,0,False,822
+576,Samurott,ダイケンキ,WHT,SV11W,23,020/086,POKEMON,Stage2,n/a,n/a,160,WATER,LIGHTNING,,2,False,False,False,False,Dewott,3,1,1,True,823
+577,Basculin,バスラオ,WHT,SV11W,24,021/086,POKEMON,Basic,n/a,n/a,90,WATER,LIGHTNING,,1,False,False,False,False,,1,2,0,False,824;825
+578,Ducklett,コアルヒー,WHT,MC,25,197/742,POKEMON,Basic,n/a,n/a,70,WATER,LIGHTNING,FIGHTING,1,False,False,False,False,,1,2,0,False,826;827
+579,Swanna,スワンナ,WHT,MC,26,198/742,POKEMON,Stage1,n/a,n/a,120,WATER,LIGHTNING,FIGHTING,1,False,False,False,False,Ducklett,2,2,0,False,828;829
+580,Vanillite,バニプッチ,WHT,MC,27,199/742,POKEMON,Basic,n/a,n/a,60,WATER,METAL,,1,False,False,False,False,,1,2,0,False,830;831
+581,Vanillish,バニリッチ,WHT,MC,28,200/742,POKEMON,Stage1,n/a,n/a,90,WATER,METAL,,2,False,False,False,False,Vanillite,2,2,0,False,832;833
+582,Vanilluxe,バイバニラ,WHT,MC,29,201/742,POKEMON,Stage2,n/a,n/a,150,WATER,METAL,,2,False,False,False,False,Vanillish,3,2,0,False,834;835
+583,Keldeo ex,ケルディオex,WHT,MC,30,205/742,POKEMON,Basic,Pokémon ex,n/a,210,WATER,LIGHTNING,,2,True,False,False,False,,1,2,0,False,836;837
+584,Blitzle,シママ,WHT,MC,31,250/742,POKEMON,Basic,n/a,n/a,60,LIGHTNING,FIGHTING,,1,False,False,False,False,,1,2,0,False,838;839
+585,Zebstrika,ゼブライカ,WHT,MC,32,252/742,POKEMON,Stage1,n/a,n/a,120,LIGHTNING,FIGHTING,,1,False,False,False,False,Blitzle,2,2,0,False,840;841
+586,Joltik,バチュル,WHT,SV11W,33,030/086,POKEMON,Basic,n/a,n/a,40,LIGHTNING,FIGHTING,,1,False,False,False,False,,1,1,0,False,842
+587,Galvantula,デンチュラ,WHT,SV11W,34,031/086,POKEMON,Stage1,n/a,n/a,90,LIGHTNING,FIGHTING,,1,False,False,False,False,Joltik,2,1,0,False,843
+588,Stunfisk,マッギョ,WHT,SV11W,35,032/086,POKEMON,Basic,n/a,n/a,110,LIGHTNING,FIGHTING,,2,False,False,False,False,,1,2,0,False,844;845
+589,Woobat,コロモリ,WHT,SV11W,36,033/086,POKEMON,Basic,n/a,n/a,60,PSYCHIC,LIGHTNING,FIGHTING,1,False,False,False,False,,1,1,0,False,846
+590,Swoobat,ココロモリ,WHT,SV11W,37,034/086,POKEMON,Stage1,n/a,n/a,90,PSYCHIC,LIGHTNING,FIGHTING,1,False,False,False,False,Woobat,2,2,0,False,847;848
+591,Sigilyph,シンボラー,WHT,SV11W,38,035/086,POKEMON,Basic,n/a,n/a,120,PSYCHIC,LIGHTNING,FIGHTING,1,False,False,False,False,,1,2,0,False,849;850
+592,Yamask,デスマス,WHT,MC,39,320/742,POKEMON,Basic,n/a,n/a,70,PSYCHIC,DARKNESS,FIGHTING,2,False,False,False,False,,1,1,0,False,851
+593,Cofagrigus,デスカーン,WHT,MC,40,322/742,POKEMON,Stage1,n/a,n/a,120,PSYCHIC,DARKNESS,FIGHTING,2,False,False,False,False,Yamask,2,2,0,False,852;853
+594,Gothita,ゴチム,WHT,MC,41,323/742,POKEMON,Basic,n/a,n/a,70,PSYCHIC,DARKNESS,FIGHTING,1,False,False,False,False,,1,1,0,False,854
+595,Gothorita,ゴチミル,WHT,MC,42,324/742,POKEMON,Stage1,n/a,n/a,90,PSYCHIC,DARKNESS,FIGHTING,1,False,False,False,False,Gothita,2,2,0,False,855;856
+596,Gothitelle,ゴチルゼル,WHT,MC,43,325/742,POKEMON,Stage2,n/a,n/a,150,PSYCHIC,DARKNESS,FIGHTING,2,False,False,False,False,Gothorita,3,1,1,True,857
+597,Frillish,プルリル,WHT,SV11W,44,041/086,POKEMON,Basic,n/a,n/a,80,PSYCHIC,DARKNESS,FIGHTING,3,False,False,False,False,,1,1,0,False,858
+598,Jellicent ex,ブルンゲルex,WHT,SV11W,45,042/086,POKEMON,Stage1,Pokémon ex,n/a,270,PSYCHIC,DARKNESS,FIGHTING,3,True,False,False,False,Frillish,2,1,1,True,859
+599,Roggenrola,ダンゴロ,WHT,SV11W,46,043/086,POKEMON,Basic,n/a,n/a,80,FIGHTING,GRASS,,2,False,False,False,False,,1,2,0,False,860;861
+600,Boldore,ガントル,WHT,SV11W,47,044/086,POKEMON,Stage1,n/a,n/a,110,FIGHTING,GRASS,,3,False,False,False,False,Roggenrola,2,2,0,False,862;863
+601,Gigalith,ギガイアス,WHT,SV11W,48,045/086,POKEMON,Stage2,n/a,n/a,170,FIGHTING,GRASS,,3,False,False,False,False,Boldore,3,2,0,False,864;865
+602,Sawk,ダゲキ,WHT,MC,49,391/742,POKEMON,Basic,n/a,n/a,110,FIGHTING,PSYCHIC,,1,False,False,False,False,,1,2,0,False,866;867
+603,Archen,アーケン,WHT,MC,50,392/742,POKEMON,Stage1,n/a,n/a,80,FIGHTING,GRASS,,1,False,False,False,False,Antique Plume Fossil,2,1,0,False,868
+604,Archeops,アーケオス,WHT,MC,51,393/742,POKEMON,Stage2,n/a,n/a,140,FIGHTING,GRASS,,1,False,False,False,False,Archen,3,1,1,True,869
+605,Mienfoo,コジョフー,WHT,MC,52,395/742,POKEMON,Basic,n/a,n/a,60,FIGHTING,PSYCHIC,,1,False,False,False,False,,1,1,0,False,870
+606,Mienshao,コジョンド,WHT,MC,53,396/742,POKEMON,Stage1,n/a,n/a,100,FIGHTING,PSYCHIC,,1,False,False,False,False,Mienfoo,2,2,0,False,871;872
+607,Terrakion,テラキオン,WHT,SV11W,54,051/086,POKEMON,Basic,n/a,n/a,140,FIGHTING,GRASS,,3,False,False,False,False,,1,2,0,False,873;874
+608,Purrloin,チョロネコ,WHT,SV11W,55,052/086,POKEMON,Basic,n/a,n/a,60,DARKNESS,GRASS,,1,False,False,False,False,,1,1,0,False,875
+609,Liepard,レパルダス,WHT,SV11W,56,053/086,POKEMON,Stage1,n/a,n/a,110,DARKNESS,GRASS,,1,False,False,False,False,Purrloin,2,1,0,False,876
+610,Scraggy,ズルッグ,WHT,SV11W,57,054/086,POKEMON,Basic,n/a,n/a,70,DARKNESS,GRASS,,1,False,False,False,False,,1,2,0,False,877;878
+611,Scrafty,ズルズキン,WHT,SV11W,58,055/086,POKEMON,Stage1,n/a,n/a,120,DARKNESS,GRASS,,2,False,False,False,False,Scraggy,2,1,0,False,879
+612,Trubbish,ヤブクロン,WHT,MC,59,465/742,POKEMON,Basic,n/a,n/a,70,DARKNESS,FIGHTING,,2,False,False,False,False,,1,2,0,False,880;881
+613,Garbodor,ダストダス,WHT,MC,60,466/742,POKEMON,Stage1,n/a,n/a,140,DARKNESS,FIGHTING,,3,False,False,False,False,Trubbish,2,2,0,False,882;883
+614,Zorua,ゾロア,WHT,MC,61,467/742,POKEMON,Basic,n/a,n/a,70,DARKNESS,GRASS,,1,False,False,False,False,,1,1,0,False,884
+615,Zoroark,ゾロアーク,WHT,MC,62,468/742,POKEMON,Stage1,n/a,n/a,120,DARKNESS,GRASS,,1,False,False,False,False,Zorua,2,2,0,False,885;886
+616,Deino,モノズ,WHT,MC,65,476/742,POKEMON,Basic,n/a,n/a,80,DARKNESS,GRASS,,2,False,False,False,False,,1,2,0,False,887;888
+617,Zweilous,ジヘッド,WHT,MC,66,477/742,POKEMON,Stage1,n/a,n/a,110,DARKNESS,GRASS,,3,False,False,False,False,Deino,2,2,0,False,889;890
+618,Hydreigon ex,サザンドラex,WHT,MC,67,478/742,POKEMON,Stage2,Pokémon ex,n/a,330,DARKNESS,GRASS,,3,True,False,False,False,Zweilous,3,1,1,True,891
+619,Ferroseed,テッシード,WHT,SV11W,68,063/086,POKEMON,Basic,n/a,n/a,70,METAL,FIRE,GRASS,2,False,False,False,False,,1,2,0,False,892;893
+620,Ferrothorn,ナットレイ,WHT,SV11W,69,064/086,POKEMON,Stage1,n/a,n/a,140,METAL,FIRE,GRASS,3,False,False,False,False,Ferroseed,2,2,0,False,894;895
+621,Klink,ギアル,BLK,MC,61,506/742,POKEMON,Basic,n/a,n/a,60,METAL,FIRE,GRASS,1,False,False,False,False,,1,1,0,False,896
+622,Klang,ギギアル,BLK,MC,62,507/742,POKEMON,Stage1,n/a,n/a,90,METAL,FIRE,GRASS,2,False,False,False,False,Klink,2,1,0,False,897
+623,Klinklang,ギギギアル,BLK,MC,63,508/742,POKEMON,Stage2,n/a,n/a,150,METAL,FIRE,GRASS,3,False,False,False,False,Klang,3,1,1,True,898
+624,Durant,アイアント,WHT,SV11W,70,068/086,POKEMON,Basic,n/a,n/a,110,METAL,FIRE,GRASS,1,False,False,False,False,,1,2,0,False,899;900
+625,Druddigon,クリムガン,WHT,MC,71,544/742,POKEMON,Basic,n/a,n/a,120,DRAGON,,,2,False,False,False,False,,1,2,0,False,901;902
+626,Patrat,ミネズミ,WHT,SV11W,72,070/086,POKEMON,Basic,n/a,n/a,60,COLORLESS,FIGHTING,,1,False,False,False,False,,1,2,0,False,903;904
+627,Watchog,ミルホッグ,WHT,SV11W,73,071/086,POKEMON,Stage1,n/a,n/a,90,COLORLESS,FIGHTING,,1,False,False,False,False,Patrat,2,2,0,False,905;906
+628,Lillipup,ヨーテリー,WHT,SV11W,74,072/086,POKEMON,Basic,n/a,n/a,60,COLORLESS,FIGHTING,,1,False,False,False,False,,1,1,0,False,907
+629,Herdier,ハーデリア,WHT,SV11W,75,073/086,POKEMON,Stage1,n/a,n/a,90,COLORLESS,FIGHTING,,1,False,False,False,False,Lillipup,2,2,0,False,908;909
+630,Stoutland,ムーランド,WHT,SV11W,76,074/086,POKEMON,Stage2,n/a,n/a,160,COLORLESS,FIGHTING,,3,False,False,False,False,Herdier,3,2,0,False,910;911
+631,Bouffalant ex,バッフロンex,WHT,MC,77,605/742,POKEMON,Basic,Pokémon ex,n/a,220,COLORLESS,FIGHTING,,2,True,False,False,False,,1,1,1,True,912
+632,Rufflet,ワシボン,BLK,MC,77,606/742,POKEMON,Basic,n/a,n/a,70,COLORLESS,LIGHTNING,FIGHTING,1,False,False,False,False,,1,2,0,False,913;914
+633,Braviary,ウォーグル,BLK,MC,78,607/742,POKEMON,Stage1,n/a,n/a,140,COLORLESS,LIGHTNING,FIGHTING,1,False,False,False,False,Rufflet,2,2,0,False,915;916
+634,Tornadus,トルネロス,WHT,MC,78,610/742,POKEMON,Basic,n/a,n/a,120,COLORLESS,LIGHTNING,FIGHTING,1,False,False,False,False,,1,2,0,False,917;918
+635,Steven's Baltoy,ダイゴのヤジロン,DRI,SVOD,83,001/018,POKEMON,Basic,n/a,Trainer's Pokémon(Steven),60,PSYCHIC,DARKNESS,FIGHTING,1,False,False,False,False,,1,2,0,False,919;920
+636,Steven's Claydol,ダイゴのネンドール,DRI,SVOD,84,002/018,POKEMON,Stage1,n/a,Trainer's Pokémon(Steven),120,PSYCHIC,DARKNESS,FIGHTING,2,False,False,False,False,Steven's Baltoy,2,2,0,False,921;922
+637,Steven's Carbink,ダイゴのメレシー,DRI,SVOD,86,003/018,POKEMON,Basic,n/a,Trainer's Pokémon(Steven),80,PSYCHIC,METAL,,2,False,False,False,False,,1,1,1,True,923
+638,Steven's Skarmory,ダイゴのエアームド,DRI,MC,142,494/742,POKEMON,Basic,n/a,Trainer's Pokémon(Steven),120,METAL,LIGHTNING,FIGHTING,1,False,False,False,False,,1,2,0,False,924;925
+639,Steven's Beldum,ダイゴのダンバル,DRI,SVOD,143,019/018,POKEMON,Basic,n/a,Trainer's Pokémon(Steven),70,METAL,FIRE,GRASS,1,False,False,False,False,,1,1,0,False,926
+640,Steven's Metang,ダイゴのメタング,DRI,SVOD,144,006/018,POKEMON,Stage1,n/a,Trainer's Pokémon(Steven),100,METAL,FIRE,GRASS,2,False,False,False,False,Steven's Beldum,2,1,0,False,927
+641,Steven's Metagross ex,ダイゴのメタグロスex,DRI,SVOD,145,007/018,POKEMON,Stage2,Pokémon ex,Trainer's Pokémon(Steven),340,METAL,FIRE,GRASS,3,True,False,False,False,Steven's Metang,3,1,1,True,928
+642,Marnie's Purrloin,マリィのチョロネコ,DRI,MC,130,458/742,POKEMON,Basic,n/a,Trainer's Pokémon(Marnie),60,DARKNESS,GRASS,,1,False,False,False,False,,1,1,0,False,929
+643,Marnie's Liepard,マリィのレパルダス,DRI,MC,131,459/742,POKEMON,Stage1,n/a,Trainer's Pokémon(Marnie),100,DARKNESS,GRASS,,1,False,False,False,False,Marnie's Purrloin,2,1,0,False,930
+644,Marnie's Scraggy,マリィのズルッグ,DRI,MC,132,463/742,POKEMON,Basic,n/a,Trainer's Pokémon(Marnie),70,DARKNESS,GRASS,,1,False,False,False,False,,1,1,0,False,931
+645,Marnie's Scrafty,マリィのズルズキン,DRI,MC,133,464/742,POKEMON,Stage1,n/a,Trainer's Pokémon(Marnie),120,DARKNESS,GRASS,,2,False,False,False,False,Marnie's Scraggy,2,2,0,False,932;933
+646,Marnie's Impidimp,マリィのベロバー,DRI,SVOM,134,005/019,POKEMON,Basic,n/a,Trainer's Pokémon(Marnie),70,DARKNESS,GRASS,,1,False,False,False,False,,1,2,0,False,934;935
+647,Marnie's Morgrem,マリィのギモー,DRI,SVOM,135,006/019,POKEMON,Stage1,n/a,Trainer's Pokémon(Marnie),100,DARKNESS,GRASS,,1,False,False,False,False,Marnie's Impidimp,2,1,0,False,936
+648,Marnie's Grimmsnarl ex,マリィのオーロンゲex,DRI,SVOM,136,007/019,POKEMON,Stage2,Pokémon ex,Trainer's Pokémon(Marnie),320,DARKNESS,GRASS,,2,True,False,False,False,Marnie's Morgrem,3,1,1,True,937
+649,Marnie's Morpeko,マリィのモルペコ,DRI,SVOM,137,020/019,POKEMON,Basic,n/a,Trainer's Pokémon(Marnie),70,DARKNESS,GRASS,,0,False,False,False,False,,1,1,0,False,938
+650,Bulbasaur,フシギダネ,MEG,M1L,1,001/063,POKEMON,Basic,n/a,n/a,80,GRASS,FIRE,,2,False,False,False,False,,1,1,0,False,939
+651,Ivysaur,フシギソウ,MEG,M1L,2,002/063,POKEMON,Stage1,n/a,n/a,110,GRASS,FIRE,,3,False,False,False,False,Bulbasaur,2,1,0,False,940
+652,Mega Venusaur ex,メガフシギバナex,MEG,M1L,3,003/063,POKEMON,Stage2,Mega Pokémon ex,n/a,380,GRASS,FIRE,,4,False,True,False,False,Ivysaur,3,1,1,True,941
+653,Exeggcute,タマタマ,MEG,M1L,4,004/063,POKEMON,Basic,n/a,n/a,60,GRASS,FIRE,,1,False,False,False,False,,1,1,0,False,942
+654,Exeggutor,ナッシー,MEG,M1L,5,005/063,POKEMON,Stage1,n/a,n/a,140,GRASS,FIRE,,2,False,False,False,False,Exeggcute,2,2,0,False,943;944
+655,Celebi,セレビィ,MEG,M1L,12,006/063,POKEMON,Basic,n/a,n/a,80,GRASS,FIRE,,1,False,False,False,False,,1,2,0,False,945;946
+656,Seedot,タネボー,MEG,M1L,13,007/063,POKEMON,Basic,n/a,n/a,60,GRASS,FIRE,,1,False,False,False,False,,1,2,0,False,947;948
+657,Nuzleaf,コノハナ,MEG,M1L,14,008/063,POKEMON,Stage1,n/a,n/a,100,GRASS,FIRE,,2,False,False,False,False,Seedot,2,2,0,False,949;950
+658,Shiftry,ダーテング,MEG,M1L,15,009/063,POKEMON,Stage2,n/a,n/a,160,GRASS,FIRE,,2,False,False,False,False,Nuzleaf,3,2,0,False,951;952
+659,Vulpix,ロコン,MEG,M1L,19,010/063,POKEMON,Basic,n/a,n/a,70,FIRE,WATER,,1,False,False,False,False,,1,2,0,False,953;954
+660,Ninetales,キュウコン,MEG,M1L,20,011/063,POKEMON,Stage1,n/a,n/a,120,FIRE,WATER,,1,False,False,False,False,Vulpix,2,2,0,False,955;956
+661,Numel,ドンメル,MEG,M1L,21,012/063,POKEMON,Basic,n/a,n/a,80,FIRE,WATER,,2,False,False,False,False,,1,2,0,False,957;958
+662,Mega Camerupt ex,メガバクーダex,MEG,M1L,22,013/063,POKEMON,Stage1,Mega Pokémon ex,n/a,340,FIRE,WATER,,4,False,True,False,False,Numel,2,2,0,False,959;960
+663,Volcanion,ボルケニオン,MEG,M1L,25,014/063,POKEMON,Basic,n/a,n/a,130,FIRE,WATER,,2,False,False,False,False,,1,2,0,False,961;962
+664,Scorbunny,ヒバニー,MEG,M1L,26,015/063,POKEMON,Basic,n/a,n/a,70,FIRE,WATER,,1,False,False,False,False,,1,1,0,False,963
+665,Raboot,ラビフット,MEG,M1L,27,016/063,POKEMON,Stage1,n/a,n/a,100,FIRE,WATER,,1,False,False,False,False,Scorbunny,2,1,0,False,964
+666,Cinderace,エースバーン,MEG,M1L,28,017/063,POKEMON,Stage2,n/a,n/a,160,FIRE,WATER,,0,False,False,False,False,Raboot,3,1,1,True,965
+667,Corphish,ヘイガニ,MEG,M1L,33,018/063,POKEMON,Basic,n/a,n/a,80,WATER,LIGHTNING,,2,False,False,False,False,,1,2,0,False,966;967
+668,Gimmighoul,コレクレー,MEG,MC,67,356/742,POKEMON,Basic,n/a,n/a,70,PSYCHIC,DARKNESS,FIGHTING,2,False,False,False,False,,1,1,0,False,968
+669,Sandshrew,サンド,MEG,M1L,68,020/063,POKEMON,Basic,n/a,n/a,70,FIGHTING,GRASS,,1,False,False,False,False,,1,2,0,False,969;970
+670,Sandslash,サンドパン,MEG,M1L,69,021/063,POKEMON,Stage1,n/a,n/a,120,FIGHTING,GRASS,,1,False,False,False,False,Sandshrew,2,2,0,False,971;972
+671,Onix,イワーク,MEG,M1L,70,022/063,POKEMON,Basic,n/a,n/a,120,FIGHTING,GRASS,,4,False,False,False,False,,1,2,0,False,973;974
+672,Tyrogue,バルキー,MEG,M1L,71,023/063,POKEMON,Basic,n/a,n/a,30,FIGHTING,PSYCHIC,,0,False,False,False,False,,1,1,0,False,975
+673,Makuhita,マクノシタ,MEG,M1L,72,024/063,POKEMON,Basic,n/a,n/a,80,FIGHTING,PSYCHIC,,2,False,False,False,False,,1,2,0,False,976;977
+674,Hariyama,ハリテヤマ,MEG,M1L,73,025/063,POKEMON,Stage1,n/a,n/a,150,FIGHTING,PSYCHIC,,3,False,False,False,False,Makuhita,2,1,1,True,978
+675,Lunatone,ルナトーン,MEG,MC,74,371/742,POKEMON,Basic,n/a,n/a,110,FIGHTING,GRASS,,1,False,False,False,False,,1,1,1,True,979
+676,Solrock,ソルロック,MEG,MC,75,372/742,POKEMON,Basic,n/a,n/a,110,FIGHTING,GRASS,,1,False,False,False,False,,1,1,0,False,980
+677,Riolu,リオル,MEG,M2a,76,091/193,POKEMON,Basic,n/a,n/a,80,FIGHTING,PSYCHIC,,2,False,False,False,False,,1,1,0,False,981
+678,Mega Lucario ex,メガルカリオex,MEG,M2a,77,092/193,POKEMON,Stage1,Mega Pokémon ex,n/a,340,FIGHTING,PSYCHIC,,2,False,True,False,False,Riolu,2,2,0,False,982;983
+679,Croagunk,グレッグル,MEG,MC,78,382/742,POKEMON,Basic,n/a,n/a,70,FIGHTING,PSYCHIC,,1,False,False,False,False,,1,1,0,False,984
+680,Toxicroak,ドクロッグ,MEG,MC,79,384/742,POKEMON,Stage1,n/a,n/a,130,FIGHTING,PSYCHIC,,1,False,False,False,False,Croagunk,2,1,0,False,985
+681,Marshadow,マーシャドー,MEG,MC,80,408/742,POKEMON,Basic,n/a,n/a,90,FIGHTING,PSYCHIC,,1,False,False,False,False,,1,1,0,False,986
+682,Stonjourner,イシヘンジン,MEG,MC,81,414/742,POKEMON,Basic,n/a,n/a,130,FIGHTING,GRASS,,2,False,False,False,False,,1,2,0,False,987;988
+683,Nacli,コジオ,MEG,MC,82,416/742,POKEMON,Basic,n/a,n/a,70,FIGHTING,GRASS,,2,False,False,False,False,,1,1,0,False,989
+684,Naclstack,ジオヅム,MEG,MC,83,417/742,POKEMON,Stage1,n/a,n/a,110,FIGHTING,GRASS,,3,False,False,False,False,Nacli,2,1,0,False,990
+685,Garganacl,キョジオーン,MEG,MC,84,418/742,POKEMON,Stage2,n/a,n/a,180,FIGHTING,GRASS,,4,False,False,False,False,Naclstack,3,1,1,True,991
+686,Crawdaunt,シザリガー,MEG,M1L,85,037/063,POKEMON,Stage1,n/a,n/a,130,DARKNESS,GRASS,,3,False,False,False,False,Corphish,2,2,0,False,992;993
+687,Mega Absol ex,メガアブソルex,MEG,M1L,86,038/063,POKEMON,Basic,Mega Pokémon ex,n/a,280,DARKNESS,GRASS,,2,False,True,False,False,,1,2,0,False,994;995
+688,Spiritomb,ミカルゲ,MEG,MC,87,455/742,POKEMON,Basic,n/a,n/a,80,DARKNESS,GRASS,,1,False,False,False,False,,1,1,1,True,996
+689,Yveltal,イベルタル,MEG,MC,88,481/742,POKEMON,Basic,n/a,n/a,110,DARKNESS,LIGHTNING,FIGHTING,0,False,False,False,False,,1,2,0,False,997;998
+690,Nickit,クスネ,MEG,M1L,89,041/063,POKEMON,Basic,n/a,n/a,70,DARKNESS,GRASS,,1,False,False,False,False,,1,1,0,False,999
+691,Thievul,フォクスライ,MEG,M1L,90,042/063,POKEMON,Stage1,n/a,n/a,120,DARKNESS,GRASS,,1,False,False,False,False,Nickit,2,2,0,False,1000;1001
+692,Shroodle,シルシュルー,MEG,M1L,91,043/063,POKEMON,Basic,n/a,n/a,60,DARKNESS,FIGHTING,,1,False,False,False,False,,1,1,0,False,1002
+693,Grafaiai,タギングル,MEG,M1L,92,044/063,POKEMON,Stage1,n/a,n/a,100,DARKNESS,FIGHTING,,1,False,False,False,False,Shroodle,2,1,0,False,1003
+694,Steelix,ハガネール,MEG,M1L,93,045/063,POKEMON,Stage1,n/a,n/a,200,METAL,FIRE,GRASS,4,False,False,False,False,Onix,2,2,0,False,1004;1005
+695,Mega Mawile ex,メガクチートex,MEG,M1L,94,046/063,POKEMON,Basic,Mega Pokémon ex,n/a,270,METAL,FIRE,GRASS,2,False,True,False,False,,1,2,0,False,1006;1007
+696,Dialga,ディアルガ,MEG,MC,95,502/742,POKEMON,Basic,n/a,n/a,140,METAL,FIRE,GRASS,2,False,False,False,False,,1,2,0,False,1008;1009
+697,Tinkatink,カヌチャン,MEG,MC,96,528/742,POKEMON,Basic,n/a,n/a,70,METAL,FIRE,GRASS,1,False,False,False,False,,1,1,0,False,1010
+698,Tinkatuff,ナカヌチャン,MEG,MC,97,529/742,POKEMON,Stage1,n/a,n/a,90,METAL,FIRE,GRASS,2,False,False,False,False,Tinkatink,2,1,1,True,1011
+699,Tinkaton,デカヌチャン,MEG,MC,98,530/742,POKEMON,Stage2,n/a,n/a,160,METAL,FIRE,GRASS,2,False,False,False,False,Tinkatuff,3,1,0,False,1012
+700,Gholdengo,サーフゴー,MEG,MC,99,535/742,POKEMON,Stage1,n/a,n/a,130,METAL,FIRE,GRASS,2,False,False,False,False,Gimmighoul,2,2,0,False,1013;1014
+701,Spearow,オニスズメ,MEG,MC,102,557/742,POKEMON,Basic,n/a,n/a,60,COLORLESS,LIGHTNING,FIGHTING,1,False,False,False,False,,1,1,0,False,1015
+702,Fearow,オニドリル,MEG,MC,103,558/742,POKEMON,Stage1,n/a,n/a,100,COLORLESS,LIGHTNING,FIGHTING,1,False,False,False,False,Spearow,2,1,0,False,1016
+703,Miltank,ミルタンク,MEG,MC,106,578/742,POKEMON,Basic,n/a,n/a,120,COLORLESS,FIGHTING,,2,False,False,False,False,,1,2,0,False,1017;1018
+704,Yungoos,ヤングース,MEG,M1L,109,055/063,POKEMON,Basic,n/a,n/a,70,COLORLESS,FIGHTING,,1,False,False,False,False,,1,2,0,False,1019;1020
+705,Gumshoos,デカグース,MEG,M1L,110,056/063,POKEMON,Stage1,n/a,n/a,100,COLORLESS,FIGHTING,,1,False,False,False,False,Yungoos,2,1,1,True,1021
+706,Tangela,モンジャラ,MEG,M1S,6,001/063,POKEMON,Basic,n/a,n/a,80,GRASS,FIRE,,2,False,False,False,False,,1,2,0,False,1022;1023
+707,Tangrowth,モジャンボ,MEG,M1S,7,002/063,POKEMON,Stage1,n/a,n/a,150,GRASS,FIRE,,4,False,False,False,False,Tangela,2,2,0,False,1024;1025
+708,Chikorita,チコリータ,MEG,M1S,8,003/063,POKEMON,Basic,n/a,n/a,70,GRASS,FIRE,,1,False,False,False,False,,1,1,0,False,1026
+709,Bayleef,ベイリーフ,MEG,M1S,9,004/063,POKEMON,Stage1,n/a,n/a,110,GRASS,FIRE,,2,False,False,False,False,Chikorita,2,1,0,False,1027
+710,Meganium,メガニウム,MEG,M1S,10,005/063,POKEMON,Stage2,n/a,n/a,160,GRASS,FIRE,,2,False,False,False,False,Bayleef,3,1,1,True,1028
+711,Shuckle,ツボツボ,MEG,MC,11,023/742,POKEMON,Basic,n/a,n/a,80,GRASS,FIRE,,1,False,False,False,False,,1,1,1,True,1029
+712,Nincada,ツチニン,MEG,M1S,16,007/063,POKEMON,Basic,n/a,n/a,50,GRASS,FIRE,,1,False,False,False,False,,1,1,0,False,1030
+713,Ninjask,テッカニン,MEG,M1S,17,008/063,POKEMON,Stage1,n/a,n/a,80,GRASS,FIRE,,0,False,False,False,False,Nincada,2,1,1,True,1031
+714,Dhelmise,ダダリン,MEG,M1S,18,009/063,POKEMON,Basic,n/a,n/a,120,GRASS,FIRE,,2,False,False,False,False,,1,1,0,False,1032
+715,Litleo,シシコ,MEG,M1S,23,010/063,POKEMON,Basic,n/a,n/a,70,FIRE,WATER,,2,False,False,False,False,,1,1,0,False,1033
+716,Pyroar,カエンジシ,MEG,M1S,24,011/063,POKEMON,Stage1,n/a,n/a,130,FIRE,WATER,,2,False,False,False,False,Litleo,2,1,1,True,1034
+717,Sizzlipede,ヤクデ,MEG,M1S,29,012/063,POKEMON,Basic,n/a,n/a,80,FIRE,WATER,,2,False,False,False,False,,1,2,0,False,1035;1036
+718,Centiskorch,マルヤクデ,MEG,M1S,30,013/063,POKEMON,Stage1,n/a,n/a,140,FIRE,WATER,,3,False,False,False,False,Sizzlipede,2,2,0,False,1037;1038
+719,Chi-Yu,イーユイ,MEG,M1S,31,014/063,POKEMON,Basic,n/a,n/a,110,FIRE,WATER,,1,False,False,False,False,,1,1,0,False,1039
+720,Mantine,マンタイン,MEG,MC,32,173/742,POKEMON,Basic,n/a,n/a,110,WATER,LIGHTNING,,1,False,False,False,False,,1,2,0,False,1040;1041
+721,Kyogre,カイオーガ,MEG,M1S,34,016/063,POKEMON,Basic,n/a,n/a,150,WATER,LIGHTNING,,3,False,False,False,False,,1,2,0,False,1042;1043
+722,Snover,ユキカブリ,MEG,M1S,35,017/063,POKEMON,Basic,n/a,n/a,90,WATER,METAL,,3,False,False,False,False,,1,2,0,False,1044;1045
+723,Mega Abomasnow ex,メガユキノオーex,MEG,M1S,36,018/063,POKEMON,Stage1,Mega Pokémon ex,n/a,350,WATER,METAL,,4,False,True,False,False,Snover,2,2,0,False,1046;1047
+724,Clauncher,ウデッポウ,MEG,M1S,37,019/063,POKEMON,Basic,n/a,n/a,80,WATER,LIGHTNING,,2,False,False,False,False,,1,1,0,False,1048
+725,Clawitzer,ブロスター,MEG,M1S,38,020/063,POKEMON,Stage1,n/a,n/a,130,WATER,LIGHTNING,,2,False,False,False,False,Clauncher,2,1,1,True,1049
+726,Sobble,メッソン,MEG,M1S,39,021/063,POKEMON,Basic,n/a,n/a,70,WATER,LIGHTNING,,1,False,False,False,False,,1,1,0,False,1050
+727,Drizzile,ジメレオン,MEG,M1S,40,022/063,POKEMON,Stage1,n/a,n/a,100,WATER,LIGHTNING,,1,False,False,False,False,Sobble,2,1,0,False,1051
+728,Inteleon,インテレオン,MEG,M1S,41,023/063,POKEMON,Stage2,n/a,n/a,150,WATER,LIGHTNING,,1,False,False,False,False,Drizzile,3,2,0,False,1052;1053
+729,Snom,ユキハミ,MEG,M1S,42,024/063,POKEMON,Basic,n/a,n/a,50,WATER,METAL,,1,False,False,False,False,,1,1,0,False,1054
+730,Frosmoth,モスノウ,MEG,M1S,43,025/063,POKEMON,Stage1,n/a,n/a,110,WATER,METAL,,2,False,False,False,False,Snom,2,1,0,False,1055
+731,Eiscue,コオリッポ,MEG,M1S,44,026/063,POKEMON,Basic,n/a,n/a,110,WATER,METAL,,1,False,False,False,False,,1,2,0,False,1056;1057
+732,Magnemite,コイル,MEG,M1S,45,027/063,POKEMON,Basic,n/a,n/a,70,LIGHTNING,FIGHTING,,1,False,False,False,False,,1,1,0,False,1058
+733,Magneton,レアコイル,MEG,M1S,46,028/063,POKEMON,Stage1,n/a,n/a,90,LIGHTNING,FIGHTING,,2,False,False,False,False,Magnemite,2,1,0,False,1059
+734,Magnezone,ジバコイル,MEG,M1S,47,029/063,POKEMON,Stage2,n/a,n/a,160,LIGHTNING,FIGHTING,,3,False,False,False,False,Magneton,3,2,0,False,1060;1061
+735,Raikou,ライコウ,MEG,M1S,48,030/063,POKEMON,Basic,n/a,n/a,120,LIGHTNING,FIGHTING,,1,False,False,False,False,,1,1,0,False,1062
+736,Electrike,ラクライ,MEG,M1S,49,031/063,POKEMON,Basic,n/a,n/a,70,LIGHTNING,FIGHTING,,1,False,False,False,False,,1,1,0,False,1063
+737,Mega Manectric ex,メガライボルトex,MEG,M1S,50,032/063,POKEMON,Stage1,Mega Pokémon ex,n/a,330,LIGHTNING,FIGHTING,,0,False,True,False,False,Electrike,2,2,0,False,1064;1065
+738,Pachirisu,パチリス,MEG,MC,51,247/742,POKEMON,Basic,n/a,n/a,70,LIGHTNING,FIGHTING,,1,False,False,False,False,,1,1,0,False,1066
+739,Helioptile,エリキテル,MEG,M1S,52,034/063,POKEMON,Basic,n/a,n/a,70,LIGHTNING,FIGHTING,,1,False,False,False,False,,1,1,0,False,1067
+740,Heliolisk,エレザード,MEG,M1S,53,035/063,POKEMON,Stage1,n/a,n/a,120,LIGHTNING,FIGHTING,,1,False,False,False,False,Helioptile,2,2,0,False,1068;1069
+741,Abra,ケーシィ,MEG,M1S,54,036/063,POKEMON,Basic,n/a,n/a,50,PSYCHIC,DARKNESS,FIGHTING,1,False,False,False,False,,1,1,0,False,1070
+742,Kadabra,ユンゲラー,MEG,M1S,55,037/063,POKEMON,Stage1,n/a,n/a,80,PSYCHIC,DARKNESS,FIGHTING,1,False,False,False,False,Abra,2,1,1,True,1071
+743,Alakazam,フーディン,MEG,M1S,56,038/063,POKEMON,Stage2,n/a,n/a,140,PSYCHIC,DARKNESS,FIGHTING,1,False,False,False,False,Kadabra,3,1,1,True,1072
+744,Jynx,ルージュラ,MEG,M1S,57,039/063,POKEMON,Basic,n/a,n/a,110,PSYCHIC,DARKNESS,FIGHTING,1,False,False,False,False,,1,1,0,False,1073
+745,Ralts,ラルトス,MEG,M2a,58,069/193,POKEMON,Basic,n/a,n/a,70,PSYCHIC,DARKNESS,FIGHTING,1,False,False,False,False,,1,2,0,False,1074;1075
+746,Kirlia,キルリア,MEG,M2a,59,070/193,POKEMON,Stage1,n/a,n/a,100,PSYCHIC,DARKNESS,FIGHTING,1,False,False,False,False,Ralts,2,2,0,False,1076;1077
+747,Mega Gardevoir ex,メガサーナイトex,MEG,M2a,60,071/193,POKEMON,Stage2,Mega Pokémon ex,n/a,360,PSYCHIC,DARKNESS,FIGHTING,2,False,True,False,False,Kirlia,3,2,0,False,1078;1079
+748,Shedinja,ヌケニン,MEG,M1S,61,043/063,POKEMON,Stage1,n/a,n/a,60,PSYCHIC,DARKNESS,FIGHTING,0,False,False,False,False,Nincada,2,1,1,True,1080
+749,Spoink,バネブー,MEG,MC,62,305/742,POKEMON,Basic,n/a,n/a,70,PSYCHIC,DARKNESS,FIGHTING,1,False,False,False,False,,1,1,0,False,1081
+750,Grumpig,ブーピッグ,MEG,MC,63,306/742,POKEMON,Stage1,n/a,n/a,120,PSYCHIC,DARKNESS,FIGHTING,2,False,False,False,False,Spoink,2,1,1,True,1082
+751,Xerneas,ゼルネアス,MEG,M1S,64,046/063,POKEMON,Basic,n/a,n/a,120,PSYCHIC,METAL,,1,False,False,False,False,,1,2,0,False,1083;1084
+752,Greavard,ボチ,MEG,MC,65,349/742,POKEMON,Basic,n/a,n/a,80,PSYCHIC,DARKNESS,FIGHTING,3,False,False,False,False,,1,2,0,False,1085;1086
+753,Houndstone,ハカドッグ,MEG,MC,66,350/742,POKEMON,Stage1,n/a,n/a,140,PSYCHIC,DARKNESS,FIGHTING,3,False,False,False,False,Greavard,2,2,0,False,1087;1088
+754,Mega Latias ex,メガラティアスex,MEG,M1S,100,049/063,POKEMON,Basic,Mega Pokémon ex,n/a,280,DRAGON,,,1,False,True,False,False,,1,2,0,False,1089;1090
+755,Latios,ラティオス,MEG,M1S,101,050/063,POKEMON,Basic,n/a,n/a,130,DRAGON,,,1,False,False,False,False,,1,1,1,True,1091
+756,Mega Kangaskhan ex,メガガルーラex,MEG,M1S,104,051/063,POKEMON,Basic,Mega Pokémon ex,n/a,300,COLORLESS,FIGHTING,,3,False,True,False,False,,1,1,1,True,1092
+757,Delibird,デリバード,MEG,M1S,105,052/063,POKEMON,Basic,n/a,n/a,90,COLORLESS,LIGHTNING,FIGHTING,1,False,False,False,False,,1,2,0,False,1093;1094
+758,Buneary,ミミロル,MEG,MC,107,593/742,POKEMON,Basic,n/a,n/a,70,COLORLESS,FIGHTING,,1,False,False,False,False,,1,2,0,False,1095;1096
+759,Lopunny,ミミロップ,MEG,MC,108,594/742,POKEMON,Stage1,n/a,n/a,110,COLORLESS,FIGHTING,,1,False,False,False,False,Buneary,2,2,0,False,1097;1098
+760,Stufful,ヌイコグマ,MEG,M1S,111,055/063,POKEMON,Basic,n/a,n/a,70,COLORLESS,FIGHTING,,2,False,False,False,False,,1,2,0,False,1099;1100
+761,Bewear,キテルグマ,MEG,M1S,112,056/063,POKEMON,Stage1,n/a,n/a,130,COLORLESS,FIGHTING,,3,False,False,False,False,Stufful,2,2,0,False,1101;1102
+762,Snubbull,ブルー,PFL,MC,37,303/742,POKEMON,Basic,n/a,n/a,70,PSYCHIC,METAL,,1,False,False,False,False,,1,1,0,False,1103
+763,Granbull,グランブル,PFL,MC,38,304/742,POKEMON,Stage1,n/a,n/a,130,PSYCHIC,METAL,,2,False,False,False,False,Snubbull,2,2,0,False,1104;1105
+764,Cresselia,クレセリア,PFL,MBD,39,003/021,POKEMON,Basic,n/a,n/a,120,PSYCHIC,DARKNESS,FIGHTING,1,False,False,False,False,,1,2,0,False,1106;1107
+765,Meloetta,メロエッタ,PFL,MBD,40,022/021,POKEMON,Basic,n/a,n/a,90,PSYCHIC,DARKNESS,FIGHTING,1,False,False,False,False,,1,2,0,False,1108;1109
+766,Mega Diancie ex,メガディアンシーex,PFL,MBD,41,005/021,POKEMON,Basic,Mega Pokémon ex,n/a,270,PSYCHIC,METAL,,1,False,True,False,False,,1,1,1,True,1110
+767,Mimikyu,ミミッキュ,PFL,MBD,42,006/021,POKEMON,Basic,n/a,n/a,70,PSYCHIC,METAL,,1,False,False,False,False,,1,2,0,False,1111;1112
+768,Milcery,マホミル,PFL,MBD,43,007/021,POKEMON,Basic,n/a,n/a,50,PSYCHIC,METAL,,1,False,False,False,False,,1,1,0,False,1113
+769,Alcremie,マホイップ,PFL,MBD,44,008/021,POKEMON,Stage1,n/a,n/a,90,PSYCHIC,METAL,,1,False,False,False,False,Milcery,2,1,0,False,1114
+770,Gastly,ゴース,PFL,MC,54,442/742,POKEMON,Basic,n/a,n/a,70,DARKNESS,FIGHTING,,1,False,False,False,False,,1,1,0,False,1115
+771,Haunter,ゴースト,PFL,MC,55,444/742,POKEMON,Stage1,n/a,n/a,100,DARKNESS,FIGHTING,,1,False,False,False,False,Gastly,2,1,0,False,1116
+772,Mega Gengar ex,メガゲンガーex,PFL,MBG,56,003/021,POKEMON,Stage2,Mega Pokémon ex,n/a,350,DARKNESS,FIGHTING,,2,False,True,False,False,Haunter,3,1,1,True,1117
+773,Murkrow,ヤミカラス,PFL,MBG,57,004/021,POKEMON,Basic,n/a,n/a,60,DARKNESS,LIGHTNING,FIGHTING,1,False,False,False,False,,1,1,0,False,1118
+774,Honchkrow,ドンカラス,PFL,MBG,58,005/021,POKEMON,Stage1,n/a,n/a,130,DARKNESS,LIGHTNING,FIGHTING,1,False,False,False,False,Murkrow,2,2,0,False,1119;1120
+775,Sableye,ヤミラミ,PFL,MBG,59,006/021,POKEMON,Basic,n/a,n/a,80,DARKNESS,GRASS,,1,False,False,False,False,,1,1,0,False,1121
+776,Absol,アブソル,PFL,MBG,63,007/021,POKEMON,Basic,n/a,n/a,110,DARKNESS,GRASS,,1,False,False,False,False,,1,2,0,False,1122;1123
+777,Eternatus,ムゲンダイナ,PFL,MBG,69,008/021,POKEMON,Basic,n/a,n/a,150,DARKNESS,FIGHTING,,2,False,False,False,False,,1,2,0,False,1124;1125
+778,Oddish,ナゾノクサ,PFL,M2,1,001/080,POKEMON,Basic,n/a,n/a,50,GRASS,FIRE,,1,False,False,False,False,,1,1,0,False,1126
+779,Gloom,クサイハナ,PFL,M2,2,002/080,POKEMON,Stage1,n/a,n/a,70,GRASS,FIRE,,1,False,False,False,False,Oddish,2,1,0,False,1127
+780,Vileplume,ラフレシア,PFL,M2,3,003/080,POKEMON,Stage2,n/a,n/a,150,GRASS,FIRE,,2,False,False,False,False,Gloom,3,2,0,False,1128;1129
+781,Mega Heracross ex,メガヘラクロスex,PFL,M2,4,004/080,POKEMON,Basic,Mega Pokémon ex,n/a,280,GRASS,FIRE,,2,False,True,False,False,,1,2,0,False,1130;1131
+782,Lotad,ハスボー,PFL,M2,5,005/080,POKEMON,Basic,n/a,n/a,70,GRASS,FIRE,,1,False,False,False,False,,1,1,0,False,1132
+783,Lombre,ハスブレロ,PFL,M2,6,006/080,POKEMON,Stage1,n/a,n/a,90,GRASS,FIRE,,1,False,False,False,False,Lotad,2,1,0,False,1133
+784,Ludicolo,ルンパッパ,PFL,M2,7,007/080,POKEMON,Stage2,n/a,n/a,160,GRASS,FIRE,,2,False,False,False,False,Lombre,3,1,1,True,1134
+785,Genesect,ゲノセクト,PFL,M2,8,008/080,POKEMON,Basic,n/a,n/a,120,GRASS,FIRE,,2,False,False,False,False,,1,2,0,False,1135;1136
+786,Nymble,マメバッタ,PFL,M2,9,009/080,POKEMON,Basic,n/a,n/a,50,GRASS,FIRE,,1,False,False,False,False,,1,1,0,False,1137
+787,Lokix,エクスレッグ,PFL,M2,10,010/080,POKEMON,Stage1,n/a,n/a,120,GRASS,FIRE,,1,False,False,False,False,Nymble,2,2,0,False,1138;1139
+788,Charmander,ヒトカゲ,PFL,M2,11,011/080,POKEMON,Basic,n/a,n/a,80,FIRE,WATER,,2,False,False,False,False,,1,1,1,True,1140
+789,Charmeleon,リザード,PFL,M2,12,012/080,POKEMON,Stage1,n/a,n/a,110,FIRE,WATER,,2,False,False,False,False,Charmander,2,1,0,False,1141
+790,Mega Charizard X ex,メガリザードンXex,PFL,M2,13,013/080,POKEMON,Stage2,Mega Pokémon ex,n/a,360,FIRE,WATER,,2,False,True,False,False,Charmeleon,3,1,0,False,1142
+791,Moltres,ファイヤー,PFL,M2,14,014/080,POKEMON,Basic,n/a,n/a,120,FIRE,WATER,,1,False,False,False,False,,1,1,0,False,1143
+792,Darumaka,ダルマッカ,PFL,M2,15,015/080,POKEMON,Basic,n/a,n/a,80,FIRE,WATER,,2,False,False,False,False,,1,1,0,False,1144
+793,Darmanitan,ヒヒダルマ,PFL,M2,16,016/080,POKEMON,Stage1,n/a,n/a,150,FIRE,WATER,,3,False,False,False,False,Darumaka,2,1,0,False,1145
+794,Reshiram,レシラム,PFL,M2,17,017/080,POKEMON,Basic,n/a,n/a,130,FIRE,WATER,,2,False,False,False,False,,1,2,0,False,1146;1147
+795,Oricorio ex,オドリドリex,PFL,M2,18,018/080,POKEMON,Basic,Pokémon ex,n/a,190,FIRE,WATER,,1,True,False,False,False,,1,1,1,True,1148
+796,Charcadet,カルボウ,PFL,M2,19,019/080,POKEMON,Basic,n/a,n/a,70,FIRE,WATER,,2,False,False,False,False,,1,2,0,False,1149;1150
+797,Ceruledge,ソウブレイズ,PFL,M2,20,020/080,POKEMON,Stage1,n/a,n/a,140,FIRE,WATER,,2,False,False,False,False,Charcadet,2,1,0,False,1151
+798,Seel,パウワウ,PFL,M2,21,021/080,POKEMON,Basic,n/a,n/a,80,WATER,LIGHTNING,,2,False,False,False,False,,1,1,0,False,1152
+799,Dewgong,ジュゴン,PFL,M2,22,022/080,POKEMON,Stage1,n/a,n/a,130,WATER,LIGHTNING,,2,False,False,False,False,Seel,2,1,1,True,1153
+800,Swinub,ウリムー,PFL,M2,23,023/080,POKEMON,Basic,n/a,n/a,70,WATER,METAL,,2,False,False,False,False,,1,2,0,False,1154;1155
+801,Piloswine,イノムー,PFL,M2,24,024/080,POKEMON,Stage1,n/a,n/a,100,WATER,METAL,,3,False,False,False,False,Swinub,2,2,0,False,1156;1157
+802,Mamoswine,マンムー,PFL,M2,25,025/080,POKEMON,Stage2,n/a,n/a,180,WATER,METAL,,4,False,False,False,False,Piloswine,3,2,0,False,1158;1159
+803,Suicune,スイクン,PFL,M2,26,026/080,POKEMON,Basic,n/a,n/a,130,WATER,LIGHTNING,,2,False,False,False,False,,1,1,0,False,1160
+804,Piplup,ポッチャマ,PFL,M2,27,027/080,POKEMON,Basic,n/a,n/a,70,WATER,LIGHTNING,,1,False,False,False,False,,1,2,0,False,1161;1162
+805,Prinplup,ポッタイシ,PFL,M2,28,028/080,POKEMON,Stage1,n/a,n/a,100,WATER,LIGHTNING,,2,False,False,False,False,Piplup,2,2,0,False,1163;1164
+806,Rotom ex,ロトムex,PFL,M2,29,029/080,POKEMON,Basic,Pokémon ex,n/a,190,LIGHTNING,FIGHTING,,1,True,False,False,False,,1,1,1,True,1165
+807,Yamper,ワンパチ,PFL,M2,30,030/080,POKEMON,Basic,n/a,n/a,70,LIGHTNING,FIGHTING,,1,False,False,False,False,,1,1,0,False,1166
+808,Boltund,パルスワン,PFL,M2,31,031/080,POKEMON,Stage1,n/a,n/a,130,LIGHTNING,FIGHTING,,1,False,False,False,False,Yamper,2,1,0,False,1167
+809,Pawmi,パモ,PFL,M2,32,032/080,POKEMON,Basic,n/a,n/a,60,LIGHTNING,FIGHTING,,1,False,False,False,False,,1,2,0,False,1168;1169
+810,Pawmo,パモット,PFL,M2,33,033/080,POKEMON,Stage1,n/a,n/a,90,LIGHTNING,FIGHTING,,1,False,False,False,False,Pawmi,2,1,0,False,1170
+811,Pawmot,パーモット,PFL,M2,34,034/080,POKEMON,Stage2,n/a,n/a,140,LIGHTNING,FIGHTING,,1,False,False,False,False,Pawmo,3,1,0,False,1171
+812,Misdreavus,ムウマ,PFL,M2,35,035/080,POKEMON,Basic,n/a,n/a,70,PSYCHIC,DARKNESS,FIGHTING,1,False,False,False,False,,1,1,0,False,1172
+813,Mismagius ex,ムウマージex,PFL,M2,36,036/080,POKEMON,Stage1,Pokémon ex,n/a,260,PSYCHIC,DARKNESS,FIGHTING,1,True,False,False,False,Misdreavus,2,1,1,True,1173
+814,Cottonee,モンメン,PROMO,M2,18,037/080,POKEMON,Basic,n/a,n/a,60,PSYCHIC,METAL,,1,False,False,False,False,,1,1,0,False,1174
+815,Whimsicott,エルフーン,PROMO,M2,19,038/080,POKEMON,Stage1,n/a,n/a,90,PSYCHIC,METAL,,1,False,False,False,False,Cottonee,2,2,0,False,1175;1176
+816,Zacian,ザシアン,PFL,M2,45,039/080,POKEMON,Basic,n/a,n/a,130,PSYCHIC,METAL,,2,False,False,False,False,,1,1,0,False,1177
+817,Bramblin,アノクサ,PFL,M2,46,040/080,POKEMON,Basic,n/a,n/a,50,PSYCHIC,DARKNESS,FIGHTING,1,False,False,False,False,,1,1,0,False,1178
+818,Brambleghast,アノホラグサ,PFL,M2,47,041/080,POKEMON,Stage1,n/a,n/a,100,PSYCHIC,DARKNESS,FIGHTING,2,False,False,False,False,Bramblin,2,1,1,True,1179
+819,Paldean Tauros,パルデア ケンタロス,PFL,M2,48,042/080,POKEMON,Basic,n/a,n/a,130,FIGHTING,PSYCHIC,,2,False,False,False,False,,1,2,0,False,1180;1181
+820,Gligar,グライガー,PFL,M2,49,043/080,POKEMON,Basic,n/a,n/a,70,FIGHTING,GRASS,,1,False,False,False,False,,1,1,0,False,1182
+821,Gliscor,グライオン,PFL,M2,50,044/080,POKEMON,Stage1,n/a,n/a,120,FIGHTING,GRASS,,1,False,False,False,False,Gligar,2,1,0,False,1183
+822,Trapinch,ナックラー,PFL,M2,51,045/080,POKEMON,Basic,n/a,n/a,70,FIGHTING,GRASS,,1,False,False,False,False,,1,1,0,False,1184
+823,Vibrava,ビブラーバ,PFL,M2,52,046/080,POKEMON,Stage1,n/a,n/a,90,FIGHTING,GRASS,,1,False,False,False,False,Trapinch,2,1,0,False,1185
+824,Flygon,フライゴン,PFL,M2,53,047/080,POKEMON,Stage2,n/a,n/a,150,FIGHTING,GRASS,,1,False,False,False,False,Vibrava,3,1,1,True,1186
+825,Sneasel,ニューラ,PROMO,M2,20,048/080,POKEMON,Basic,n/a,n/a,70,DARKNESS,GRASS,,1,False,False,False,False,,1,2,0,False,1187;1188
+826,Weavile,マニューラ,PROMO,M2,21,049/080,POKEMON,Stage1,n/a,n/a,90,DARKNESS,GRASS,,1,False,False,False,False,Sneasel,2,2,0,False,1189;1190
+827,Carvanha,キバニア,PFL,M2,60,050/080,POKEMON,Basic,n/a,n/a,70,DARKNESS,GRASS,,1,False,False,False,False,,1,1,0,False,1191
+828,Mega Sharpedo ex,メガサメハダーex,PFL,M2,61,051/080,POKEMON,Stage1,Mega Pokémon ex,n/a,330,DARKNESS,GRASS,,0,False,True,False,False,Carvanha,2,2,0,False,1192;1193
+829,Seviper,ハブネーク,PFL,M2,62,052/080,POKEMON,Basic,n/a,n/a,120,DARKNESS,FIGHTING,,1,False,False,False,False,,1,1,1,True,1194
+830,Sandile,メグロコ,PFL,M2,64,053/080,POKEMON,Basic,n/a,n/a,70,DARKNESS,GRASS,,2,False,False,False,False,,1,2,0,False,1195;1196
+831,Krokorok,ワルビル,PFL,M2,65,054/080,POKEMON,Stage1,n/a,n/a,100,DARKNESS,GRASS,,2,False,False,False,False,Sandile,2,2,0,False,1197;1198
+832,Krookodile,ワルビアル,PFL,M2,66,055/080,POKEMON,Stage2,n/a,n/a,170,DARKNESS,GRASS,,3,False,False,False,False,Krokorok,3,2,0,False,1199;1200
+833,Toxel,エレズン,PFL,M2,67,056/080,POKEMON,Basic,n/a,n/a,70,DARKNESS,FIGHTING,,1,False,False,False,False,,1,2,0,False,1201;1202
+834,Toxtricity,ストリンダー,PFL,M2,68,057/080,POKEMON,Stage1,n/a,n/a,140,DARKNESS,FIGHTING,,2,False,False,False,False,Toxel,2,1,1,True,1203
+835,Empoleon ex,エンペルトex,PFL,M2,70,058/080,POKEMON,Stage2,Pokémon ex,n/a,320,METAL,FIRE,GRASS,2,True,False,False,False,Prinplup,3,1,1,True,1204
+836,Bronzor,ドーミラー,PFL,M2,71,059/080,POKEMON,Basic,n/a,n/a,80,METAL,FIRE,GRASS,2,False,False,False,False,,1,2,0,False,1205;1206
+837,Bronzong,ドータクン,PFL,M2,72,060/080,POKEMON,Stage1,n/a,n/a,140,METAL,FIRE,GRASS,3,False,False,False,False,Bronzor,2,2,0,False,1207;1208
+838,Togedemaru,トゲデマル,PFL,M2,73,061/080,POKEMON,Basic,n/a,n/a,80,METAL,FIRE,GRASS,1,False,False,False,False,,1,2,0,False,1209;1210
+839,Duraludon,ジュラルドン,PFL,M2,74,062/080,POKEMON,Basic,n/a,n/a,130,METAL,FIRE,GRASS,2,False,False,False,False,,1,1,0,False,1211
+840,Archaludon,ブリジュラス,PFL,M2,75,063/080,POKEMON,Stage1,n/a,n/a,180,METAL,FIRE,GRASS,2,False,False,False,False,Duraludon,2,1,0,False,1212
+841,Jigglypuff,プリン,PFL,M2,76,064/080,POKEMON,Basic,n/a,n/a,70,COLORLESS,FIGHTING,,1,False,False,False,False,,1,1,0,False,1213
+842,Wigglytuff,プクリン,PFL,M2,77,065/080,POKEMON,Stage1,n/a,n/a,120,COLORLESS,FIGHTING,,2,False,False,False,False,Jigglypuff,2,2,0,False,1214;1215
+843,Aipom,エイパム,PFL,M2,78,066/080,POKEMON,Basic,n/a,n/a,70,COLORLESS,FIGHTING,,1,False,False,False,False,,1,1,0,False,1216
+844,Ambipom,エテボース,PFL,M2,79,067/080,POKEMON,Stage1,n/a,n/a,110,COLORLESS,FIGHTING,,1,False,False,False,False,Aipom,2,2,0,False,1217;1218
+845,Smeargle,ドーブル,PFL,M2,80,068/080,POKEMON,Basic,n/a,n/a,80,COLORLESS,FIGHTING,,1,False,False,False,False,,1,2,0,False,1219;1220
+846,Zigzagoon,ジグザグマ,PFL,M2,81,069/080,POKEMON,Basic,n/a,n/a,70,COLORLESS,FIGHTING,,1,False,False,False,False,,1,1,0,False,1221
+847,Linoone,マッスグマ,PFL,M2,82,070/080,POKEMON,Stage1,n/a,n/a,100,COLORLESS,FIGHTING,,1,False,False,False,False,Zigzagoon,2,1,1,True,1222
+848,Buneary,ミミロル,PFL,M2,83,071/080,POKEMON,Basic,n/a,n/a,70,COLORLESS,FIGHTING,,1,False,False,False,False,,1,2,0,False,1223;1224
+849,Mega Lopunny ex,メガミミロップex,PFL,M2,84,072/080,POKEMON,Stage1,Mega Pokémon ex,n/a,330,COLORLESS,FIGHTING,,1,False,True,False,False,Buneary,2,2,0,False,1225;1226
+850,Wurmple,ケムッソ,ASC,M2a,11,004/193,POKEMON,Basic,n/a,n/a,60,GRASS,FIRE,,1,False,False,False,False,,1,1,0,False,1227
+851,Silcoon,カラサリス,ASC,M2a,12,005/193,POKEMON,Stage1,n/a,n/a,90,GRASS,FIRE,,3,False,False,False,False,Wurmple,2,1,1,True,1228
+852,Beautifly,アゲハント,ASC,M2a,13,006/193,POKEMON,Stage2,n/a,n/a,130,GRASS,FIRE,,1,False,False,False,False,Silcoon,3,2,0,False,1229;1230
+853,Cascoon,マユルド,ASC,M2a,14,007/193,POKEMON,Stage1,n/a,n/a,90,GRASS,FIRE,,3,False,False,False,False,Wurmple,2,1,0,False,1231
+854,Dustox,ドクケイル,ASC,M2a,15,008/193,POKEMON,Stage2,n/a,n/a,140,GRASS,FIRE,,1,False,False,False,False,Cascoon,3,1,1,True,1232
+855,Entei,エンテイ,ASC,M2a,25,020/193,POKEMON,Basic,n/a,n/a,140,FIRE,WATER,,3,False,False,False,False,,1,1,0,False,1233
+856,Numel,ドンメル,ASC,M2a,27,022/193,POKEMON,Basic,n/a,n/a,80,FIRE,WATER,,3,False,False,False,False,,1,1,1,True,1234
+857,Camerupt,バクーダ,ASC,M2a,28,023/193,POKEMON,Stage1,n/a,n/a,140,FIRE,WATER,,3,False,False,False,False,Numel,2,2,0,False,1235;1236
+858,Psyduck,コダック,ASC,M2a,39,032/193,POKEMON,Basic,n/a,n/a,70,WATER,LIGHTNING,,1,False,False,False,False,,1,1,1,True,1237
+859,Golduck,ゴルダック,ASC,M2a,40,033/193,POKEMON,Stage1,n/a,n/a,120,WATER,LIGHTNING,,1,False,False,False,False,Psyduck,2,1,1,True,1238
+860,Snorunt,ユキワラシ,ASC,M2a,46,035/193,POKEMON,Basic,n/a,n/a,70,WATER,METAL,,1,False,False,False,False,,1,1,0,False,1239
+861,Mega Froslass ex,メガユキメノコex,ASC,M2a,47,036/193,POKEMON,Stage1,Mega Pokémon ex,n/a,310,WATER,METAL,,1,False,True,False,False,Snorunt,2,2,0,False,1240;1241
+862,N's Vanillite,Nのバニプッチ,ASC,M2a,49,037/193,POKEMON,Basic,n/a,Trainer's Pokémon(N),60,WATER,METAL,,1,False,False,False,False,,1,2,0,False,1242;1243
+863,N's Vanillish,Nのバニリッチ,ASC,M2a,50,038/193,POKEMON,Stage1,n/a,Trainer's Pokémon(N),100,WATER,METAL,,1,False,False,False,False,N's Vanillite,2,2,0,False,1244;1245
+864,N's Vanilluxe,Nのバイバニラ,ASC,M2a,51,039/193,POKEMON,Stage2,n/a,Trainer's Pokémon(N),150,WATER,METAL,,2,False,False,False,False,N's Vanillish,3,2,0,False,1246;1247
+865,Snom,ユキハミ,ASC,M2a,52,040/193,POKEMON,Basic,n/a,n/a,50,WATER,METAL,,1,False,False,False,False,,1,1,0,False,1248
+866,Frosmoth,モスノウ,ASC,M2a,53,041/193,POKEMON,Stage1,n/a,n/a,110,WATER,METAL,,2,False,False,False,False,Snom,2,1,1,True,1249
+867,Glastrier,ブリザポス,ASC,M2a,54,042/193,POKEMON,Basic,n/a,n/a,130,WATER,METAL,,2,False,False,False,False,,1,2,0,False,1250;1251
+868,Mega Eelektross ex,メガシビルドンex,ASC,M2a,61,049/193,POKEMON,Stage2,Mega Pokémon ex,n/a,350,LIGHTNING,FIGHTING,,2,False,True,False,False,Eelektrik,3,2,0,False,1252;1253
+869,Stunfisk,マッギョ,ASC,M2a,62,050/193,POKEMON,Basic,n/a,n/a,110,LIGHTNING,FIGHTING,,2,False,False,False,False,,1,1,0,False,1254
+870,Helioptile,エリキテル,ASC,M2a,63,052/193,POKEMON,Basic,n/a,n/a,70,LIGHTNING,FIGHTING,,1,False,False,False,False,,1,1,0,False,1255
+871,Heliolisk,エレザード,ASC,M2a,64,053/193,POKEMON,Stage1,n/a,n/a,120,LIGHTNING,FIGHTING,,1,False,False,False,False,Helioptile,2,1,1,True,1256
+872,Tapu Koko,カプ・コケコ,ASC,M2a,67,054/193,POKEMON,Basic,n/a,n/a,120,LIGHTNING,FIGHTING,,1,False,False,False,False,,1,2,0,False,1257;1258
+873,Team Rocket's Exeggcute,ロケット団のタマタマ,ASC,M2a,77,061/193,POKEMON,Basic,n/a,Trainer's Pokémon(Team Rocket),60,PSYCHIC,DARKNESS,FIGHTING,1,False,False,False,False,,1,1,0,False,1259
+874,Team Rocket's Exeggutor,ロケット団のナッシー,ASC,M2a,78,062/193,POKEMON,Stage1,n/a,Trainer's Pokémon(Team Rocket),140,PSYCHIC,DARKNESS,FIGHTING,3,False,False,False,False,Team Rocket's Exeggcute,2,2,0,False,1260;1261
+875,Misdreavus,ムウマ,ASC,M2a,85,067/193,POKEMON,Basic,n/a,n/a,60,PSYCHIC,DARKNESS,FIGHTING,1,False,False,False,False,,1,1,0,False,1262
+876,Mismagius,ムウマージ,ASC,M2a,86,068/193,POKEMON,Stage1,n/a,n/a,110,PSYCHIC,DARKNESS,FIGHTING,1,False,False,False,False,Misdreavus,2,1,0,False,1263
+877,Rotom,ロトム,ASC,M2a,92,076/193,POKEMON,Basic,n/a,n/a,60,PSYCHIC,DARKNESS,FIGHTING,1,False,False,False,False,,1,2,0,False,1264;1265
+878,Hop's Phantump,ホップのボクレー,ASC,M2a,95,077/193,POKEMON,Basic,n/a,Trainer's Pokémon(Hop),70,PSYCHIC,DARKNESS,FIGHTING,2,False,False,False,False,,1,1,0,False,1266
+879,Hop's Trevenant,ホップのオーロット,ASC,M2a,96,078/193,POKEMON,Stage1,n/a,Trainer's Pokémon(Hop),140,PSYCHIC,DARKNESS,FIGHTING,2,False,False,False,False,Hop's Phantump,2,2,0,False,1267;1268
+880,Spectrier,レイスポス,ASC,M2a,98,080/193,POKEMON,Basic,n/a,n/a,120,PSYCHIC,DARKNESS,FIGHTING,1,False,False,False,False,,1,2,0,False,1269;1270
+881,Team Rocket's Diglett,ロケット団のディグダ,ASC,M2a,100,082/193,POKEMON,Basic,n/a,Trainer's Pokémon(Team Rocket),60,FIGHTING,GRASS,,1,False,False,False,False,,1,1,0,False,1271
+882,Team Rocket's Dugtrio,ロケット団のダグトリオ,ASC,M2a,101,083/193,POKEMON,Stage1,n/a,Trainer's Pokémon(Team Rocket),100,FIGHTING,GRASS,,1,False,False,False,False,Team Rocket's Diglett,2,1,1,True,1272
+883,Meditite,アサナン,ASC,M2a,103,084/193,POKEMON,Basic,n/a,n/a,70,FIGHTING,PSYCHIC,,1,False,False,False,False,,1,2,0,False,1273;1274
+884,Medicham,チャーレム,ASC,M2a,104,085/193,POKEMON,Stage1,n/a,n/a,120,FIGHTING,PSYCHIC,,1,False,False,False,False,Meditite,2,1,0,False,1275
+885,Pancham,ヤンチャム,ASC,M2a,115,093/193,POKEMON,Basic,n/a,n/a,70,FIGHTING,PSYCHIC,,2,False,False,False,False,,1,1,0,False,1276
+886,Mega Hawlucha ex,メガルチャブルex,ASC,M2a,116,094/193,POKEMON,Basic,Mega Pokémon ex,n/a,250,FIGHTING,PSYCHIC,,1,False,True,False,False,,1,1,1,True,1277
+887,Rolycoly,タンドン,ASC,M2a,118,095/193,POKEMON,Basic,n/a,n/a,80,FIGHTING,GRASS,,3,False,False,False,False,,1,1,0,False,1278
+888,Carkol,トロッゴン,ASC,M2a,119,096/193,POKEMON,Stage1,n/a,n/a,110,FIGHTING,GRASS,,3,False,False,False,False,Rolycoly,2,2,0,False,1279;1280
+889,Coalossal,セキタンザン,ASC,M2a,120,097/193,POKEMON,Stage2,n/a,n/a,180,FIGHTING,GRASS,,4,False,False,False,False,Carkol,3,2,0,False,1281;1282
+890,Okidogi,イイネイヌ,ASC,M2a,122,098/193,POKEMON,Basic,n/a,n/a,140,FIGHTING,PSYCHIC,,3,False,False,False,False,,1,2,0,False,1283;1284
+891,Team Rocket's Honchkrow,ロケット団のドンカラス,ASC,M2a,127,103/193,POKEMON,Stage1,n/a,Trainer's Pokémon(Team Rocket),130,DARKNESS,LIGHTNING,FIGHTING,1,False,False,False,False,Team Rocket's Murkrow,2,2,0,False,1285;1286
+892,Galarian Zigzagoon,ガラル ジグザグマ,ASC,M2a,130,105/193,POKEMON,Basic,n/a,n/a,70,DARKNESS,GRASS,,1,False,False,False,False,,1,1,0,False,1287
+893,Galarian Linoone,ガラル マッスグマ,ASC,M2a,131,106/193,POKEMON,Stage1,n/a,n/a,90,DARKNESS,GRASS,,2,False,False,False,False,Galarian Zigzagoon,2,2,0,False,1288;1289
+894,Galarian Obstagoon,ガラル タチフサグマ,ASC,M2a,132,107/193,POKEMON,Stage2,n/a,n/a,170,DARKNESS,GRASS,,2,False,False,False,False,Galarian Linoone,3,2,0,False,1290;1291
+895,Scraggy,ズルッグ,ASC,M2a,134,109/193,POKEMON,Basic,n/a,n/a,80,DARKNESS,GRASS,,2,False,False,False,False,,1,1,0,False,1292
+896,Mega Scrafty ex,メガズルズキンex,ASC,M2a,135,110/193,POKEMON,Stage1,Mega Pokémon ex,n/a,330,DARKNESS,GRASS,,2,False,True,False,False,Scraggy,2,1,1,True,1293
+897,Pangoro,ゴロンダ,ASC,M2a,140,113/193,POKEMON,Stage1,n/a,n/a,140,DARKNESS,GRASS,,3,False,False,False,False,Pancham,2,2,0,False,1294;1295
+898,Pecharunt,モモワロウ,ASC,M2a,143,115/193,POKEMON,Basic,n/a,n/a,80,DARKNESS,FIGHTING,,1,False,False,False,False,,1,1,1,True,1296
+899,Pawniard,コマタナ,ASC,M2a,146,116/193,POKEMON,Basic,n/a,n/a,70,METAL,FIRE,GRASS,1,False,False,False,False,,1,1,0,False,1297
+900,Bisharp,キリキザン,ASC,M2a,147,117/193,POKEMON,Stage1,n/a,n/a,120,METAL,FIRE,GRASS,1,False,False,False,False,Pawniard,2,1,0,False,1298
+901,Kingambit,ドドゲザン,ASC,M2a,148,118/193,POKEMON,Stage2,n/a,n/a,170,METAL,FIRE,GRASS,3,False,False,False,False,Bisharp,3,1,1,True,1299
+902,Dratini,ミニリュウ,ASC,M2a,150,124/193,POKEMON,Basic,n/a,n/a,80,DRAGON,,,2,False,False,False,False,,1,1,0,False,1300
+903,Dragonair,ハクリュー,ASC,M2a,151,125/193,POKEMON,Stage1,n/a,n/a,100,DRAGON,,,2,False,False,False,False,Dratini,2,1,1,True,1301
+904,Mega Dragonite ex,メガカイリューex,ASC,M2a,152,126/193,POKEMON,Stage2,Mega Pokémon ex,n/a,370,DRAGON,,,2,False,True,False,False,Dragonair,3,1,1,True,1302
+905,Rayquaza,レックウザ,ASC,M2a,153,127/193,POKEMON,Basic,n/a,n/a,120,DRAGON,,,1,False,False,False,False,,1,2,0,False,1303;1304
+906,N's Zekrom,Nのゼクロム,ASC,M2a,155,129/193,POKEMON,Basic,n/a,Trainer's Pokémon(N),130,DRAGON,,,2,False,False,False,False,,1,2,0,False,1305;1306
+907,Noibat,オンバット,ASC,M2a,156,130/193,POKEMON,Basic,n/a,n/a,70,DRAGON,,,1,False,False,False,False,,1,2,0,False,1307;1308
+908,Noivern,オンバーン,ASC,M2a,157,131/193,POKEMON,Stage1,n/a,n/a,120,DRAGON,,,0,False,False,False,False,Noibat,2,2,0,False,1309;1310
+909,Erika's Oddish,エリカのナゾノクサ,ASC,MC,1,001/742,POKEMON,Basic,n/a,Trainer's Pokémon(Erika),60,GRASS,FIRE,,1,False,False,False,False,,1,1,0,False,1311
+910,Erika's Gloom,エリカのクサイハナ,ASC,MC,2,002/742,POKEMON,Stage1,n/a,Trainer's Pokémon(Erika),90,GRASS,FIRE,,1,False,False,False,False,Erika's Oddish,2,1,0,False,1312
+911,Erika's Vileplume ex,エリカのラフレシアex,ASC,MC,3,003/742,POKEMON,Stage2,Pokémon ex,Trainer's Pokémon(Erika),310,GRASS,FIRE,,2,True,False,False,False,Erika's Gloom,3,1,1,True,1313
+912,Erika's Bellsprout,エリカのマダツボミ,ASC,MC,4,006/742,POKEMON,Basic,n/a,Trainer's Pokémon(Erika),60,GRASS,FIRE,,1,False,False,False,False,,1,1,0,False,1314
+913,Erika's Weepinbell,エリカのウツドン,ASC,MC,5,007/742,POKEMON,Stage1,n/a,Trainer's Pokémon(Erika),90,GRASS,FIRE,,2,False,False,False,False,Erika's Bellsprout,2,2,0,False,1315;1316
+914,Erika's Victreebel,エリカのウツボット,ASC,MC,6,008/742,POKEMON,Stage2,n/a,Trainer's Pokémon(Erika),150,GRASS,FIRE,,3,False,False,False,False,Erika's Weepinbell,3,2,0,False,1317;1318
+915,Erika's Tangela,エリカのモンジャラ,ASC,MC,7,014/742,POKEMON,Basic,n/a,Trainer's Pokémon(Erika),80,GRASS,FIRE,,2,False,False,False,False,,1,1,1,True,1319
+916,Scyther,ストライク,,MC,1,015/742,POKEMON,Basic,n/a,n/a,90,GRASS,FIRE,,1,False,False,False,False,,1,2,0,False,1320;1321
+917,Chikorita,チコリータ,ASC,MC,8,016/742,POKEMON,Basic,n/a,n/a,70,GRASS,FIRE,,1,False,False,False,False,,1,2,0,False,1322;1323
+918,Bayleef,ベイリーフ,ASC,MC,9,017/742,POKEMON,Stage1,n/a,n/a,100,GRASS,FIRE,,2,False,False,False,False,Chikorita,2,1,0,False,1324
+919,Mega Meganium ex,メガメガニウムex,ASC,MC,10,018/742,POKEMON,Stage2,Mega Pokémon ex,n/a,360,GRASS,FIRE,,2,False,True,False,False,Bayleef,3,1,0,False,1325
+920,Tapu Bulu,カプ・ブルル,SFA,MC,6,061/742,POKEMON,Basic,n/a,n/a,140,GRASS,FIRE,,3,False,False,False,False,,1,1,0,False,1326
+921,Dipplin,カミッチュ,SCR,MC,13,063/742,POKEMON,Stage1,n/a,n/a,90,GRASS,FIRE,,3,False,False,False,False,Applin,2,1,0,False,1327
+922,Sprigatito,ニャオハ,JTG,MC,16,065/742,POKEMON,Basic,n/a,n/a,60,GRASS,FIRE,,1,False,False,False,False,,1,1,0,False,1328
+923,Floragato,ニャローテ,JTG,MC,17,066/742,POKEMON,Stage1,n/a,n/a,90,GRASS,FIRE,,1,False,False,False,False,Sprigatito,2,1,0,False,1329
+924,Meowscarada,マスカーニャ,JTG,MC,18,067/742,POKEMON,Stage2,n/a,n/a,160,GRASS,FIRE,,1,False,False,False,False,Floragato,3,1,1,True,1330
+925,Capsakid,カプサイジ,,MC,12,076/742,POKEMON,Basic,n/a,n/a,70,GRASS,FIRE,,1,False,False,False,False,,1,1,0,False,1331
+926,Charmander,ヒトカゲ,ASC,MC,20,083/742,POKEMON,Basic,n/a,n/a,80,FIRE,WATER,,1,False,False,False,False,,1,1,0,False,1332
+927,Charmeleon,リザード,ASC,MC,21,084/742,POKEMON,Stage1,n/a,n/a,100,FIRE,WATER,,1,False,False,False,False,Charmander,2,1,0,False,1333
+928,Mega Charizard Y ex,メガリザードンYex,ASC,MC,22,085/742,POKEMON,Stage2,Mega Pokémon ex,n/a,360,FIRE,WATER,,1,False,True,False,False,Charmeleon,3,1,0,False,1334
+929,Magmar,ブーバー,,MC,20,091/742,POKEMON,Basic,n/a,n/a,80,FIRE,WATER,,2,False,False,False,False,,1,1,0,False,1335
+930,Tepig,ポカブ,ASC,MC,29,109/742,POKEMON,Basic,n/a,n/a,80,FIRE,WATER,,2,False,False,False,False,,1,1,0,False,1336
+931,Pignite,チャオブー,ASC,MC,30,111/742,POKEMON,Stage1,n/a,n/a,110,FIRE,WATER,,3,False,False,False,False,Tepig,2,1,0,False,1337
+932,Mega Emboar ex,メガエンブオーex,ASC,MC,31,113/742,POKEMON,Stage2,Mega Pokémon ex,n/a,380,FIRE,WATER,,4,False,True,False,False,Pignite,3,1,0,False,1338
+933,Larvesta,メラルバ,SSP,MC,24,121/742,POKEMON,Basic,n/a,n/a,70,FIRE,WATER,,2,False,False,False,False,,1,2,0,False,1339;1340
+934,Centiskorch,マルヤクデ,SSP,MC,28,141/742,POKEMON,Stage1,n/a,n/a,130,FIRE,WATER,,2,False,False,False,False,Sizzlipede,2,2,0,False,1341;1342
+935,Fuecoco,ホゲータ,SSP,MC,29,142/742,POKEMON,Basic,n/a,n/a,80,FIRE,WATER,,2,False,False,False,False,,1,1,0,False,1343
+936,Crocalor,アチゲータ,SSP,MC,30,143/742,POKEMON,Stage1,n/a,n/a,110,FIRE,WATER,,3,False,False,False,False,Fuecoco,2,1,0,False,1344
+937,Totodile,ワニノコ,ASC,MC,41,165/742,POKEMON,Basic,n/a,n/a,80,WATER,LIGHTNING,,1,False,False,False,False,,1,1,0,False,1345
+938,Croconaw,アリゲイツ,ASC,MC,42,167/742,POKEMON,Stage1,n/a,n/a,100,WATER,LIGHTNING,,2,False,False,False,False,Totodile,2,1,0,False,1346
+939,Mega Feraligatr ex,メガオーダイルex,ASC,MC,43,169/742,POKEMON,Stage2,Mega Pokémon ex,n/a,370,WATER,LIGHTNING,,3,False,True,False,False,Croconaw,3,1,0,False,1347
+940,Glalie,オニゴーリ,TWM,MC,52,187/742,POKEMON,Stage1,n/a,n/a,120,WATER,METAL,,2,False,False,False,False,Snorunt,2,2,0,False,1348;1349
+941,Spheal,タマザラシ,SSP,MC,43,188/742,POKEMON,Basic,n/a,n/a,70,WATER,METAL,,2,False,False,False,False,,1,1,0,False,1350
+942,Sealeo,トドグラー,SSP,MC,44,189/742,POKEMON,Stage1,n/a,n/a,100,WATER,METAL,,3,False,False,False,False,Spheal,2,2,0,False,1351;1352
+943,Walrein,トドゼルガ,SSP,MC,45,190/742,POKEMON,Stage2,n/a,n/a,170,WATER,METAL,,3,False,False,False,False,Sealeo,3,2,0,False,1353;1354
+944,Regice ex,レジアイスex,ASC,MC,48,192/742,POKEMON,Basic,Pokémon ex,n/a,230,WATER,METAL,,3,True,False,False,False,,1,2,0,False,1355;1356
+945,Froakie,ケロマツ,SCR,MC,39,206/742,POKEMON,Basic,n/a,n/a,60,WATER,LIGHTNING,,1,False,False,False,False,,1,1,0,False,1357
+946,Cramorant,ウッウ,TWM,MC,58,210/742,POKEMON,Basic,n/a,n/a,110,WATER,LIGHTNING,,1,False,False,False,False,,1,2,0,False,1358;1359
+947,Quaxly,クワッス,,MC,50,211/742,POKEMON,Basic,n/a,n/a,60,WATER,LIGHTNING,,1,False,False,False,False,,1,1,0,False,1360
+948,Pikachu,ピカチュウ,ASC,MC,55,225/742,POKEMON,Basic,n/a,n/a,70,LIGHTNING,FIGHTING,,1,False,False,False,False,,1,2,0,False,1361;1362
+949,Raichu,ライチュウ,ASC,MC,56,226/742,POKEMON,Stage1,n/a,n/a,130,LIGHTNING,FIGHTING,,1,False,False,False,False,Pikachu,2,2,0,False,1363;1364
+950,Magnemite,コイル,SSP,MC,58,231/742,POKEMON,Basic,n/a,n/a,60,LIGHTNING,FIGHTING,,1,False,False,False,False,,1,1,0,False,1365
+951,Voltorb ex,ビリリダマex,ASC,MC,58,233/742,POKEMON,Basic,Pokémon ex,n/a,170,LIGHTNING,FIGHTING,,1,True,False,False,False,,1,1,0,False,1366
+952,Zapdos,サンダー,PROMO,MC,157,239/742,POKEMON,Basic,n/a,n/a,110,LIGHTNING,LIGHTNING,FIGHTING,1,False,False,False,False,,1,2,0,False,1367;1368
+953,Zapdos,サンダー,TWM,MC,65,240/742,POKEMON,Basic,n/a,n/a,120,LIGHTNING,LIGHTNING,FIGHTING,2,False,False,False,False,,1,2,0,False,1369;1370
+954,Luxray ex,レントラーex,TWM,MC,68,246/742,POKEMON,Stage2,Pokémon ex,n/a,310,LIGHTNING,FIGHTING,,1,True,False,False,False,Luxio,3,2,0,False,1371;1372
+955,Helioptile,エリキテル,TWM,MC,70,260/742,POKEMON,Basic,n/a,n/a,60,LIGHTNING,FIGHTING,,1,False,False,False,False,,1,2,0,False,1373;1374
+956,Zeraora,ゼラオラ,SCR,MC,55,267/742,POKEMON,Basic,n/a,n/a,120,LIGHTNING,FIGHTING,,1,False,False,False,False,,1,1,0,False,1375
+957,Miraidon ex,ミライドンex,ASC,MC,73,284/742,POKEMON,Basic,Pokémon ex,Tera(Lightning),220,LIGHTNING,FIGHTING,,1,True,False,True,False,,1,2,0,False,1376;1377
+958,Clefable,ピクシー,ASC,MC,75,286/742,POKEMON,Stage1,n/a,n/a,120,PSYCHIC,METAL,,2,False,False,False,False,Clefairy,2,2,0,False,1378;1379
+959,Togepi,トゲピー,ASC,MC,80,291/742,POKEMON,Basic,n/a,n/a,50,PSYCHIC,METAL,,1,False,False,False,False,,1,1,0,False,1380
+960,Togetic,トゲチック,ASC,MC,81,292/742,POKEMON,Stage1,n/a,n/a,90,PSYCHIC,METAL,,1,False,False,False,False,Togepi,2,1,0,False,1381
+961,Marill,マリル,ASC,MC,83,295/742,POKEMON,Basic,n/a,n/a,70,PSYCHIC,METAL,,1,False,False,False,False,,1,2,0,False,1382;1383
+962,Azumarill ex,マリルリex,ASC,MC,84,297/742,POKEMON,Stage1,Pokémon ex,n/a,270,PSYCHIC,METAL,,2,True,False,False,False,Marill,2,1,1,True,1384
+963,Shuppet,カゲボウズ,ASC,MC,90,307/742,POKEMON,Basic,n/a,n/a,60,PSYCHIC,DARKNESS,FIGHTING,1,False,False,False,False,,1,1,0,False,1385
+964,Beheeyem,オーベム,TEF,MC,74,327/742,POKEMON,Stage1,n/a,n/a,100,PSYCHIC,DARKNESS,FIGHTING,1,False,False,False,False,Elgyem,2,1,0,False,1386
+965,Swirlix,ペロッパフ,ASC,MC,93,333/742,POKEMON,Basic,n/a,n/a,60,PSYCHIC,METAL,,1,False,False,False,False,,1,1,0,False,1387
+966,Slurpuff,ペロリーム,ASC,MC,94,334/742,POKEMON,Stage1,n/a,n/a,120,PSYCHIC,METAL,,2,False,False,False,False,Swirlix,2,2,0,False,1388;1389
+967,Fidough,パピモッチ,SCR,MC,66,347/742,POKEMON,Basic,n/a,n/a,60,PSYCHIC,METAL,,2,False,False,False,False,,1,2,0,False,1390;1391
+968,Dachsbun ex,バウッツェルex,SCR,MC,67,348/742,POKEMON,Stage1,Pokémon ex,n/a,250,PSYCHIC,METAL,,2,True,False,False,False,Fidough,2,1,1,True,1392
+969,Scream Tail ex,サケブシッポex,TWM,MC,94,353/742,POKEMON,Basic,Pokémon ex,Ancient,190,PSYCHIC,DARKNESS,FIGHTING,1,True,False,False,False,,1,2,0,False,1393;1394
+970,Fezandipiti,キチキギス,TWM,MC,96,359/742,POKEMON,Basic,n/a,n/a,120,PSYCHIC,METAL,,1,False,False,False,False,,1,1,1,True,1395
+971,Iron Boulder,テツノイワオ,SCR,MC,71,360/742,POKEMON,Basic,n/a,Future,140,PSYCHIC,DARKNESS,FIGHTING,3,False,False,False,False,,1,1,0,False,1396
+972,Hitmontop,カポエラー,ASC,MC,102,367/742,POKEMON,Basic,n/a,n/a,100,FIGHTING,PSYCHIC,,1,False,False,False,False,,1,2,0,False,1397;1398
+973,Groudon,グラードン,ASC,MC,108,375/742,POKEMON,Basic,n/a,n/a,140,FIGHTING,GRASS,,3,False,False,False,False,,1,2,0,False,1399;1400
+974,Riolu,リオル,SCR,MC,81,379/742,POKEMON,Basic,n/a,n/a,70,FIGHTING,PSYCHIC,,1,False,False,False,False,,1,1,0,False,1401
+975,Stunfisk ex,マッギョex,ASC,MC,114,394/742,POKEMON,Basic,Pokémon ex,n/a,210,FIGHTING,GRASS,,2,True,False,False,False,,1,2,0,False,1402;1403
+976,Carbink,メレシー,ASC,MC,117,400/742,POKEMON,Basic,n/a,n/a,90,FIGHTING,GRASS,,1,False,False,False,False,,1,1,1,True,1404
+977,Crabrawler,マケンカニ,SCR,MC,87,401/742,POKEMON,Basic,n/a,n/a,90,FIGHTING,PSYCHIC,,3,False,False,False,False,,1,2,0,False,1405;1406
+978,Passimian,ナゲツケサル,SSP,MC,111,407/742,POKEMON,Basic,n/a,n/a,110,FIGHTING,PSYCHIC,,1,False,False,False,False,,1,1,0,False,1407
+979,Koraidon ex,コライドンex,ASC,MC,121,425/742,POKEMON,Basic,Pokémon ex,Tera(Fighting),230,FIGHTING,PSYCHIC,,2,True,False,True,False,,1,2,0,False,1408;1409
+980,Venipede,フシデ,TWM,MC,115,460/742,POKEMON,Basic,n/a,n/a,80,DARKNESS,FIGHTING,,3,False,False,False,False,,1,2,0,False,1410;1411
+981,Whirlipede,ホイーガ,TWM,MC,116,461/742,POKEMON,Stage1,n/a,n/a,100,DARKNESS,FIGHTING,,3,False,False,False,False,Venipede,2,2,0,False,1412;1413
+982,Scolipede,ペンドラー,TWM,MC,117,462/742,POKEMON,Stage2,n/a,n/a,170,DARKNESS,FIGHTING,,3,False,False,False,False,Whirlipede,3,2,0,False,1414;1415
+983,Vullaby,バルチャイ,ASC,MC,138,474/742,POKEMON,Basic,n/a,n/a,70,DARKNESS,LIGHTNING,FIGHTING,1,False,False,False,False,,1,1,0,False,1416
+984,Mandibuzz ex,バルジーナex,ASC,MC,139,475/742,POKEMON,Stage1,Pokémon ex,n/a,260,DARKNESS,LIGHTNING,FIGHTING,1,True,False,False,False,Vullaby,2,2,0,False,1417;1418
+985,Hoopa,フーパ,ASC,MC,141,482/742,POKEMON,Basic,n/a,n/a,120,DARKNESS,GRASS,,2,False,False,False,False,,1,2,0,False,1419;1420
+986,Brute Bonnet,アラブルタケ,TWM,MC,118,487/742,POKEMON,Basic,n/a,Ancient,120,DARKNESS,GRASS,,3,False,False,False,False,,1,2,0,False,1421;1422
+987,Mawile,クチート,ASC,MC,144,495/742,POKEMON,Basic,n/a,n/a,90,METAL,FIRE,GRASS,1,False,False,False,False,,1,2,0,False,1423;1424
+988,Registeel ex,レジスチルex,ASC,MC,145,499/742,POKEMON,Basic,Pokémon ex,n/a,230,METAL,FIRE,GRASS,3,True,False,False,False,,1,2,0,False,1425;1426
+989,Bronzor,ドーミラー,SSP,MC,126,500/742,POKEMON,Basic,n/a,n/a,60,METAL,FIRE,GRASS,1,False,False,False,False,,1,1,0,False,1427
+990,Togedemaru ex,トゲデマルex,ASC,MC,149,514/742,POKEMON,Basic,Pokémon ex,n/a,190,METAL,FIRE,GRASS,1,True,False,False,False,,1,2,0,False,1428;1429
+991,Melmetal,メルメタル,TEF,MC,117,518/742,POKEMON,Stage1,n/a,n/a,160,METAL,FIRE,GRASS,4,False,False,False,False,Meltan,2,2,0,False,1430;1431
+992,Duraludon,ジュラルドン,,MC,129,523/742,POKEMON,Basic,n/a,n/a,130,METAL,FIRE,GRASS,2,False,False,False,False,,1,2,0,False,1432;1433
+993,Orthworm ex,ミミズズex,SCR,MC,110,533/742,POKEMON,Basic,Pokémon ex,n/a,220,METAL,FIRE,GRASS,4,True,False,False,False,,1,1,1,True,1434
+994,Fraxure,オノンド,SFA,MC,45,542/742,POKEMON,Stage1,n/a,n/a,100,DRAGON,,,2,False,False,False,False,Axew,2,1,1,True,1435
+995,Haxorus,オノノクス,SFA,MC,46,543/742,POKEMON,Stage2,n/a,n/a,170,DRAGON,,,2,False,False,False,False,Fraxure,3,2,0,False,1436;1437
+996,Larry's Dunsparce,アオキのノコッチ,ASC,MC,163,576/742,POKEMON,Basic,n/a,Trainer's Pokémon(Larry),70,COLORLESS,FIGHTING,,0,False,False,False,False,,1,1,0,False,1438
+997,Larry's Dudunsparce ex,アオキのノココッチex,ASC,MC,164,577/742,POKEMON,Stage1,Pokémon ex,Trainer's Pokémon(Larry),270,COLORLESS,FIGHTING,,3,True,False,False,False,Larry's Dunsparce,2,1,0,False,1439
+998,Slakoth,ナマケロ,,MC,145,581/742,POKEMON,Basic,n/a,n/a,60,COLORLESS,FIGHTING,,2,False,False,False,False,,1,1,0,False,1440
+999,Vigoroth,ヤルキモノ,,MC,146,582/742,POKEMON,Stage1,n/a,n/a,90,COLORLESS,FIGHTING,,2,False,False,False,False,Slakoth,2,1,0,False,1441
+1000,Skitty,エネコ,ASC,MC,165,585/742,POKEMON,Basic,n/a,n/a,60,COLORLESS,FIGHTING,,1,False,False,False,False,,1,1,0,False,1442
+1001,Delcatty,エネコロロ,ASC,MC,166,586/742,POKEMON,Stage1,n/a,n/a,100,COLORLESS,FIGHTING,,1,False,False,False,False,Skitty,2,2,0,False,1443;1444
+1002,Zangoose ex,ザングースex,ASC,MC,167,588/742,POKEMON,Basic,Pokémon ex,n/a,200,COLORLESS,FIGHTING,,1,True,False,False,False,,1,2,0,False,1445;1446
+1003,Larry's Starly,アオキのムックル,ASC,MC,168,590/742,POKEMON,Basic,n/a,Trainer's Pokémon(Larry),60,COLORLESS,LIGHTNING,FIGHTING,1,False,False,False,False,,1,2,0,False,1447;1448
+1004,Larry's Staravia,アオキのムクバード,ASC,MC,169,591/742,POKEMON,Stage1,n/a,Trainer's Pokémon(Larry),90,COLORLESS,LIGHTNING,FIGHTING,1,False,False,False,False,Larry's Starly,2,2,0,False,1449;1450
+1005,Larry's Staraptor,アオキのムクホーク,ASC,MC,170,592/742,POKEMON,Stage2,n/a,Trainer's Pokémon(Larry),150,COLORLESS,LIGHTNING,FIGHTING,1,False,False,False,False,Larry's Staravia,3,2,0,False,1451;1452
+1006,Mega Audino ex,メガタブンネex,ASC,MC,172,602/742,POKEMON,Basic,Mega Pokémon ex,n/a,270,COLORLESS,FIGHTING,,1,False,True,False,False,,1,2,0,False,1453;1454
+1007,Larry's Rufflet,アオキのワシボン,ASC,MC,173,608/742,POKEMON,Basic,n/a,Trainer's Pokémon(Larry),70,COLORLESS,LIGHTNING,FIGHTING,1,False,False,False,False,,1,1,0,False,1455
+1008,Larry's Braviary,アオキのウォーグル,ASC,MC,174,609/742,POKEMON,Stage1,n/a,Trainer's Pokémon(Larry),130,COLORLESS,LIGHTNING,FIGHTING,1,False,False,False,False,Larry's Rufflet,2,2,0,False,1456;1457
+1009,Larry's Komala,アオキのネッコアラ,ASC,MC,175,619/742,POKEMON,Basic,n/a,Trainer's Pokémon(Larry),90,COLORLESS,FIGHTING,,2,False,False,False,False,,1,1,1,True,1458
+1010,Drampa,ジジーロン,ASC,MC,176,621/742,POKEMON,Basic,n/a,n/a,130,COLORLESS,FIGHTING,,2,False,False,False,False,,1,2,0,False,1459;1460
+1011,Spinarak,イトマル,POR,M3,1,001/080,POKEMON,Basic,n/a,n/a,60,GRASS,FIRE,,1,False,False,False,False,,1,1,0,False,1461
+1012,Ariados,アリアドス,POR,M3,2,002/080,POKEMON,Stage1,n/a,n/a,110,GRASS,FIRE,,1,False,False,False,False,Spinarak,2,1,0,False,1462
+1013,Shaymin,シェイミ,POR,M3,3,003/080,POKEMON,Basic,n/a,n/a,70,GRASS,FIRE,,0,False,False,False,False,,1,2,0,False,1463;1464
+1014,Snivy,ツタージャ,POR,M3,4,004/080,POKEMON,Basic,n/a,n/a,70,GRASS,FIRE,,1,False,False,False,False,,1,1,0,False,1465
+1015,Servine,ジャノビー,POR,M3,5,005/080,POKEMON,Stage1,n/a,n/a,100,GRASS,FIRE,,1,False,False,False,False,Snivy,2,1,0,False,1466
+1016,Serperior,ジャローダ,POR,M3,6,006/080,POKEMON,Stage2,n/a,n/a,160,GRASS,FIRE,,2,False,False,False,False,Servine,3,2,0,False,1467;1468
+1017,Scatterbug,コフキムシ,POR,M3,7,007/080,POKEMON,Basic,n/a,n/a,40,GRASS,FIRE,,1,False,False,False,False,,1,1,0,False,1469
+1018,Spewpa,コフーライ,POR,M3,8,008/080,POKEMON,Stage1,n/a,n/a,80,GRASS,FIRE,,3,False,False,False,False,Scatterbug,2,1,0,False,1470
+1019,Vivillon,ビビヨン,POR,M3,9,009/080,POKEMON,Stage2,n/a,n/a,120,GRASS,FIRE,,1,False,False,False,False,Spewpa,3,1,1,True,1471
+1020,Rowlet,モクロー,POR,M3,10,010/080,POKEMON,Basic,n/a,n/a,80,GRASS,FIRE,,2,False,False,False,False,,1,2,0,False,1472;1473
+1021,Dartrix,フクスロー,POR,M3,11,011/080,POKEMON,Stage1,n/a,n/a,100,GRASS,FIRE,,2,False,False,False,False,Rowlet,2,2,0,False,1474;1475
+1022,Decidueye ex,ジュナイパーex,POR,M3,12,012/080,POKEMON,Stage2,Pokémon ex,n/a,320,GRASS,FIRE,,2,True,False,False,False,Dartrix,3,1,1,True,1476
+1023,Fletchinder,ヒノヤコマ,POR,M3,13,013/080,POKEMON,Stage1,n/a,n/a,90,FIRE,LIGHTNING,FIGHTING,1,False,False,False,False,Fletchling,2,1,0,False,1477
+1024,Talonflame,ファイアロー,POR,M3,14,014/080,POKEMON,Stage2,n/a,n/a,150,FIRE,LIGHTNING,FIGHTING,1,False,False,False,False,Fletchinder,3,1,1,True,1478
+1025,Salandit,ヤトウモリ,POR,M3,15,015/080,POKEMON,Basic,n/a,n/a,70,FIRE,WATER,,1,False,False,False,False,,1,1,0,False,1479
+1026,Salazzle ex,エンニュートex,POR,M3,16,016/080,POKEMON,Stage1,Pokémon ex,n/a,260,FIRE,WATER,,1,True,False,False,False,Salandit,2,2,0,False,1480;1481
+1027,Turtonator,バクガメス,POR,M3,17,017/080,POKEMON,Basic,n/a,n/a,120,FIRE,WATER,,2,False,False,False,False,,1,1,1,True,1482
+1028,Seel,パウワウ,POR,M3,18,018/080,POKEMON,Basic,n/a,n/a,80,WATER,LIGHTNING,,2,False,False,False,False,,1,2,0,False,1483;1484
+1029,Dewgong,ジュゴン,POR,M3,19,019/080,POKEMON,Stage1,n/a,n/a,130,WATER,LIGHTNING,,2,False,False,False,False,Seel,2,1,1,True,1485
+1030,Staryu,ヒトデマン,POR,M3,20,020/080,POKEMON,Basic,n/a,n/a,70,WATER,LIGHTNING,,1,False,False,False,False,,1,1,0,False,1486
+1031,Mega Starmie ex,メガスターミーex,POR,M3,21,021/080,POKEMON,Stage1,Mega Pokémon ex,n/a,330,WATER,LIGHTNING,,2,False,True,False,False,Staryu,2,2,0,False,1487;1488
+1032,Amaura,アマルス,POR,M3,23,022/080,POKEMON,Stage1,n/a,n/a,100,WATER,METAL,,3,False,False,False,False,Antique Sail Fossil,2,1,0,False,1489
+1033,Aurorus,アマルルガ,POR,M3,24,023/080,POKEMON,Stage2,n/a,n/a,170,WATER,METAL,,3,False,False,False,False,Amaura,3,1,1,True,1490
+1034,Volcanion,ボルケニオン,POR,M3,25,024/080,POKEMON,Basic,n/a,n/a,130,WATER,LIGHTNING,,3,False,False,False,False,,1,2,0,False,1491;1492
+1035,Shinx,コリンク,POR,M3,26,025/080,POKEMON,Basic,n/a,n/a,70,LIGHTNING,FIGHTING,,1,False,False,False,False,,1,1,0,False,1493
+1036,Luxio,ルクシオ,POR,M3,27,026/080,POKEMON,Stage1,n/a,n/a,90,LIGHTNING,FIGHTING,,1,False,False,False,False,Shinx,2,1,1,True,1494
+1037,Luxray,レントラー,POR,M3,28,027/080,POKEMON,Stage2,n/a,n/a,150,LIGHTNING,FIGHTING,,0,False,False,False,False,Luxio,3,2,0,False,1495;1496
+1038,Dedenne,デデンネ,POR,M3,29,028/080,POKEMON,Basic,n/a,n/a,70,LIGHTNING,FIGHTING,,1,False,False,False,False,,1,2,0,False,1497;1498
+1039,Clefairy,ピッピ,POR,M3,30,029/080,POKEMON,Basic,n/a,n/a,70,PSYCHIC,METAL,,1,False,False,False,False,,1,2,0,False,1499;1500
+1040,Mega Clefable ex,メガピクシーex,POR,M3,31,030/080,POKEMON,Stage1,Mega Pokémon ex,n/a,320,PSYCHIC,METAL,,1,False,True,False,False,Clefairy,2,1,1,True,1501
+1041,Mawile,クチート,POR,M3,32,031/080,POKEMON,Basic,n/a,n/a,110,PSYCHIC,METAL,,2,False,False,False,False,,1,1,0,False,1502
+1042,Espurr,ニャスパー,POR,M3,33,032/080,POKEMON,Basic,n/a,n/a,60,PSYCHIC,DARKNESS,FIGHTING,1,False,False,False,False,,1,2,0,False,1503;1504
+1043,Meowstic,ニャオニクス,POR,M3,34,033/080,POKEMON,Stage1,n/a,n/a,100,PSYCHIC,DARKNESS,FIGHTING,1,False,False,False,False,Espurr,2,2,0,False,1505;1506
+1044,Spritzee,シュシュプ,POR,M3,35,034/080,POKEMON,Basic,n/a,n/a,70,PSYCHIC,METAL,,1,False,False,False,False,,1,2,0,False,1507;1508
+1045,Aromatisse,フレフワン,POR,M3,36,035/080,POKEMON,Stage1,n/a,n/a,120,PSYCHIC,METAL,,1,False,False,False,False,Spritzee,2,1,1,True,1509
+1046,Nosepass,ノズパス,POR,M3,37,036/080,POKEMON,Basic,n/a,n/a,90,FIGHTING,GRASS,,3,False,False,False,False,,1,1,0,False,1510
+1047,Probopass,ダイノーズ,POR,M3,38,037/080,POKEMON,Stage1,n/a,n/a,140,FIGHTING,GRASS,,3,False,False,False,False,Nosepass,2,2,0,False,1511;1512
+1048,Hippopotas,ヒポポタス,POR,M3,39,038/080,POKEMON,Basic,n/a,n/a,100,FIGHTING,GRASS,,4,False,False,False,False,,1,2,0,False,1513;1514
+1049,Hippowdon,カバルドン,POR,M3,40,039/080,POKEMON,Stage1,n/a,n/a,150,FIGHTING,GRASS,,4,False,False,False,False,Hippopotas,2,2,0,False,1515;1516
+1050,Landorus,ランドロス,POR,M3,41,040/080,POKEMON,Basic,n/a,n/a,120,FIGHTING,GRASS,,1,False,False,False,False,,1,2,0,False,1517;1518
+1051,Binacle,カメテテ,POR,M3,42,041/080,POKEMON,Basic,n/a,n/a,80,FIGHTING,GRASS,,2,False,False,False,False,,1,2,0,False,1519;1520
+1052,Barbaracle,ガメノデス,POR,M3,43,042/080,POKEMON,Stage1,n/a,n/a,130,FIGHTING,GRASS,,2,False,False,False,False,Binacle,2,1,1,True,1521
+1053,Tyrunt,チゴラス,POR,M3,44,043/080,POKEMON,Stage1,n/a,n/a,100,FIGHTING,GRASS,,3,False,False,False,False,Antique Jaw Fossil,2,1,0,False,1522
+1054,Tyrantrum,ガチゴラス,POR,M3,45,044/080,POKEMON,Stage2,n/a,n/a,180,FIGHTING,GRASS,,3,False,False,False,False,Tyrunt,3,1,1,True,1523
+1055,Hawlucha,ルチャブル,POR,M3,46,045/080,POKEMON,Basic,n/a,n/a,70,FIGHTING,PSYCHIC,,0,False,False,False,False,,1,1,0,False,1524
+1056,Mega Zygarde ex,メガジガルデex,POR,M3,47,046/080,POKEMON,Basic,Mega Pokémon ex,n/a,310,FIGHTING,GRASS,,2,False,True,False,False,,1,2,0,False,1525;1526
+1057,Gastly,ゴース,POR,M3,48,047/080,POKEMON,Basic,n/a,n/a,70,DARKNESS,FIGHTING,,1,False,False,False,False,,1,1,0,False,1527
+1058,Haunter,ゴースト,POR,M3,49,048/080,POKEMON,Stage1,n/a,n/a,100,DARKNESS,FIGHTING,,1,False,False,False,False,Gastly,2,1,0,False,1528
+1059,Gengar,ゲンガー,POR,M3,50,049/080,POKEMON,Stage2,n/a,n/a,130,DARKNESS,FIGHTING,,1,False,False,False,False,Haunter,3,1,1,True,1529
+1060,Skorupi,スコルピ,POR,M3,51,050/080,POKEMON,Basic,n/a,n/a,80,DARKNESS,FIGHTING,,2,False,False,False,False,,1,1,0,False,1530
+1061,Drapion,ドラピオン,POR,M3,52,051/080,POKEMON,Stage1,n/a,n/a,140,DARKNESS,FIGHTING,,3,False,False,False,False,Skorupi,2,2,0,False,1531;1532
+1062,Yveltal ex,イベルタルex,POR,M3,53,052/080,POKEMON,Basic,Pokémon ex,n/a,210,DARKNESS,LIGHTNING,FIGHTING,1,True,False,False,False,,1,2,0,False,1533;1534
+1063,Chien-Pao,パオジアン,POR,M3,54,053/080,POKEMON,Basic,n/a,n/a,120,DARKNESS,GRASS,,1,False,False,False,False,,1,2,0,False,1535;1536
+1064,Mega Skarmory ex,メガエアームドex,POR,M3,55,054/080,POKEMON,Basic,Mega Pokémon ex,n/a,260,METAL,LIGHTNING,FIGHTING,0,False,True,False,False,,1,1,0,False,1537
+1065,Honedge,ヒトツキ,POR,M3,56,055/080,POKEMON,Basic,n/a,n/a,70,METAL,FIRE,GRASS,2,False,False,False,False,,1,1,0,False,1538
+1066,Doublade,ニダンギル,POR,M3,57,056/080,POKEMON,Stage1,n/a,n/a,100,METAL,FIRE,GRASS,2,False,False,False,False,Honedge,2,1,0,False,1539
+1067,Aegislash,ギルガルド,POR,M3,58,057/080,POKEMON,Stage2,n/a,n/a,150,METAL,FIRE,GRASS,3,False,False,False,False,Doublade,3,2,0,False,1540;1541
+1068,Klefki,クレッフィ,POR,M3,59,058/080,POKEMON,Basic,n/a,n/a,70,METAL,FIRE,GRASS,1,False,False,False,False,,1,1,0,False,1542
+1069,Rattata,コラッタ,POR,M3,60,059/080,POKEMON,Basic,n/a,n/a,40,COLORLESS,FIGHTING,,1,False,False,False,False,,1,1,0,False,1543
+1070,Raticate,ラッタ,POR,M3,61,060/080,POKEMON,Stage1,n/a,n/a,90,COLORLESS,FIGHTING,,1,False,False,False,False,Rattata,2,2,0,False,1544;1545
+1071,Meowth ex,ニャースex,POR,M3,62,061/080,POKEMON,Basic,Pokémon ex,n/a,170,COLORLESS,FIGHTING,,1,True,False,False,False,,1,1,1,True,1546
+1072,Snorlax,カビゴン,POR,M3,63,062/080,POKEMON,Basic,n/a,n/a,160,COLORLESS,FIGHTING,,4,False,False,False,False,,1,2,0,False,1547;1548
+1073,Bunnelby,ホルビー,POR,M3,64,063/080,POKEMON,Basic,n/a,n/a,70,COLORLESS,FIGHTING,,1,False,False,False,False,,1,1,0,False,1549
+1074,Diggersby,ホルード,POR,M3,65,064/080,POKEMON,Stage1,n/a,n/a,150,COLORLESS,FIGHTING,,4,False,False,False,False,Bunnelby,2,2,0,False,1550;1551
+1075,Fletchling,ヤヤコマ,POR,M3,66,065/080,POKEMON,Basic,n/a,n/a,60,COLORLESS,LIGHTNING,FIGHTING,1,False,False,False,False,,1,2,0,False,1552;1553
+1076,Furfrou,トリミアン,POR,M3,67,066/080,POKEMON,Basic,n/a,n/a,90,COLORLESS,FIGHTING,,1,False,False,False,False,,1,2,0,False,1554;1555
+1077,Roto-Stick,ロトりぼう,PRE,PROMO,127,160/SV-P,ITEM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1078,Hole-Digging Shovel,あなあけスコップ,POR,PROMO,74,005/M-P,ITEM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1079,Rare Candy,ふしぎなアメ,SVI,MC,191,655/742,ITEM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1080,Unfair Stamp,アンフェアスタンプ,TWM,MC,165,633/742,ITEM,,ACE SPEC,n/a,,COLORLESS,,,0,False,False,False,True,,,0,1,True,
+1081,Enhanced Hammer,改造ハンマー,TWM,M2a,148,148/193,ITEM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1082,Hyper Aroma,ハイパーアロマ,TWM,MC,152,650/742,ITEM,,ACE SPEC,n/a,,COLORLESS,,,0,False,False,False,True,,,0,1,True,
+1083,Love Ball,ラブラブボール,,SV5a,156,058/066,ITEM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1084,Boxed Order,おとりよせボックス,TEF,SV5K,143,061/071,ITEM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1085,Awakening Drum,覚醒のドラム,TEF,MC,141,642/742,ITEM,,ACE SPEC,Ancient,,COLORLESS,,,0,False,False,False,True,,,0,1,True,
+1086,Buddy-Buddy Poffin,なかよしポフィン,TEF,MC,144,648/742,ITEM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1087,Hand Trimmer,ハンドトリマー,TEF,MC,150,653/742,ITEM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1088,Prime Catcher,プライムキャッチャー,TEF,MC,157,656/742,ITEM,,ACE SPEC,n/a,,COLORLESS,,,0,False,False,False,True,,,0,1,True,
+1089,Reboot Pod,リブートポッド,TEF,MC,158,671/742,ITEM,,ACE SPEC,Future,,COLORLESS,,,0,False,False,False,True,,,0,1,True,
+1090,Ogre’s Mask,鬼の仮面,TWM,MC,159,641/742,ITEM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1091,Accompanying Flute,おはやし笛,TWM,SV6,142,091/101,ITEM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1092,Secret Box,シークレットボックス,TWM,SV6,163,092/101,ITEM,,ACE SPEC,n/a,,COLORLESS,,,0,False,False,False,True,,,0,1,True,
+1093,Scoop Up Cyclone,ポケモン回収サイクロン,TWM,MC,162,664/742,ITEM,,ACE SPEC,n/a,,COLORLESS,,,0,False,False,False,True,,,0,1,True,
+1094,Bug Catching Set,むしとりセット,TWM,MC,143,667/742,ITEM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1095,Dangerous Laser,デンジャラス光線,SFA,MC,58,647/742,ITEM,,ACE SPEC,n/a,,COLORLESS,,,0,False,False,False,True,,,0,1,True,
+1096,Poké Vital A,ポケバイタルA,SFA,MC,62,661/742,ITEM,,ACE SPEC,n/a,,COLORLESS,,,0,False,False,False,True,,,0,1,True,
+1097,Night Stretcher,夜のタンカ,SFA,MC,61,670/742,ITEM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1098,Glass Trumpet,ガラスのラッパ,SCR,M2a,135,149/193,ITEM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1099,Antique Root Fossil,古びたねっこの化石,SCR,SV7,130,090/102,ITEM,Basic,n/a,Fossil,60,COLORLESS,,,0,False,False,False,False,,1,0,2,True,
+1100,Energy Search Pro,エネルギー転送PRO,SSP,SV7a,176,052/064,ITEM,,ACE SPEC,n/a,,COLORLESS,,,0,False,False,False,True,,,0,1,True,
+1101,Call Bell,おたすけベル,SSP,SV7a,165,053/064,ITEM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1102,Dusk Ball,ダークボール,SSP,SV7a,175,054/064,ITEM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1103,Meddling Memo,ぼうがいレター,SSP,SV7a,181,055/064,ITEM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1104,Megaton Blower,メガトンブロアー,SSP,SV7a,182,056/064,ITEM,,ACE SPEC,n/a,,COLORLESS,,,0,False,False,False,True,,,0,1,True,
+1105,Dragon Elixir,竜の秘薬,SSP,MC,172,672/742,ITEM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1106,Deduction Kit,推理セット,SSP,MC,171,645/742,ITEM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1107,Scramble Switch,スクランブルスイッチ,SSP,MC,186,646/742,ITEM,,ACE SPEC,n/a,,COLORLESS,,,0,False,False,False,True,,,0,1,True,
+1108,Chill Teaser Toy,のんびりじゃらし,SSP,MC,166,649/742,ITEM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1109,Miracle Headset,ミラクルインカム,SSP,SV8,183,097/106,ITEM,,ACE SPEC,n/a,,COLORLESS,,,0,False,False,False,True,,,0,1,True,
+1110,Max Rod,つりざおMAX,PRE,SV8a,116,142/187,ITEM,,ACE SPEC,n/a,,COLORLESS,,,0,False,False,False,True,,,0,1,True,
+1111,Treasure Tracker,トレジャーガジェット,PRE,SV8a,131,146/187,ITEM,,ACE SPEC,n/a,,COLORLESS,,,0,False,False,False,True,,,0,1,True,
+1112,Super Potion,いいきずぐすり,JTG,MC,158,634/742,ITEM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1113,N’s PP Up,Nのポイントアップ,JTG,MC,153,635/742,ITEM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1114,Redeemable Ticket,とりかえチケット,JTG,SV9,156,090/100,ITEM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1115,Hop’s Bag,ホップのバッグ,JTG,MC,147,666/742,ITEM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1116,Energy Switch,エネルギーつけかえ,SVI,MC,173,638/742,ITEM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1117,Potion,きずぐすり,SVI,MC,188,643/742,ITEM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1118,Energy Retrieval,エネルギー回収,SVI,MC,171,636/742,ITEM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1119,Energy Search,エネルギー転送,SVI,MC,172,639/742,ITEM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1120,Crushing Hammer,クラッシュハンマー,SVI,MC,168,644/742,ITEM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1121,Ultra Ball,ハイパーボール,SVI,MC,196,651/742,ITEM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1122,Pokégear 3.0,ポケギア3.0,SVI,MC,186,660/742,ITEM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1123,Switch,ポケモンいれかえ,SVI,MC,194,663/742,ITEM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1124,Pokémon Catcher,ポケモンキャッチャー,SVI,MC,187,665/742,ITEM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1125,Master Ball,マスターボール,TEF,SVHM,153,032/053,ITEM,,ACE SPEC,n/a,,COLORLESS,,,0,False,False,False,True,,,0,1,True,
+1126,Precious Trolley,プレシャスキャリー,SSP,MC,185,658/742,ITEM,,ACE SPEC,n/a,,COLORLESS,,,0,False,False,False,True,,,0,1,True,
+1127,Tera Orb,テラスタルオーブ,SSP,M2a,189,152/193,ITEM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1128,Brilliant Blender,パーフェクトミキサー,SSP,SVLS,164,014/022,ITEM,,ACE SPEC,n/a,,COLORLESS,,,0,False,False,False,True,,,0,1,True,
+1129,Sacred Ash,せいなるはい,DRI,M2a,168,150/193,ITEM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1130,Arven's Sandwich,ペパーのサンドウィッチ,DRI,MC,161,659/742,ITEM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1131,Team Rocket's Bother-Bot,ロケット団のおじゃまロボ,DRI,SV10,172,087/098,ITEM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1132,Team Rocket's Great Ball,ロケット団のスーパーボール,DRI,MC,175,673/742,ITEM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1133,Team Rocket's Venture Bomb,ロケット団のびっくりボム,DRI,MC,179,674/742,ITEM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1134,Team Rocket's Transceiver,ロケット団のレシーバー,DRI,MC,178,675/742,ITEM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1135,Energy Coin,エネルギーコイン,BLK,MC,81,637/742,ITEM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1136,Antique Cover Fossil,古びたふたの化石,BLK,SV11B,80,080/086,ITEM,Basic,n/a,Fossil,60,COLORLESS,,,0,False,False,False,False,,1,0,2,True,
+1137,Tool Scrapper,ツールスクラッパー,WHT,MA,85,017/043,ITEM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1138,Antique Plume Fossil,古びたはねの化石,WHT,MC,79,657/742,ITEM,Basic,n/a,Fossil,60,COLORLESS,,,0,False,False,False,False,,1,0,2,True,
+1139,Energy Recycler,エネルギーリサイクル,DRI,MC,164,640/742,ITEM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1140,Iron Defender,アイアンディフェンダー,MEG,MC,118,631/742,ITEM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1141,Premium Power Pro,パワープロテイン,MEG,MC,124,652/742,ITEM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1142,Fighting Gong,ファイトゴング,MEG,MC,116,654/742,ITEM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1143,Repel,むしよけスプレー,MEG,MC,126,668/742,ITEM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1144,Strange Timepiece,あやしい時計,MEG,MC,128,632/742,ITEM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1145,Mega Signal,メガシグナル,MEG,MBG,121,015/021,ITEM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1146,Wondrous Patch,ワンダーパッチ,PFL,MBD,94,015/021,ITEM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1147,Jumbo Ice Cream,ジャンボアイス,PFL,M2,91,073/080,ITEM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1148,Blowtorch,ヒートバーナー,PFL,M2,86,074/080,ITEM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1149,Energy Swatter,エネはたき,POR,M3,73,067/080,ITEM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1150,Antique Jaw Fossil,古びたアゴの化石,POR,M3,68,068/080,ITEM,Basic,n/a,Fossil,60,COLORLESS,,,0,False,False,False,False,,1,0,2,True,
+1151,Antique Sail Fossil,古びたヒレの化石,POR,M3,69,069/080,ITEM,Basic,n/a,Fossil,60,COLORLESS,,,0,False,False,False,False,,1,0,2,True,
+1152,Poké Pad,ポケパッド,POR,M3,81,070/080,ITEM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1153,Lumiose Galette,ミアレガレット,POR,M3,78,071/080,ITEM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1154,Team Rocket’s Hypnotizer,ロケット団のさいみん装置,ASC,PROMO,206,267/SV-P,TOOL,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1155,Survival Brace,サバイブギプス,TWM,SV5a,164,059/066,TOOL,,ACE SPEC,n/a,,COLORLESS,,,0,False,False,False,True,,,0,1,True,
+1156,Lucky Helmet,ラッキーメット,TWM,SV5a,158,060/066,TOOL,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1157,Rescue Board,緊急ボード,TEF,SVN,159,026/045,TOOL,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1158,Maximum Belt,マキシマムベルト,TEF,MC,154,691/742,TOOL,,ACE SPEC,n/a,,COLORLESS,,,0,False,False,False,True,,,0,1,True,
+1159,Hero’s Cape,ヒーローマント,TEF,MC,152,687/742,TOOL,,ACE SPEC,n/a,,COLORLESS,,,0,False,False,False,True,,,0,1,True,
+1160,Heavy Baton,ヘビーバトン,TEF,SV5M,151,066/071,TOOL,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1161,Handheld Fan,ハンディサーキュレーター,TWM,SV6,150,095/101,TOOL,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1162,Binding Mochi,くさりもち,SFA,MC,55,681/742,TOOL,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1163,Powerglass,力の砂時計,SFA,MC,63,683/742,TOOL,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1164,Payapa Berry,ウタンのみ,SCR,MC,141,677/742,TOOL,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1165,Sparkling Crystal,きらめく結晶,SCR,MC,142,680/742,TOOL,,ACE SPEC,n/a,,COLORLESS,,,0,False,False,False,True,,,0,1,True,
+1166,Gravity Gemstone,重力玉,SCR,SV7,137,095/102,TOOL,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1167,Deluxe Bomb,デラックスボム,SCR,MC,134,684/742,TOOL,,ACE SPEC,n/a,,COLORLESS,,,0,False,False,False,True,,,0,1,True,
+1168,Counter Gain,カウンターゲイン,SSP,MC,169,679/742,TOOL,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1169,Amulet of Hope,希望のアミュレット,SSP,SV8,162,098/106,TOOL,,ACE SPEC,n/a,,COLORLESS,,,0,False,False,False,True,,,0,1,True,
+1170,Haban Berry,ハバンのみ,PRE,MC,111,686/742,TOOL,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1171,Hop’s Choice Band,ホップのこだわりハチマキ,JTG,MC,148,690/742,TOOL,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1172,Lillie’s Pearl,リーリエのしんじゅ,JTG,MC,151,692/742,TOOL,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1173,Cynthia's Power Weight,シロナのパワーウエイト,DRI,MC,162,682/742,TOOL,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1174,Air Balloon,ふうせん,BLK,MC,79,688/742,TOOL,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1175,Brave Bangle,ブレイブバングル,WHT,MC,80,689/742,TOOL,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1176,Punk Helmet,パンクメット,PFL,MBG,92,017/021,TOOL,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1177,Sacred Charm,せいなるおまもり,PFL,M2,93,075/080,TOOL,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1178,Light Ball,でんきだま,ASC,M2a,191,163/193,TOOL,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1179,Thick Scale,ぶあついうろこ,ASC,M2a,211,164/193,TOOL,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1180,Core Memory,コアメモリ,POR,M3,70,072/080,TOOL,,n/a,Technical Machine,,COLORLESS,,,0,False,False,False,False,,,1,1,True,1556
+1181,Billy & O'Nare,ビリオとネア,JTG,PROMO,142,170/SV-P,SUPPORTER,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1182,Boss’s Orders,ボスの指令,PAL,MC,172,724/742,SUPPORTER,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1183,Perrin,サザレ,TWM,MC,160,709/742,SUPPORTER,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1184,Lana’s Aid,スイレンのお世話,TWM,MC,155,712/742,SUPPORTER,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1185,Explorer’s Guidance,探検家の先導,TEF,MC,147,717/742,SUPPORTER,,n/a,Ancient,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1186,Eri,ビワ,TEF,SV5K,146,068/071,SUPPORTER,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1187,Morty’s Conviction,マツバの確信,TEF,MC,155,727/742,SUPPORTER,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1188,Ciphermaniac’s Codebreaking,暗号マニアの解読,TEF,MC,145,698/742,SUPPORTER,,n/a,Future,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1189,Salvatore,セイジ,TEF,MC,160,714/742,SUPPORTER,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1190,Bianca’s Devotion,ベルのまごころ,TEF,MC,142,723/742,SUPPORTER,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1191,Kieran,スグリ,TWM,MC,154,713/742,SUPPORTER,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1192,Carmine,ゼイユ,TWM,MC,145,715/742,SUPPORTER,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1193,Hassel,ハッサク,TWM,MC,151,721/742,SUPPORTER,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1194,Colress’s Tenacity,アクロマの執念,SFA,SV8a,57,164/187,SUPPORTER,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1195,Janine’s Secret Art,アンズの秘技,SFA,MC,59,699/742,SUPPORTER,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1196,Cassiopeia,カシオペア,SFA,SV6a,56,061/064,SUPPORTER,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1197,Xerosic’s Machinations,クセロシキのたくらみ,SFA,MC,64,705/742,SUPPORTER,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1198,Crispin,アカマツ,SCR,MC,133,696/742,SUPPORTER,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1199,Lacey,タロ,SCR,MC,139,716/742,SUPPORTER,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1200,Kofu,ハイダイ,SCR,MC,138,720/742,SUPPORTER,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1201,Briar,ブライア,SCR,MC,132,722/742,SUPPORTER,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1202,Drayton,カキツバタ,SSP,MC,174,703/742,SUPPORTER,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1203,Surfer,サーファー,SSP,MC,187,708/742,SUPPORTER,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1204,Lisia’s Appeal,ルチアのアピール,SSP,MC,179,730/742,SUPPORTER,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1205,Cyrano,シアノ,SSP,SV8,170,102/106,SUPPORTER,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1206,Larry’s Skill,アオキの手際,PRE,MC,115,695/742,SUPPORTER,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1207,Amarys,ネリネ,PRE,SV8a,93,173/187,SUPPORTER,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1208,Iris’s Fighting Spirit,アイリスの闘志,JTG,MC,149,694/742,SUPPORTER,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1209,Ruffian,怖いお兄さん,JTG,SV9,157,095/100,SUPPORTER,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1210,Brock’s Scouting,タケシのスカウト,JTG,SV9,146,096/100,SUPPORTER,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1211,Black Belt’s Training,からておうの稽古,PRE,MC,96,704/742,SUPPORTER,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1212,Cook,コック,TWM,MC,147,706/742,SUPPORTER,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1213,Judge,ジャッジマン,SVI,MC,176,711/742,SUPPORTER,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1214,Emcee's Hype,MCの盛り上げ,DRI,SV9a,163,061/063,SUPPORTER,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1215,Ethan's Adventure,ヒビキの冒険,DRI,M2a,165,174/193,SUPPORTER,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1216,Team Rocket's Ariana,ロケット団のアテナ,DRI,MC,171,731/742,SUPPORTER,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1217,Team Rocket's Archer,ロケット団のアポロ,DRI,MC,170,732/742,SUPPORTER,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1218,Team Rocket's Giovanni,ロケット団のサカキ,DRI,MC,174,733/742,SUPPORTER,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1219,Team Rocket's Petrel,ロケット団のラムダ,DRI,MC,176,734/742,SUPPORTER,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1220,Team Rocket's Proton,ロケット団のランス,DRI,MC,177,735/742,SUPPORTER,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1221,N's Plan,Nの筋書き,BLK,MC,83,701/742,SUPPORTER,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1222,Fennel,マコモ,BLK,MC,82,725/742,SUPPORTER,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1223,Harlequin,クラウン,WHT,SV11W,83,083/086,SUPPORTER,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1224,Cheren,チェレン,WHT,SV11W,81,084/086,SUPPORTER,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1225,Hilda,トウコ,WHT,MC,84,718/742,SUPPORTER,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1226,Lt. Surge's Bargain,マチスの取引,MEG,MC,120,726/742,SUPPORTER,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1227,Lillie's Determination,リーリエの決心,MEG,MC,119,729/742,SUPPORTER,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1228,Acerola's Mischief,アセロラのいたずら,MEG,MC,113,697/742,SUPPORTER,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1229,Wally's Compassion,ミツルの思いやり,MEG,MA,132,040/043,SUPPORTER,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1230,Grimsley's Move,ギーマの一手,PFL,M2,90,076/080,SUPPORTER,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1231,Dawn,ヒカリ,PFL,M2,87,077/080,SUPPORTER,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1232,Firebreather,ひふきやろう,PFL,M2,89,078/080,SUPPORTER,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1233,Canari,カナリィ,ASC,M2a,185,170/193,SUPPORTER,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1234,Anthea & Concordia,バーベナとヘレナ,ASC,M2a,182,173/193,SUPPORTER,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1235,Waitress,ウエートレス,ASC,MC,215,700/742,SUPPORTER,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1236,Urbain,ガイ,ASC,MC,214,702/742,SUPPORTER,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1237,Lucian,ゴヨウ,TWM,MC,157,707/742,SUPPORTER,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1238,Tarragon,タラゴン,POR,M3,85,073/080,SUPPORTER,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1239,Naveen,ピュール,POR,M3,79,074/080,SUPPORTER,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1240,Rosa's Encouragement,メイのはげまし,POR,M3,84,075/080,SUPPORTER,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1241,Jacinthe,ユカリ,POR,M3,75,076/080,SUPPORTER,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1242,Community Center,公民館,TWM,SV5a,146,065/066,STADIUM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1243,Perilous Jungle,危険な密林,TEF,SV5K,156,070/071,STADIUM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1244,Full Metal Lab,フルメタルラボ,TEF,SV5M,148,070/071,STADIUM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1245,Festival Grounds,お祭り会場,TWM,SV8a,149,180/187,STADIUM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1246,Jamming Tower,ジャミングタワー,TWM,SVN,153,039/045,STADIUM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1247,Neutralization Zone,ニュートラルセンター,SFA,SV8a,60,184/187,STADIUM,,ACE SPEC,n/a,,COLORLESS,,,0,False,False,False,True,,,0,1,True,
+1248,Academy at Night,夜のアカデミー,SFA,SV6a,54,064/064,STADIUM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1249,Grand Tree,偉大な大樹,SCR,SV7,136,101/102,STADIUM,,ACE SPEC,n/a,,COLORLESS,,,0,False,False,False,True,,,0,1,True,
+1250,Area Zero Underdepths,ゼロの大空洞,SCR,M2a,131,184/193,STADIUM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1251,Lively Stadium,エキサイトスタジアム,SSP,PROMO,180,251/SV-P,STADIUM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1252,Gravity Mountain,グラビティーマウンテン,SSP,M2a,177,183/193,STADIUM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1253,N’s Castle,Nの城,JTG,M2a,152,181/193,STADIUM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1254,Levincia,ハッコウシティ,JTG,M2a,150,185/193,STADIUM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1255,Postwick,ハロンタウン,JTG,M2a,154,186/193,STADIUM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1256,Team Rocket's Watchtower,ロケット団の監視塔,DRI,M2a,180,189/193,STADIUM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1257,Team Rocket's Factory,ロケット団のファクトリー,DRI,M2a,173,190/193,STADIUM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1258,Granite Cave,いしのどうくつ,DRI,SVOD,166,018/018,STADIUM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1259,Spikemuth Gym,スパイクタウンジム,DRI,SVOM,169,019/019,STADIUM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1260,Risky Ruins,危ない廃墟,MEG,M1L,127,063/063,STADIUM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1261,Forest of Vitality,活力の森,MEG,M2a,117,182/193,STADIUM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1262,Surfing Beach,なみのりビーチ,MEG,M1S,129,062/063,STADIUM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1263,Mystery Garden,ミステリーガーデン,MEG,MBD,122,021/021,STADIUM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1264,Battle Cage,バトルコロシアム,PFL,M2,85,079/080,STADIUM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1265,Dizzying Valley,めまいの谷,PFL,M2,88,080/080,STADIUM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1266,Nighttime Mine,夜の鉱山,ASC,M2a,197,188/193,STADIUM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,
+1267,Lumiose City,ミアレシティ,POR,M3,77,077/080,STADIUM,,n/a,n/a,,COLORLESS,,,0,False,False,False,False,,,0,1,True,

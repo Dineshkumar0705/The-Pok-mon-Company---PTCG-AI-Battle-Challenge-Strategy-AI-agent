@@ -1,0 +1,507 @@
+card_id,card_name,ability_name,ability_text
+9,Boomerang Energy,Boomerang Energy,"As long as this card is attached to a Pokémon, it provides {C} Energy.
+
+If this card is discarded by an effect of an attack used by the Pokémon this card is attached to, attach this card from your discard pile to that Pokémon after attacking."
+10,Neo Upper Energy,Neo Upper Energy,"As long as this card is attached to a Pokémon, it provides {C} Energy.
+
+If this card is attached to a Stage 2 Pokémon, this card provides every type of Energy but provides only 2 Energy at a time."
+11,Mist Energy,Mist Energy,"As long as this card is attached to a Pokémon, it provides {C} Energy.
+
+Prevent all effects of attacks used by your opponent’s Pokémon done to the Pokémon this card is attached to. (Existing effects are not removed. Damage is not an effect.)"
+12,Legacy Energy,Legacy Energy,"As long as this card is attached to a Pokémon, it provides every type of Energy but provides only 1 Energy at a time.
+
+If the Pokémon this card is attached to is Knocked Out by damage from an attack from your opponent’s Pokémon, that player takes 1 fewer Prize card. This effect of your Legacy Energy only works once per game."
+13,Enriching Energy,Enriching Energy,"As long as this card is attached to a Pokémon, it provides {C} Energy.
+
+When you attach this card from your hand to a Pokémon, draw 4 cards."
+14,Spiky Energy,Spiky Energy,"As long as this card is attached to a Pokémon, it provides {C} Energy.
+
+If the Pokémon this card is attached to is in the Active Spot and is damaged by an attack from your opponent’s Pokémon (even if this Pokémon is Knocked Out), put 2 damage counters on the Attacking Pokémon."
+15,Team Rocket's Energy,Team Rocket's Energy,"This card can only be attached to a Team Rocket’s Pokémon. If this card is attached to anything other than a Team Rocket’s Pokémon, discard this card.
+
+As long as this card is attached to a Pokémon, it provides 2 in any combination of {P} Energy and {D} Energy."
+16,Prism Energy,Prism Energy,"As long as this card is attached to a Pokémon, it provides {C} Energy.
+
+If this card is attached to a Basic Pokémon, this card provides every type of Energy but provides only 1 Energy at a time."
+17,Ignition Energy,Ignition Energy,"If this card is attached to 1 of your Pokémon, discard it at the end of your turn.
+
+As long as this card is attached to a Pokémon, it provides {C} Energy.
+
+If this card is attached to an Evolution Pokémon, it provides {C}{C}{C} Energy instead."
+18,Grow Grass Energy,Grow Grass Energy,"As long as this card is attached to a Pokémon, it provides {G} Energy.
+The {G} Pokémon this card is attached to gets +20 HP."
+19,Telepath Psychic Energy,Telepath Psychic Energy,"As long as this card is attached to a Pokémon, it provides {P} Energy.
+When you attach this card from your hand to a {P} Pokémon, search your deck for up to 2 Basic {P} Pokémon and put them onto your Bench. Then, shuffle your deck."
+20,Rock Fighting Energy,Rock Fighting Energy,"As long as this card is attached to a Pokémon, it provides {F} Energy.
+Prevent all effects of attacks used by your opponent’s Pokémon done to the {F} Pokémon this card is attached to. (Existing effects are not removed. Damage is not an effect.)"
+28,Poltchageist,Storehouse Hideaway,"As long as this Pokémon is on your Bench, prevent all damage from and effects of attacks from your opponent’s Pokémon done to this Pokémon."
+36,Morpeko,Snack Seek,"Once during your turn, you may look at the top card of your deck. You may discard that card."
+37,Iron Thorns ex,Initialization,"As long as this Pokémon is in the Active Spot, Pokémon with a Rule Box in play (both yours and your opponent’s) have no Abilities, except for Future Pokémon. (Pokémon {ex}, Pokémon {V}, etc. have Rule Boxes.)"
+44,Bloodmoon Ursaluna ex,Seasoned Skill,Blood Moon used by this Pokémon costs {C} less for each Prize card your opponent has taken.
+49,Feraligatr,Torrential Heart,"Once during your turn, you may put 5 damage counters on this Pokémon. If you do, during this turn, attacks used by this Pokémon do 120 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance)."
+56,Flutter Mane,Midnight Fluttering,"As long as this Pokémon is in the Active Spot, your opponent’s Active Pokémon has no Abilities, except for Midnight Fluttering."
+57,Relicanth,Memory Dive,Each of your evolved Pokémon can use any attack from its previous Evolutions. (You still need the necessary Energy to use each attack.)
+66,Dudunsparce,Run Away Draw,"Once during your turn, you may draw 3 cards. If you drew any cards in this way, shuffle this Pokémon and all attached cards into your deck."
+72,Sawsbuck, Changing Seasons,"Once during your turn, you may search your deck for a Stadium card, reveal it, and put it into your hand. Then, shuffle your deck."
+74,Rabsca,Spherical Shield,Prevent all damage from and effects of attacks from your opponent’s Pokémon done to your Benched Pokémon.
+75,Iron Leaves ex,Rapid Vernier,"When you play this Pokémon from your hand onto your Bench during your turn, you may switch it with your Active Pokémon. If you do, you may move any amount of Energy from your other Pokémon to this Pokémon."
+79,Incineroar ex,Hustle Play,Attacks used by this Pokémon cost {C} less for each of your opponent’s Benched Pokémon.
+80,Iron Crown ex,Cobalt Command,"Attacks used by your Future Pokémon, except any Iron Crown {ex}, do 20 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance)."
+81,Drilbur,Dig Dig Dig,"When you play this Pokémon from your hand onto your Bench during your turn, you may search your deck for up to 3 Basic {F} Energy cards and discard them. Then, shuffle your deck."
+83,Farigiraf ex,Armor Tail,Prevent all damage done to this Pokémon by attacks from your opponent’s Basic Pokémon {ex}.
+86,Metang,Metal Maker,"Once during your turn, you may look at the top 4 cards of your deck and attach any number of Basic {M} Energy cards you find there to your Pokémon in any way you like. Shuffle the other cards and put them on the bottom of your deck."
+90,Thwackey,Boom Boom Groove,"Once during your turn, if your Active Pokémon has the Festival Lead Ability, you may search your deck for a card and put it into your hand. Then, shuffle your deck."
+93,Dipplin,Festival Lead,"If Festival Grounds is in play, this Pokémon may use an attack it has twice. If the first attack Knocks Out your opponent’s Active Pokémon, you may attack again after your opponent chooses a new Active Pokémon."
+96,Teal Mask Ogerpon ex,Teal Dance,"Once during your turn, you may attach a Basic {G} Energy card from your hand to this Pokémon. If you attached Energy to a Pokémon in this way, draw a card."
+98,Chandelure, Alluring Light,"Once during your turn, you may have each player draw a card."
+100,Goldeen,Festival Lead,"If Festival Grounds is in play, this Pokémon may use an attack it has twice. If the first attack Knocks Out your opponent’s Active Pokémon, you may attack again after your opponent chooses a new Active Pokémon."
+102,Milotic,Mentally Calm,Your opponent’s Pokémon in play and all attached cards can’t be put into your opponent’s hand.
+104,Froslass,Freezing Shroud,"During Pokémon Checkup, put 1 damage counter on each Pokémon that has an Ability (both yours and your opponent’s), except any Froslass."
+106,Palafin,Zero to Hero,"Once during your turn, when this Pokémon moves from the Active Spot to the Bench, you may search your deck for a Palafin {ex} and switch it with this Pokémon. Any attached cards, damage counters, Special Conditions, turns in play, and any other effects remain on the new Pokémon. If you switched a Pokémon in this way, put this card into your deck. Then, shuffle your deck."
+107,Palafin ex,Hero’s Spirit,Put this Pokémon into play only with the effect of Palafin’s Zero to Hero Ability.
+109,Abra,Teleporter,"Once during your turn, if this Pokémon is in the Active Spot, you may shuffle it and all attached cards into your deck."
+112,Munkidori,Adrena-Brain,"Once during your turn, if this Pokémon has any {D} Energy attached, you may move up to 3 damage counters from 1 of your Pokémon to 1 of your opponent’s Pokémon."
+116,Okidogi,Adrena-Power,"If this Pokémon has any {D} Energy attached, it gets +100 HP, and the attacks it uses do 100 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance)."
+117,Cornerstone Mask Ogerpon ex,Cornerstone Stance,Prevent all damage from attacks done to this Pokémon by your opponent’s Pokémon that have an Ability.
+118,Heatran, Incandescent Body,"If this Pokémon is in the Active Spot and is damaged by an attack from your opponent’s Pokémon (even if this Pokémon is Knocked Out), the Attacking Pokémon is now Burned."
+120,Drakloak,Recon Directive,"Once during your turn, you may look at the top 2 cards of your deck and put 1 of them into your hand. Put the other card on the bottom of your deck."
+122,Tatsugiri,Attract Customers,"Once during your turn, if this Pokémon is in the Active Spot, you may look at the top 6 cards of your deck, reveal a Supporter card you find there, and put it into your hand. Shuffle the other cards back into your deck."
+123,Farfetch'd, Impromptu Carrier,"When you play this Pokémon from your hand onto your Bench during your turn, you may search your deck for a Pokémon Tool card and attach it to this Pokémon. Then, shuffle your deck."
+125,Blissey ex,Happy Switch,"Once during your turn, you may move a Basic Energy from 1 of your Pokémon to another of your Pokémon."
+126,Galvantula,Compound Eyes,Attacks used by this Pokémon do 50 more damage to your opponent’s Active Pokémon that has an Ability (before applying Weakness and Resistance).
+132,Dusclops,Cursed Blast,"Once during your turn, you may put 5 damage counters on 1 of your opponent’s Pokémon. If you use this Ability, this Pokémon is Knocked Out."
+133,Dusknoir,Cursed Blast,"Once during your turn, you may put 13 damage counters on 1 of your opponent’s Pokémon. If you use this Ability, this Pokémon is Knocked Out."
+135,Bloodmoon Ursaluna,Battle-Hardened,"When you play this Pokémon from your hand onto your Bench during your turn, you may attach up to 2 Basic {F} Energy cards from your hand to this Pokémon."
+139,Munkidori ex,Oh No You Don’t,"If this Pokémon is Knocked Out by damage from an attack from your opponent’s Pokémon, and if you have any Pecharunt {ex} in play, your opponent takes 1 fewer Prize card."
+140,Fezandipiti ex,Flip the Script,"Once during your turn, if any of your Pokémon were Knocked Out during your opponent’s last turn, you may draw 3 cards. You can’t use more than 1 Flip the Script Ability each turn."
+141,Pecharunt ex,Subjugating Chains,"Once during your turn, you may switch 1 of your Benched {D} Pokémon, except any Pecharunt {ex}, with your Active Pokémon. If you do, the new Active Pokémon is now Poisoned. You can’t use more than 1 Subjugating Chains Ability each turn."
+142,Genesect,ACE Nullifier,"If this Pokémon has a Pokémon Tool attached, your opponent can’t play any {ACE SPEC} cards from their hand."
+144,Kyurem,Plasma Bane,"If your opponent has any cards in their discard pile that have ""Colress"" in the name, this Pokémon can use the Trifrost attack for {C}."
+147,Cradily,Selective Slime,"Once during your turn, you may flip a coin. If heads, choose Burned, Confused, or Poisoned. Your opponent’s Active Pokémon is now affected by that Special Condition."
+150,Hydrapple ex,Ripening Charge,"Once during your turn, you may attach a Basic {G} Energy card from your hand to 1 of your Pokémon. If you attached Energy to a Pokémon in this way, heal 30 damage from that Pokémon."
+155,Carracosta, Primal Knowledge,Attacks used by your Pokémon do 30 more damage to your opponent’s Active Evolution Pokémon (before applying Weakness and Resistance).
+156,Crabominable,Food Prep,Attacks used by this Pokémon cost {C} less for each Kofu card in your discard pile.
+158,Drednaw,Impervious Shell,Prevent all damage done to this Pokémon by attacks from your opponent’s Pokémon if that damage is 200 or more.
+159,Veluza,Food Prep,Attacks used by this Pokémon cost {C} less for each Kofu card in your discard pile.
+167,Klinklang,Emergency Rotation,"Once during your turn, if this Pokémon is in your hand and your opponent has any Stage 2 Pokémon in play, you may put this Pokémon onto your Bench."
+170,Archaludon,Metal Bridge,All of your Pokémon that have {M} Energy attached have no Retreat Cost.
+173,Noctowl,Jewel Seeker,"Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, if you have any Tera Pokémon in play, you may search your deck for up to 2 Trainer cards, reveal them, and put them into your hand. Then, shuffle your deck."
+174,Fan Rotom,Fan Call,"Once during your first turn, you may search your deck for up to 3 {C} Pokémon with 100 HP or less, reveal them, and put them into your hand. Then, shuffle your deck. You can’t use more than 1 Fan Call Ability during your turn."
+175,Bouffalant,Curly Wall,"As long as you have at least 1 other Bouffalant in play, all of your Basic {C} Pokémon take 60 less damage from attacks from your opponent’s Pokémon (after applying Weakness and Resistance). The effect of Curly Wall doesn’t stack."
+180,Bruxish, Counterattack,"If this Pokémon is in the Active Spot and is damaged by an attack from your opponent’s Pokémon (even if this Pokémon is Knocked Out), put 3 damage counters on the Attacking Pokémon."
+182,Quaquaval,Up-Tempo,"You must put a card from your hand on the bottom of your deck in order to use this Ability. Once during your turn, you may draw cards until you have 5 cards in your hand."
+184,Latias ex,Skyliner,Your Basic Pokémon in play have no Retreat Cost.
+190,Archaludon ex,Assemble Alloy,"When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may attach up to 2 Basic {M} Energy cards from your discard pile to your {M} Pokémon in any way you like."
+198,Durant ex,Sudden Shearing,"When you play this Pokémon from your hand onto your Bench during your turn, you may discard the top card of your opponent’s deck."
+202,Victini,Victory Cheer,Attacks used by your Evolution {R} Pokémon do 10 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance).
+203,Skeledirge,Unaware,Prevent all effects of attacks used by your opponent’s Pokémon done to this Pokémon. (Damage is not an effect.)
+205,Scovillain ex,Double Type,"As long as this Pokémon is in play, it is {G} and {R} type."
+207,Milotic ex,Sparkling Scales,Prevent all damage from and effects of attacks from your opponent’s Tera Pokémon done to this Pokémon.
+209,Chien-Pao,Snow Sink,"When you play this Pokémon from your hand onto your Bench during your turn, you may discard a Stadium in play."
+210,Pikachu ex,Resolute Heart,"If this Pokémon has full HP and would be Knocked Out by damage from an attack, it is not Knocked Out, and its remaining HP becomes 10."
+211,Magneton,Overvolt Discharge,"Once during your turn, you may attach up to 3 Basic Energy cards from your discard pile to your {L} Pokémon in any way you like. If you use this Ability, this Pokémon is Knocked Out."
+214,Togekiss,Wonder Kiss,"When your opponent’s Active Pokémon is Knocked Out, flip a coin. If heads, take 1 more Prize card. The effect of Wonder Kiss doesn’t stack."
+221,Meowstic,Beckoning Tail,"You must discard a Chill Teaser Toy card from your hand in order to use this Ability. Once during your turn, you may switch in 1 of your opponent’s Benched Pokémon to the Active Spot."
+225,Gastrodon,Sticky Bind,"As long as this Pokémon is on your Bench, Benched Stage 2 Pokémon (both yours and your opponent’s) have no Abilities."
+230,Pecharunt,Toxic Subjugation,"As long as this Pokémon is in the Active Spot, put 5 more damage counters on your opponent’s Poisoned Pokémon during Pokémon Checkup."
+232,Slaking ex,Born to Slack,"If your opponent has no Pokémon {ex} or Pokémon {V} in play, this Pokémon can’t attack."
+238,Whimsicott, Wafting Heal,"When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may heal all damage from your Active {G} Pokémon. If you healed any damage in this way, discard all Energy from that Pokémon."
+240,Seaking,Festival Lead,"If Festival Grounds is in play, this Pokémon may use an attack it has twice. If the first attack Knocks Out your opponent’s Active Pokémon, you may attack again after your opponent chooses a new Active Pokémon."
+247,Swirlix, Festival Lead,"If Festival Grounds is in play, this Pokémon may use an attack it has twice in succession. If the first attack Knocks Out your opponent’s Active Pokémon, you may use an attack again after your opponent chooses a new Active Pokémon."
+249,Eevee ex,Rainbow DNA,This Pokémon can evolve into any Pokémon {ex} that evolves from Eevee if you play it from your hand onto this Pokémon. (This Pokémon can’t evolve during your first turn or the turn you play it.)
+250,Hoothoot,Insomnia,This Pokémon can’t be Asleep.
+255,Maractus,Exploding Needles,"If this Pokémon is in the Active Spot and is Knocked Out by damage from an attack from your opponent’s Pokémon, put 6 damage counters on the Attacking Pokémon."
+256,Magmortar,Magma Surge,"During Pokémon Checkup, put 3 more damage counters on your opponent’s Burned Pokémon."
+259,Volcanion ex,Scalding Steam,"Once during your turn, if this Pokémon is in the Active Spot, you may make your opponent’s Active Pokémon Burned."
+262,Ludicolo,Vibrant Dance,All of your Pokémon in play get +40 HP. The effect of Vibrant Dance doesn’t stack.
+269,Iono’s Bellibolt ex,Electric Streamer,"As often as you like during your turn, you may attach a Basic {L} Energy card from your hand to 1 of your Iono’s Pokémon."
+271,Iono’s Kilowattrel,Flashing Draw,"You must discard a Basic {L} Energy from this Pokémon in order to use this Ability. Once during your turn, you may draw cards until you have 6 cards in your hand."
+272,Lillie’s Clefairy ex,Fairy Zone,The Weakness of each of your opponent’s {N} Pokémon in play is now {P}. (Apply Weakness as ×2.)
+279,Lillie’s Ribombee,Inviting Wink,"When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may have your opponent reveal their hand and you put any number of Basic Pokémon you find there onto their Bench."
+283,Mamoswine ex,Mammoth Hauler,"Once during your turn, you may search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck."
+287,Lycanroc,Spike-Clad,"When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may attach up to 2 Spiky Energy cards from your discard pile to this Pokémon."
+290,Tyranitar,Daunting Gaze,"As long as this Pokémon is in the Active Spot, your opponent can’t play any Item cards from their hand."
+293,N’s Zoroark ex,Trade,"You must discard a card from your hand in order to use this Ability. Once during your turn, you may draw 2 cards."
+297,Magearna,Auto Heal,"As long as this Pokémon is in the Active Spot, whenever you attach an Energy card from your hand to 1 of your Pokémon, heal 90 damage from that Pokémon."
+304,Hop’s Snorlax,Extra Helpings,Attacks used by your Hop’s Pokémon do 30 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance). The effect of Extra Helpings doesn’t stack.
+310,Hop’s Dubwool,Defiant Horn,"When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may switch in 1 of your opponent’s Benched Pokémon to the Active Spot."
+315,Azumarill,Glistening Bubbles,"If you have any Tera Pokémon in play, this Pokémon can use the Double-Edge attack for {P}."
+317,Eevee,Boosted Evolution,"As long as this Pokémon is in the Active Spot, it can evolve during your first turn or the turn you play it."
+322,Lilligant,Sunny Day,Attacks used by your {G} Pokémon and {R} Pokémon do 20 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance).
+326,Blaziken ex,Seething Spirit,"Once during your turn, you may attach a Basic Energy card from your discard pile to 1 of your Pokémon."
+330,Sylveon, Safeguard,Prevent all damage done to this Pokémon by attacks from your opponent’s Pokémon {ex}.
+340,Yanmega ex, Buzzing Boost,"Once during your turn, when this Pokémon moves from your Bench to the Active Spot, you may search your deck for up to 3 Basic {G} Energy cards and attach them to this Pokémon. Then, shuffle your deck."
+342,Cynthia's Roserade, Cheer On to Glory,Attacks used by your Cynthia’s Pokémon do 30 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance).
+343,Shaymin, Flower Curtain,"Prevent all damage done to your Benched Pokémon that don’t have a Rule Box by attacks from your opponent’s Pokémon. (Pokémon {ex}, Pokémon {V}, etc. have Rule Boxes.)"
+345,Crustle, Mysterious Rock Inn,Prevent all damage done to this Pokémon by attacks from your opponent’s Pokémon {ex}.
+351,Rapidash, Hurried Gait,"Once during your turn, you may draw a card."
+353,Ethan's Quilava, Bonded by the Journey,"Once during your turn, you may search your deck for an Ethan’s Adventure card, reveal it, and put it into your hand. Then, shuffle your deck."
+356,Ethan's Magcargo, Melt Away,"If this Pokémon has no Energy attached, it has no Retreat Cost."
+357,Ethan's Ho-Oh ex, Golden Flame,"Once during your turn, you may attach up to 2 Basic {R} Energy cards from your hand to 1 of your Benched Ethan’s Pokémon."
+359,Misty's Psyduck, Flustered Leap,"Once during your turn, if this Pokémon is on your Bench, you may discard the bottom card of your deck. If you do, discard all cards from this Pokémon and put this Pokémon on top of your deck."
+362,Misty's Magikarp, So Submerged,"As long as this Pokémon is on your Bench, prevent all damage from and effects of attacks from your opponent’s Pokémon done to this Pokémon."
+380,Cynthia's Gabite, Champion’s Call,"Once during your turn, you may search your deck for a Cynthia’s Pokémon, reveal it, and put it into your hand. Then, shuffle your deck."
+383,Mudsdale, Mud Coat,This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).
+392,Arven's Greedent, Greedy Order,"When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may put up to 2 Arven’s Sandwich cards from your discard pile into your hand."
+401,Team Rocket's Spidops, Charging Up,"Once during your turn, you may attach a Basic Energy card from your discard pile to this Pokémon."
+414,Team Rocket's Articuno, Repelling Veil,Prevent all effects of attacks used by your opponent’s Pokémon done to your Basic Team Rocket’s Pokémon. (Existing effects are not removed. Damage is not an effect.)
+416,Huntail, Diver’s Catch,"When 1 of your {W} Pokémon is Knocked Out by damage from an attack from your opponent’s Pokémon, you may put all Basic {W} Energy attached to that Pokémon into your hand instead of the discard pile."
+424,Cetitan ex, Snow Camouflage,"Whenever your opponent plays an Item or Supporter card from their hand, prevent all effects of that card done to this Pokémon."
+428,Team Rocket's Ampharos, Darkest Impulse,"Whenever your opponent plays a Pokémon from their hand to evolve 1 of their Pokémon, put 4 damage counters on that Pokémon. The effect of Darkest Impulse doesn’t stack."
+431,Team Rocket's Mewtwo ex, Power Saver,This Pokémon can’t attack unless you have 4 or more Team Rocket’s Pokémon in play.
+436,Team Rocket's Orbeetle, Rocket Brain,"As often as you like during your turn, you may move 1 damage counter from 1 of your Team Rocket’s Pokémon to another of your Pokémon."
+439,Annihilape, Lose Cool,"If this Pokémon has 2 or more damage counters on it, attacks used by this Pokémon do 120 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance)."
+442,Team Rocket's Tyranitar, Sand Stream,"During Pokémon Checkup, if this Pokémon is in the Active Spot, put 2 damage counters on each of your opponent’s Basic Pokémon."
+449,Team Rocket's Arbok, Potent Glare,"As long as this Pokémon is in the Active Spot, your opponent can’t play any Pokémon that has an Ability from their hand, except for Team Rocket’s Pokémon."
+457,Team Rocket's Golbat, Sneaky Bite,"When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may put 2 damage counters on 1 of your opponent’s Pokémon."
+458,Team Rocket's Crobat ex, Biting Spree,"When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may choose 2 of your opponent’s Pokémon and put 2 damage counters on each of them."
+461,Team Rocket's Koffing, Smog Signals,"If this Pokémon is in the Active Spot and is damaged by an attack from your opponent’s Pokémon (even if this Pokémon is Knocked Out), search your deck for up to 2 Pokémon that have “Koffing” in their name and put them onto your Bench. Then, shuffle your deck."
+475,Team Rocket's Porygon-Z, Reconstitute,"You must discard 2 cards from your hand in order to use this Ability. Once during your turn, you may draw a card."
+481,Serperior ex, Regal Cheer,Attacks used by your Pokémon do 20 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance).
+487,Karrablast, Stimulated Evolution,"If you have Shelmet in play, this Pokémon can evolve during your first turn or the turn you play it."
+497,Volcarona, Torrid Scales,"You must discard a Basic {R} Energy card from your hand in order to use this Ability. Once during your turn, you may make your opponent’s Active Pokémon Burned."
+504,Carracosta, Mighty Shell,Prevent all damage from and effects of attacks done to this Pokémon by your opponent’s Pokémon that have any Special Energy attached.
+505,Alomomola, Gentle Fin,"Once during your turn, if this Pokémon is in the Active Spot, you may put a Basic Pokémon with 70 HP or less from your discard pile onto your Bench."
+512,Eelektrik, Dynamotor,"Once during your turn, you may attach a Basic {L} Energy card from your discard pile to 1 of your Benched Pokémon."
+525,Meloetta ex, Debut Performance,"If you go first, this Pokémon can use attacks during your first turn."
+530,Conkeldurr, Craftsmanship,This Pokémon gets +40 HP for each {F} Energy attached to it.
+533,Crustle, Sturdy,"If this Pokémon has full HP and would be Knocked Out by damage from an attack, it is not Knocked Out, and its remaining HP becomes 10."
+537,Scolipede, Poison Point,"If this Pokémon is in the Active Spot and is damaged by an attack from your opponent’s Pokémon (even if this Pokémon is Knocked Out), the Attacking Pokémon is now Poisoned."
+542,Mandibuzz, Look for Prey,"Once during your turn, you may use this Ability. Your opponent reveals their hand, and you put a Basic Pokémon with 70 HP or less that you find there onto your opponent’s Bench."
+547,Genesect ex, Metallic Signal,"Once during your turn, you may search your deck for up to 2 Evolution {M} Pokémon, reveal them, and put them into your hand. Then, shuffle your deck."
+558,Swadloon, Healing Leaves,"Once during your turn, you may heal 20 damage from your Active Pokémon."
+564,Shelmet, Stimulated Evolution,"If you have Karrablast in play, this Pokémon can evolve during your first turn or the turn you play it."
+569,Emboar, Inferno Fandango,"As often as you like during your turn, you may attach a Basic {R} Energy card from your hand to 1 of your Pokémon."
+576,Samurott, Torrential Whirlpool,"Once during your turn, you may switch your Active Pokémon with 1 of your Benched Pokémon. If you do, switch out your opponent’s Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)"
+596,Gothitelle, Distorted Future,"Once during your turn, if this Pokémon is in the Active Spot, you may have your opponent shuffle their hand into their deck and draw 3 cards."
+598,Jellicent ex, Oceanic Curse,"As long as this Pokémon is in the Active Spot, your opponent can’t play any Item cards or Pokémon Tool cards from their hand."
+604,Archeops, Ancient Wing,"Once during your turn, if this Pokémon is in the Active Spot, you may devolve 1 of your opponent’s evolved Pokémon by putting the highest Stage Evolution card on it into your opponent’s hand."
+618,Hydreigon ex, Greedy Eater,"If your opponent’s Basic Pokémon is Knocked Out by damage from an attack used by this Pokémon, take 1 more Prize card."
+623,Klinklang, Gear Coating,All of your Pokémon that have any {M} Energy attached take 20 less damage from attacks from your opponent’s Pokémon (after applying Weakness and Resistance).
+631,Bouffalant ex, Bouffer,This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).
+637,Steven's Carbink, Stone Palace,"As long as this Pokémon is on your Bench, all of your Steven’s Pokémon take 30 less damage from attacks from your opponent’s Pokémon (after applying Weakness and Resistance). The effect of Stone Palace doesn’t stack."
+641,Steven's Metagross ex, X-Boot,"Once during your turn, you may search your deck for a Basic {P} Energy card, a Basic {M} Energy card, or 1 of each and attach them to your {P} Pokémon and {M} Pokémon in any way you like. Then, shuffle your deck."
+648,Marnie's Grimmsnarl ex, Punk Up,"When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may search your deck for up to 5 Basic {D} Energy cards and attach them to your Marnie’s Pokémon in any way you like. Then, shuffle your deck."
+652,Mega Venusaur ex, Solar Transfer,"As often as you like during your turn, you may use this Ability. Move a Basic {G} Energy from 1 of your Pokémon to another of your Pokémon."
+666,Cinderace, Explosiveness,"If this Pokémon is in your hand when you are setting up to play, you may put it face down in the Active Spot."
+674,Hariyama, Heave-Ho Catcher,"Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may use this Ability. Switch in 1 of your opponent’s Benched Pokémon to the Active Spot."
+675,Lunatone, Lunar Cycle,"Once during your turn, if you have Solrock in play, you may discard a Basic {F} Energy card from your hand in order to use this Ability. Draw 3 cards. You can’t use more than 1 Lunar Cycle Ability each turn."
+685,Garganacl, Powerful a-Salt,Attacks used by your {F} Pokémon do 30 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance).
+688,Spiritomb, Spiteful Swirl,"If your Active {D} Pokémon is damaged by an attack from your opponent’s Pokémon (even if your Active {D} Pokémon is Knocked Out), place 1 damage counter on the Attacking Pokémon."
+698,Tinkatuff, Haphazard Hammer,"Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may use this Ability. Flip a coin. If heads, discard an Energy from your opponent’s Active Pokémon."
+705,Gumshoos, Evidence Gathering,"Once during your turn, you may use this Ability. Switch a card from your hand with the top card of your deck."
+710,Meganium, Wild Growth,Each Basic {G} Energy attached to all of your Pokémon provides {G}{G} Energy. The effect of Wild Growth doesn’t stack.
+711,Shuckle, Fermented Juice,"Once during your turn, if this Pokémon has any {G} Energy attached, you may use this Ability. Heal 30 damage from 1 of your Pokémon."
+713,Ninjask, Cast-Off Shell,"Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may use this Ability. Search your deck for a Shedinja and put it onto your Bench. Then, shuffle your deck."
+716,Pyroar, Intimidating Fang,"As long as this Pokémon is in the Active Spot, attacks used by your opponent’s Active Pokémon do 30 less damage (before applying Weakness and Resistance)."
+725,Clawitzer, Fall Back to Reload,"Once during your turn, when this Pokémon moves from the Active Spot to your Bench, you may use this Ability. Attach up to 2 Basic {W} Energy cards from your hand to this Pokémon."
+742,Kadabra, Psychic Draw,"Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may use this Ability. Draw 2 cards."
+743,Alakazam, Psychic Draw,"Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may use this Ability. Draw 3 cards."
+748,Shedinja, Fragile Husk,"If this Pokémon is Knocked Out by damage from an attack from your opponent’s Pokémon {ex}, your opponent can’t take any Prize cards for it."
+750,Grumpig, Energized Steps,"Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may use this Ability. Look at the top 4 cards of your deck and attach any number of Basic Energy cards you find there to your Pokémon in any way you like. Shuffle the other cards back into your deck."
+755,Latios, Lustrous Assist,"Once during your turn, when your Mega Latias {ex} moves from your Bench to the Active Spot, you may use this Ability. Move any amount of Energy from your Benched Pokémon to your Active Pokémon."
+756,Mega Kangaskhan ex, Run Errand,"Once during your turn, if this Pokémon is in the Active Spot, you may use this Ability. Draw 2 cards. You can’t use more than 1 Run Errand Ability each turn."
+766,Mega Diancie ex, Diamond Coat,This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).
+772,Mega Gengar ex, Shadowy Concealment,"If 1 of your {D} Pokémon is Knocked Out by damage from an attack from your opponent’s Pokémon {ex}, that player takes 1 fewer Prize card. The effect of Shadowy Concealment doesn’t stack."
+784,Ludicolo, Excited Heal,"Once during your turn, if you have any {G} Mega Evolution Pokémon {ex} in play, you may use this Ability. Heal 60 damage from 1 of your Pokémon."
+788,Charmander, Agile,"If this Pokémon has no Energy attached, it has no Retreat Cost."
+795,Oricorio ex, Excited Turbo,"As often as you like during your turn, if you have any {R} Mega Evolution Pokémon {ex} in play, you may use this Ability. Attach a Basic {R} Energy card from your hand to 1 of your Benched {R} Pokémon."
+799,Dewgong, Thick Fat,This Pokémon takes 30 less damage from attacks from your opponent’s {R} or {W} Pokémon (after applying Weakness and Resistance).
+806,Rotom ex, Multi Adapter,"Each of your Pokémon that has ""Rotom"" in its name may have up to 2 Pokémon Tool cards attached. If this Ability goes away, discard Pokémon Tools from those Pokémon until only 1 remains on each."
+813,Mismagius ex, Swirling Prose,"As long as this Pokémon is in the Active Spot, whenever your opponent’s Active Pokémon moves to the Bench during their turn, their new Active Pokémon is now Confused."
+818,Brambleghast, Prison Panic,"Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may use this Ability. Make your opponent’s Active Pokémon Confused."
+824,Flygon, Sandy Flapping,"Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may use this Ability. You may also use this Ability if this Pokémon is in the Active Spot and is Knocked Out by damage from an attack from your opponent’s Pokémon. Discard the top 2 cards of your opponent’s deck."
+829,Seviper, Excited Power,"If you have any {D} Mega Evolution Pokémon {ex} in play, attacks used by this Pokémon do 120 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance)."
+834,Toxtricity, Sinister Surge,"Once during your turn, you may use this Ability. Search your deck for a Basic {D} Energy card and attach it to 1 of your Benched {D} Pokémon. Then, shuffle your deck. If you attached Energy to a Pokémon in this way, place 2 damage counters on that Pokémon."
+835,Empoleon ex, Emperor’s Stance,Prevent all effects of attacks used by your opponent’s Pokémon done to this Pokémon. (Damage is not an effect.)
+847,Linoone, Excited Dash,"Once during your turn, if this Pokémon is on your Bench, and if you have any Mega Evolution Pokémon {ex} in play, you may use this Ability. Switch this Pokémon with your Active Pokémon."
+851,Silcoon, Multiplying Cocoon,"Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may use this Ability. Search your deck for a Silcoon or a Cascoon and put it onto your Bench. Then, shuffle your deck."
+854,Dustox, Boisterous Wind,"Once during your turn, you may use this Ability. Flip a coin. If heads, put an Energy attached to your opponent’s Active Pokémon into their hand."
+856,Numel, Incandescent Body,"If this Pokémon is in the Active Spot and is damaged by an attack from your opponent’s Pokémon (even if this Pokémon is Knocked Out), the Attacking Pokémon is now Burned."
+858,Psyduck, Damp,Pokémon in play (both yours and your opponent’s) lose any Ability that requires the Pokémon using it to Knock Out itself.
+859,Golduck, Damp,Pokémon in play (both yours and your opponent’s) lose any Ability that requires the Pokémon using it to Knock Out itself.
+866,Frosmoth, Alluring Wings,"Once during your turn, if this Pokémon is in the Active Spot, you may use this Ability. Each player draws a card."
+871,Heliolisk, Frilled Generator,"Once during your turn, if you played Canari from your hand this turn, you may use this Ability. Search your deck for up to 2 Basic {L} Energy cards and attach them to this Pokémon. Then, shuffle your deck."
+882,Team Rocket's Dugtrio, Holes,"Whenever your opponent’s Active Pokémon moves to the Bench during their turn, place 2 damage counters on that Pokémon."
+886,Mega Hawlucha ex, Tenacious Body,"If this Pokémon would be Knocked Out by damage from an attack, flip a coin. If heads, this Pokémon is not Knocked Out, and its remaining HP becomes 10."
+896,Mega Scrafty ex, Counterattacking Crest,"If this Pokémon is in the Active Spot and is damaged by an attack from your opponent’s Pokémon (even if this Pokémon is Knocked Out), place 5 damage counters on the Attacking Pokémon."
+898,Pecharunt, Final Chain,"If this Pokémon is Knocked Out by damage from an attack from your opponent’s Pokémon, search your deck for a card and put it into your hand. Then, shuffle your deck.
+"
+901,Kingambit, Supreme Overlord,Attacks used by this Pokémon do 30 more damage to your opponent’s Active Pokémon for each Prize card your opponent has taken (before applying Weakness and Resistance).
+903,Dragonair, Evolutionary Guidance,"Once during your turn, if this Pokémon has any Energy attached, you may use this Ability. Search your deck for an Evolution Pokémon, reveal it, and put it into your hand. Then, shuffle your deck."
+904,Mega Dragonite ex, Sky Transport,"Once during your turn, you may use this Ability. Switch your Active Pokémon with 1 of your Benched Pokémon."
+911,Erika's Vileplume ex, Lovely Fragrance,"Once during your turn, you may use this Ability. Heal 30 damage from each of your Pokémon."
+915,Erika's Tangela, Gathering of Blossoms,"Once during your turn, you may use this Ability. Search your deck for an Erika’s Pokémon, reveal it, and put it into your hand. Then, shuffle your deck."
+924,Meowscarada, Showtime,"Once during your turn, if this Pokémon is on your Bench, you may switch it with your Active Pokémon."
+962,Azumarill ex, Bubble Gathering,"As often as you like during your turn, you may use this Ability. Move an Energy from 1 of your other Pokémon to this Pokémon."
+968,Dachsbun ex, Time to Chow Down,"Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may use this Ability. Heal all damage from each of your Evolution Pokémon. If you healed any damage in this way, discard all Energy from those Pokémon."
+970,Fezandipiti, Adrena-Pheromone,"If this Pokémon has any {D} Energy attached and is damaged by an attack, flip a coin. If heads, prevent that damage."
+976,Carbink, Double Type,"As long as this Pokémon is in play, it is {F} and {P} type."
+993,Orthworm ex, Pummeling Payback,"If this Pokémon is damaged by an attack from your opponent’s Pokémon (even if this Pokémon is Knocked Out), place 2 damage counters on the Attacking Pokémon for each {M} Energy attached to this Pokémon."
+994,Fraxure, Unnerve,"Whenever your opponent plays an Item or Supporter card from their hand, prevent all effects of that card done to this Pokémon."
+1009,Larry's Komala, Lethargic Charge,"Once during your turn, if this Pokémon is on your Bench, you may use this Ability. Attach an Energy card from your hand to your Active Larry’s Pokémon."
+1019,Vivillon, Grand Wing,"Once during your turn, you may use this Ability. Your opponent shuffles their hand and puts it on the bottom of their deck. If they put any cards on the bottom of their deck in this way, they draw 4 cards."
+1022,Decidueye ex, Sniper’s Eye,"If your opponent has exactly 4 cards in their hand, ignore all {C} Energy in the costs of attacks used by this Pokémon."
+1024,Talonflame, Sky Hunt,"Once during your turn, you may use this Ability. Flip a coin. If heads, discard a random card from your opponent’s hand."
+1027,Turtonator, Shell Spikes,"If this Pokémon is in the Active Spot and is damaged by an attack from your opponent’s Pokémon (even if this Pokémon is Knocked Out), discard an Energy from the Attacking Pokémon."
+1029,Dewgong, Wash Out,"As often as you like during your turn, you may use this Ability. Move a {W} Energy from 1 of your Benched Pokémon to your Active Pokémon."
+1033,Aurorus, Tundra Wall,All of your Pokémon that have any {W} Energy attached take 50 less damage from attacks from your opponent’s Pokémon (after applying Weakness and Resistance). The effect of Tundra Wall doesn’t stack.
+1036,Luxio, Fighting Roar,"If your opponent’s Active Pokémon is a Pokémon {ex}, this Pokémon can evolve during your first turn or the turn you play it."
+1040,Mega Clefable ex, Luminous Wing,Prevent all effects of your opponent’s Pokémon’s Abilities done to this Pokémon.
+1045,Aromatisse, Scent Collection,"Once during your turn, you may use this Ability. Search your deck for up to 2 Basic {P} Energy cards, reveal them, and put them into your hand. Then, shuffle your deck."
+1052,Barbaracle, Stone Arms,"Once during your turn, you may use this Ability. Attach a Basic {F} Energy card from your hand to 1 of your {F} Pokémon."
+1054,Tyrantrum, Tyrannically Gutsy,"If this Pokémon has any Special Energy attached, it gets +150 HP."
+1059,Gengar, Infinite Shadow,"If this Pokémon is Knocked Out by damage from an attack from your opponent’s Pokémon, put it into your hand instead of the discard pile. (Discard all attached cards.)"
+1071,Meowth ex, Last-Ditch Catch,"Once during your turn, when you play this Pokémon from your hand onto your Bench, you may use this Ability. Search your deck for a Supporter card, reveal it, and put it into your hand. Then, shuffle your deck. You can’t use more than 1 Ability that has “Last-Ditch” in its name each turn."
+1077,Roto-Stick,Roto-Stick,Look at the top 4 cards of your deck. You may reveal any number of Supporter cards you find there and put them into your hand. Shuffle the other cards back into your deck.
+1078,Hole-Digging Shovel,Hole-Digging Shovel,Discard the top 2 cards of your deck.
+1079,Rare Candy,Rare Candy,"Choose 1 of your Basic Pokémon in play. If you have a Stage 2 card in your hand that evolves from that Pokémon, put that card onto the Basic Pokémon to evolve it, skipping the Stage 1. You can’t use this card during your first turn or on a Basic Pokémon that was put into play this turn."
+1080,Unfair Stamp,Unfair Stamp,"You can use this card only if any of your Pokémon were Knocked Out during your opponent’s last turn.
+
+Each player shuffles their hand into their deck. Then, you draw 5 cards, and your opponent draws 2 cards."
+1081,Enhanced Hammer,Enhanced Hammer,Discard a Special Energy from 1 of your opponent’s Pokémon.
+1082,Hyper Aroma,Hyper Aroma,"Search your deck for up to 3 Stage 1 Pokémon, reveal them, and put them into your hand. Then, shuffle your deck."
+1083,Love Ball,Love Ball,"Search your deck for a Pokémon with the same name as 1 of your opponent’s Pokémon in play, reveal it, and put it into your hand. Then, shuffle your deck."
+1084,Boxed Order,Boxed Order,"Search your deck for up to 2 Item cards, reveal them, and put them into your hand. Then, shuffle your deck. Your turn ends."
+1085,Awakening Drum,Awakening Drum,Draw a card for each of your Ancient Pokémon in play.
+1086,Buddy-Buddy Poffin,Buddy-Buddy Poffin,"Search your deck for up to 2 Basic Pokémon with 70 HP or less and put them onto your Bench. Then, shuffle your deck."
+1087,Hand Trimmer,Hand Trimmer,"Each player discards cards from their hand until they have 5 cards in their hand. Your opponent discards first. (If a player has 5 or fewer cards in their hand, they do not discard.)"
+1088,Prime Catcher,Prime Catcher,"Switch in 1 of your opponent’s Benched Pokémon to the Active Spot. If you do, switch your Active Pokémon with 1 of your Benched Pokémon."
+1089,Reboot Pod,Reboot Pod,Attach a Basic Energy card from your discard pile to each of your Future Pokémon.
+1090,Ogre’s Mask,Ogre’s Mask,"Choose a Pokémon {ex} in your discard pile that has “Ogerpon” in its name, and switch it with 1 of your Pokémon {ex} in play that has “Ogerpon” in its name. Any attached cards, damage counters, Special Conditions, turns in play, and any other effects remain on the new Pokémon."
+1091,Accompanying Flute,Accompanying Flute,Reveal the top 5 cards of your opponent’s deck. You may choose any number of Basic Pokémon you find there and put those Pokémon onto their Bench. Your opponent shuffles the other cards back into their deck.
+1092,Secret Box,Secret Box,"You can use this card only if you discard 3 other cards from your hand.
+
+Search your deck for an Item card, a Pokémon Tool card, a Supporter card, and a Stadium card, reveal them, and put them into your hand. Then, shuffle your deck."
+1093,Scoop Up Cyclone,Scoop Up Cyclone,Put 1 of your Pokémon and all attached cards into your hand.
+1094,Bug Catching Set,Bug Catching Set,Look at the top 7 cards of your deck. You may reveal up to 2 in any combination of {G} Pokémon and Basic {G} Energy cards you find there and put them into your hand. Shuffle the other cards back into your deck.
+1095,Dangerous Laser,Dangerous Laser,Your opponent’s Active Pokémon is now Burned and Confused.
+1096,Poké Vital A,Poké Vital A,"Heal 150 damage from 1 of your Pokémon.
+
+This card can’t be put into your hand or deck from the discard pile."
+1097,Night Stretcher,Night Stretcher,Put a Pokémon or a Basic Energy card from your discard pile into your hand.
+1098,Glass Trumpet,Glass Trumpet,"You can use this card only if you have any Tera Pokémon in play.
+
+Choose up to 2 of your Benched {C} Pokémon and attach a Basic Energy card from your discard pile to each of them."
+1099,Antique Root Fossil,Primal Root,"As long as this Pokémon is in the Active Spot, attacks used by your opponent’s Basic Pokémon cost {C} more."
+1099,Antique Root Fossil,Antique Root Fossil,"Play this card as if it were a 60-HP Basic {C} Pokémon. This card can’t be affected by any Special Conditions and can’t retreat.
+
+At any time during your turn, you may discard this card from play."
+1100,Energy Search Pro,Energy Search Pro,"Search your deck for any number of Basic Energy cards of different types, reveal them, and put them into your hand. Then, shuffle your deck."
+1101,Call Bell,Call Bell,"You can use this card only if you go second, and only during your first turn.
+
+Search your deck for a Supporter card, reveal it, and put it into your hand. Then, shuffle your deck."
+1102,Dusk Ball,Dusk Ball,Look at the bottom 7 cards of your deck. You may reveal a Pokémon you find there and put it into your hand. Shuffle the other cards back into your deck.
+1103,Meddling Memo,Meddling Memo,"Your opponent counts the cards in their hand, shuffles those cards, and puts them on the bottom of their deck. If they do, they draw that many cards."
+1104,Megaton Blower,Megaton Blower,"Discard all Pokémon Tools and Special Energy from all of your opponent’s Pokémon, and discard a Stadium in play."
+1105,Dragon Elixir,Dragon Elixir,Heal 60 damage from your Active {N} Pokémon.
+1106,Deduction Kit,Deduction Kit,"Look at the top 3 cards of your deck and put them back in any order, or shuffle them and put them on the bottom of your deck."
+1107,Scramble Switch,Scramble Switch,"Switch your Active Pokémon with 1 of your Benched Pokémon. If you do, you may move any amount of Energy from the Pokémon you moved to your Bench to the new Active Pokémon."
+1108,Chill Teaser Toy,Chill Teaser Toy,"You can use this card only if you go second, and only during your first turn.
+Put an Energy attached to 1 of your opponent’s Pokémon into their hand."
+1109,Miracle Headset,Miracle Headset,Put up to 2 Supporter cards from your discard pile into your hand.
+1110,Max Rod,Max Rod,Put up to 5 in any combination of Pokémon and Basic Energy cards from your discard pile into your hand.
+1111,Treasure Tracker,Treasure Tracker,"Search your deck for up to 5 Pokémon Tool cards, reveal them, and put them into your hand. Then, shuffle your deck."
+1112,Super Potion,Super Potion,"Heal 60 damage from 1 of your Pokémon. If you healed any damage in this way, discard an Energy from that Pokémon."
+1113,N’s PP Up,N’s PP Up,Attach a Basic Energy card from your discard pile to 1 of your Benched N’s Pokémon.
+1114,Redeemable Ticket,Redeemable Ticket,"Count your Prize cards, shuffle them, and put them on the bottom of your deck. Then, take that many cards from the top of your deck and put them face down as your Prize cards."
+1115,Hop’s Bag,Hop’s Bag,"Search your deck for up to 2 Basic Hop’s Pokémon and put them onto your Bench. Then, shuffle your deck."
+1116,Energy Switch,Energy Switch,Move a Basic Energy from 1 of your Pokémon to another of your Pokémon.
+1117,Potion,Potion,Heal 30 damage from 1 of your Pokémon.
+1118,Energy Retrieval,Energy Retrieval,Put up to 2 Basic Energy cards from your discard pile into your hand.
+1119,Energy Search,Energy Search,"Search your deck for a Basic Energy card, reveal it, and put it into your hand. Then, shuffle your deck."
+1120,Crushing Hammer,Crushing Hammer,"Flip a coin. If heads, discard an Energy from 1 of your opponent’s Pokémon."
+1121,Ultra Ball,Ultra Ball,"You can use this card only if you discard 2 other cards from your hand.
+
+Search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck."
+1122,Pokégear 3.0,Pokégear 3.0,Look at the top 7 cards of your deck. You may reveal a Supporter card you find there and put it into your hand. Shuffle the other cards back into your deck.
+1123,Switch,Switch,Switch your Active Pokémon with 1 of your Benched Pokémon.
+1124,Pokémon Catcher,Pokémon Catcher,"Flip a coin. If heads, switch in 1 of your opponent’s Benched Pokémon to the Active Spot."
+1125,Master Ball,Master Ball,"Search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck."
+1126,Precious Trolley,Precious Trolley,"Search your deck for any number of Basic Pokémon and put them onto your Bench. Then, shuffle your deck."
+1127,Tera Orb,Tera Orb,"Search your deck for a Tera Pokémon, reveal it, and put it into your hand. Then, shuffle your deck."
+1128,Brilliant Blender,Brilliant Blender,"Search your deck for up to 5 cards and discard them. Then, shuffle your deck."
+1129,Sacred Ash,Sacred Ash,Shuffle up to 5 Pokémon from your discard pile into your deck.
+1130,Arven's Sandwich,Arven's Sandwich,"Heal 30 damage from your Active Pokémon. If that Pokémon is an Arven’s Pokémon, heal 100 damage from it instead."
+1131,Team Rocket's Bother-Bot,Team Rocket's Bother-Bot,Turn 1 of your opponent’s face-down Prize cards face up and choose a random card from your opponent’s hand. Your opponent reveals that card. You may have your opponent switch those cards. (That Prize card remains face up for the rest of the game.)
+1132,Team Rocket's Great Ball,Team Rocket's Great Ball,"Search your deck for a Trainer card, reveal it, and put it into your hand. Then, shuffle your deck."
+1133,Team Rocket's Venture Bomb,Team Rocket's Venture Bomb,"Flip a coin. If heads, put 2 damage counters on 1 of your opponent’s Pokémon. If tails, put 2 damage counters on your Active Pokémon."
+1134,Team Rocket's Transceiver,Team Rocket's Transceiver,"Search your deck for a Supporter card that has “Team Rocket” in its name, reveal it, and put it into your hand. Then, shuffle your deck."
+1135,Energy Coin,Energy Coin,"Flip 2 coins. If both of them are heads, search your deck for a Basic Energy card and attach it to 1 of your Pokémon. Then, shuffle your deck."
+1136,Antique Cover Fossil, Protective Cover,Prevent all effects of attacks used by your opponent’s Pokémon done to this Pokémon. (Damage is not an effect.)
+1136,Antique Cover Fossil,Antique Cover Fossil,"Play this card as if it were a 60-HP Basic {C} Pokémon. This card can’t be affected by any Special Conditions and can’t retreat.
+
+At any time during your turn, you may discard this card from play."
+1137,Tool Scrapper,Tool Scrapper,Choose up to 2 Pokémon Tools attached to Pokémon (yours or your opponent’s) and discard them.
+1138,Antique Plume Fossil, Plume Protection,"As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks from your opponent’s Pokémon."
+1138,Antique Plume Fossil,Antique Plume Fossil,"Play this card as if it were a 60-HP Basic {C} Pokémon. This card can’t be affected by any Special Conditions and can’t retreat.
+
+At any time during your turn, you may discard this card from play."
+1139,Energy Recycler,Energy Recycler,Shuffle up to 5 Basic Energy cards from your discard pile into your deck.
+1140,Iron Defender,Iron Defender,"During your opponent’s next turn, all of your {M} Pokémon take 30 less damage from attacks from your opponent’s Pokémon (after applying Weakness and Resistance). (This includes new Pokémon that come into play.)"
+1141,Premium Power Pro,Premium Power Pro,"During this turn, attacks used by your {F} Pokémon do 30 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance)."
+1142,Fighting Gong,Fighting Gong,"Search your deck for a Basic {F} Energy card or a Basic {F} Pokémon, reveal it, and put it into your hand. Then, shuffle your deck."
+1143,Repel,Repel,Switch out your opponent’s Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)
+1144,Strange Timepiece,Strange Timepiece,Devolve 1 of your evolved {P} Pokémon by putting any number of Evolution cards on it into your hand. (That Pokémon can’t evolve this turn.)
+1145,Mega Signal,Mega Signal,"Search your deck for a Mega Evolution Pokémon {ex}, reveal it, and put it into your hand. Then, shuffle your deck."
+1146,Wondrous Patch,Wondrous Patch,Attach a Basic {P} Energy card from your discard pile to 1 of your Benched {P} Pokémon.
+1147,Jumbo Ice Cream,Jumbo Ice Cream,Heal 80 damage from your Active Pokémon that has 3 or more Energy attached.
+1148,Blowtorch,Blowtorch,"You can use this card only if you discard a Basic {R} Energy card from your hand.
+
+Discard a Pokémon Tool or Special Energy card from 1 of your opponent’s Pokémon, or discard a Stadium in play."
+1149,Energy Swatter,Energy Swatter,"Your opponent reveals their hand, and you choose an Energy card you find there and put it on the bottom of their deck."
+1150,Antique Jaw Fossil, Intimidating Jaw,"As long as this Pokémon is in the Active Spot, attacks used by your opponent’s Active Pokémon do 30 less damage (before applying Weakness and Resistance)."
+1150,Antique Jaw Fossil,Antique Jaw Fossil,"Play this card as if it were a 60-HP Basic {C} Pokémon. This card can’t be affected by any Special Conditions and can’t retreat.
+
+At any time during your turn, you may discard this card from play."
+1151,Antique Sail Fossil, Protective Sail,"Whenever your opponent plays a Supporter card from their hand, prevent all effects of that card done to this Pokémon."
+1151,Antique Sail Fossil,Antique Sail Fossil,"Play this card as if it were a 60-HP Basic {C} Pokémon. This card can’t be affected by any Special Conditions and can’t retreat.
+
+At any time during your turn, you may discard this card from play."
+1152,Poké Pad,Poké Pad,"Search your deck for a Pokémon that doesn’t have a Rule Box, reveal it, and put it into your hand. Then, shuffle your deck. (Pokémon {ex}, Pokémon {V}, etc. have Rule Boxes.)"
+1153,Lumiose Galette,Lumiose Galette,Heal 20 damage and remove a Special Condition from your Active Pokémon.
+1154,Team Rocket’s Hypnotizer,Team Rocket’s Hypnotizer,"If the Team Rocket’s Pokémon this card is attached to is in the Active Spot and is damaged by an attack from your opponent’s Pokémon (even if this Team Rocket’s Pokémon is Knocked Out), the Attacking Pokémon is now Asleep."
+1155,Survival Brace,Survival Brace,"If the Pokémon this card is attached to has full HP and would be Knocked Out by damage from an attack from your opponent’s Pokémon, it is not Knocked Out, and its remaining HP becomes 10. Then, discard this card."
+1156,Lucky Helmet,Lucky Helmet,"If the Pokémon this card is attached to is in the Active Spot and is damaged by an attack from your opponent’s Pokémon (even if this Pokémon is Knocked Out), draw 2 cards."
+1157,Rescue Board,Rescue Board,"The Retreat Cost of the Pokémon this card is attached to is {C} less. If that Pokémon’s remaining HP is 30 or less, it has no Retreat Cost."
+1158,Maximum Belt,Maximum Belt,Attacks used by the Pokémon this card is attached to do 50 more damage to your opponent’s Active Pokémon {ex} (before applying Weakness and Resistance).
+1159,Hero’s Cape,Hero’s Cape,The Pokémon this card is attached to gets +100 HP.
+1160,Heavy Baton,Heavy Baton,"If the Pokémon this card is attached to has a Retreat Cost of exactly 4, is in the Active Spot, and is Knocked Out by damage from an attack from your opponent’s Pokémon, move up to 3 Basic Energy cards from that Pokémon to your Benched Pokémon in any way you like."
+1161,Handheld Fan,Handheld Fan,"If the Pokémon this card is attached to is in the Active Spot and is damaged by an attack from your opponent’s Pokémon (even if this Pokémon is Knocked Out), move an Energy from the Attacking Pokémon to 1 of your opponent’s Benched Pokémon."
+1162,Binding Mochi,Binding Mochi,Attacks used by the Poisoned Pokémon this card is attached to do 40 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance).
+1163,Powerglass,Powerglass,"At the end of your turn (after your attack), if the Pokémon this card is attached to is in the Active Spot, you may attach a Basic Energy card from your discard pile to it."
+1164,Payapa Berry,Payapa Berry,"If the Pokémon this card is attached to is damaged by an attack from your opponent’s {P} Pokémon, it takes 60 less damage (after applying Weakness and Resistance), and discard this card."
+1165,Sparkling Crystal,Sparkling Crystal,"When the Tera Pokémon this card is attached to uses an attack, that attack costs 1 Energy less. (The Energy can be of any type.)"
+1166,Gravity Gemstone,Gravity Gemstone,"As long as the Pokémon this card is attached to is in the Active Spot, the Retreat Cost of both Active Pokémon is {C} more."
+1167,Deluxe Bomb,Deluxe Bomb,"If the Pokémon this card is attached to is in the Active Spot and is damaged by an attack from your opponent’s Pokémon (even if this Pokémon is Knocked Out), put 12 damage counters on the Attacking Pokémon. If you placed any damage counters in this way, discard this card."
+1168,Counter Gain,Counter Gain,"If you have more Prize cards remaining than your opponent, attacks used by the Pokémon this card is attached to cost {C} less."
+1169,Amulet of Hope,Amulet of Hope,"If the Pokémon this card is attached to is Knocked Out by damage from an attack from your opponent’s Pokémon, search your deck for up to 3 cards and put them into your hand. Then, shuffle your deck."
+1170,Haban Berry,Haban Berry,"If the Pokémon this card is attached to is damaged by an attack from your opponent’s {N} Pokémon, it takes 60 less damage (after applying Weakness and Resistance), and discard this card."
+1171,Hop’s Choice Band,Hop’s Choice Band,Attacks used by the Hop’s Pokémon this card is attached to cost {C} less and do 30 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance).
+1172,Lillie’s Pearl,Lillie’s Pearl,"If the Lillie’s Pokémon this card is attached to is Knocked Out by damage from an attack from your opponent’s Pokémon, that player takes 1 fewer Prize card."
+1173,Cynthia's Power Weight,Cynthia's Power Weight,The Cynthia’s Pokémon this card is attached to gets +70 HP.
+1174,Air Balloon,Air Balloon,The Retreat Cost of the Pokémon this card is attached to is {C}{C} less.
+1175,Brave Bangle,Brave Bangle,"If the Pokémon this card is attached to doesn’t have a Rule Box, the attacks it uses do 30 more damage to your opponent’s Active Pokémon {ex} (before applying Weakness and Resistance). (Pokémon {ex}, Pokémon {V}, etc. have Rule Boxes.)"
+1176,Punk Helmet,Punk Helmet,"If the {D} Pokémon this card is attached to is in the Active Spot and is damaged by an attack from your opponent’s Pokémon (even if this Pokémon is Knocked Out), place 4 damage counters on the Attacking Pokémon."
+1177,Sacred Charm,Sacred Charm,The Pokémon this card is attached to takes 30 less damage from attacks from your opponent’s Pokémon that have an Ability (after applying Weakness and Resistance).
+1178,Light Ball,Light Ball,Attacks used by the Pikachu {ex} this card is attached to do 50 more damage to your opponent’s Active Pokémon {ex} (before applying Weakness and Resistance).
+1179,Thick Scale,Thick Scale,"The {N} Pokémon this card is attached to takes 50 less damage from attacks from your opponent’s {G}, {R}, {W}, or {L} Pokémon (after applying Weakness and Resistance)."
+1180,Core Memory,Core Memory,The Mega Zygarde {ex} this card is attached to can use the attack on this card. (You still need the necessary Energy to use this attack.)
+1181,Billy & O'Nare,Billy & O'Nare,"Draw 2 cards. Then, if you have 10 or more cards in your hand, draw 2 more cards."
+1182,Boss’s Orders,Boss’s Orders,Switch in 1 of your opponent’s Benched Pokémon to the Active Spot.
+1183,Perrin,Perrin,"Reveal up to 2 Pokémon in your hand and put them into your deck. If you do, search your deck for up to that many Pokémon, reveal them, and put them into your hand. Then, shuffle your deck."
+1184,Lana’s Aid,Lana’s Aid,"Put up to 3 in any combination of Pokémon that don’t have a Rule Box and Basic Energy cards from your discard pile into your hand. (Pokémon {ex}, Pokémon {V}, etc. have Rule Boxes.)"
+1185,Explorer’s Guidance,Explorer’s Guidance,Look at the top 6 cards of your deck and put 2 of them into your hand. Discard the other cards.
+1186,Eri,Eri,"Your opponent reveals their hand, and you discard up to 2 Item cards you find there."
+1187,Morty’s Conviction,Morty’s Conviction,"You can use this card only if you discard another card from your hand.
+
+Draw a card for each of your opponent’s Benched Pokémon."
+1188,Ciphermaniac’s Codebreaking,Ciphermaniac’s Codebreaking,"Search your deck for 2 cards, shuffle your deck, then put those cards on top of it in any order."
+1189,Salvatore,Salvatore,"Search your deck for a card that has no Abilities and evolves from 1 of your Pokémon, and put it onto that Pokémon to evolve it. Then, shuffle your deck. You can use this card on a Pokémon you put down when you were setting up to play or on a Pokémon that was put into play this turn."
+1190,Bianca’s Devotion,Bianca’s Devotion,Heal all damage from 1 of your Pokémon that has 30 HP or less remaining.
+1191,Kieran,Kieran,"Choose 1:
+
+• Switch your Active Pokémon with 1 of your Benched Pokémon.
+• During this turn, attacks used by your Pokémon do 30 more damage to your opponent’s Active Pokémon {ex} and Active Pokémon {V} (before applying Weakness and Resistance)."
+1192,Carmine,Carmine,"If you go first, you may use this card during your first turn.
+
+Discard your hand and draw 5 cards."
+1193,Hassel,Hassel,"You can use this card only if any of your Pokémon were Knocked Out during your opponent’s last turn.
+
+Look at the top 8 cards of your deck and put up to 3 of them into your hand. Shuffle the other cards back into your deck."
+1194,Colress’s Tenacity,Colress’s Tenacity,"Search your deck for a Stadium card and an Energy card, reveal them, and put them into your hand. Then, shuffle your deck."
+1195,Janine’s Secret Art,Janine’s Secret Art,"Choose up to 2 of your {D} Pokémon. For each of those Pokémon, search your deck for a Basic {D} Energy card and attach it to that Pokémon. Then, shuffle your deck. If you attached Energy to your Active Pokémon in this way, it is now Poisoned."
+1196,Cassiopeia,Cassiopeia,"You can use this card only when it is the last card in your hand.
+
+Search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck."
+1197,Xerosic’s Machinations,Xerosic’s Machinations,Your opponent discards cards from their hand until they have 3 cards in their hand.
+1198,Crispin,Crispin,"Search your deck for up to 2 Basic Energy cards of different types, reveal them, and put 1 of them into your hand. Attach the other to 1 of your Pokémon. Then, shuffle your deck."
+1199,Lacey,Lacey,"Shuffle your hand into your deck. Then, draw 4 cards. If your opponent has 3 or fewer Prize cards remaining, draw 8 cards instead."
+1200,Kofu,Kofu,"Put 2 cards from your hand on the bottom of your deck in any order. If you put 2 cards on the bottom of your deck in this way, draw 4 cards. (If you can’t put 2 cards from your hand on the bottom of your deck, you can’t use this card.)"
+1201,Briar,Briar,"You can use this card only if your opponent has exactly 2 Prize cards remaining.
+
+During this turn, if your opponent’s Active Pokémon is Knocked Out by damage from an attack used by your Tera Pokémon, take 1 more Prize card."
+1202,Drayton,Drayton,Look at the top 7 cards of your deck. You may reveal a Pokémon and a Trainer card you find there and put them into your hand. Shuffle the other cards back into your deck.
+1203,Surfer,Surfer,"Switch your Active Pokémon with 1 of your Benched Pokémon. If you do, draw cards until you have 5 cards in your hand."
+1204,Lisia’s Appeal,Lisia’s Appeal,"Switch in 1 of your opponent’s Benched Basic Pokémon to the Active Spot. If you do, the new Active Pokémon is now Confused."
+1205,Cyrano,Cyrano,"Search your deck for up to 3 Pokémon {ex}, reveal them, and put them into your hand. Then, shuffle your deck."
+1206,Larry’s Skill,Larry’s Skill,"Discard your hand and search your deck for a Pokémon, a Supporter card, and a Basic Energy card, reveal them, and put them into your hand. Then, shuffle your deck."
+1207,Amarys,Amarys,"Draw 4 cards. At the end of this turn, if you have 5 or more cards in your hand, discard your hand."
+1208,Iris’s Fighting Spirit,Iris’s Fighting Spirit,"You can use this card only if you discard another card from your hand.
+
+Draw cards until you have 6 cards in your hand."
+1209,Ruffian,Ruffian,Discard a Pokémon Tool and a Special Energy from 1 of your opponent’s Pokémon.
+1210,Brock’s Scouting,Brock’s Scouting,"Search your deck for up to 2 Basic Pokémon or 1 Evolution Pokémon, reveal them, and put them into your hand. Then, shuffle your deck."
+1211,Black Belt’s Training,Black Belt’s Training,"During this turn, attacks used by your Pokémon do 40 more damage to your opponent’s Active Pokémon {ex} (before applying Weakness and Resistance)."
+1212,Cook,Cook,Heal 70 damage from your Active Pokémon.
+1213,Judge,Judge,Each player shuffles their hand into their deck and draws 4 cards.
+1214,Emcee's Hype,Emcee's Hype,"Draw 2 cards. If your opponent has 3 or fewer Prize cards remaining, draw 2 more cards."
+1215,Ethan's Adventure,Ethan's Adventure,"Search your deck for up to 3 in any combination of Ethan’s Pokémon and Basic {R} Energy cards, reveal them, and put them into your hand. Then, shuffle your deck."
+1216,Team Rocket's Ariana,Team Rocket's Ariana,"Draw cards until you have 5 cards in your hand. If all of your Pokémon in play are Team Rocket’s Pokémon, draw cards until you have 8 cards in your hand instead."
+1217,Team Rocket's Archer,Team Rocket's Archer,"You can use this card only if any of your Team Rocket’s Pokémon were Knocked Out during your opponent’s last turn.
+
+Each player shuffles their hand into their deck. Then, you draw 5 cards, and your opponent draws 3 cards."
+1218,Team Rocket's Giovanni,Team Rocket's Giovanni,"Switch your Active Team Rocket’s Pokémon with 1 of your Benched Team Rocket’s Pokémon. If you do, switch in 1 of your opponent’s Benched Pokémon to the Active Spot."
+1219,Team Rocket's Petrel,Team Rocket's Petrel,"Search your deck for a Trainer card, reveal it, and put it into your hand. Then, shuffle your deck."
+1220,Team Rocket's Proton,Team Rocket's Proton,"If you go first, you may use this card during your first turn.
+
+Search your deck for up to 3 Basic Team Rocket’s Pokémon, reveal them, and put them into your hand. Then, shuffle your deck."
+1221,N's Plan,N's Plan,Move up to 2 Energy from your Benched Pokémon to your Active Pokémon.
+1222,Fennel,Fennel,Heal 40 damage from each of your Pokémon.
+1223,Harlequin,Harlequin,"Each player shuffles their hand into their deck. Then, flip a coin. If heads, you draw 5 cards, and your opponent draws 3 cards. If tails, you draw 3 cards, and your opponent draws 5 cards."
+1224,Cheren,Cheren,Draw 3 cards.
+1225,Hilda,Hilda,"Search your deck for an Evolution Pokémon and an Energy card, reveal them, and put them into your hand. Then, shuffle your deck."
+1226,Lt. Surge's Bargain,Lt. Surge's Bargain,"Ask your opponent if each player may take a Prize card. If yes, each player takes a Prize card. If no, you draw 4 cards."
+1227,Lillie's Determination,Lillie's Determination,"Shuffle your hand into your deck. Then, draw 6 cards. If you have exactly 6 Prize cards remaining, draw 8 cards instead."
+1228,Acerola's Mischief,Acerola's Mischief,"You can use this card only if your opponent has 2 or fewer Prize cards remaining.
+
+Choose 1 of your Pokémon in play. During your opponent’s next turn, prevent all damage from and effects of attacks done to that Pokémon by your opponent’s Pokémon {ex}."
+1229,Wally's Compassion,Wally's Compassion,"Heal all damage from 1 of your Mega Evolution Pokémon {ex}. If you healed any damage in this way, put all Energy attached to that Pokémon into your hand."
+1230,Grimsley's Move,Grimsley's Move,Look at the top 7 cards of your deck and put a {D} Pokémon you find there onto your Bench. Shuffle the other cards and put them on the bottom of your deck. You can’t use this card during your first turn.
+1231,Dawn,Dawn,"Search your deck for a Basic Pokémon, a Stage 1 Pokémon, and a Stage 2 Pokémon, reveal them, and put them into your hand. Then, shuffle your deck."
+1232,Firebreather,Firebreather,"Search your deck for up to 7 Basic {R} Energy cards, reveal them, and put them into your hand. Then, shuffle your deck."
+1233,Canari,Canari,"You can use this card only if you discard another card from your hand.
+
+Search your deck for up to 4 {L} Pokémon, reveal them, and put them into your hand. Then, shuffle your deck."
+1234,Anthea & Concordia,Anthea & Concordia,"You can use this card only if you have N’s Darmanitan, N’s Zoroark {ex}, N’s Vanilluxe, N’s Klinklang, N’s Reshiram, and N’s Zekrom in play.
+
+During this turn, if your opponent’s Active Pokémon is Knocked Out by damage from an attack used by your N’s Pokémon, take 3 more Prize cards."
+1235,Waitress,Waitress,Look at the top 6 cards of your deck and attach a Basic Energy card you find there to 1 of your Pokémon. Shuffle the other cards back into your deck.
+1236,Urbain,Urbain,Draw 3 cards.
+1237,Lucian,Lucian,"Each player shuffles their hand and puts it on the bottom of their deck. If either player put any cards on the bottom of their deck in this way, each player flips a coin. If heads, that player draws 6 cards. If tails, they draw 3 cards."
+1238,Tarragon,Tarragon,Put up to 4 in any combination of {F} Pokémon and Basic {F} Energy cards from your discard pile into your hand.
+1239,Naveen,Naveen,"Draw cards until you have 5 cards in your hand. Before drawing cards, you may discard any number of cards from your hand. (If you can’t draw any cards in this way, you can’t use this card.)"
+1240,Rosa's Encouragement,Rosa's Encouragement,"You can use this card only if you have more Prize cards remaining than your opponent.
+
+Attach up to 2 Basic Energy cards from your discard pile to 1 of your Stage 2 Pokémon."
+1241,Jacinthe,Jacinthe,Heal 150 damage from 1 of your {P} Pokémon.
+1242,Community Center,Community Center,"Once during each player’s turn, if they played a Supporter card from their hand this turn, they may heal 10 damage from each of their Pokémon."
+1243,Perilous Jungle,Perilous Jungle,"During Pokémon Checkup, put 2 more damage counters on each Poisoned non-{D} Pokémon (both yours and your opponent’s)."
+1244,Full Metal Lab,Full Metal Lab,{M} Pokémon (both yours and your opponent’s) take 30 less damage from attacks from the opponent’s Pokémon (after applying Weakness and Resistance).
+1245,Festival Grounds,Festival Grounds,Each Pokémon that has any Energy attached (both yours and your opponent’s) recovers from all Special Conditions and can’t be affected by any Special Conditions.
+1246,Jamming Tower,Jamming Tower,Pokémon Tools attached to each Pokémon (both yours and your opponent’s) have no effect.
+1247,Neutralization Zone,Neutralization Zone,"Prevent all damage done to Pokémon that don’t have a Rule Box (both yours and your opponent’s) by attacks from the opponent’s Pokémon {ex} and Pokémon {V}. (Pokémon {ex}, Pokémon {V}, etc. have Rule Boxes.)
+
+This card can’t be put into your hand or deck from the discard pile."
+1248,Academy at Night,Academy at Night,"Once during each player’s turn, that player may put a card from their hand on top of their deck."
+1249,Grand Tree,Grand Tree,"Once during each player’s turn, that player may search their deck for a Stage 1 Pokémon that evolves from 1 of their Basic Pokémon and put it onto that Pokémon to evolve it. If that Pokémon was evolved in this way, that player may search their deck for a Stage 2 Pokémon that evolves from that Pokémon and put it onto that Pokémon to evolve it. Then, that player shuffles their deck. (Players can’t evolve a Basic Pokémon during their first turn or a Basic Pokémon that was put into play this turn.)"
+1250,Area Zero Underdepths,Area Zero Underdepths,"Each player who has any Tera Pokémon in play can have up to 8 Pokémon on their Bench.
+
+If a player no longer has any Tera Pokémon in play, that player discards Pokémon from their Bench until they have 5. When this card leaves play, both players discard Pokémon from their Bench until they have 5, and the player who played this card discards first."
+1251,Lively Stadium,Lively Stadium,Each Basic Pokémon in play (both yours and your opponent’s) gets +30 HP.
+1252,Gravity Mountain,Gravity Mountain,Each Stage 2 Pokémon in play (both yours and your opponent’s) gets -30 HP.
+1253,N’s Castle,N’s Castle,N’s Pokémon in play (both yours and your opponent’s) have no Retreat Cost.
+1254,Levincia,Levincia,"Once during each player’s turn, that player may put up to 2 Basic {L} Energy cards from their discard pile into their hand."
+1255,Postwick,Postwick,Attacks used by Hop’s Pokémon (both yours and your opponent’s) do 30 more damage to the opponent’s Active Pokémon (before applying Weakness and Resistance).
+1256,Team Rocket's Watchtower,Team Rocket's Watchtower,{C} Pokémon in play (both yours and your opponent’s) have no Abilities.
+1257,Team Rocket's Factory,Team Rocket's Factory,"Once during each player’s turn, if they played a Supporter card that has ""Team Rocket"" in its name from their hand this turn, they may draw 2 cards."
+1258,Granite Cave,Granite Cave,Steven’s Pokémon (both yours and your opponent’s) take 30 less damage from attacks from the opponent’s Pokémon (after applying Weakness and Resistance).
+1259,Spikemuth Gym,Spikemuth Gym,"Once during each player’s turn, that player may search their deck for a Marnie’s Pokémon, reveal it, and put it into their hand. Then, that player shuffles their deck."
+1260,Risky Ruins,Risky Ruins,"Whenever any player puts a Basic non-{D} Pokémon onto their Bench during their turn, place 2 damage counters on that Pokémon."
+1261,Forest of Vitality,Forest of Vitality,"Each player’s {G} Pokémon can evolve into {G} Pokémon during the turn they play those Pokémon, except during their first turn."
+1262,Surfing Beach,Surfing Beach,"Once during each player’s turn, that player may switch their Active {W} Pokémon with 1 of their Benched {W} Pokémon."
+1263,Mystery Garden,Mystery Garden,"Once during each player’s turn, that player may discard an Energy card from their hand in order to draw cards until they have as many cards in their hand as they have {P} Pokémon in play."
+1264,Battle Cage,Battle Cage,Prevent all damage counters from being placed on Benched Pokémon (both yours and your opponent’s) by effects of attacks and Abilities from the opponent’s Pokémon. (Damage from attacks is still taken.)
+1265,Dizzying Valley,Dizzying Valley,Confused Pokémon (both yours and your opponent’s) don’t recover from that Special Condition when they evolve or devolve.
+1266,Nighttime Mine,Nighttime Mine,Attacks used by each Tera Pokémon in play (both yours and your opponent’s) cost {C} more.
+1267,Lumiose City,Lumiose City,"Once during each player’s turn, that player may search their deck for a Basic Pokémon and put it onto their Bench. Then, that player shuffles their deck. If a player searches their deck in this way, their turn ends."
