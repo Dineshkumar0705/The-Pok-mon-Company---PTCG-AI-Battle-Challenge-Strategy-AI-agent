@@ -39,7 +39,7 @@ from .search.transposition_table import TranspositionTable
 
 
 def build_agent(deck: list[int], search_config: ExpectimaxConfig | None = None,
-                 plan_stability_enabled: bool = False):
+                 plan_stability_enabled: bool = True):
     """Return an `agent(obs_dict) -> list[int]` closure bound to `deck` and the
     engine's real card/attack tables (loaded once, not per-call).
 
@@ -51,11 +51,18 @@ def build_agent(deck: list[int], search_config: ExpectimaxConfig | None = None,
     heuristic scores byte-identical to before this parameter existed --
     see tests/test_expectimax_matches_heuristic_at_depth_zero.py.
 
-    `plan_stability_enabled` (v7, docs/v7-architecture.md): opt-in,
-    defaults to False. When False, `state["last_committed_attacker"]` is
+    `plan_stability_enabled` (v7, docs/v7-architecture.md):
+    ============================================================
+    ALL-ON OVERRIDE (requested explicitly, 2026-09-11): default flipped
+    True -- was False. Real A/B result (scripts/ab_test_plan_stability.py)
+    was a NULL, not a win: this bonus makes no measured difference to win
+    rate, it just changes which attacker gets picked on some ties. Flip
+    this back to `False` to restore the shipped, validated default.
+    ============================================================
+    When False, `state["last_committed_attacker"]` is
     never updated past its initial -1, which is a guaranteed no-op in
-    `attack_plans.py`'s PLAN_STABILITY_BONUS check -- so the default call
-    here stays byte-identical to pre-v7 behavior. This was found the hard
+    `attack_plans.py`'s PLAN_STABILITY_BONUS check -- so that call stays
+    byte-identical to pre-v7 behavior. This was found the hard
     way: an EARLIER version of this feature updated that state
     unconditionally, and a real self-play parity run against v1
     (tests/test_agent_matches_legacy.py) caught a real divergence from it
@@ -64,7 +71,9 @@ def build_agent(deck: list[int], search_config: ExpectimaxConfig | None = None,
     printed card text); it's a genuinely new heuristic change, and this
     project's own rule is that nothing like that ships as the default
     until it wins a real head-to-head A/B, same as v4/v5's search layer.
-    See `scripts/ab_test_plan_stability.py` for that result.
+    See `scripts/ab_test_plan_stability.py` for that result. Defaulting it
+    True here means `tests/test_agent_matches_legacy.py` is EXPECTED to
+    start failing -- that's the parity gate correctly noticing the change.
     """
     card_table, attack_table, source = load_card_table(prefer_engine=True)
     if source != "engine":

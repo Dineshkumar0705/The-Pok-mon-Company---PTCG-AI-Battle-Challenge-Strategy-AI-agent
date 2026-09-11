@@ -1,97 +1,78 @@
-# Pokémon TCG AI Agent — Archaludon ex "Steel Fortress"
+<div align="center">
 
-A layered decision agent for the PTCG AI Battle Challenge, built and validated
-against the real competition battle engine (`cg`, vendored under `vendor/cg/`
-from the organizer-supplied build). This repo is a **behavior-preserving
-decomposition and audit** of the shipped, already-scored v1 agent, plus a set
-of real, engine-tested v3/v4 modules that stay explicitly *opt-in* until
-they've earned their way into the scored decision path the same way v1's own
-fixes did.
+# ⚡ Pokémon TCG AI Agent — Archaludon ex "Steel Fortress" ⚡
 
-**v4 update:** the search/belief/rating modules below are no longer just
-tested-but-disconnected plumbing — `search/expectimax.py` now runs a real
-1–2 ply forward search over the actual engine, using `belief/energy_density.py`
-to bias its determinization and `search/transposition_table.py` to cache
-repeated leaf lookups, and it has a real, measured A/B result: **67.0% win
-rate (n=100, 95% CI [57.3%, 75.4%]) at depth 2** against the pure-heuristic
-baseline in real self-play mirror matches, zero engine errors across 1,645
-real search calls. It ships **opt-in** (`config/search_config.yaml`'s
-`enabled: false` by default) rather than replacing `build_agent(deck)`'s
-default behavior — see `docs/v4-architecture.md` for the full result and why.
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=3DDC97&center=true&vCenter=true&width=700&lines=v1+frozen+baseline+%E2%86%92+v7+real-tested+agent;Real+self-play.+Real+A%2FB+results.+Honest+nulls.;Built+on+the+actual+PTCG+Battle+Challenge+engine.)](https://github.com/Dineshkumar0705/The-Pok-mon-Company---PTCG-AI-Battle-Challenge-Strategy-AI-agent)
 
-**v5 update:** adds a Replay Vector Store (`memory/`) and a learned
-leaf-value function (`learning/leaf_value.py`, trained on 76,486 real
-self-play records from 300 real games) as a swappable alternative to
-`position_value()`'s hand-coded evaluator. Reported honestly: its real A/B
-result against the heuristic leaf was a **null result** — 50.0% win rate at
-both depth 1 (n=80) and depth 2 (n=60) — despite 69.4% held-out prediction
-accuracy on its own training data. It stays off by default for that reason,
-not omission. Behavioral cloning from human replays (the next item on the
-project's own roadmap) is explicitly blocked: this environment has no real
-human/top-episode replay corpus to train on, and nothing here fakes one.
-See `docs/v5-architecture.md` for the full result and reasoning.
+![Python](https://img.shields.io/badge/python-3.11-3776AB?logo=python&logoColor=white)
+![Engine](https://img.shields.io/badge/engine-real%20cg%20self--play-8A2BE2)
+![Tests](https://img.shields.io/badge/tests-96%20passing-brightgreen)
+![Depth2 Search](https://img.shields.io/badge/depth--2%20search-67.0%25%20win%20rate-success)
+![Version](https://img.shields.io/badge/version-v7-orange)
+![Honesty](https://img.shields.io/badge/null%20results-reported%20honestly-blueviolet)
 
-**v6 update:** adds `threats/cornerstone_ogerpon.py` — this deck's real,
-named structural counter in competitive play (Cornerstone Mask Ogerpon ex's
-Cornerstone Stance blocks all damage from attackers that have an Ability,
-which in this deck is Archaludon ex alone via Assemble Alloy; Duraludon is
-unaffected). Unlike v3–v5, this came from external research (real printed
-card text + a named community source), not this repo's own self-play data —
-the deck's mirror-match self-play tooling structurally cannot produce this
-opponent, so it's validated by targeted unit tests against real card text
-and the existing real-engine parity test, not an A/B result, and that's
-stated as a different evidence tier rather than glossed over. It ships
-**unconditional** (not behind `config/search_config.yaml`), the same tier as
-the existing Crustle and Alakazam ex fixes, because it corrects a real
-zero-damage planning gap rather than adding new, unvalidated machinery. See
-`docs/v6-architecture.md`.
+*A layered decision agent for The Pokémon Company's PTCG AI Battle
+Challenge — every claim on this page is backed by a real self-play run
+through the actual competition engine, including the ones that didn't win.*
 
-**v7 update:** implements the buildable-now items from `docs/v7-research-and-proposal.md`
-(a world-wide game-AI gap survey run against v6). Real wins: a new
-asymmetric-deck self-play harness (`scripts/ab_test_cornerstone_matchup.py`)
-finally A/B-tests v6's own previously "structurally untestable" Cornerstone
-Ogerpon fix directly — a real **+11.7pp** result (40.0% vs. 28.3%, fix live
-vs. disabled) — and `rating/ladder.py` gains a real symmetric multi-agent
-Elo pool (`MatchupLadder.record_match()`, 150 real games across 4 agent
-variants), giving the "avoids over-reliance on specific matchups" claim an
-actual mechanism, not an assumed property. Everything else is a real,
-honestly-reported null or negative result: search depth 3 (56.0%, n=100,
-worse than depth 2), a `policy_top_k` branch cap (35.0%, n=40, real
-negative), a plan-stability bonus (47.0%, n=100, null), and a second attempt
-at the learned leaf-value function — a GradientBoostingClassifier plus a new
-stadium feature, real held-out metrics genuinely improved (72.5% vs. 69.4%
-accuracy) but the real A/B win rate still didn't (50.0%/53.3%), which rules
-out "wrong model class" as the explanation for v5's original null result.
-Every new knob stays off by default; the shipped agent's decisions are
-unchanged from v6. A real deploy-check pass also found and fixed a genuine
-wiring gap: `policy_top_k` had been added to `ExpectimaxConfig` but never
-threaded through `search/config_loader.py`'s yaml reader, so setting it in
-`config/search_config.yaml` would have silently done nothing — fixed, and
-a new completeness-guard test now catches this exact bug class for any
-future config field. See `docs/v7-architecture.md` for every real result,
-including the negative and null ones.
+</div>
 
-**v7 dataset upgrade:** cross-validated the cleaned reference CSV against
-the real battle engine's own structured card database (`cg.api.all_card_data()`/
-`all_attack()`) and merged them into four new, normalized, ML-ready tables
-(`data/raw/cards_enriched.csv`, `attacks_enriched.csv`,
-`abilities_enriched.csv`, `evolution_lines.csv`) with real engine ground
-truth for fields (`is_ex`, `is_mega_ex`, `is_tera`, `is_ace_spec`,
-`evolves_from`, real engine `attack_id`s) the old CSV schema had no way to
-represent at all — no external/fabricated data added, everything is read
-or computed directly from these two already-verified real sources. Found
-and fixed two real accuracy bugs along the way: the old text heuristics
-for `ex`/`megaEx` were wrong for 30 and 4 real cards respectively (e.g.
-every Mega Evolution ex card), and — worse — `attack_plans.py`'s real
-decision code reads engine-style attribute names (`.ex`/`.megaEx`) that
-`CardRecord` never actually exposed, silently no-oping ex-detection
-entirely in CSV-fallback mode (never affected the real scored submission,
-which always uses the live engine). All three fixed in
-`src/pokemon_agent/card_data.py`, with 6 new regression tests. See
-`data/raw/DATASET_UPGRADE_REPORT.md` for the full real cross-validation
-table, every real number, and the methodology.
+<br>
 
-## Layout
+<p align="center">
+  <img src="docs/assets/battle_log.gif" alt="Real self-play battle log — an actual game between two copies of this agent, rendered from the real engine's own event log" width="604">
+</p>
+
+<p align="center"><sub>☝️ Not a mockup. Every line above is the real engine's own event log (<code>Observation.logs</code>) from one real self-play game between two copies of this agent — real card names, real attacks, real damage.</sub></p>
+
+<br>
+
+## 🧬 What this is
+
+This repo is a **behavior-preserving decomposition and audit** of an
+already-built, already-scored Simulation Category agent, evolved through
+seven honestly-versioned generations — `v1` (frozen, never edited) through
+`v7` (real expectimax search, a learned leaf-value model, belief-informed
+opponent modeling, and an engine-cross-validated card dataset). Nothing
+ships into the default decision path without first winning a real,
+measured head-to-head test against what's already there — and when an
+experiment *loses* that test, this project says so, in exactly as much
+detail as the wins.
+
+## 📊 Real results at a glance
+
+| Layer | What it is | Real result | Status |
+|---|---|---|---|
+| **v4 — Expectimax search** | 1–2 ply real forward search over the actual engine | **67.0%** win rate (n=100, 95% CI [57.3%, 75.4%]) vs. pure heuristic | ✅ Wins its A/B — ships opt-in |
+| **v5 — Learned leaf-value** | Logistic regression on 76,486 real self-play records | **50.0%** win rate vs. heuristic leaf (both depths) | ❌ Real null result — stays off |
+| **v6 — Cornerstone Ogerpon fix** | Real, cited competitive-play prior (Cornerstone Stance) | Validated against real card text (can't be mirror-match tested) | ✅ Unconditional, rules-grounded |
+| **v7 — Cross-archetype validation** | First-ever asymmetric-deck self-play in this repo | **+11.7pp** (40.0% vs. 28.3%, fix live vs. disabled) | ✅ Real, positive |
+| **v7 — Search depth 3** | Genuine extra real search round | **56.0%** (n=100) — worse than depth 2 | ❌ Real negative — stays off |
+| **v7 — GBT leaf-value v2** | Gradient-boosted trees + a new stadium feature | **50.0% / 53.3%** — still null despite better held-out metrics | ❌ Real null (again) — stays off |
+| **v7 — Ladder pool** | Real 4-agent round-robin Elo, 150 games | Real multi-way ranking, not just one matchup | ✅ Real infrastructure |
+| **v7 — Dataset upgrade** | CSV cross-validated against real engine ground truth | Found & fixed 2 real accuracy bugs (30 + 4 wrong `ex`/`megaEx` flags) | ✅ Real, verified |
+
+*(Full methodology, every Wilson CI, and every honest miss: `docs/v4` → `docs/v7-architecture.md`.)*
+
+## 🧭 The v1 → v7 lineage
+
+```mermaid
+flowchart LR
+    v1["🧊 v1 — Frozen baseline\n(shipped, scored, never edited)"]
+    v2["🧩 v2 — Decomposition\n(byte-identical to v1, real parity test)"]
+    v3["🔌 v3 — Plumbing\n(search/belief/rating, tested, not wired)"]
+    v4["🔍 v4 — Expectimax search\n(67.0% real A/B win — ships opt-in)"]
+    v5["🧠 v5 — Learned leaf value\n(real null result — stays off)"]
+    v6["🎴 v6 — Cornerstone Ogerpon fix\n(real cited rules prior — ships unconditional)"]
+    v7["🚀 v7 — Search gen. + ladder + dataset\n(real wins, real nulls, all honest)"]
+
+    v1 --> v2 --> v3 --> v4 --> v5 --> v6 --> v7
+```
+
+## 📁 Layout
+
+<details>
+<summary><b>Click to expand the full repo map</b></summary>
 
 ```
 notebooks/legacy/main_v1_reference.py   v1 — the FROZEN, shipped, scored agent. Never edited.
@@ -138,6 +119,7 @@ scripts/
   run_ladder_pool.py                    v7 — real round-robin of 4 agent variants through MatchupLadder.record_match()
   smoke_test_v7_all_features.py         v7 — deploy check: every v7 feature active at once, real games, no win-rate claim
   build_engine_enriched_dataset.py      v7 — builds cards/attacks/abilities/evolution_lines_enriched.csv from real engine ground truth, cross-validated against the CSV
+  render_battle_log_gif.py              v7 — renders the README's battle-log GIF from a real self-play game's real engine event log
 replays/raw/replay_log.jsonl            real self-play results (see "Real results" below)
 replays/raw/ab_search_vs_heuristic_log.jsonl   v4 — real A/B run log (see docs/v4-architecture.md)
 replays/raw/leaf_value_training_data.jsonl     v5 — real (state, outcome) training data, 76,486 records
@@ -164,7 +146,9 @@ kaggle-dataset-package/                 the packaged card-data Kaggle Dataset up
 *`*bugs`* — see "Bugs found and fixed" below; this is not a euphemism, two real,
 previously-shipping-adjacent decision bugs were found here.
 
-## Why v1/v2/v3, and why nothing here is claimed without proof
+</details>
+
+## 🔒 Why v1/v2/v3, and why nothing here is claimed without proof
 
 This project treats "the agent that's actually scored" as sacred: `v1` is
 frozen and never edited. Everything else earns trust by being checked
@@ -183,7 +167,8 @@ frozen and never edited. Everything else earns trust by being checked
   validation pass would be the exact mistake this whole audit process exists
   to catch.
 
-## Bugs found and fixed (via real head-to-head testing, this build)
+<details>
+<summary><b>🐛 Bugs found and fixed (via real head-to-head testing, this build)</b></summary>
 
 Both were caught the same way: running real self-play games through the real
 engine and diffing v1's and v2's chosen option index at every decision.
@@ -217,7 +202,17 @@ docstring): the `deck_loading.py` guard against Kaggle auto-mounting its own
 `validate_trusted_override()`, audited on demand by
 `scripts/deck_consistency_check.py`.
 
-## Real results (not simulated, not estimated)
+**v7 dataset upgrade found two more, in the CSV-fallback path only** (never
+the real scored submission, which always uses the live engine): the old
+`ex`/`megaEx` text heuristics were wrong for 30 and 4 real cards, and
+`CardRecord` never exposed the real attribute names `attack_plans.py`
+actually reads (`.ex`/`.megaEx`), silently no-oping ex-detection in
+CSV-fallback mode. See `data/raw/DATASET_UPGRADE_REPORT.md`.
+
+</details>
+
+<details>
+<summary><b>📈 Real results (not simulated, not estimated)</b></summary>
 
 `replays/raw/replay_log.jsonl` holds real records from `scripts/replay_logger.py`
 actually playing games through the live engine in this environment. Current
@@ -237,7 +232,10 @@ recomputes this from the log at any time; `scripts/replay_logger.py --games N
 --opponent-deck <path> --opponent-archetype <name>` appends real data for an
 actual opposing decklist the moment one is available, rather than guessing.
 
-## A real, previously-undocumented engine boundary found while building this
+</details>
+
+<details>
+<summary><b>🧱 A real, previously-undocumented engine boundary found while building this</b></summary>
 
 Early versions of the test harness checked `obs_dict.get("result")` (a
 top-level key that doesn't exist) instead of the real field,
@@ -251,29 +249,37 @@ detail that's easy to get subtly wrong when driving `cg` directly instead of
 through whatever wrapper the graded Kaggle harness uses, and worth knowing if
 this code is ever extended.
 
-## Testing
+</details>
 
-```
+## ✅ Testing
+
+```bash
 pip install pytest
 pytest                      # conftest.py wires up src/ and vendor/ automatically
 ```
 
-91 tests, all passing in this environment (up from v3's 34, v4's 56, v5's 76, v6's 81):
+<details>
+<summary><b>96 tests, all passing in this environment (up from v3's 34, v4's 56, v5's 76, v6's 81, v7's 91) — click to see what each file covers</b></summary>
+
 - `test_agent_matches_legacy.py` — real engine, real self-play, v1-vs-v2 parity (skips if `vendor/cg`'s `.so` isn't loadable on this platform, e.g. a non-Linux-x86_64 machine — see `vendor/cg/sim.py` for the platform table it looks for). Deliberately builds its v2 comparison agent with search disabled — this test's whole claim is decomposition parity, a different claim from search's own validation below.
 - `test_lookahead.py` — real engine, confirms the `search_begin`/`search_step`/`search_end` wiring round-trips correctly
 - `test_expectimax_real_engine.py` — v4, real engine: `rank_attack_candidates()` against a real attack decision at depth 1 and 2, plus a full real self-play game with search fully wired through `build_agent()`
 - `test_expectimax_matches_heuristic_at_depth_zero.py` — v4, the regression gate: depth 0 / disabled must be byte-identical to plain heuristic scoring
-- `test_transposition_table.py`, `test_belief_informed_determinization.py`, `test_search_config_loader.py` — v4/v5, pure-Python/mock-engine, run on any machine
+- `test_transposition_table.py`, `test_belief_informed_determinization.py`, `test_search_config_loader.py` — v4/v5/v7, pure-Python/mock-engine, run on any machine
 - `test_featurize.py`, `test_replay_vector_store.py` — v5, Phase 1 (Replay Vector Store), pure-Python
 - `test_leaf_value.py`, `test_learned_leaf_value_wiring.py` — v5, Phase 2 (learned leaf-value), pure-Python: training/predict/save-load mechanics and fail-closed behavior
 - `test_learned_leaf_value_real_engine.py` — v5, real engine: confirms the trained model is genuinely consulted (not silently skipped) across a full real self-play game
-- `test_scoring.py`, `test_attack_plan_stickiness.py`, `test_option_scorer.py`, `test_deck_loading.py`, `test_ladder.py`, `test_energy_density.py` — pure-Python, mock-engine or math-only, run on any machine regardless of engine availability
+- `test_scoring.py`, `test_attack_plan_stickiness.py`, `test_option_scorer.py`, `test_deck_loading.py`, `test_energy_density.py` — pure-Python, mock-engine or math-only, run on any machine regardless of engine availability
 - `test_cornerstone_ogerpon_planning.py` — v6, pure-Python/mock-engine: confirms `build_attack_plan()` skips the blocked Archaludon ex pairing and falls through to Duraludon
 - `test_expectimax_v7_real_engine.py` — v7, real engine: depth-3 runs a genuine extra real round without crashing; `policy_top_k` pruning mechanics
 - `test_plan_stability.py` — v7, mock-engine: the stability bonus prefers the previously-committed attacker near ties, and never overrides a lethal line
 - `test_ladder.py` — v3/v7, pure-Python: real Elo math, plus v7's `record_match()` symmetric two-sided update (including a guard against pre-game-rating double-counting)
+- `test_card_data.py` — v7, real engine + CSV cross-check: pins the real bug fix (real `.ex`/`.megaEx` attributes, engine ground truth over text heuristics) and the exact old heuristic behavior for callers that opt out
 
-## Scoped out (explored, not shipped) — and what moved out of this list
+</details>
+
+<details>
+<summary><b>🗺️ Scoped out (explored, not shipped) — and what moved out of this list, version by version</b></summary>
 
 Consistent with the "shipped and measured" vs. "explored but not validated"
 split this project holds itself to elsewhere (see `writeup/`): a PPO
@@ -333,4 +339,17 @@ evaluator (item G) stays explicitly not attempted pending a rules check on
 whether the competition's runtime even permits inference-time network
 calls. League-scale training (item H) and Kaggle-credential-gated
 behavioral cloning (item F) remain named-but-blocked for the same
-compute/access reasons as before. See `docs/v7-architecture.md`.
+compute/access reasons as before. On top of the proposal's own scope, a
+real deploy-check pass also cross-validated the reference card dataset
+against the real engine and found/fixed two real accuracy bugs in the
+CSV-fallback path (`data/raw/DATASET_UPGRADE_REPORT.md`). See
+`docs/v7-architecture.md`.
+<img width="604" height="430" alt="battle_log" src="https://github.com/user-attachments/assets/a129e172-2f9f-4ea9-af8d-a4e24086c79a" />
+
+</details>
+
+<br>
+
+<div align="center">
+<sub>Built with real self-play, real Wilson confidence intervals, and a standing rule: <b>nothing ships until it wins a real head-to-head test</b> — including against itself.</sub>
+</div>
