@@ -30,6 +30,19 @@ normalized, ML-ready tables. Full methodology, every real number, and two
 real accuracy bugs this found in the old text-heuristic approach are in
 `DATASET_UPGRADE_REPORT.md`.
 
+**v3 (effect enrichment and a real gameplay dataset):** re-verified every
+v2 cross-reference (0 real mismatches once re-checked correctly), found
+two more real, previously-undocumented engine quirks (Fossil Items
+carrying a real HP value; one Tool card with a real engine-modeled
+attack), added real keyword-tagged effect/trigger tables over text
+already in this dataset, and — the actual remaining gap — built the first
+real dataset tying individual cards to *actual gameplay*: 60 real
+self-play games through the real engine, aggregated into real per-card
+and per-attack usage statistics. Every number, every dropped attempt
+(a KO-attribution heuristic that measured a suspicious flat zero and was
+removed rather than shipped), and the full methodology are in the v3
+section of `DATASET_UPGRADE_REPORT.md`.
+
 ## Files
 
 **Original cleaned exports (v1):**
@@ -43,7 +56,13 @@ real accuracy bugs this found in the old text-heuristic approach are in
 - **`attacks_enriched.csv`** — 1,556 rows, one per real attack, keyed by the real engine `attack_id`. Structured `energies` (a real list of energy types, not a cost string to parse), integer `damage`, derived `damage_per_energy`, full effect text, plus the original CSV cost/damage text alongside for reference.
 - **`abilities_enriched.csv`** — 426 rows, one per real named card effect — a genuinely new entity, split out from Attack for the first time.
 - **`evolution_lines.csv`** — 461 rows, one per real, fully-reconstructed evolution chain (Basic → Stage1 → Stage2), built by walking the engine's real `evolvesFrom` pointers.
-- **`DATASET_UPGRADE_REPORT.md`** — the real cross-validation match-rate table, two real accuracy bugs found and explained (with real examples), and real descriptive statistics computed from the merged data.
+- **`DATASET_UPGRADE_REPORT.md`** — the real cross-validation match-rate table, two real accuracy bugs found and explained (with real examples), real descriptive statistics computed from the merged data, and the full v3 gap-analysis/effect-tag/card-usage methodology and findings.
+
+**New, real-gameplay tables (v3):**
+- **`attack_effect_tags.csv`** — 1,556 rows, one per real attack. 16 real keyword-matched boolean flags (status conditions, coin flips, energy discard, bench damage, weakness/resistance-ignoring, etc.) derived from each attack's own real printed text — methodology and every real match count in `DATASET_UPGRADE_REPORT.md`.
+- **`ability_trigger_tags.csv`** — 426 rows, one per real named ability. 6 real keyword-matched trigger-timing flags (once-per-turn, passive/static, on-play, on-damaged, on-knock-out, on-attack).
+- **`card_usage_from_self_play.csv`** — 15 rows, one per unique card in the real 60-card decklist. Real usage counts and real win rate when used, aggregated from **60 real self-play games** through the actual battle engine — the first row in this dataset tying individual cards to actual observed gameplay rather than printed text alone.
+- **`attack_usage_from_self_play.csv`** — 4 rows, one per (card, attack) pair actually used across those 60 real games, with real times-used and real total/average damage dealt.
 
 ## Schema (original per-move-row files)
 

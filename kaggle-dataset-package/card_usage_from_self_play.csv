@@ -1,0 +1,16 @@
+card_id,card_name,card_type,games_logged,games_used_in,pct_games_used,times_played,times_attacked_with,times_energy_attached,times_evolved_into,win_rate_when_used
+8,Basic {M} Energy,BASIC_ENERGY,60,60,1.0,0,0,1140,0,0.6
+57,Relicanth,POKEMON,60,41,0.6833,86,0,0,0,0.6098
+169,Duraludon,POKEMON,60,60,1.0,362,71,0,0,0.6
+190,Archaludon ex,POKEMON,60,60,1.0,0,686,0,378,0.6
+1097,Night Stretcher,ITEM,60,53,0.8833,212,0,0,0,0.5849
+1121,Ultra Ball,ITEM,60,59,0.9833,357,0,0,0,0.5932
+1122,Pokégear 3.0,ITEM,60,52,0.8667,214,0,0,0,0.5962
+1123,Switch,ITEM,60,35,0.5833,86,0,0,0,0.4571
+1152,Poké Pad,ITEM,60,58,0.9667,285,0,0,0,0.6207
+1159,Hero’s Cape,TOOL,60,40,0.6667,0,0,79,0,0.6
+1182,Boss’s Orders,SUPPORTER,60,13,0.2167,27,0,0,0,0.5385
+1192,Carmine,SUPPORTER,60,56,0.9333,203,0,0,0,0.5893
+1213,Judge,SUPPORTER,60,44,0.7333,110,0,0,0,0.6136
+1227,Lillie's Determination,SUPPORTER,60,54,0.9,253,0,0,0,0.5926
+1244,Full Metal Lab,STADIUM,60,34,0.5667,68,0,0,0,0.5882

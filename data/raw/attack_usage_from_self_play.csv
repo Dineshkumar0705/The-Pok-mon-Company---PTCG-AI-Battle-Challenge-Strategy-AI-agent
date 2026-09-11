@@ -1,0 +1,5 @@
+attack_id,attack_name,card_id,card_name,times_used,pct_of_all_attacks,total_damage_dealt,avg_damage_dealt
+253,Metal Defender,190,Archaludon ex,561,0.7411,109080,194.4
+223,Hammer In,190,Archaludon ex,125,0.1651,1140,9.1
+223,Hammer In,169,Duraludon,63,0.0832,1080,17.1
+224,Raging Hammer,169,Duraludon,8,0.0106,960,120.0

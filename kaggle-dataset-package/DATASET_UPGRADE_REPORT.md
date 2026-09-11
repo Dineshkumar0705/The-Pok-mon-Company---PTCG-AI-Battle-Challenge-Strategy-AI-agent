@@ -153,6 +153,135 @@ matches the real, current-era TCG rule change (post-2023 rotation) that
 removed Resistance from nearly all Pokémon — not a data gap, a real
 reflection of the actual printed cards in this exact card pool.
 
+## v3 — Gap re-verification, real effect-tag enrichment, and a real 60-game card-usage dataset
+
+*Sep 11, 2026. This pass had three real goals: re-check the v2 tables above
+for anything missed, add real (not fabricated) enrichment where the data
+already supports it, and close the actual remaining gap — a "card
+dataset" that never had a single row of real *gameplay* data tied to real
+cards. All three below.*
+
+### Re-verified referential integrity (and a correction to how it was checked)
+
+A fresh pass cross-checking every `cards_enriched.csv` row's `attack_ids`
+against `attacks_enriched.csv`'s real `attack_id`s first reported 499
+"missing" references — which turned out to be a bug in the *checking
+script*, not the dataset: `attack_ids` is `;`-delimited (`"1;2"`), and the
+first check assumed a bracketed, comma-separated list. Re-run with the
+correct delimiter: **0 mismatches** — every attack a card references
+exists in `attacks_enriched.csv`, every attack's `card_id` exists in
+`cards_enriched.csv`, `num_attacks` matches the real count of `attack_ids`
+for all 1,267 cards, and there are 0 duplicate `card_id`s. Recorded here
+rather than silently fixed and discarded, because "the checker was wrong,
+not the data" is itself worth being explicit about.
+
+### Two more real, previously-undocumented engine quirks found
+
+- **Fossil Item cards carry a real `hp` value.** 5 cards (Antique Root/
+  Cover/Plume/Jaw/Sail Fossil) are `card_type: ITEM` but have `hp: 60` —
+  at first glance looks like a data-type violation (only Pokémon should
+  have HP). It isn't: real Fossils are Item cards that, once played,
+  function as a Basic Pokémon in play (the same cards already flagged in
+  the v2 section above for their `evolvesFrom` quirk) — the engine
+  correctly carries their in-play HP even though `cardType` stays `ITEM`.
+  Documented so a future consumer doesn't "fix" this as a bug.
+- **One Tool card has a real, engine-modeled attack.** "Core Memory"
+  (`card_id` 1180, category "Technical Machine") is a `TOOL` with
+  `num_attacks: 1`, pointing at a real `attack_id` in `attacks_enriched.csv`
+  — Technical Machine tools grant the attached Pokémon a printed attack,
+  and the engine models that as the *Tool card itself* owning an
+  `attackId`, not the Pokémon it's attached to. The only such card in this
+  1,267-card pool.
+
+### New: real effect-tag enrichment (`scripts/build_effect_tag_datasets.py`)
+
+Two new tables, built by keyword/regex matching over the real `text` and
+`ability_text` fields already in `attacks_enriched.csv` /
+`abilities_enriched.csv` — stated plainly: this is pattern matching over
+real printed text, not an NLP classifier or hand-labeling, deliberately
+conservative (specific patterns, accepted false negatives) rather than
+exhaustive. Every tag's real match count, out of 1,023 attacks that have
+any effect text at all (533 are plain damage, no text) and 426 real named
+abilities:
+
+**`attack_effect_tags.csv`** (1,556 rows, one per real attack):
+`hits_the_bench` 167, `coin_flip` 140, `discards_energy` 91,
+`ignores_weakness_resistance` 83, `self_damage` 65, `draws_cards` 35,
+`heals` 34, `inflicts_poisoned` 29, `inflicts_paralyzed` 26,
+`switches_pokemon` 24, `prevents_or_reduces_damage` 22,
+`inflicts_confused` 20, `inflicts_burned` 17, `references_knock_out` 16,
+`inflicts_asleep` 13, `discards_own_hand` 2.
+
+**`ability_trigger_tags.csv`** (426 rows, one per real named ability):
+`once_per_turn` 81, `passive_static` 31, `on_play_or_enter` 27,
+`on_damaged` 18, `on_knock_out` 3, `on_attack` 0 (no real ability in this
+pool phrases its trigger that way — a real, honest zero, not a bug;
+verified with `test_a_known_real_card_gets_the_right_tag` in
+`tests/test_dataset_gap_analysis.py` that a known plain-damage attack,
+Metal Defender, gets zero false-positive tags).
+
+`ignores_weakness_resistance` (83 attacks) is worth calling out for the
+writeup: it's a real, strategically load-bearing category (relevant to
+threat modeling against any deck leaning on weakness-based OHKOs) that
+the old flat-text dataset had no way to query without re-reading every
+attack's text by hand.
+
+### New: a real 60-game card-level self-play dataset (`scripts/generate_card_usage_dataset.py`)
+
+The actual gap this pass was meant to close: `replays/raw/replay_log.jsonl`
+(the original 30-game log) only ever recorded game-level outcomes — no
+per-card signal at all. This script runs real self-play through the
+actual engine (60 real mirror-match games, byte-identical-to-v1 policy
+pinned explicitly regardless of this checkout's own config state — see
+the script's module docstring for why that matters right now) and
+produces two new real, derived tables from `Observation.logs`:
+
+- **`card_usage_from_self_play.csv`** — 15 rows, one per unique card in
+  the 60-card deck: real counts of how many of the 60 logged games each
+  card appeared in, how often it was played/attacked-with/evolved-into/had
+  energy attached, and the real win rate of games it was used in.
+- **`attack_usage_from_self_play.csv`** — 4 rows, one per (card, attack)
+  pair actually used across all 60 games: real times-used, real total and
+  average damage dealt.
+
+Real findings, 60/60 games completing normally, 60.0% win rate this run
+(consistent with the existing 30-game mirror-match range, [42.3%, 75.4%]):
+
+- **Archaludon ex's Metal Defender is the deck's real workhorse**: 561 of
+  757 total logged attacks (74.1%), average 194.4 real damage — the
+  clearest possible confirmation, from actual play rather than card text
+  alone, of what the deck's stated win condition already claims. Hammer In
+  (188 total real uses) is the early-game bridge attack — used 63 times by
+  Duraludon before it evolves and, real and worth noting since it wasn't
+  obvious from the card list alone, 125 more times by Archaludon ex
+  itself, which retains it alongside Metal Defender.
+- **Boss's Orders was used in only 13/60 games (21.7%)** — by far the
+  least-drawn/used card tracked, real signal for the Deck Score section on
+  how situational that tech slot actually is in practice, not just in
+  theory.
+- **Switch shows the lowest win-rate-when-used, 45.7%**, noticeably below
+  every other card's 54–61% band. Reported with the honest caveat this
+  section exists to make explicit: this is very likely a confound, not a
+  causal effect — Switch tends to get played specifically when the active
+  Pokémon is already in trouble, so games where it's used are
+  disproportionately games that were already going badly. Flagged, not
+  overclaimed.
+- **A real KO-attribution attempt was tried and dropped.** The script
+  originally tried to approximate "our attack scored a KO" from an
+  opponent CHANGE-of-active event landing in the same log batch as our
+  ATTACK. Across the real run this report is based on, it measured
+  exactly **zero** KOs in every single game — implausible for 60 real
+  mirror matches — meaning the forced-switch-after-KO event does not
+  reliably land in the same batch as the attack that caused it. Rather
+  than ship a column that silently always reads 0, it was removed
+  entirely; a reliable version would need to track a Pokémon's HP
+  reaching exactly 0 directly instead of inferring it from log adjacency,
+  named here as real, scoped follow-up work, not invented data.
+
+Both new CSVs and the raw per-game log (`replays/raw/card_usage_log.jsonl`,
+60 real records) are covered by `tests/test_dataset_gap_analysis.py` (7
+tests, pure-file, no live engine needed to re-check them).
+
 ## What this upgrade deliberately does not include
 
 No competitive-meta statistics (deck tier lists, real-world win rates,

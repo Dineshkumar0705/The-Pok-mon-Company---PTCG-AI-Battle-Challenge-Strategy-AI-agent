@@ -41,7 +41,23 @@
     },
     {
       "path": "DATASET_UPGRADE_REPORT.md",
-      "description": "Real cross-validation of the CSV against the battle engine's own structured data, two real accuracy bugs found and fixed, and real descriptive statistics."
+      "description": "Real cross-validation of the CSV against the battle engine's own structured data, two real accuracy bugs found and fixed, real descriptive statistics, plus a v3 pass: re-verified referential integrity, real effect-tag enrichment, and a real 60-game card-usage dataset."
+    },
+    {
+      "path": "attack_effect_tags.csv",
+      "description": "One row per real attack (1,556 rows), real keyword-matched boolean flags (16 categories: status conditions, coin flips, energy discard, bench damage, etc.) derived from each attack's real printed effect text."
+    },
+    {
+      "path": "ability_trigger_tags.csv",
+      "description": "One row per real named ability (426 rows), real keyword-matched trigger-timing flags (once-per-turn, passive/static, on-play, on-damaged, on-knock-out, on-attack) derived from each ability's real printed text."
+    },
+    {
+      "path": "card_usage_from_self_play.csv",
+      "description": "One row per unique card in the real 60-card decklist (15 rows), real usage counts (played/attacked-with/evolved-into/energy-attached) and real win rate when used, aggregated from 60 real self-play games through the actual battle engine."
+    },
+    {
+      "path": "attack_usage_from_self_play.csv",
+      "description": "One row per (card, attack) pair actually used across 60 real self-play games, with real times-used and real total/average damage dealt."
     }
   ]
 }

@@ -1,0 +1,1557 @@
+attack_id,attack_name,card_id,card_name,inflicts_poisoned,inflicts_burned,inflicts_paralyzed,inflicts_confused,inflicts_asleep,coin_flip,discards_energy,discards_own_hand,heals,draws_cards,switches_pokemon,prevents_or_reduces_damage,hits_the_bench,self_damage,references_knock_out,ignores_weakness_resistance
+1,Nab ’n’ Dash,21,Scrafty,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+2,High Jump Kick,21,Scrafty,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3,Push Down,22,Hippopotas,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0
+4,Ram,23,Hippowdon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,Super Sandstorm,23,Hippowdon,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1
+6,Comet Punch,24,Team Rocket's Kangaskhan ex,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+7,Wicked Impact,24,Team Rocket's Kangaskhan ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+8,Slow Crunch,25,Pinsir,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+9,Superpowered Horns,25,Pinsir,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+10,Leaflet Blessings,26,Leafeon,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0
+11,Solar Beam,26,Leafeon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+12,Recovery Net,27,Iron Leaves,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+13,Avenging Edge,27,Iron Leaves,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+14,Hook,28,Poltchageist,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+15,Re-Brew,29,Sinistcha ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+16,Matcha Splash,29,Sinistcha ex,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+17,Hot Magma,30,Magcargo ex,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+18,Ground Burn,30,Magcargo ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+19,Allure,31,Chi-Yu,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+20,Ground Melter,31,Chi-Yu,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+21,Permeating Chill,32,Glaceon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+22,Icicle Missile,32,Glaceon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+23,Flock,33,Froakie,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+24,Flop,33,Froakie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+25,Numbing Water,34,Frogadier,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0
+26,Aurora Gain,35,Walking Wake,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+27,Undulating Slice,35,Walking Wake,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+28,Pick and Stick,36,Morpeko,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+29,Volt Cyclone,37,Iron Thorns ex,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+30,Dual Headbutt,38,Girafarig,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1
+31,Heart Sign,39,Enamorus,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+32,Love Resonance,39,Enamorus,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+33,Shinobi Blade,40,Greninja ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+34,Mirage Barrage,40,Greninja ex,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1
+35,Ground Crasher,41,Ting-Lu,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1
+36,Hammer In,41,Ting-Lu,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+37,Find a Friend,42,Applin,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+38,Rolling Tackle,42,Applin,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+39,Ascension,43,Eevee,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+40,Quick Attack,43,Eevee,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+41,Blood Moon,44,Bloodmoon Ursaluna ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+42,Pinpoint Dive,45,Shaymin,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1
+43,Rear Kick,45,Shaymin,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+44,Heat Blast,46,Gouging Fire ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+45,Blaze Blitz,46,Gouging Fire ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+46,Big Bite,47,Totodile,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+47,Reverse Thrust,48,Croconaw,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0
+48,Giant Wave,49,Feraligatr,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+49,Lucky Find,50,Wiglett,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+50,Aqua Bomb,50,Wiglett,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+51,Vanguard Punch,51,Palafin,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+52,Double Hit,51,Palafin,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+53,Tricolor Pump,52,Wugtrio ex,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1
+54,Numbing Hold,52,Wugtrio ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+55,Ball Roll,53,Marill,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+56,Magical Shot,53,Marill,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+57,Mirror Attack,54,Bronzor,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+58,Evolution Jammer,55,Bronzong,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+59,Super Psy Bolt,55,Bronzong,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+60,Hex Hurl,56,Flutter Mane,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+61,Razor Fin,57,Relicanth,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+62,Land Collapse,58,Great Tusk,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+63,Giant Tusk,58,Great Tusk,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+64,Mysterious Beam,59,Gastly,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+65,Suffocating Gas,59,Gastly,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+66,Super Poison Breath,60,Haunter,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+67,Vengeance Fletching,61,Roaring Moon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+68,Speed Wing,61,Roaring Moon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+69,Primordial Beatdown,62,Koraidon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+70,Shred,62,Koraidon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+71,Burst Roar,63,Raging Bolt ex,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+72,Bellowing Thunder,63,Raging Bolt ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+73,Silent Wing,64,Hoothoot,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+74,Gnaw,65,Dunsparce,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+75,Dig,65,Dunsparce,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+76,Land Crush,66,Dudunsparce,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+77,Ram,67,Pineco,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+78,Rigidify,68,Seedot,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1
+79,Hang Down,68,Seedot,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+80,Corkscrew Punch,69,Nuzleaf,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+81,Comet Slap,69,Nuzleaf,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+82,Expelling Tornado,70,Shiftry,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+83,Energy Loop,70,Shiftry,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+84,Flop,71,Deerling,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+85,Leaf Litter Tackle,71,Deerling,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+86,Superpowered Horns,72,Sawsbuck,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+87,Slight Intrusion,73,Rellor,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+88,Psychic,74,Rabsca,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+89,Prism Edge,75,Iron Leaves ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+90,Roasting Heat,76,Slugma,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+91,Fake Out,77,Litten,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0
+92,Bite,78,Torracat,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+93,Flare Strike,78,Torracat,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+94,Blaze Blast,79,Incineroar ex,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+95,Twin Shotels,80,Iron Crown ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+96,Sand Spray,81,Drilbur,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+97,Mud Shot,82,Excadrill,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+98,Wild Tackle,82,Excadrill,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+99,Dirty Beam,83,Farigiraf ex,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1
+100,Steel Wing,84,Scizor ex,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1
+101,Cross Breaker,84,Scizor ex,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+102,Dig Claws,85,Beldum,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+103,Iron Tackle,85,Beldum,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+104,Beam,86,Metang,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+105,Peak Acceleration,87,Miraidon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+106,Sparking Strike,87,Miraidon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+107,Quick Sign,88,Volbeat,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+108,Coordinated Strike,88,Volbeat,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+109,Smash Kick,89,Grookey,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+110,Branch Poke,89,Grookey,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+111,Beat,90,Thwackey,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+112,Drum Beating,91,Rillaboom,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+113,Wood Hammer,91,Rillaboom,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+114,Tumbling Attack,92,Applin,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+115,Do the Wave,93,Dipplin,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+116,Cursed Drop,94,Sinistcha,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+117,Spill the Tea,94,Sinistcha,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+118,Mountain Stroll,95,Teal Mask Ogerpon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+119,Ogre Comeback,95,Teal Mask Ogerpon,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+120,Myriad Leaf Shower,96,Teal Mask Ogerpon ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+121,Call for Family,97,Litwick,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+122,Live Coal,97,Litwick,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+123,Mind Ruler,98,Chandelure,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+124,Wrathful Hearth,99,Hearthflame Mask Ogerpon ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+125,Dynamic Blaze,99,Hearthflame Mask Ogerpon ex,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+126,Whirlpool,100,Goldeen,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+127,Inviting Kiss,101,Jynx,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+128,Icy Snow,101,Jynx,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+129,Hydro Splash,102,Milotic,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+130,Astonish,103,Snorunt,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+131,Frost Smash,104,Froslass,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+132,Aqua Slash,105,Finizen,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+133,Wave Splash,106,Palafin,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+134,Giga Impact,107,Palafin ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+135,Sob,108,Wellspring Mask Ogerpon ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+136,Torrential Pump,108,Wellspring Mask Ogerpon ex,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1
+137,Beam,109,Abra,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+138,Slurp Slurp,110,Slurpuff,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0
+139,Sand Attack,111,Sandygast,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+140,Spooky Shot,111,Sandygast,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+141,Mind Bend,112,Munkidori,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+142,Best Punch,113,Timburr,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+143,Knuckle Punch,114,Gurdurr,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+144,Superpower,114,Gurdurr,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+145,Tantrum,115,Conkeldurr,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+146,Gutsy Swing,115,Conkeldurr,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+147,Good Punch,116,Okidogi,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+148,Demolish,117,Cornerstone Mask Ogerpon ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+149,Steel Burst,118,Heatran,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+150,Petty Grudge,119,Dreepy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+151,Bite,119,Dreepy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+152,Dragon Headbutt,120,Drakloak,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+153,Jet Headbutt,121,Dragapult ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+154,Phantom Dive,121,Dragapult ex,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+155,Surf,122,Tatsugiri,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+156,Mach Cut,123,Farfetch'd,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+157,Lucky Attachment,124,Chansey,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+158,Boundless Power,124,Chansey,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+159,Return,125,Blissey ex,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+160,Shocking Web,126,Galvantula,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+161,Add On,127,Rowlet,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+162,Leafage,127,Rowlet,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+163,United Wings,128,Dartrix,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+164,Cutting Wind,128,Dartrix,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+165,Stock Up on Feathers,129,Decidueye,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+166,Power Shot,129,Decidueye,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+167,Accelerator Flash,130,Revavroom ex,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+168,Shattering Speed,130,Revavroom ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+169,Come and Get You,131,Duskull,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+170,Mumble,131,Duskull,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+171,Will-O-Wisp,132,Dusclops,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+172,Shadow Bind,133,Dusknoir,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+173,Mystical Return,134,Sylveon,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+174,Disarming Voice,134,Sylveon,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+175,Mad Bite,135,Bloodmoon Ursaluna,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+176,Stampede,136,Zorua,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+177,Double Scratch,136,Zorua,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+178,Illusory Hijacking,137,Zoroark,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+179,Claw Slash,137,Zoroark,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+180,Poisonous Musculature,138,Okidogi ex,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+181,Chain-Crazed,138,Okidogi ex,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+182,Dirty Headbutt,139,Munkidori ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+183,Cruel Arrow,140,Fezandipiti ex,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1
+184,Irritated Outburst,141,Pecharunt ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+185,Magnetic Blast,142,Genesect,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+186,Rigidify,143,Varoom,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1
+187,Headbutt Bounce,143,Varoom,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+188,Trifrost,144,Kyurem,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1
+189,Colorful Catch,145,Eevee,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+190,Headbutt,145,Eevee,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+191,Bind Down,146,Lileep,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+192,Miasma Wind,147,Cradily,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+193,Reaping Dash,148,Mow Rotom,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+194,Spray Fluid,149,Applin,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+195,Syrup Storm,150,Hydrapple ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+196,Quick Attack,151,Scorbunny,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+197,Low Sweep,152,Raboot,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+198,Combustion,152,Raboot,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+199,Flare Strike,153,Cinderace ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+200,Garnet Volley,153,Cinderace ex,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1
+201,Power Splash,154,Lapras ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+202,Larimar Rain,154,Lapras ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+203,Tidal Wave,155,Carracosta,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+204,Haymaker,156,Crabominable,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+205,Headbutt,157,Chewtle,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+206,Hard Crunch,158,Drednaw,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+207,Sonic Edge,159,Veluza,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+208,Jolting Charge,160,Joltik,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+209,Charged Web,161,Galvantula ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+210,Fulgurite,161,Galvantula ex,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+211,Dangle Tail,162,Slowpoke,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+212,Tackle,162,Slowpoke,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+213,Seek Inspiration,163,Slowking,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+214,Super Psy Bolt,163,Slowking,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+215,Flower Shower,164,Comfey,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+216,Play Rough,164,Comfey,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+217,Allure,165,Klink,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+218,Beam,165,Klink,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+219,Iron Tackle,166,Klang,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+220,Hyper Ray,167,Klinklang,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+221,Knickknack Carrying,168,Meltan,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+222,Ram,168,Meltan,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+223,Hammer In,169,Duraludon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+224,Raging Hammer,169,Duraludon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+225,Iron Blaster,170,Archaludon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+226,Thunderburst Storm,171,Raging Bolt,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1
+227,Dragon Headbutt,171,Raging Bolt,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+228,Triple Stab,172,Hoothoot,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+229,Speed Wing,173,Noctowl,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+230,Assault Landing,174,Fan Rotom,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+231,Boundless Power,175,Bouffalant,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+232,Unified Beatdown,176,Terapagos ex,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+233,Crown Opal,176,Terapagos ex,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+234,Precocious Evolution,177,Exeggcute,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+235,Leaf Drain,178,Zarude,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+236,Jungle Whip,178,Zarude,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+237,Ice Age,179,Black Kyurem ex,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+238,Black Frost,179,Black Kyurem ex,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+239,Big Bite,180,Bruxish,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+240,Aqua Edge,181,Quaxwell,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+241,Hydro Splash,182,Quaquaval,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+242,Delightful Kiss,183,Smoochum,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+243,Eon Blade,184,Latias ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+244,Splashing Dodge,185,Flittle,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+245,Minor Errand-Running,186,Gimmighoul,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+246,Tackle,186,Gimmighoul,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+247,Call for Family,187,Trapinch,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+248,Bite,187,Trapinch,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+249,Screech,188,Vibrava,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+250,Cutting Wind,188,Vibrava,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+251,Reversing Storm,189,Flygon ex,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0
+252,Sonic Peridot,189,Flygon ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+253,Metal Defender,190,Archaludon ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+254,Strike It Rich,191,Gholdengo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+255,Surf Back,191,Gholdengo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+256,Deleting Slash,192,Iron Crown,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+257,Slicing Blade,192,Iron Crown,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+258,Tropical Frenzy,193,Alolan Exeggutor ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+259,Swinging Sphene,193,Alolan Exeggutor ex,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+260,Humming Charge,194,Altaria,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+261,Cotton Wings,194,Altaria,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+262,Time Manipulation,195,Dialga,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+263,Buster Tail,195,Dialga,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+264,Fully Singe,196,Turtonator,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+265,Steaming Stomp,196,Turtonator,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+266,Disarming Voice,197,Swablu,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+267,Vengeful Crush,198,Durant ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+268,Call for Family,199,Scatterbug,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+269,Wander About,200,Spewpa,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0
+270,Tackle,200,Spewpa,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+271,Hazardous Greed,201,Wo-Chien,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1
+272,Entangling Whip,201,Wo-Chien,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+273,Flare,202,Victini,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+274,Torcherto,203,Skeledirge,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+275,Light Punch,204,Charcadet,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+276,Flamethrower,204,Charcadet,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+277,Spicy Rage,205,Scovillain ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+278,Leap Out,206,Feebas,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0
+279,Hypno Splash,207,Milotic ex,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+280,Sprinkle Water,208,Shellos,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+281,Icicle Loop,209,Chien-Pao,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+282,Topaz Bolt,210,Pikachu ex,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+283,Electric Ball,211,Magneton,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+284,Crushing Pulse,212,Rotom,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+285,Energy Short,212,Rotom,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+286,Summon Lightning,213,Tapu Koko,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+287,Prize Count,213,Tapu Koko,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+288,Speed Wing,214,Togekiss,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+289,Painful Memories,215,Uxie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+290,Full Heart,216,Mesprit,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+291,Guardian Burst,216,Mesprit,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+292,Neurokinesis,217,Azelf,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+293,Mumble,218,Yamask,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+294,Petty Grudge,218,Yamask,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+295,Law of the Underworld,219,Cofagrigus,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+296,Spooky Shot,219,Cofagrigus,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+297,See Through,220,Espurr,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+298,Psyshot,220,Espurr,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+299,Psyshot,221,Meowstic,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+300,Electromagnetic Sonar,222,Dedenne,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+301,Gnaw,222,Dedenne,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+302,Sand Tomb,223,PalossandEX,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+303,Barite Jail,223,PalossandEX,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+304,Tantrum,224,Annihilape,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+305,Destined Fight,224,Annihilape,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+306,Mud Shot,225,Gastrodon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+307,Unrelenting Onslaught,226,Koraidon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+308,Hammer In,226,Koraidon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+309,Stomp Off,227,Deino,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+310,Bite,227,Deino,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+311,Stomp Off,228,Zweilous,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+312,Darkness Fang,228,Zweilous,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+313,Crashing Headbutt,229,Hydreigon ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+314,Obsidian,229,Hydreigon ex,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1
+315,Poison Chain,230,Pecharunt,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+316,Surprise Pump,231,Tatsugiri ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+317,Cinnabar Lure,231,Tatsugiri ex,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+318,Great Swing,232,Slaking ex,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+319,Ready to Ram,233,Bouffalant,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+320,Smashing Headbutt,233,Bouffalant,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+321,Prism Charge,234,Terapagos,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+322,Hard Tackle,234,Terapagos,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+323,Itchy Pollen,235,Budew,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+324,Verdant Storm,236,Leafeon ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+325,Moss Agate,236,Leafeon ex,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0
+326,Triple Spin,237,Cottonee,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+327,Seed Bomb,238,Whimsicott,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+328,Burning Charge,239,Flareon ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+329,Carnelian,239,Flareon ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+330,Rapid Draw,240,Seaking,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+331,Severe Squall,241,Vaporeon ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+332,Aquamarine,241,Vaporeon ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+333,Flail,242,Feebas,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+334,Frost Bullet,243,Glaceon ex,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1
+335,Euclase,243,Glaceon ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+336,Flashing Spear,244,Jolteon ex,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0
+337,Dravite,244,Jolteon ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+338,Strange Hacking,245,Alakazam,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+339,Psychic,245,Alakazam,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+340,Psych Out,246,Espeon ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+341,Amazez,246,Espeon ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+342,Sneaky Placement,247,Swirlix,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+343,Moon Mirage,248,Umbreon ex,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+344,Onyx,248,Umbreon ex,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+345,Coruscating Quartz,249,Eevee ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+346,Tackle,250,Hoothoot,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+347,Jewel Breaker,251,Regigigas,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+348,Bug Bite,252,Caterpie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+349,Harden,253,Metapod,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+350,Scale Hurricane,254,Butterfree,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0
+351,Corner,255,Maractus,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+352,Searing Flame,256,Magmortar,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+353,Rolling Tackle,257,N’s Darumaka,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+354,Flare,257,N’s Darumaka,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+355,Back Draft,258,N’s Darmanitan,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+356,Flamebody Cannon,258,N’s Darmanitan,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1
+357,Scorching Cyclone,259,Volcanion ex,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+358,Water Gun,260,Lotad,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+359,Aqua Slash,261,Lombre,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+360,Hydro Splash,262,Ludicolo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+361,Surf,263,Wailmer,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+362,Hydro Pump,264,Wailord,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,Voltaic Chain,265,Iono’s Voltorb,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+364,Thump-Thump Boom,266,Iono’s Electrode,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0
+365,Electric Ball,266,Iono’s Electrode,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+366,Zapping Short,267,N’s Joltik,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+367,Tiny Charge,268,Iono’s Tadbulb,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+368,Thunderous Bolt,269,Iono’s Bellibolt ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+369,Quick Attack,270,Iono’s Wattrel,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+370,Mach Bolt,271,Iono’s Kilowattrel,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+371,Full Moon Rondo,272,Lillie’s Clefairy ex,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+372,Cursed Words,273,Banette,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+373,Spooky Shot,273,Banette,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+374,Spinning Attack,274,Beldum,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+375,Beam,274,Beldum,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+376,Psypunch,275,Metang,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+377,Zen Headbutt,275,Metang,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+378,Wrack Down,276,Metagross,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+379,Conjoined Beams,276,Metagross,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+380,Psychic Sphere,277,N’s Sigilyph,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+381,Victory Symbol,277,N’s Sigilyph,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+382,Hold Still,278,Lillie’s Cutiefly,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+383,Magical Shot,279,Lillie’s Ribombee,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+384,Inviting Flowers,280,Lillie’s Comfey,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+385,Fade Out,280,Lillie’s Comfey,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+386,Call for Family,281,Swinub,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+387,Lunge Out,281,Swinub,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+388,Strength,282,Piloswine,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+389,Impaling Tusk,282,Piloswine,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+390,Rumbling March,283,Mamoswine ex,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+391,Crunch,284,Larvitar,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+392,Take Down,285,Pupitar,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+393,Dig It Up,286,Rockruff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+394,Stampede,286,Rockruff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+395,Clamping Fangs,287,Lycanroc,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+396,Turf Maker,288,Hop’s Silicobra,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+397,Gnaw,288,Hop’s Silicobra,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+398,Rumble,289,Hop’s Sandaconda,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+399,Break Ground,289,Hop’s Sandaconda,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1
+400,Cracking Stomp,290,Tyranitar,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+401,Thieving Swipe,291,N’s Purrloin,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+402,Scratch,292,N’s Zorua,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+403,Night Joker,293,N’s Zoroark ex,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+404,Double Spin,294,N’s Klink,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+405,Spinning Gears,295,N’s Klang,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+406,Confront,295,N’s Klang,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+407,Magnetic Blast,296,N’s Klinklang,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+408,Triple Smash,296,N’s Klinklang,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+409,Spike Draw,297,Magearna,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+410,Shoot Through,298,Hop’s Corviknight,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1
+411,Steel Wing,298,Hop’s Corviknight,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1
+412,Insta-Strike,299,Hop’s Zacian ex,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1
+413,Brave Slash,299,Hop’s Zacian ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+414,Bite,300,Bagon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+415,Reckless Charge,300,Bagon,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+416,Guard Press,301,Shelgon,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1
+417,Heavy Impact,301,Shelgon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+418,Wide Blast,302,Salamence ex,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1
+419,Dragon Impact,302,Salamence ex,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+420,Powerful Rage,303,N’s Reshiram,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+421,Virtuous Flame,303,N’s Reshiram,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+422,Dynamic Press,304,Hop’s Snorlax,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+423,Trading Places,305,Dunsparce,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0
+424,Ram,305,Dunsparce,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+425,Tenacious Tail,306,Dudunsparce ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+426,Destructive Drill,306,Dudunsparce ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+427,Intimidating Stare,307,Hop’s Rookidee,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+428,Peck,307,Hop’s Rookidee,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+429,Speed Dive,308,Hop’s Corvisquire,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+430,Razor Wing,308,Hop’s Corvisquire,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+431,Smash Kick,309,Hop’s Wooloo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+432,Headbutt,310,Hop’s Dubwool,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+433,Fickle Spitting,311,Hop’s Cramorant,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+434,Magnetic Burst,312,Sandy Shocks,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+435,Power Gem,312,Sandy Shocks,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+436,Repulsion Bolt,313,Miraidon ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+437,Cyber Drive,313,Miraidon ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+438,Rollout,314,Marill,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+439,Double-Edge,315,Azumarill,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+440,Magical Charm,316,Sylveon ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+441,Angelite,316,Sylveon ex,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+442,Reckless Charge,317,Eevee,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+443,Flap,318,Ho-Oh,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+444,Shining Blaze,318,Ho-Oh,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+445,Will-O-Wisp,319,Charcadet,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+446,Abyssal Flames,320,Ceruledge ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+447,Raging Amethyst,320,Ceruledge ex,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+448,Leaf Step,321,Petilil,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+449,Spinning Attack,322,Lilligant,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+450,Rear Kick,323,Nymble,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+451,Scratch,324,Torchic,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+452,Slash,325,Combusken,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+453,Smolder-sault,326,Blaziken ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+454,Water Gun,327,Slowpoke,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+455,Tail Whap,327,Slowpoke,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+456,Tail Whap,328,Pikachu ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+457,Thunder,328,Pikachu ex,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+458,Linked Lightning,329,Tapu Koko ex,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+459,Magical Shot,330,Sylveon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+460,Aurora Beam,331,XerneasEX,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+461,Rising Horns,331,XerneasEX,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+462,Bind Down,332,Dhelmise,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+463,Anchor Smash,332,Dhelmise,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+464,Quick Attack,333,Riolu,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+465,Claw Slash,334,Sneasel,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+466,Hammer In,335,Bronzor,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+467,Steel Armament,336,Zacian ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+468,Slashing Strike,336,Zacian ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+469,Hyper Whirlpool,337,LugiaEX,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+470,Vise Grip,338,Ethan's Pinsir,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+471,Rallying Horn,338,Ethan's Pinsir,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+472,Whirlwind,339,Yanma,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0
+473,Razor Wing,339,Yanma,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+474,Jet Cyclone,340,Yanmega ex,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+475,Spike Sting,341,Cynthia's Roselia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+476,Leaf Step,342,Cynthia's Roserade,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+477,Smash Kick,343,Shaymin,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+478,Ascension,344,Dwebble,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+479,Superb Scissors,345,Crustle,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+480,Mini Drain,346,Applin,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+481,Energy Loop,347,Dipplin,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+482,Hydra Breath,348,Hydrapple,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+483,Whip Smash,348,Hydrapple,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+484,Grass Kagura,349,Teal Mask Ogerpon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+485,Ogre’s Hammer,349,Teal Mask Ogerpon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+486,Double Headbutt,350,Ponyta,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+487,Fire Mane,351,Rapidash,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+488,Ember,352,Ethan's Cyndaquil,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+489,Combustion,353,Ethan's Quilava,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+490,Buddy Blast,354,Ethan's Typhlosion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+491,Steam Artillery,354,Ethan's Typhlosion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+492,Steady Firebreathing,355,Ethan's Slugma,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+493,Lava Burst,356,Ethan's Magcargo,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+494,Shining Feathers,357,Ethan's Ho-Oh ex,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+495,Fire Kagura,358,Hearthflame Mask Ogerpon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+496,Searing Flame,358,Hearthflame Mask Ogerpon,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+497,Sprinkle Water,359,Misty's Psyduck,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+498,Bubble Beam,360,Misty's Staryu,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0
+499,Abrupt Flash,361,Misty's Starmie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+500,Splash,362,Misty's Magikarp,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+501,Splashing Panic,363,Misty's Gyarados,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+502,Waterfall,363,Misty's Gyarados,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+503,Swim Together,364,Misty's Lapras,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+504,Surf,364,Misty's Lapras,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+505,Undulate,365,Cynthia's Feebas,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+506,Aqua Split,366,Cynthia's Milotic,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1
+507,Tail Whap,367,Buizel,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+508,Wave Splash,367,Buizel,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+509,Whirlpool,368,Floatzel,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+510,Aqua Slash,368,Floatzel,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+511,Avenging Billow,369,Dondozo ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+512,Dynamic Dive,369,Dondozo ex,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+513,Water Kagura,370,Wellspring Mask Ogerpon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+514,Bubble Drain,370,Wellspring Mask Ogerpon,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+515,Electroslug,371,Electabuzz,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+516,Dual Bolt,372,Electivire ex,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1
+517,High-Voltage Press,372,Electivire ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+518,Zapping Draw,373,Ethan's Pichu,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+519,Rear Kick,374,Electrike,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+520,Tiny Bolt,374,Electrike,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+521,Zap Kick,375,Manectric,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+522,Flash Impact,375,Manectric,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1
+523,Astonish,376,Rotom,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+524,Gadget Show,376,Rotom,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+525,Scratch,377,Zeraora,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+526,Thunder Raid,377,Zeraora,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1
+527,Impound,378,Ethan's Sudowoodo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+528,Try to Imitate,378,Ethan's Sudowoodo,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+529,Rock Hurl,379,Cynthia's Gible,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+530,Dragonslice,380,Cynthia's Gabite,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+531,Corkscrew Dive,381,Cynthia's Garchomp ex,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+532,Draconic Buster,381,Cynthia's Garchomp ex,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+533,Running Charge,382,Mudbray,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+534,Heavy Impact,383,Mudsdale,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+535,Slight Intrusion,384,Arven's Toedscool,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+536,Pull,385,Arven's Toedscruel,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0
+537,Reckless Charge,385,Arven's Toedscruel,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+538,Rock Kagura,386,Cornerstone Mask Ogerpon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+539,Mountain Ramming,386,Cornerstone Mask Ogerpon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+540,Raging Curse,387,Cynthia's Spiritomb,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+541,Stampede,388,Arven's Maschiff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+542,Confront,388,Arven's Maschiff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+543,Vigorous Tackle,389,Arven's Mabosstiff ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+544,Boss Headbutt,389,Arven's Mabosstiff ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+545,Horn Attack,390,Tauros,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+546,Clean Hit,390,Tauros,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+547,Gnaw Through,391,Arven's Skwovet,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+548,Rolling Tackle,392,Arven's Greedent,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+549,Hang Down,393,Pineco,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+550,Rolling Tackle,394,Shroomish,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+551,Damage Rush,395,Breloom,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+552,Mega Drain,395,Breloom,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+553,Trimming Mower,396,Mow Rotom,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+554,Gadget Show,396,Mow Rotom,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+555,Cut Up,397,Fomantis,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+556,Razor Leaf,398,Lurantis,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+557,Petal Blade Dance,398,Lurantis,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+558,Searching Eyes,399,Team Rocket's Blipbug,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+559,Take Down,400,Team Rocket's Tarountula,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+560,Rocket Rush,401,Team Rocket's Spidops,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+561,Ram,402,Smoliv,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+562,Nutrients,403,Dolliv,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+563,Tackle,403,Dolliv,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+564,Oil Salvo,404,Arboliva ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+565,Aroma Shot,404,Arboliva ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+566,Live Coal,405,Growlithe,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+567,Dig Claws,405,Growlithe,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+568,Flare,406,Arcanine,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+569,Punishing Fang,406,Arcanine,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+570,Flame Screen,407,Team Rocket's Moltres ex,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1
+571,Evil Incineration,407,Team Rocket's Moltres ex,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+572,Steady Firebreathing,408,Team Rocket's Houndour,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+573,Cruel Coal,409,Team Rocket's Houndoom,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+574,Scorching Fire,409,Team Rocket's Houndoom,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+575,Collect,410,Torchic,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+576,Combustion,410,Torchic,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+577,Combustion,411,Combusken,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+578,Double Kick,411,Combusken,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+579,Heat Blast,412,Blaziken,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+580,Inferno Kick Flurry,412,Blaziken,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1
+581,Singe,413,Heat Rotom,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+582,Gadget Show,413,Heat Rotom,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+583,Dark Frost,414,Team Rocket's Articuno,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+584,Shell Press,415,Clamperl,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1
+585,Wave Splash,416,Huntail,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+586,Crescendo Wave,417,Gorebyss,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+587,Light Punch,418,Snover,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+588,Icicle,418,Snover,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+589,Lunge Out,419,Abomasnow,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+590,Frozen Wood,419,Abomasnow,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+591,Manual Wash,420,Wash Rotom,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+592,Gadget Show,420,Wash Rotom,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+593,Reckless Charge,421,Arrokuda,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+594,Sharp Fin,422,Barraskewda,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+595,Dive,422,Barraskewda,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+596,Gentle Slap,423,Cetoddle,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+597,Frost Smash,423,Cetoddle,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+598,Crushing Press,424,Cetitan ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+599,Jamming Wing,425,Team Rocket's Zapdos,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+600,Wicked Thunder,425,Team Rocket's Zapdos,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+601,Procurement,426,Team Rocket's Mareep,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+602,Tiny Bolt,426,Team Rocket's Mareep,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+603,Thunder Shock,427,Team Rocket's Flaaffy,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0
+604,Head Bolt,428,Team Rocket's Ampharos,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+605,Hypnotic Ray,429,Team Rocket's Drowzee,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+606,Psyshot,430,Team Rocket's Hypno,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+607,Bench Manipulation,430,Team Rocket's Hypno,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+608,Erasure Ball,431,Team Rocket's Mewtwo ex,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0
+609,Rocket Mirror,432,Team Rocket's Wobbuffet,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+610,Headbutt Bounce,432,Team Rocket's Wobbuffet,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+611,Chiming Commotion,433,Team Rocket's Chingling,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+612,Gemstone Mimicry,434,Team Rocket's Mimikyu,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+613,Disruptive Radar,435,Team Rocket's Dottler,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+614,Super Psy Bolt,435,Team Rocket's Dottler,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+615,Psychic,436,Team Rocket's Orbeetle,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+616,Wild Kick,437,Mankey,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+617,Drag Off,438,Primeape,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0
+618,Impact Blow,439,Annihilape,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+619,Mountain Munch,440,Team Rocket's Larvitar,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+620,Explosive Ascension,441,Team Rocket's Pupitar,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+621,Demolition Tackle,442,Team Rocket's Tyranitar,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+622,Headbutt,443,Nosepass,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+623,Rock Throw,443,Nosepass,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+624,Power Gem,444,Probopass,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+625,Mountain Drop,444,Probopass,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+626,Steady Punch,445,Meditite,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+627,Harmonious Spirit Palm,446,Medicham,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+628,Regi Charge,447,Regirock ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+629,Giant Rock,447,Regirock ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+630,Drag Down,448,Team Rocket's Ekans,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0
+631,Gnaw,448,Team Rocket's Ekans,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+632,Spinning Tail,449,Team Rocket's Arbok,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1
+633,Surprise Attack,450,Team Rocket's Nidoran♀,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+634,Dark Awakening,451,Team Rocket's Nidorina,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+635,Scratch,451,Team Rocket's Nidorina,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+636,Love Impact,452,Team Rocket's Nidoqueen,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+637,Mega Kick,452,Team Rocket's Nidoqueen,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+638,Pierce,453,Team Rocket's Nidoran♂,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+639,Hammer In,453,Team Rocket's Nidoran♂,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+640,Hammer In,454,Team Rocket's Nidorino,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+641,Horn Rend,454,Team Rocket's Nidorino,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+642,Tainted Horn,455,Team Rocket's Nidoking ex,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+643,Kingly Impact,455,Team Rocket's Nidoking ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+644,Poison Spray,456,Team Rocket's Zubat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+645,Confuse Ray,457,Team Rocket's Golbat,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+646,Assassin’s Return,458,Team Rocket's Crobat ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+647,Corrosive Sludge,459,Team Rocket's Grimer,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+648,Gooped Up,460,Team Rocket's Muk,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+649,Hazardous Venom,460,Team Rocket's Muk,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+650,Leaking Gas,461,Team Rocket's Koffing,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+651,Explode Together Now,462,Team Rocket's Weezing,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+652,Deceit,463,Team Rocket's Murkrow,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+653,Torment,463,Team Rocket's Murkrow,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+654,Scratch,464,Team Rocket's Sneasel,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+655,Strike the Sleeper,464,Team Rocket's Sneasel,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1
+656,Iron Shake-Up,465,Forretress,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+657,Hurricane of Needles,465,Forretress,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+658,Roost,466,Skarmory,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+659,Metal Claw,466,Skarmory,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+660,Strong Bash,467,Zamazenta,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+661,Dangerous Incisors,468,Team Rocket's Rattata,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+662,Reckless Abandon,469,Team Rocket's Raticate,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0
+663,Paw-cket Pilfer,470,Team Rocket's Meowth,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+664,Fury Swipes,470,Team Rocket's Meowth,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+665,Haughty Order,471,Team Rocket's Persian ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+666,Cruel Slash,471,Team Rocket's Persian ex,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+667,Gentle Slap,472,Kangaskhan,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+668,Dizzy Punch,472,Kangaskhan,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+669,Hacking,473,Team Rocket's Porygon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+670,R Command,474,Team Rocket's Porygon2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+671,R Command,475,Team Rocket's Porygon-Z,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+672,Wing Attack,476,Taillow,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+673,Add On,477,Swellow,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+674,Speed Wing,477,Swellow,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+675,Push Down,478,Squawkabilly,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0
+676,Tackle,479,Snivy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+677,Vine Whip,479,Snivy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+678,Wrap,480,Servine,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0
+679,Vine Whip,480,Servine,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+680,Command the Grass,481,Serperior ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+681,Collect,482,Pansage,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+682,Scratch,482,Pansage,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+683,Gentle Slap,483,Simisage,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+684,Hide,484,Petilil,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+685,Leafage,484,Petilil,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+686,Bemusing Aroma,485,Lilligant,1,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+687,Cut,485,Lilligant,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+688,Lively Needles,486,Maractus,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+689,Pierce,486,Maractus,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+690,Horn Attack,487,Karrablast,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+691,Toxic Spore,488,Foongus,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+692,Dangerous Reaction,489,Amoonguss,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+693,Seed Bomb,489,Amoonguss,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+694,V-Force,490,Victini,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+695,Will-O-Wisp,491,Darumaka,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+696,Searing Flame,492,Darmanitan,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+697,Smashing Headbutt,492,Darmanitan,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+698,Brighten and Burn,493,Litwick,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+699,Fire Blast,494,Lampent,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+700,Incendiary Pillar,495,Chandelure,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+701,Burn It All Up,495,Chandelure,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+702,Peck Off,496,Larvesta,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+703,Fire Wing,497,Volcarona,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+704,Collect,498,Panpour,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+705,Scratch,498,Panpour,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+706,Gentle Slap,499,Simipour,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+707,Round,500,Tympole,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+708,Round,501,Palpitoad,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+709,Wave Splash,501,Palpitoad,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+710,Round,502,Seismitoad,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+711,Hyper Voice,502,Seismitoad,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+712,Ancient Seaweed,503,Tirtouga,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+713,Surf,503,Tirtouga,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+714,Big Bite,504,Carracosta,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+715,Waterfall,505,Alomomola,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+716,Snotted Up,506,Cubchoo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+717,Continuous Headbutt,507,Beartic,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+718,Sheer Cold,507,Beartic,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+719,Drag Off,508,Cryogonal,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0
+720,Icicle,508,Cryogonal,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+721,Slash,509,Kyurem ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+722,Blizzard Burst,509,Kyurem ex,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1
+723,Call for Family,510,Emolga,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+724,Static Shock,510,Emolga,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+725,Hold Still,511,Tynamo,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+726,Electric Ball,512,Eelektrik,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+727,Thunder Fang,513,Eelektross,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0
+728,Buzz Flip,513,Eelektross,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+729,Charge,514,Thundurus,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+730,Disaster Volt,514,Thundurus,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+731,Slash,515,Zekrom ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+732,Voltage Burst,515,Zekrom ex,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+733,Rest,516,Munna,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0
+734,Mumble,516,Munna,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+735,Dream Calling,517,Musharna,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+736,Sleep Pulse,517,Musharna,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+737,Rollout,518,Solosis,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+738,Cellular Evolution,519,Duosion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+739,Spray Fluid,519,Duosion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+740,Cellular Ascension,520,Reuniclus,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+741,Evo-Lariat,520,Reuniclus,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+742,Slight Shift,521,Elgyem,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+743,Beam,521,Elgyem,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+744,Calm Mind,522,Beheeyem,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+745,Psychic,522,Beheeyem,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+746,Best Punch,523,Golett,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+747,Double Smash,524,Golurk,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+748,Golurk Hammer,524,Golurk,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+749,Echoed Voice,525,Meloetta ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+750,Mud-Slap,526,Drilbur,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+751,Corkscrew Punch,526,Drilbur,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+752,Piercing Drill,527,Excadrill ex,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1
+753,Rock Tumble,527,Excadrill ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+754,Low Kick,528,Timburr,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+755,Strength,528,Timburr,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+756,Low Kick,529,Gurdurr,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+757,Hammer Arm,529,Gurdurr,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+758,Swing Around,530,Conkeldurr,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+759,Shoulder Throw,531,Throh,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+760,Flail,532,Dwebble,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+761,Dig Claws,532,Dwebble,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+762,Stone Edge,533,Crustle,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+763,Abundant Harvest,534,Landorus,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+764,Earthquake,534,Landorus,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1
+765,Poison Spray,535,Venipede,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+766,Venoshock,536,Whirlipede,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+767,Venoshock,537,Scolipede,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+768,Tighten Up,538,Sandile,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+769,Tighten Up,539,Krokorok,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+770,Tighten Up,540,Krookodile,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+771,Cursed Slug,540,Krookodile,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+772,Playful Kick,541,Vullaby,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+773,Cutting Wind,542,Mandibuzz,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+774,Wild Lances,543,Escavalier,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+775,Corner,544,Pawniard,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+776,Cut Up,545,Bisharp,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+777,Finishing Blow,545,Bisharp,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+778,Righteous Edge,546,Cobalion,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+779,Metal Arms,546,Cobalion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+780,Protect Charge,547,Genesect ex,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1
+781,Gather Strength,548,Axew,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+782,Bite,549,Fraxure,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+783,Boundless Power,549,Fraxure,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+784,Cross-Cut,550,Haxorus,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+785,Axe Blast,550,Haxorus,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+786,Scout,551,Pidove,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+787,Stampede,551,Pidove,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+788,Fly,552,Tranquill,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+789,Add On,553,Unfezant,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+790,Swift Flight,553,Unfezant,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+791,Return,554,Audino,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+792,Tail Slap,555,Minccino,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+793,Do the Wave,556,Cinccino,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+794,Bug Bite,557,Sewaddle,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+795,Bug Buzz,558,Swadloon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+796,Healing Wrapping,559,Leavanny,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+797,X-Scissor,559,Leavanny,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+798,Absorb,560,Cottonee,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+799,Energy Gift,561,Whimsicott ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+800,Wondrous Cotton,561,Whimsicott ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+801,Rear Kick,562,Deerling,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+802,Push Down,563,Sawsbuck,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0
+803,Solar Beam,563,Sawsbuck,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+804,Headbutt Bounce,564,Shelmet,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+805,Acid Spray,565,Accelgor,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+806,Giga Drain,566,Virizion,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+807,Emerald Blade,566,Virizion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+808,Tackle,567,Tepig,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+809,Rollout,567,Tepig,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+810,Combustion,568,Pignite,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+811,Heat Crash,568,Pignite,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+812,Heat Crash,569,Emboar,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+813,Collect,570,Pansear,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+814,Scratch,570,Pansear,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+815,Gentle Slap,571,Simisear,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+816,Licking Catch,572,Heatmor,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+817,Fire Claws,572,Heatmor,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+818,Slash,573,Reshiram ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+819,Blazing Burst,573,Reshiram ex,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+820,Tackle,574,Oshawott,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+821,Water Gun,574,Oshawott,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+822,Energized Shell,575,Dewott,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+823,Energized Slash,576,Samurott,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+824,Bite,577,Basculin,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+825,Bared Fangs,577,Basculin,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+826,Firefighting,578,Ducklett,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+827,Wing Attack,578,Ducklett,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+828,Flap,579,Swanna,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+829,Air Slash,579,Swanna,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+830,Beat,580,Vanillite,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+831,Ice Edge,580,Vanillite,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+832,Ram,581,Vanillish,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+833,Ice Beam,581,Vanillish,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0
+834,Ram,582,Vanilluxe,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+835,Double Freeze,582,Vanilluxe,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0
+836,Gale Thrust,583,Keldeo ex,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+837,Sonic Edge,583,Keldeo ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+838,Smash Kick,584,Blitzle,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+839,Zap Kick,584,Blitzle,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+840,Smash Kick,585,Zebstrika,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+841,Electrobullet,585,Zebstrika,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1
+842,Surprise Attack,586,Joltik,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+843,Discharge,587,Galvantula,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+844,Muddy Bolt,588,Stunfisk,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+845,Flop,588,Stunfisk,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+846,Heart Stamp,589,Woobat,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+847,Happy Return,590,Swoobat,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+848,Gust,590,Swoobat,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+849,Reflect,591,Sigilyph,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1
+850,Telekinesis,591,Sigilyph,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+851,Focused Wish,592,Yamask,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+852,Extended Damagriiigus,593,Cofagrigus,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+853,Perplex,593,Cofagrigus,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+854,Super Psy Bolt,594,Gothita,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+855,Fortunate Eye,595,Gothorita,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+856,Psyshot,595,Gothorita,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+857,Synchro Shot,596,Gothitelle,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+858,Oceanic Gloom,597,Frillish,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+859,Power Press,598,Jellicent ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+860,Harden,599,Roggenrola,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+861,Rolling Rocks,599,Roggenrola,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+862,Smack Down,600,Boldore,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+863,Power Gem,600,Boldore,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+864,Vengeful Cannon,601,Gigalith,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+865,Heavy Impact,601,Gigalith,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+866,Elbow Strike,602,Sawk,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+867,Rising Chop,602,Sawk,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+868,Acrobatics,603,Archen,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+869,Rock Throw,604,Archeops,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+870,Kick,605,Mienfoo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+871,Low Sweep,606,Mienshao,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+872,Smash Uppercut,606,Mienshao,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+873,Retaliate,607,Terrakion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+874,Land Crush,607,Terrakion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+875,Invite Evil,608,Purrloin,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+876,Knock Off,609,Liepard,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+877,Headbutt,610,Scraggy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+878,Invade,610,Scraggy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+879,Ruffians Attack,611,Scrafty,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+880,Drool,612,Trubbish,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+881,Sludge Bomb,612,Trubbish,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+882,Suffocating Gas,613,Garbodor,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+883,Gunk Shot,613,Garbodor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+884,Take Down,614,Zorua,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+885,Mind Jack,615,Zoroark,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+886,Foul Play,615,Zoroark,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+887,Body Slam,616,Deino,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0
+888,Darkness Fang,616,Deino,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+889,Double Hit,617,Zweilous,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+890,Pitch-Black Fangs,617,Zweilous,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+891,Dark Bite,618,Hydreigon ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+892,Zzzt,619,Ferroseed,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+893,Metal Claw,619,Ferroseed,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+894,Power Whip,620,Ferrothorn,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1
+895,Metal Claw,620,Ferrothorn,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+896,Hard Gears,621,Klink,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1
+897,Hard Gears,622,Klang,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1
+898,Hammer In,623,Klinklang,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+899,Bite Together,624,Durant,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+900,Vise Grip,624,Durant,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+901,Shred,625,Druddigon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+902,Ambush,625,Druddigon,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+903,Procurement,626,Patrat,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+904,Gnaw,626,Patrat,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+905,Focus Energy,627,Watchog,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+906,Hyper Fang,627,Watchog,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+907,Play Rough,628,Lillipup,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+908,Roar,629,Herdier,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0
+909,Lunge Out,629,Herdier,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+910,Odor Sleuth,630,Stoutland,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+911,Special Fang,630,Stoutland,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+912,Gold Breaker,631,Bouffalant ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+913,Peck,632,Rufflet,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+914,Glide,632,Rufflet,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+915,Aerial Ace,633,Braviary,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+916,Speed Wing,633,Braviary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+917,Wrapped in Wind,634,Tornadus,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+918,Hurricane,634,Tornadus,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+919,Summoning Sign,635,Steven's Baltoy,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+920,Psychic Sphere,635,Steven's Baltoy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+921,Eerie Light,636,Steven's Claydol,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+922,Clay Blast,636,Steven's Claydol,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+923,Magical Shot,637,Steven's Carbink,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+924,Razor Wing,638,Steven's Skarmory,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+925,Sonic Double,638,Steven's Skarmory,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1
+926,Ram,639,Steven's Beldum,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+927,Metal Slash,640,Steven's Metang,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+928,Metal Stomp,641,Steven's Metagross ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+929,Pointy Nails,642,Marnie's Purrloin,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+930,Pointy Claws,643,Marnie's Liepard,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+931,Crunch,644,Marnie's Scraggy,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+932,Rear Kick,645,Marnie's Scrafty,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+933,Wild Tackle,645,Marnie's Scrafty,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+934,Filch,646,Marnie's Impidimp,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+935,Corkscrew Punch,646,Marnie's Impidimp,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+936,Corkscrew Punch,647,Marnie's Morgrem,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+937,Shadow Bullet,648,Marnie's Grimmsnarl ex,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1
+938,Spiky Wheel,649,Marnie's Morpeko,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+939,Bind Down,650,Bulbasaur,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+940,Razor Leaf,651,Ivysaur,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+941,Jungle Dump,652,Mega Venusaur ex,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+942,Jam-Packed,653,Exeggcute,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+943,Guard Press,654,Exeggutor,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1
+944,Stomping Wood,654,Exeggutor,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+945,Traverse Time,655,Celebi,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+946,Solar Cutter,655,Celebi,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+947,Nap,656,Seedot,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+948,Seed Bomb,656,Seedot,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+949,Pound,657,Nuzleaf,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+950,Low Kick,657,Nuzleaf,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+951,Reversing Gust,658,Shiftry,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+952,Perplex,658,Shiftry,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+953,Stampede,659,Vulpix,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+954,Combustion,659,Vulpix,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+955,Supernatural Shapeshifter,660,Ninetales,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+956,Combustion,660,Ninetales,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+957,Call for Family,661,Numel,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+958,Flare,661,Numel,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+959,Roasting Heat,662,Mega Camerupt ex,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+960,Volcanic Meteor,662,Mega Camerupt ex,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+961,Singe,663,Volcanion,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+962,Backfire,663,Volcanion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+963,Wild Kick,664,Scorbunny,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+964,Jumping Kick,665,Raboot,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1
+965,Turbo Flare,666,Cinderace,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+966,Vise Grip,667,Corphish,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+967,Take Down,667,Corphish,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+968,Slap,668,Gimmighoul,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+969,Dig Claws,669,Sandshrew,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+970,Mud-Slap,669,Sandshrew,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+971,Sand Attack,670,Sandslash,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+972,Mud Shot,670,Sandslash,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+973,Bind,671,Onix,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0
+974,Strength,671,Onix,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+975,Pow-Pow Punching,672,Tyrogue,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+976,Corkscrew Punch,673,Makuhita,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+977,Confront,673,Makuhita,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+978,Wild Press,674,Hariyama,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+979,Power Gem,675,Lunatone,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+980,Cosmic Beam,676,Solrock,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+981,Accelerating Stab,677,Riolu,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+982,Aura Jab,678,Mega Lucario ex,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+983,Mega Brave,678,Mega Lucario ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+984,Smack,679,Croagunk,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+985,Reckless Charge,680,Toxicroak,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+986,Shadowy Side Kick,681,Marshadow,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
+987,Stony Kick,682,Stonjourner,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1
+988,Boundless Power,682,Stonjourner,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+989,Ram,683,Nacli,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+990,Rock Hurl,684,Naclstack,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+991,Hammer In,685,Garganacl,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+992,Vise Grip,686,Crawdaunt,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+993,Cutting Riposte,686,Crawdaunt,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+994,Terminal Period,687,Mega Absol ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+995,Claw of Darkness,687,Mega Absol ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+996,Mountain Breaker,688,Spiritomb,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+997,Clutch,689,Yveltal,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+998,Dark Feather,689,Yveltal,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+999,Darkness Fang,690,Nickit,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1000,Greedy Hunt,691,Thievul,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+1001,Pitch-Black Fangs,691,Thievul,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1002,Poison Jab,692,Shroodle,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1003,Miraculous Paint,693,Grafaiai,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+1004,Welcoming Tail,694,Steelix,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1005,Skull Bash,694,Steelix,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1006,Gobble Down,695,Mega Mawile ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1007,Huge Bite,695,Mega Mawile ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1008,Beam,696,Dialga,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1009,Chrono Burst,696,Dialga,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1010,Beat,697,Tinkatink,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1011,Light Punch,698,Tinkatuff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1012,Windup Swing,699,Tinkaton,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1013,All-You-Can-Grab,700,Gholdengo,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+1014,Speed Attack,700,Gholdengo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1015,Pluck,701,Spearow,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1016,Repeating Drill,702,Fearow,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+1017,Bellyful of Milk,703,Miltank,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+1018,Tackle,703,Miltank,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1019,Collect,704,Yungoos,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+1020,Gnaw,704,Yungoos,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1021,Bite,705,Gumshoos,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1022,Poison Powder,706,Tangela,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1023,Hook,706,Tangela,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1024,Absorb,707,Tangrowth,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+1025,Pumped-Up Whip,707,Tangrowth,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1026,Razor Leaf,708,Chikorita,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1027,Push Down,709,Bayleef,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0
+1028,Solar Beam,710,Meganium,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1029,Rollout,711,Shuckle,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1030,Scratch,712,Nincada,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1031,U-turn,713,Ninjask,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0
+1032,Earthen Power,714,Dhelmise,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1033,Flare,715,Litleo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1034,Searing Flame,716,Pyroar,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1035,Ram,717,Sizzlipede,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1036,Combustion,717,Sizzlipede,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1037,Coiling Crush,718,Centiskorch,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+1038,Heat Crawler,718,Centiskorch,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1039,Scorching Earth,719,Chi-Yu,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1040,Call for Family,720,Mantine,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+1041,Waterfall,720,Mantine,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1042,Riptide,721,Kyogre,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1043,Swirling Waves,721,Kyogre,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+1044,Beat,722,Snover,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1045,Icy Snow,722,Snover,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1046,Hammer-lanche,723,Mega Abomasnow ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1047,Frost Barrier,723,Mega Abomasnow ex,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1
+1048,Wave Splash,724,Clauncher,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1049,Aqua Launcher,725,Clawitzer,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+1050,Surprise Attack,726,Sobble,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+1051,Double Stab,727,Drizzile,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+1052,Bring Down,728,Inteleon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+1053,Water Shot,728,Inteleon,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+1054,Hide,729,Snom,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+1055,Chilling Wings,730,Frosmoth,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1
+1056,Freezing Headbutt,731,Eiscue,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0
+1057,Tackle,731,Eiscue,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1058,Beam,732,Magnemite,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1059,Thunder Shock,733,Magneton,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0
+1060,Upper Spark,734,Magnezone,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1061,Flashing Bolt,734,Magnezone,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1062,Electro Fall,735,Raikou,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1063,Thunder Jolt,736,Electrike,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+1064,Flash Ray,737,Mega Manectric ex,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+1065,Riotous Blasting,737,Mega Manectric ex,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+1066,Electrified Incisors,738,Pachirisu,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1067,Double Scratch,739,Helioptile,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+1068,Dazzle Blast,740,Heliolisk,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+1069,Head Bolt,740,Heliolisk,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1070,Teleportation Attack,741,Abra,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0
+1071,Super Psy Bolt,742,Kadabra,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1072,Powerful Hand,743,Alakazam,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1073,Psychic,744,Jynx,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1074,Collect,745,Ralts,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+1075,Headbutt,745,Ralts,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1076,Call Sign,746,Kirlia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1077,Psyshot,746,Kirlia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1078,Overflowing Wishes,747,Mega Gardevoir ex,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+1079,Mega Symphonia,747,Mega Gardevoir ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1080,Damage Beat,748,Shedinja,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1081,Triple Spin,749,Spoink,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+1082,Psychic Sphere,750,Grumpig,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1083,Geo Gate,751,Xerneas,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+1084,Bright Horns,751,Xerneas,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1085,Stampede,752,Greavard,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1086,Take Down,752,Greavard,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+1087,Horrifying Bite,753,Houndstone,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+1088,Hammer In,753,Houndstone,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1089,Strafe,754,Mega Latias ex,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0
+1090,Illusory Impulse,754,Mega Latias ex,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+1091,Dragon Claw,755,Latios,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1092,Rapid-Fire Combo,756,Mega Kangaskhan ex,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+1093,Quick Gift,757,Delibird,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1094,Gentle Slap,757,Delibird,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1095,Charm,758,Buneary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+1096,Skip,758,Buneary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1097,Dashing Kick,759,Lopunny,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1
+1098,Spiral Kick,759,Lopunny,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1099,Light Punch,760,Stufful,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1100,Flop,760,Stufful,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1101,Knuckle Punch,761,Bewear,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1102,Hyper Lariat,761,Bewear,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+1103,Tackle,762,Snubbull,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1104,Bite,763,Granbull,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1105,Finishing Blow,763,Granbull,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1106,Swelling Light,764,Cresselia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1107,Aurora Beam,764,Cresselia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1108,Soothing Melody,765,Meloetta,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0
+1109,Magical Shot,765,Meloetta,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1110,Garland Ray,766,Mega Diancie ex,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+1111,Call for Family,767,Mimikyu,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+1112,Scratch,767,Mimikyu,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1113,Draining Kiss,768,Milcery,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+1114,Sweet Circle,769,Alcremie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1115,Petty Grudge,770,Gastly,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1116,Spooky Shot,771,Haunter,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1117,Void Gale,772,Mega Gengar ex,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+1118,Ambush,773,Murkrow,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+1119,Wind of Darkness,774,Honchkrow,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1120,Sniping Feathers,774,Honchkrow,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1
+1121,Cocky Claw,775,Sableye,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+1122,Allure,776,Absol,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+1123,Dark Cutter,776,Absol,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1124,Shatter,777,Eternatus,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1125,Power Rush,777,Eternatus,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+1126,Seed Bomb,778,Oddish,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1127,Disperse Drool,779,Gloom,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1
+1128,Pollen Bomb,780,Vileplume,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+1129,Lively Flower,780,Vileplume,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1130,Juggernaut Horn,781,Mega Heracross ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1131,Mountain Ramming,781,Mega Heracross ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1132,Headbutt,782,Lotad,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1133,Mega Drain,783,Lombre,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+1134,Lunge Out,784,Ludicolo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1135,Bug’s Cannon,785,Genesect,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1
+1136,Speed Attack,785,Genesect,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1137,Flail Around,786,Nymble,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+1138,Low Kick,787,Lokix,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1139,Jumping Shot,787,Lokix,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1140,Live Coal,788,Charmander,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1141,Steady Firebreathing,789,Charmeleon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1142,Inferno X,790,Mega Charizard X ex,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+1143,Fighting Wings,791,Moltres,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1144,Blaze Ball,792,Darumaka,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1145,Blaze Ball,793,Darmanitan,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1146,Combustion,794,Reshiram,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1147,Burning Flare,794,Reshiram,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+1148,Fire Wing,795,Oricorio ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1149,Gather Strength,796,Charcadet,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1150,Chop,796,Charcadet,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1151,Infernal Slash,797,Ceruledge,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+1152,Bubble Drain,798,Seel,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+1153,Slam,799,Dewgong,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+1154,Stampede,800,Swinub,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1155,Icy Snow,800,Swinub,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1156,Rising Lunge,801,Piloswine,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+1157,Frost Smash,801,Piloswine,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1158,Wreck,802,Mamoswine,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1159,Blizzard Edge,802,Mamoswine,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+1160,Crystal Fall,803,Suicune,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1161,Call for Support,804,Piplup,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1162,Tackle,804,Piplup,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1163,Peck,805,Prinplup,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1164,Targeted Dive,805,Prinplup,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1
+1165,Thunderbolt,806,Rotom ex,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+1166,Play Rough,807,Yamper,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+1167,Electric Run,808,Boltund,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+1168,Growl,809,Pawmi,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+1169,Tiny Charge,809,Pawmi,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1170,Electric Punch,810,Pawmo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1171,Voltaic Fist,811,Pawmot,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+1172,Petty Grudge,812,Misdreavus,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1173,Hexa-Magic,813,Mismagius ex,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+1174,Collect,814,Cottonee,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+1175,Healing Fluff,815,Whimsicott,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0
+1176,U-turn,815,Whimsicott,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0
+1177,Limit Break,816,Zacian,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1178,Sneaky Placement,817,Bramblin,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1179,Psychic Sphere,818,Brambleghast,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1180,Raging Charge,819,Paldean Tauros,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1181,Double-Edge,819,Paldean Tauros,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+1182,Poison Jab,820,Gligar,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1183,Poison Ring,821,Gliscor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1184,Double Headbutt,822,Trapinch,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+1185,Super Vibration,823,Vibrava,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1186,Cutting Wind,824,Flygon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1187,Dig Claws,825,Sneasel,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1188,Scratch,825,Sneasel,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1189,Retaliatory Claw,826,Weavile,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1190,Cut,826,Weavile,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1191,Reckless Charge,827,Carvanha,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+1192,Greedy Fang,828,Mega Sharpedo ex,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+1193,Hungry Jaws,828,Mega Sharpedo ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1194,Pitch-Black Fangs,829,Seviper,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1195,Ram,830,Sandile,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1196,Rear Kick,830,Sandile,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1197,Bite,831,Krokorok,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1198,Confront,831,Krokorok,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1199,Vengeful Fang,832,Krookodile,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+1200,Hammer In,832,Krookodile,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1201,Call for Family,833,Toxel,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+1202,Playful Kick,833,Toxel,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1203,Gentle Slap,834,Toxtricity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1204,Iron Feathers,835,Empoleon ex,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1
+1205,Iron Defense,836,Bronzor,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+1206,Rollout,836,Bronzor,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1207,Triple Draw,837,Bronzong,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+1208,Tool Drop,837,Bronzong,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1209,Find a Friend,838,Togedemaru,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1210,Gnaw,838,Togedemaru,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1211,Hyper Beam,839,Duraludon,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+1212,Coated Attack,840,Archaludon,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+1213,Ball Roll,841,Jigglypuff,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+1214,Round,842,Wigglytuff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1215,Seismic Toss,842,Wigglytuff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1216,Astonish,843,Aipom,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1217,Slap,844,Ambipom,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1218,Dual Tail,844,Ambipom,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1
+1219,Energizing Sketch,845,Smeargle,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+1220,Hook,845,Smeargle,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1221,Surprise Attack,846,Zigzagoon,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+1222,Slash,847,Linoone,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1223,Run Around,848,Buneary,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0
+1224,Kick,848,Buneary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1225,Gale Thrust,849,Mega Lopunny ex,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+1226,Spiky Hopper,849,Mega Lopunny ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1227,Bug Bite,850,Wurmple,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1228,Tackle,851,Silcoon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1229,Stun Spore,852,Beautifly,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0
+1230,Energy Straw,852,Beautifly,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1231,Trading Places,853,Cascoon,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0
+1232,Twilight Poison,854,Dustox,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+1233,Flare Fall,855,Entei,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1234,Combustion,856,Numel,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1235,Roasting Burn,857,Camerupt,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1236,Power Stomp,857,Camerupt,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+1237,Ram,858,Psyduck,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1238,Hydro Pump,859,Golduck,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1239,Chilly,860,Snorunt,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1240,Resentful Refrain,861,Mega Froslass ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1241,Absolute Snow,861,Mega Froslass ex,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+1242,Call for Family,862,N's Vanillite,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+1243,Icy Snow,862,N's Vanillite,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1244,Flop,863,N's Vanillish,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1245,Sheer Cold,863,N's Vanillish,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1246,Snow Coating,864,N's Vanilluxe,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1247,Blizzard,864,N's Vanilluxe,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1
+1248,Icicle,865,Snom,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1249,Cold Cyclone,866,Frosmoth,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+1250,Ice Shot,867,Glastrier,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1
+1251,Frosty Typhoon,867,Glastrier,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1252,Split Bomb,868,Mega Eelektross ex,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1
+1253,Disaster Shock,868,Mega Eelektross ex,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+1254,Pouncing Trap,869,Stunfisk,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+1255,Zap Kick,870,Helioptile,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1256,Powerful Bolt,871,Heliolisk,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+1257,Fast Flight,872,Tapu Koko,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+1258,Thunder Blast,872,Tapu Koko,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+1259,Focused Wish,873,Team Rocket's Exeggcute,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+1260,Tri Kinesis,874,Team Rocket's Exeggutor,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+1261,Double-Edge,874,Team Rocket's Exeggutor,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+1262,Ascension,875,Misdreavus,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1263,Assassin’s Magic,876,Mismagius,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+1264,Roto Call,877,Rotom,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+1265,Gadget Show,877,Rotom,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1266,Splashing Dodge,878,Hop's Phantump,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+1267,Horrifying Revenge,879,Hop's Trevenant,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+1268,Corner,879,Hop's Trevenant,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1269,Spooky Shot,880,Spectrier,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1270,Phantasmal Barrage,880,Spectrier,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+1271,Relentless Burrowing,881,Team Rocket's Diglett,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+1272,Mud Shot,882,Team Rocket's Dugtrio,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1273,Collect,883,Meditite,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+1274,Gentle Slap,883,Meditite,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1275,Seventh Kick,884,Medicham,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1276,Reckless Charge,885,Pancham,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+1277,Somersault Dive,886,Mega Hawlucha ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1278,Mud-Slap,887,Rolycoly,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1279,Guard Press,888,Carkol,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1
+1280,Power Gem,888,Carkol,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1281,Tar Cannon,889,Coalossal,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1
+1282,Bulky Bump,889,Coalossal,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+1283,Light Punch,890,Okidogi,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1284,Settle the Score,890,Okidogi,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1285,Rocket Feathers,891,Team Rocket's Honchkrow,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1286,Hammer In,891,Team Rocket's Honchkrow,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1287,Gnaw,892,Galarian Zigzagoon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1288,Gnaw,893,Galarian Linoone,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1289,Claw Slash,893,Galarian Linoone,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1290,Scarring Shout,894,Galarian Obstagoon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1291,Punk Smash,894,Galarian Obstagoon,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+1292,Knock Off,895,Scraggy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1293,Outlaw Leg,896,Mega Scrafty ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1294,Corkscrew Punch,897,Pangoro,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1295,Master’s Punch,897,Pangoro,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+1296,Mochi Rush,898,Pecharunt,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+1297,Push Down,899,Pawniard,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0
+1298,Rapid Draw,900,Bisharp,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+1299,Double-Edged Slash,901,Kingambit,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+1300,Headbutt,902,Dratini,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1301,Tail Snap,903,Dragonair,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1302,Ryuno Glide,904,Mega Dragonite ex,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+1303,Breakthrough Assault,905,Rayquaza,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+1304,Dragon Claw,905,Rayquaza,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1305,Shred,906,N's Zekrom,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1306,Rampaging Thunder,906,N's Zekrom,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1307,Knickknack Carrying,907,Noibat,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1308,Bite,907,Noibat,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1309,Agility,908,Noivern,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+1310,Enhanced Blade,908,Noivern,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1311,Reckless Charge,909,Erika's Oddish,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+1312,Poison Spray,910,Erika's Gloom,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1313,Bloom Powder,911,Erika's Vileplume ex,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+1314,Vine Slap,912,Erika's Bellsprout,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1315,Melt,913,Erika's Weepinbell,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1316,Leafy Cyclone,913,Erika's Weepinbell,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1317,Flower Garden Rondo,914,Erika's Victreebel,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1318,Solar Beam,914,Erika's Victreebel,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1319,Bind,915,Erika's Tangela,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0
+1320,Cut Up,916,Scyther,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1321,Slashing Strike,916,Scyther,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1322,Growl,917,Chikorita,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+1323,Seed Bomb,917,Chikorita,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1324,Leaf Step,918,Bayleef,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1325,Giant Bouquet,919,Mega Meganium ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1326,Wood Hammer,920,Tapu Bulu,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+1327,Coated Attack,921,Dipplin,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+1328,Tons of Treading,922,Sprigatito,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+1329,Magical Leaf,923,Floragato,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+1330,Rising Bloom,924,Meowscarada,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1331,Headbutt Bounce,925,Capsakid,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1332,Fire Claws,926,Charmander,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1333,Heat Blast,927,Charmeleon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1334,Explosion Y,928,Mega Charizard Y ex,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1
+1335,Searing Flame,929,Magmar,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+1336,Steady Firebreathing,930,Tepig,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1337,Super Singe,931,Pignite,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1338,Crimson Blast,932,Mega Emboar ex,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+1339,Ram,933,Larvesta,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1340,Steady Firebreathing,933,Larvesta,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1341,Billowing Heat Wave,934,Centiskorch,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1
+1342,Heat Blast,934,Centiskorch,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1343,Heat Burn,935,Fuecoco,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1344,Heat Breath,936,Crocalor,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+1345,Slight Intrusion,937,Totodile,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+1346,Crunch,938,Croconaw,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+1347,Mortal Crunch,939,Mega Feraligatr ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1348,Damage Beat,940,Glalie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1349,Crazy Headbutt,940,Glalie,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+1350,Powder Snow,941,Spheal,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+1351,Lunge Out,942,Sealeo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1352,Ice Ball,942,Sealeo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1353,Frigid Fangs,943,Walrein,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1354,Megaton Fall,943,Walrein,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+1355,Regi Charge,944,Regice ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1356,Ice Prison,944,Regice ex,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+1357,Rain Splash,945,Froakie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1358,Water Gun,946,Cramorant,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1359,Spit Shot,946,Cramorant,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1
+1360,Aerial Ace,947,Quaxly,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+1361,Tail Smack,948,Pikachu,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1362,Tiny Bolt,948,Pikachu,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1363,Quick Blow,949,Raichu,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+1364,Strong Volt,949,Raichu,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+1365,Lightning Ball,950,Magnemite,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1366,Hundred-Hitting Ball,951,Voltorb ex,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+1367,Follow-Up Bolt,952,Zapdos,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1368,Drill Peck,952,Zapdos,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1369,Thunder Wave,953,Zapdos,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0
+1370,Thunderbolt,953,Zapdos,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+1371,Piercing Gaze,954,Luxray ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1372,Volt Strike,954,Luxray ex,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+1373,Collect,955,Helioptile,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+1374,Static Shock,955,Helioptile,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1375,Combat Thunder,956,Zeraora,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+1376,Slashing Claw,957,Miraidon ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1377,Hadron Spark,957,Miraidon ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1378,Metronome,958,Clefable,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1379,Magical Shot,958,Clefable,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1380,Pound,959,Togepi,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1381,Draining Kiss,960,Togetic,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+1382,Hide,961,Marill,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+1383,Flop,961,Marill,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1384,Energized Balloon,962,Azumarill ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1385,Spooky Shot,963,Shuppet,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1386,Cosmic Beatdown,964,Beheeyem,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1387,Ram,965,Swirlix,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1388,Tackle,966,Slurpuff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1389,Magical Shot,966,Slurpuff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1390,Pleasant Aroma,967,Fidough,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+1391,Stampede,967,Fidough,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1392,Wonder Shine,968,Dachsbun ex,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+1393,Scream,969,Scream Tail ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1394,Crunch,969,Scream Tail ex,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+1395,Energy Feather,970,Fezandipiti,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1396,Adjusted Horn,971,Iron Boulder,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1397,Spin and Draw,972,Hitmontop,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+1398,Low Kick,972,Hitmontop,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1399,Hammer In,973,Groudon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1400,Megaton Fall,973,Groudon,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+1401,Punch,974,Riolu,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1402,Big Bite,975,Stunfisk ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1403,Flopping Trap,975,Stunfisk ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1404,Counter Jewel,976,Carbink,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1405,Vise Grip,977,Crabrawler,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1406,Crabhammer,977,Crabrawler,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1407,Coordinated Throwing,978,Passimian,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1408,Tera,979,Koraidon ex,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+1409,Orichalcum Fang,979,Koraidon ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+1410,Spit Poison,980,Venipede,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1411,Spinning Attack,980,Venipede,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1412,Poison Ring,981,Whirlipede,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1413,Spinning Attack,981,Whirlipede,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1414,Dastardly Jab,982,Scolipede,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1415,Sludge Bomb,982,Scolipede,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1416,Flap,983,Vullaby,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1417,Bone Shot,984,Mandibuzz ex,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1
+1418,Vulture Claw,984,Mandibuzz ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1419,Filch,985,Hoopa,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+1420,Knuckle Impact,985,Hoopa,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1421,Poison Spray,986,Brute Bonnet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1422,Relentless Punches,986,Brute Bonnet,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1423,Call for Family,987,Mawile,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+1424,Bite,987,Mawile,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1425,Regi Charge,988,Registeel ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1426,Protecting Steel,988,Registeel ex,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1
+1427,Shield Attack,989,Bronzor,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+1428,Stun Needle,990,Togedemaru ex,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0
+1429,Spiky Rolling,990,Togedemaru ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1430,Hammer In,991,Melmetal,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1431,Iron Bash,991,Melmetal,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1432,Confront,992,Duraludon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1433,Duralubeam,992,Duraludon,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+1434,Rock Tomb,993,Orthworm ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1435,Dragon Pulse,994,Fraxure,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1436,Bring Down the Axe,995,Haxorus,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+1437,Dragon Pulse,995,Haxorus,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1438,Rising Lunge,996,Larry's Dunsparce,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+1439,Work Rush,997,Larry's Dudunsparce ex,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+1440,Take It Easy,998,Slakoth,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+1441,Slashing Claw,999,Vigoroth,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1442,Cat Kick,1000,Skitty,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1443,Cat Kick,1001,Delcatty,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1444,Energy Crush,1001,Delcatty,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1445,Spike Draw,1002,Zangoose ex,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+1446,Wild Scissors,1002,Zangoose ex,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+1447,Minor Errand-Running,1003,Larry's Starly,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1448,Glide,1003,Larry's Starly,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1449,Flap,1004,Larry's Staravia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1450,Razor Wing,1004,Larry's Staravia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1451,Facade,1005,Larry's Staraptor,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1452,Feathery Strike,1005,Larry's Staraptor,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1
+1453,Kaleidowaltz,1006,Mega Audino ex,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+1454,Ear Force,1006,Mega Audino ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1455,Peck the Wound,1007,Larry's Rufflet,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1456,Clutch,1008,Larry's Braviary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1457,Brave Bird,1008,Larry's Braviary,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+1458,Dozing Draw,1009,Larry's Komala,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0
+1459,Gentle Slap,1010,Drampa,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1460,Dragon Strike,1010,Drampa,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1461,Gooey Thread,1011,Spinarak,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1462,Poison Ring,1012,Ariados,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1463,Send Flowers,1013,Shaymin,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+1464,Leaf Step,1013,Shaymin,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1465,Reckless Charge,1014,Snivy,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+1466,Solar Cutter,1015,Servine,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1467,Regal Command,1016,Serperior,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1468,Solar Coiling,1016,Serperior,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1469,Gnaw,1017,Scatterbug,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1470,Hide,1018,Spewpa,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+1471,Blow Through,1019,Vivillon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1472,Find a Friend,1020,Rowlet,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1473,Tackle,1020,Rowlet,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1474,Leafage,1021,Dartrix,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1475,Feather Shot,1021,Dartrix,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1
+1476,Crushing Arrow,1022,Decidueye ex,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+1477,Flare,1023,Fletchinder,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1478,Fire Wing,1024,Talonflame,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1479,Fire Claws,1025,Salandit,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1480,Nasty Plot,1026,Salazzle ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1481,Dire Nails,1026,Salazzle ex,1,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0
+1482,Heat Breath,1027,Turtonator,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+1483,Rain Splash,1028,Seel,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1484,Wave Splash,1028,Seel,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1485,Wave Splash,1029,Dewgong,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1486,Water Gun,1030,Staryu,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1487,Jetting Blow,1031,Mega Starmie ex,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1
+1488,Nebula Beam,1031,Mega Starmie ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1489,Icy Wind,1032,Amaura,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+1490,Freezing Chill,1033,Aurorus,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1491,Strength,1034,Volcanion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1492,Powerful Steam,1034,Volcanion,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+1493,Double Scratch,1035,Shinx,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+1494,Static Shock,1036,Luxio,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1495,Incessant Onslaught,1037,Luxray,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1496,Strong Volt,1037,Luxray,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+1497,Tail Generator,1038,Dedenne,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1498,Thunder Shock,1038,Dedenne,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0
+1499,Follow Me,1039,Clefairy,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0
+1500,Flop,1039,Clefairy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1501,Shooting Moons,1040,Mega Clefable ex,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+1502,Double Eater,1041,Mawile,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+1503,Nap,1042,Espurr,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+1504,Stampede,1042,Espurr,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1505,Perplex,1043,Meowstic,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+1506,Psychic,1043,Meowstic,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1507,Sweet Scent,1044,Spritzee,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+1508,Ram,1044,Spritzee,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1509,Draining Kiss,1045,Aromatisse,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+1510,Rolling Rocks,1046,Nosepass,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1511,Rolling Rocks,1047,Probopass,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1512,Obliterating Nose,1047,Probopass,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+1513,Sand Attack,1048,Hippopotas,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1514,Bite,1048,Hippopotas,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1515,Twister Spewing,1049,Hippowdon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1516,Heavy Impact,1049,Hippowdon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1517,Rock Tumble,1050,Landorus,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1518,Screw Knuckle,1050,Landorus,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1519,Double Draw,1051,Binacle,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+1520,Scratch,1051,Binacle,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1521,Hammer In,1052,Barbaracle,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1522,Get Angry,1053,Tyrunt,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1523,Wreak Havoc,1054,Tyrantrum,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+1524,Vengeful Kick,1055,Hawlucha,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+1525,Gaia Wave,1056,Mega Zygarde ex,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1
+1526,Nullifying Zero,1056,Mega Zygarde ex,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,1
+1527,Surprise Attack,1057,Gastly,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+1528,Haunt,1058,Haunter,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1529,Mind Jack,1059,Gengar,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+1530,Poison Jab,1060,Skorupi,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1531,Wrack Down,1061,Drapion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1532,Hazardous Tail,1061,Drapion,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0
+1533,Soul Destroyer,1062,Yveltal ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1534,Dark Strike,1062,Yveltal ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1535,Strafe,1063,Chien-Pao,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0
+1536,Rising Blade,1063,Chien-Pao,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1537,Sonic Ripper,1064,Mega Skarmory ex,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1
+1538,Cut,1065,Honedge,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1539,Weaponized Swords,1066,Doublade,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1540,Slash,1067,Aegislash,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1541,Metal Slash,1067,Aegislash,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1542,Memory Lock,1068,Klefki,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1543,Take Down,1069,Rattata,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+1544,Scrape Off,1070,Raticate,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1545,Retaliatory Incisors,1070,Raticate,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+1546,Tuck Tail,1071,Meowth ex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1547,Gormandizer,1072,Snorlax,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+1548,Collapse,1072,Snorlax,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+1549,Smash Kick,1073,Bunnelby,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1550,Earthquake,1074,Diggersby,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1
+1551,Whap Down,1074,Diggersby,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1552,Chirp,1075,Fletchling,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1553,Peck,1075,Fletchling,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1554,Hand Trim,1076,Furfrou,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1555,Headbutt,1076,Furfrou,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1556,Geobuster,1180,Core Memory,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0

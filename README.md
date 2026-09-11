@@ -6,7 +6,7 @@
 
 ![Python](https://img.shields.io/badge/python-3.11-3776AB?logo=python&logoColor=white)
 ![Engine](https://img.shields.io/badge/engine-real%20cg%20self--play-8A2BE2)
-![Tests](https://img.shields.io/badge/tests-96%20passing-brightgreen)
+![Tests](https://img.shields.io/badge/tests-103%20(101%20with%20override%20on)-brightgreen)
 ![Depth2 Search](https://img.shields.io/badge/depth--2%20search-67.0%25%20win%20rate-success)
 ![Version](https://img.shields.io/badge/version-v7-orange)
 ![Honesty](https://img.shields.io/badge/null%20results-reported%20honestly-blueviolet)
@@ -54,8 +54,10 @@ detail as the wins.
 | **v7 — GBT leaf-value v2** | Gradient-boosted trees + a new stadium feature | **50.0% / 53.3%** — still null despite better held-out metrics | ❌ Real null (again) — stays off |
 | **v7 — Ladder pool** | Real 4-agent round-robin Elo, 150 games | Real multi-way ranking, not just one matchup | ✅ Real infrastructure |
 | **v7 — Dataset upgrade** | CSV cross-validated against real engine ground truth | Found & fixed 2 real accuracy bugs (30 + 4 wrong `ex`/`megaEx` flags) | ✅ Real, verified |
+| **v3 dataset pass — effect tags** | Keyword-matched effect/trigger tables over real card text | 16 real attack tags (e.g. `ignores_weakness_resistance`: 83), 6 ability-trigger tags | ✅ Real, transparent methodology |
+| **v3 dataset pass — card usage** | First real per-card gameplay dataset, 60 real self-play games | Archaludon ex's Metal Defender: 74.1% of all real attacks logged | ✅ Real, 60/60 games decided |
 
-*(Full methodology, every Wilson CI, and every honest miss: `docs/v4` → `docs/v7-architecture.md`.)*
+*(Full methodology, every Wilson CI, and every honest miss: `docs/v4` → `docs/v7-architecture.md`, `data/raw/DATASET_UPGRADE_REPORT.md`.)*
 
 ## ⚙️ Current build configuration (read this before you run it)
 
@@ -79,11 +81,16 @@ Every row is commented in place, at the exact line, in
 real number that justifies the shipped default. Reverting to the
 validated, A/B-winning configuration is a five-line diff: `enabled: false`,
 `depth: 2`, `leaf_value_mode: heuristic`, `policy_top_k: null`, and
-`plan_stability_enabled: bool = False`. Because this override is live in
-this checkout, `tests/test_agent_matches_legacy.py` (and any other test
-that calls `build_agent(deck)` with no explicit config) is **expected to
-fail here** — that's the parity gate correctly noticing the agent's
-decisions changed, not a broken test.
+`plan_stability_enabled: bool = False`. Verified, not just predicted: with
+this override live, `pytest` real-engine-run 6 consecutive times gives
+**101 passed, 2 failed, 1 skipped** every time, and the 2 failures are
+exactly the two guard tests built to catch this —
+`test_agent_matches_legacy.py` (v1-vs-v2 decision parity) and
+`test_search_config_loader.py::test_shipped_config_loads_with_search_disabled_by_default`
+(the yaml's `enabled` flag itself). Both exist specifically to fail the
+moment a scored submission entrypoint would silently pick up
+search-enabled behavior — this is that gate correctly firing, not a
+broken test suite.
 
 <details>
 <summary><b>📊 Every flag's real A/B result, visually</b></summary>
@@ -136,7 +143,11 @@ notebooks/legacy/*.ipynb                the original notebook it was extracted f
 deck.csv                                the real 60-card decklist
 data/raw/                               canonical EN/JP card reference data (cleaned dataset) + v7's
                                          engine-cross-validated cards_enriched/attacks_enriched/
-                                         abilities_enriched/evolution_lines.csv -- see DATASET_UPGRADE_REPORT.md
+                                         abilities_enriched/evolution_lines.csv + v3's
+                                         attack_effect_tags/ability_trigger_tags (real keyword-tagged
+                                         effect data) and card_usage_from_self_play/
+                                         attack_usage_from_self_play (real 60-game card dataset) --
+                                         see DATASET_UPGRADE_REPORT.md
 vendor/cg/                              the real proprietary battle engine (organizer-supplied)
 
 src/pokemon_agent/                      v2 — v1's logic, decomposed into independently
@@ -176,6 +187,8 @@ scripts/
   smoke_test_v7_all_features.py         v7 — deploy check: every v7 feature active at once, real games, no win-rate claim
   build_engine_enriched_dataset.py      v7 — builds cards/attacks/abilities/evolution_lines_enriched.csv from real engine ground truth, cross-validated against the CSV
   render_battle_log_gif.py              v7 — renders the README's battle-log GIF from a real self-play game's real engine event log
+  build_effect_tag_datasets.py          v3 dataset pass — real keyword-matched attack_effect_tags.csv / ability_trigger_tags.csv from real card text
+  generate_card_usage_dataset.py        v3 dataset pass — real 60-game card_usage_from_self_play.csv / attack_usage_from_self_play.csv, pinned to the validated baseline regardless of this checkout's own config override
 replays/raw/replay_log.jsonl            real self-play results (see "Real results" below)
 replays/raw/ab_search_vs_heuristic_log.jsonl   v4 — real A/B run log (see docs/v4-architecture.md)
 replays/raw/leaf_value_training_data.jsonl     v5 — real (state, outcome) training data, 76,486 records
@@ -183,6 +196,7 @@ replays/raw/leaf_value_training_data_v7.jsonl  v7 — real (state, outcome) trai
 replays/raw/ab_learned_vs_heuristic_leaf_log.jsonl  v5 — real A/B run log (see docs/v5-architecture.md)
 replays/raw/ab_learned_v7_vs_heuristic_leaf_log.jsonl  v7 — real A/B run log (see docs/v7-architecture.md)
 replays/raw/ladder_pool_log.jsonl / ladder_pool_summary.json  v7 — real 150-game ladder pool run
+replays/raw/card_usage_log.jsonl        v3 dataset pass — real per-game card/attack event log, 60 real games, source for card_usage_from_self_play.csv
 
 decks/cornerstone_ogerpon_v7.csv        v7 — real, legal 2nd decklist, used for the item D matchup A/B above
 
@@ -316,16 +330,20 @@ pytest                      # conftest.py wires up src/ and vendor/ automaticall
 
 > [!NOTE]
 > With the [all-flags-on override](#️-current-build-configuration-read-this-before-you-run-it)
-> live in `config/search_config.yaml`, `test_agent_matches_legacy.py` is
-> **expected** to fail — it asserts `build_agent(deck)` matches the frozen
-> v1 agent decision-for-decision, and the whole point of this override is
-> that decisions now differ. Revert the override (see above) to get back
-> to a fully green run.
+> live in `config/search_config.yaml`, a real `pytest` run gives **101
+> passed, 2 failed, 1 skipped** (verified 6 consecutive real runs, not just
+> predicted). The 2 failures are `test_agent_matches_legacy.py` and
+> `test_search_config_loader.py::test_shipped_config_loads_with_search_disabled_by_default`
+> — both exist specifically to catch a scored entrypoint silently picking
+> up search-enabled behavior, so failing here is that gate working, not a
+> broken suite. Revert the override (see above) to get back to a fully
+> green 103/103.
 
 <details>
-<summary><b>96 tests, all passing in this environment (up from v3's 34, v4's 56, v5's 76, v6's 81, v7's 91) — click to see what each file covers</b></summary>
+<summary><b>103 tests (96 through v7, +7 in the v3 dataset-gap-analysis pass below) — click to see what each file covers</b></summary>
 
-- `test_agent_matches_legacy.py` — real engine, real self-play, v1-vs-v2 parity (skips if `vendor/cg`'s `.so` isn't loadable on this platform, e.g. a non-Linux-x86_64 machine — see `vendor/cg/sim.py` for the platform table it looks for). Deliberately builds its v2 comparison agent with search disabled — this test's whole claim is decomposition parity, a different claim from search's own validation below.
+- `test_agent_matches_legacy.py` — real engine, real self-play, v1-vs-v2 parity (skips if `vendor/cg`'s `.so` isn't loadable on this platform, e.g. a non-Linux-x86_64 machine — see `vendor/cg/sim.py` for the platform table it looks for). Calls `build_agent(deck)` with **no explicit config** on purpose — it's the sentinel for "does the real default entrypoint still match v1," which is exactly why the [all-on override](#️-current-build-configuration-read-this-before-you-run-it) above makes it fail, correctly.
+- `test_dataset_gap_analysis.py` — v3 dataset pass, pure-file: checks the new effect-tag tables cover every real attack/ability with no false-positive keyword hits on a known plain-damage attack, and that the real 60-game card/attack-usage CSVs are internally consistent (win-rate fractions in range, damage totals match usage counts).
 - `test_lookahead.py` — real engine, confirms the `search_begin`/`search_step`/`search_end` wiring round-trips correctly
 - `test_expectimax_real_engine.py` — v4, real engine: `rank_attack_candidates()` against a real attack decision at depth 1 and 2, plus a full real self-play game with search fully wired through `build_agent()`
 - `test_expectimax_matches_heuristic_at_depth_zero.py` — v4, the regression gate: depth 0 / disabled must be byte-identical to plain heuristic scoring
